@@ -8,7 +8,7 @@
     "watch": "node tooling/watch.js",
     "dev": "node tooling/dev.js",
     "stop": "node tooling/stop.js",
-    "validate": "node tooling/build.js --check"
+    "validate": "node tooling/validate.js"
   },
   "exports": {
     ".": "./dist/delluna.js",
