@@ -1,0 +1,1803 @@
+{
+  "version": 4,
+  "library": "Delluna",
+  "variants": [
+    "og",
+    "hud",
+    "orbit",
+    "circuit",
+    "plasma"
+  ],
+  "generatedAt": "2026-08-31T18:44:46.197Z",
+  "icons": {
+    "align_horizontal_left": {
+      "id": "dl_49d48a1ed0f4f5b1e837",
+      "name": "align_horizontal_left",
+      "title": "Align Horizontal Left",
+      "file": "icons/align_horizontal_left.svg",
+      "path": "align_horizontal_left.svg",
+      "tags": [
+        "align",
+        "horizontal",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "60ace7b63e63d02573fbe9b4496f77eb83be9372f5bb358a6dd7de2752a58511",
+      "updatedAt": "2026-08-31T18:44:46.205Z"
+    },
+    "alternate_email": {
+      "id": "dl_a12548ec2186b8f24161",
+      "name": "alternate_email",
+      "title": "Alternate Email",
+      "file": "icons/alternate_email.svg",
+      "path": "alternate_email.svg",
+      "tags": [
+        "alternate",
+        "email"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "7a25e17095ffc5d0e672b66298cd09c083d12711617bff709e57e17dd96dbad3",
+      "updatedAt": "2026-08-31T18:44:46.205Z"
+    },
+    "apps": {
+      "id": "dl_fcc2ca335c731b35c959",
+      "name": "apps",
+      "title": "Apps",
+      "file": "icons/apps.svg",
+      "path": "apps.svg",
+      "tags": [
+        "apps"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "cf9d9bcf42fbead3fd67db73d26e6c28464f3ea0e5f12a87808ac934049364d3",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "arrow_back": {
+      "id": "dl_d25f1fe91c87871d603b",
+      "name": "arrow_back",
+      "title": "Arrow Back",
+      "file": "icons/arrow_back.svg",
+      "path": "arrow_back.svg",
+      "tags": [
+        "arrow",
+        "back"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "6e69a08b016598d27b60f1abd622b39b194ca8950296e43b8c5316904868ca31",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "arrow_forward": {
+      "id": "dl_7bd279ff9ccc1cd6e863",
+      "name": "arrow_forward",
+      "title": "Arrow Forward",
+      "file": "icons/arrow_forward.svg",
+      "path": "arrow_forward.svg",
+      "tags": [
+        "arrow",
+        "forward"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "b26105321b49e78bc7d4175d356f1d1be0cd8508e82426894cdabbd145e7e3c4",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "arrow_left": {
+      "id": "dl_ea2fbd041e1536844ac4",
+      "name": "arrow_left",
+      "title": "Arrow Left",
+      "file": "icons/arrow_left.svg",
+      "path": "arrow_left.svg",
+      "tags": [
+        "arrow",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "2785e427801fef900557aa9b655fec199263056410a19c9e088c3dcd825ff3a9",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "auto_awesome": {
+      "id": "dl_7cbe64e0fe7ee1e8b300",
+      "name": "auto_awesome",
+      "title": "Auto Awesome",
+      "file": "icons/auto_awesome.svg",
+      "path": "auto_awesome.svg",
+      "tags": [
+        "auto",
+        "awesome"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "bb026a64de888113c3eaf3d81700e7cdfcd75fc1605f1e0c9f1f8aebbe47974a",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "backspace": {
+      "id": "dl_d71c9730fd21bfb0587d",
+      "name": "backspace",
+      "title": "Backspace",
+      "file": "icons/backspace.svg",
+      "path": "backspace.svg",
+      "tags": [
+        "backspace"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "1337f057ee007805414cfac4b283195d36a894569b3c0dfb8b4c5f738fdd2032",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "bolt": {
+      "id": "dl_ebe8e6b27c85e655141c",
+      "name": "bolt",
+      "title": "Bolt",
+      "file": "icons/bolt.svg",
+      "path": "bolt.svg",
+      "tags": [
+        "bolt"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "9127d558a8a5d0adfbebdfbf5375e55e5792a2823f43e8b29f39a63db8ac5c61",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "bookmark": {
+      "id": "dl_a93eb90c9c75e18b3a87",
+      "name": "bookmark",
+      "title": "Bookmark",
+      "file": "icons/bookmark.svg",
+      "path": "bookmark.svg",
+      "tags": [
+        "bookmark"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "e4c3fe9f618bd170c9afc14802b7d2fd04ee3a5e1df5899cfe0eb5fb62a9cc40",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "bug_report": {
+      "id": "dl_d0cdba03128b7e93f73f",
+      "name": "bug_report",
+      "title": "Bug Report",
+      "file": "icons/bug_report.svg",
+      "path": "bug_report.svg",
+      "tags": [
+        "bug",
+        "report"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "9907533e3cfa280a66d033ded381f9b995f794ac10e360666e1d19373e0c17c2",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "cached": {
+      "id": "dl_d66a4d623ad54323ac55",
+      "name": "cached",
+      "title": "Cached",
+      "file": "icons/cached.svg",
+      "path": "cached.svg",
+      "tags": [
+        "cached"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "46ed0e26c26dcc8a7730ba30fb9d216299f8284c2138a6efb3cb443ecf17be20",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "category": {
+      "id": "dl_844a1a37c87331208b82",
+      "name": "category",
+      "title": "Category",
+      "file": "icons/category.svg",
+      "path": "category.svg",
+      "tags": [
+        "category"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "494bccba8f53a48ee0b5231c66102fb9eda68301f2fa513f800180f3f1419911",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "chev": {
+      "id": "dl_0554a62a9cbcd41ab805",
+      "name": "chev",
+      "title": "Chev",
+      "file": "icons/chev.svg",
+      "path": "chev.svg",
+      "tags": [
+        "chev"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "9f09cf552f5ff62608023cddefe410d4e7b1627bf9ea96bf712216fccbbbde26",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "chevron_left": {
+      "id": "dl_5ffdff5a1ea56855ec87",
+      "name": "chevron_left",
+      "title": "Chevron Left",
+      "file": "icons/chevron_left.svg",
+      "path": "chevron_left.svg",
+      "tags": [
+        "chevron",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "5bbcce1affb582a8ca14e3f0e8c2928c654fd833a3d5ef02ca9124c7d0df7439",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "chevron_right": {
+      "id": "dl_70cd1c7ec4b0b46102f8",
+      "name": "chevron_right",
+      "title": "Chevron Right",
+      "file": "icons/chevron_right.svg",
+      "path": "chevron_right.svg",
+      "tags": [
+        "chevron",
+        "right"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "9f09cf552f5ff62608023cddefe410d4e7b1627bf9ea96bf712216fccbbbde26",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "cleaning_services": {
+      "id": "dl_6c21f9929c274c8a4ceb",
+      "name": "cleaning_services",
+      "title": "Cleaning Services",
+      "file": "icons/cleaning_services.svg",
+      "path": "cleaning_services.svg",
+      "tags": [
+        "cleaning",
+        "services"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "a909f9995ea4e338bcfdbf3c89926bfdd495d078d7d3abe965031024d6a941b4",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "clear_all": {
+      "id": "dl_b7f4f6e685a6d9c721a4",
+      "name": "clear_all",
+      "title": "Clear All",
+      "file": "icons/clear_all.svg",
+      "path": "clear_all.svg",
+      "tags": [
+        "clear",
+        "all"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "9ad1ca699545b237cdaf2908c0ddb2d4bcaccbfd0a2e167c5acd6cea3cd650b4",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "close_fullscreen": {
+      "id": "dl_edfb6dac27213cb87a54",
+      "name": "close_fullscreen",
+      "title": "Close Fullscreen",
+      "file": "icons/close_fullscreen.svg",
+      "path": "close_fullscreen.svg",
+      "tags": [
+        "close",
+        "fullscreen"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "15fa23b7a46d0c8ceb37fa96d64ab62171d76b51057bb41969fb38eee854d6ca",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "cloud_upload": {
+      "id": "dl_5673ca481d5b5ecba804",
+      "name": "cloud_upload",
+      "title": "Cloud Upload",
+      "file": "icons/cloud_upload.svg",
+      "path": "cloud_upload.svg",
+      "tags": [
+        "cloud",
+        "upload"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "6067f23e8121aae6e358397d68b0192125e8ff1409f158d4dccce8f059f46500",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "code": {
+      "id": "dl_6866cab24c5dfbb81a90",
+      "name": "code",
+      "title": "Code",
+      "file": "icons/code.svg",
+      "path": "code.svg",
+      "tags": [
+        "code"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "c08da6a2bfcb43a93b5217f48f1ce2e11c6245a40639e5fb44984446ea3c41d8",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "content_cut": {
+      "id": "dl_5fcaa7ee281f5478d150",
+      "name": "content_cut",
+      "title": "Content Cut",
+      "file": "icons/content_cut.svg",
+      "path": "content_cut.svg",
+      "tags": [
+        "content",
+        "cut"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "23f1448f7357249c963059ec65a6dfc26308af5d8ceed5556774393ef1327b23",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "copy": {
+      "id": "dl_77480153d3db17f90317",
+      "name": "copy",
+      "title": "Copy",
+      "file": "icons/copy.svg",
+      "path": "copy.svg",
+      "tags": [
+        "copy"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "c4aa30062dfd4e1e2c68ad113e4d55eb0ddb7e6fbdffb7ccdb734c91812f695f",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "css": {
+      "id": "dl_c6f3f9408a1173c78a74",
+      "name": "css",
+      "title": "Css",
+      "file": "icons/css.svg",
+      "path": "css.svg",
+      "tags": [
+        "css"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "266807ae473efbf27c6c29621f17e36b4fa05aba1faea38770ec342e5a351196",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "data_object": {
+      "id": "dl_cc542f674ea1e6046303",
+      "name": "data_object",
+      "title": "Data Object",
+      "file": "icons/data_object.svg",
+      "path": "data_object.svg",
+      "tags": [
+        "data",
+        "object"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "e3459c353e5a8d2c51afddd854bf73daba43fa7964eb0a55d989d55478f65152",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "description": {
+      "id": "dl_d01b4e37c7ba7b93008f",
+      "name": "description",
+      "title": "Description",
+      "file": "icons/description.svg",
+      "path": "description.svg",
+      "tags": [
+        "description"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "8da49b58d46b8793e631baf0db6343441d73f11107a111fdb434e3349ced72ba",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "discover_tune": {
+      "id": "dl_c108d45eaa3cb5ecb4e8",
+      "name": "discover_tune",
+      "title": "Discover Tune",
+      "file": "icons/discover_tune.svg",
+      "path": "discover_tune.svg",
+      "tags": [
+        "discover",
+        "tune"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "57481d80ee2032122a6fc8b97e74094336031c974ff2c470f8ab4d19daecc7c1",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "document_scanner": {
+      "id": "dl_bd69f28695a0960b8c99",
+      "name": "document_scanner",
+      "title": "Document Scanner",
+      "file": "icons/document_scanner.svg",
+      "path": "document_scanner.svg",
+      "tags": [
+        "document",
+        "scanner"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "7cfb53af0d279b04aa753678d85a0044e030f499eb2132c4bbe08646f7ad1d2a",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "download": {
+      "id": "dl_276c17f5a91c18895f3d",
+      "name": "download",
+      "title": "Download",
+      "file": "icons/download.svg",
+      "path": "download.svg",
+      "tags": [
+        "download"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "9f557c3f0e88288fd9cab1eec4752a52dec30f109751572b91aad3ea320e2013",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "drag_indicator": {
+      "id": "dl_b53c978fa132e2e6b091",
+      "name": "drag_indicator",
+      "title": "Drag Indicator",
+      "file": "icons/drag_indicator.svg",
+      "path": "drag_indicator.svg",
+      "tags": [
+        "drag",
+        "indicator"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "91d13cbdc432ef459c3c9653cd6af6c125845a1fcbc7573ac7daf11801d78f1f",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "edit_document": {
+      "id": "dl_688fb9ae6fbc385bd58f",
+      "name": "edit_document",
+      "title": "Edit Document",
+      "file": "icons/edit_document.svg",
+      "path": "edit_document.svg",
+      "tags": [
+        "edit",
+        "document"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "e50174d32117c262068b94539732d3e604db0d6dc1233ee275162a766fe2649a",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "edit": {
+      "id": "dl_900a88c049a8b61654b6",
+      "name": "edit",
+      "title": "Edit",
+      "file": "icons/edit.svg",
+      "path": "edit.svg",
+      "tags": [
+        "edit"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "f7ede28972f53d102871649ec90a7002464fb1b2785e6215aa6760158037a9a4",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "encrypted": {
+      "id": "dl_f79be6f6ae07eea91725",
+      "name": "encrypted",
+      "title": "Encrypted",
+      "file": "icons/encrypted.svg",
+      "path": "encrypted.svg",
+      "tags": [
+        "encrypted"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "7290a80d5e15845ec8d32f219aaa03e4c75dc84823902455b3bf4578b7859358",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "enter": {
+      "id": "dl_3105691065ff9395cab3",
+      "name": "enter",
+      "title": "Enter",
+      "file": "icons/enter.svg",
+      "path": "enter.svg",
+      "tags": [
+        "enter"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "8c6b23b9c61dcbce75187d78e415a64ab62b376367eccba1b38281b308918cab",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "expand_less": {
+      "id": "dl_47f77e91c0346c6983bb",
+      "name": "expand_less",
+      "title": "Expand Less",
+      "file": "icons/expand_less.svg",
+      "path": "expand_less.svg",
+      "tags": [
+        "expand",
+        "less"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "cbd8cdc7a2d8dbbad1366aa0d9b6ed90541d7e8b2b647439c353bbfa21bf188e",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "expand_more": {
+      "id": "dl_9cf7cf04081bc4c2d897",
+      "name": "expand_more",
+      "title": "Expand More",
+      "file": "icons/expand_more.svg",
+      "path": "expand_more.svg",
+      "tags": [
+        "expand",
+        "more"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "7506647e6424ad64680a5cac59e9af2c451468da8c4f36281f6e63887c35720f",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "fast_rewind": {
+      "id": "dl_cf5a4451c8d0cdbda18a",
+      "name": "fast_rewind",
+      "title": "Fast Rewind",
+      "file": "icons/fast_rewind.svg",
+      "path": "fast_rewind.svg",
+      "tags": [
+        "fast",
+        "rewind"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "6f788bae3de5bb3f8118d740e584a909765e458c4a786ada4749586a12d9e1c1",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "file": {
+      "id": "dl_cd68687aa5572e33c917",
+      "name": "file",
+      "title": "File",
+      "file": "icons/file.svg",
+      "path": "file.svg",
+      "tags": [
+        "file"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "c5caceb831e43f59d796dab2c9d9e072054d020e0acf0a237907f4de82f6232f",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "find_replace": {
+      "id": "dl_ace5ef530124ca2babca",
+      "name": "find_replace",
+      "title": "Find Replace",
+      "file": "icons/find_replace.svg",
+      "path": "find_replace.svg",
+      "tags": [
+        "find",
+        "replace"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "f637ef29d83f45dc5cf2d3225c85211f575d6a58fcd8e67cd364e69a4dd2c605",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "folder_open": {
+      "id": "dl_a1577661b02d06b68639",
+      "name": "folder_open",
+      "title": "Folder Open",
+      "file": "icons/folder_open.svg",
+      "path": "folder_open.svg",
+      "tags": [
+        "folder",
+        "open"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "46c90bed2325ffd56a60c50c0bf62d3886541bdee655fc98b35ee698d30a9d60",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "folder": {
+      "id": "dl_18305818779e2027e38c",
+      "name": "folder",
+      "title": "Folder",
+      "file": "icons/folder.svg",
+      "path": "folder.svg",
+      "tags": [
+        "folder"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "436aba8dca33f7acf86fafc2d2610bb642bf9160d22c2bc2ae0a967ec7b934ba",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "format_align_center": {
+      "id": "dl_e2977af388f4617660dd",
+      "name": "format_align_center",
+      "title": "Format Align Center",
+      "file": "icons/format_align_center.svg",
+      "path": "format_align_center.svg",
+      "tags": [
+        "format",
+        "align",
+        "center"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "9dee420eb142199634cc67845e7a02c6a2d5ea9e6c145c106a8b075cab0b80f8",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "format_align_left": {
+      "id": "dl_5bb5102c37736044a634",
+      "name": "format_align_left",
+      "title": "Format Align Left",
+      "file": "icons/format_align_left.svg",
+      "path": "format_align_left.svg",
+      "tags": [
+        "format",
+        "align",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "66fed5a52dfeaf5402da25be4a524fff59b1910bbd5dc59254f385fddb487880",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "format_align_right": {
+      "id": "dl_8a995e9f739843bd3b2a",
+      "name": "format_align_right",
+      "title": "Format Align Right",
+      "file": "icons/format_align_right.svg",
+      "path": "format_align_right.svg",
+      "tags": [
+        "format",
+        "align",
+        "right"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "3610ee7d5ac7b13356b443d4a87d03a67675d363dff21635fbb7080ed9661eb3",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "format_bold": {
+      "id": "dl_7d9a8da877397b76264d",
+      "name": "format_bold",
+      "title": "Format Bold",
+      "file": "icons/format_bold.svg",
+      "path": "format_bold.svg",
+      "tags": [
+        "format",
+        "bold"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "71508956ed217ef9ce3631e6dfeeca9eb90c4399e5ae51af05e4ab5c22405153",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "format_color_fill": {
+      "id": "dl_998c67009b791895f3e3",
+      "name": "format_color_fill",
+      "title": "Format Color Fill",
+      "file": "icons/format_color_fill.svg",
+      "path": "format_color_fill.svg",
+      "tags": [
+        "format",
+        "color",
+        "fill"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "36639a10c413da4e1e3f7785ad706c532f0b6bce4509f64c2af96bacc85d3739",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "format_indent_decrease": {
+      "id": "dl_3cfe251e3cd982bc2248",
+      "name": "format_indent_decrease",
+      "title": "Format Indent Decrease",
+      "file": "icons/format_indent_decrease.svg",
+      "path": "format_indent_decrease.svg",
+      "tags": [
+        "format",
+        "indent",
+        "decrease"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "34427fb8404eee7f447c223b3904d4dbdc8d2042e80b255b9d7cfaa70b172157",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "format_indent_increase": {
+      "id": "dl_b80e0c781cd435b0da1b",
+      "name": "format_indent_increase",
+      "title": "Format Indent Increase",
+      "file": "icons/format_indent_increase.svg",
+      "path": "format_indent_increase.svg",
+      "tags": [
+        "format",
+        "indent",
+        "increase"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "f44dc0288e39a15e2c242aa5ea0f623bf834b3ef21e6da582e04ef7770e6caee",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "format_italic": {
+      "id": "dl_dc1a1ed84bf93ebbab06",
+      "name": "format_italic",
+      "title": "Format Italic",
+      "file": "icons/format_italic.svg",
+      "path": "format_italic.svg",
+      "tags": [
+        "format",
+        "italic"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "77cc2874bb9e84eca28abc9664c661fb8f771689296faf67f471952b448244a2",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "format_list_bulleted": {
+      "id": "dl_8783f35ade830d420e5c",
+      "name": "format_list_bulleted",
+      "title": "Format List Bulleted",
+      "file": "icons/format_list_bulleted.svg",
+      "path": "format_list_bulleted.svg",
+      "tags": [
+        "format",
+        "list",
+        "bulleted"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "642f136514a9f27dad785f38555a38765083d2514e8f1fc6602db65d8b98c087",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "format_list_numbered": {
+      "id": "dl_759f4deb484edbc9c2ba",
+      "name": "format_list_numbered",
+      "title": "Format List Numbered",
+      "file": "icons/format_list_numbered.svg",
+      "path": "format_list_numbered.svg",
+      "tags": [
+        "format",
+        "list",
+        "numbered"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "2e6db79a29e73a4011100cb8c4af855dc5330ff588a0ed72d8f4ab0548e8e258",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "format_underlined": {
+      "id": "dl_ff55236163422def5eec",
+      "name": "format_underlined",
+      "title": "Format Underlined",
+      "file": "icons/format_underlined.svg",
+      "path": "format_underlined.svg",
+      "tags": [
+        "format",
+        "underlined"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "3ae3032a55d8ee235720538ea5dbf7558e759989358983525722bf50f655e616",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "fullscreen": {
+      "id": "dl_c936b4b53ad3f62eda19",
+      "name": "fullscreen",
+      "title": "Fullscreen",
+      "file": "icons/fullscreen.svg",
+      "path": "fullscreen.svg",
+      "tags": [
+        "fullscreen"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "79942ce30aaea6d5d47ae9dd271b22eed442ec74ca150a4a8ada3d8c8ed2156b",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "home_app_logo": {
+      "id": "dl_356c4ed840a47771660d",
+      "name": "home_app_logo",
+      "title": "Home App Logo",
+      "file": "icons/home_app_logo.svg",
+      "path": "home_app_logo.svg",
+      "tags": [
+        "home",
+        "app",
+        "logo"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "16801477234ef7bb5deea423141787ad942f12af183474c2b6c17ba55ee6726c",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "html": {
+      "id": "dl_532952e79cc87a4b5c8d",
+      "name": "html",
+      "title": "Html",
+      "file": "icons/html.svg",
+      "path": "html.svg",
+      "tags": [
+        "html"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "20ae99cedd81cbe5f497cd6edae51bf39daf97774376995817b71c197cd37c2d",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "hub": {
+      "id": "dl_c9e361cd2ecef764682a",
+      "name": "hub",
+      "title": "Hub",
+      "file": "icons/hub.svg",
+      "path": "hub.svg",
+      "tags": [
+        "hub"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "787983b7fbd346d1edbc2f7a436307fa9fb94b2f9844d1f68b60a0215e11a17d",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "image": {
+      "id": "dl_0e16e918a3710bd22e61",
+      "name": "image",
+      "title": "Image",
+      "file": "icons/image.svg",
+      "path": "image.svg",
+      "tags": [
+        "image"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "c14d2ed64a6d7f7b8dbc09afc6edb6d7fbadf58694314fac2b89eda21121d582",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "import_contacts": {
+      "id": "dl_469f18dbaca37698330f",
+      "name": "import_contacts",
+      "title": "Import Contacts",
+      "file": "icons/import_contacts.svg",
+      "path": "import_contacts.svg",
+      "tags": [
+        "import",
+        "contacts"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "b8c0f326f6346f12d7026a91b5b71aad3ee88a8b88a63fb47710eb01776d2bd6",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "info": {
+      "id": "dl_308523e5cf143553e4fb",
+      "name": "info",
+      "title": "Info",
+      "file": "icons/info.svg",
+      "path": "info.svg",
+      "tags": [
+        "info"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "3edb6a467b94a1b21d6b592c7b671dbd7863f3d34e64316793df49107ca75d62",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "javascript": {
+      "id": "dl_18e9ea304662c1d11b07",
+      "name": "javascript",
+      "title": "Javascript",
+      "file": "icons/javascript.svg",
+      "path": "javascript.svg",
+      "tags": [
+        "javascript"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "6a60cf631e31a0a6d180376d4c4d285681c8da656caf18a5caa4d63409076b1f",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "key": {
+      "id": "dl_3b735e5e29f09a25f339",
+      "name": "key",
+      "title": "Key",
+      "file": "icons/key.svg",
+      "path": "key.svg",
+      "tags": [
+        "key"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "eca6f64bc938a4f0e7d48cff468f6de7c6874cf8ccd91b420954c75ad118a676",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "keyboard_double_arrow_down": {
+      "id": "dl_d8b4c3fbb84b7810c120",
+      "name": "keyboard_double_arrow_down",
+      "title": "Keyboard Double Arrow Down",
+      "file": "icons/keyboard_double_arrow_down.svg",
+      "path": "keyboard_double_arrow_down.svg",
+      "tags": [
+        "keyboard",
+        "double",
+        "arrow",
+        "down"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "441f70296173026b431580583b9c697cfd6ee2457643fd33243a6e1e11727965",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "keyboard_double_arrow_left": {
+      "id": "dl_56d7770270df3494187d",
+      "name": "keyboard_double_arrow_left",
+      "title": "Keyboard Double Arrow Left",
+      "file": "icons/keyboard_double_arrow_left.svg",
+      "path": "keyboard_double_arrow_left.svg",
+      "tags": [
+        "keyboard",
+        "double",
+        "arrow",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "a856d189ef11a93c7b969631befd3b0bf27bdad1fbf393da4bc9309f64a89076",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "keyboard_double_arrow_right": {
+      "id": "dl_9a0d1129cafe78edf916",
+      "name": "keyboard_double_arrow_right",
+      "title": "Keyboard Double Arrow Right",
+      "file": "icons/keyboard_double_arrow_right.svg",
+      "path": "keyboard_double_arrow_right.svg",
+      "tags": [
+        "keyboard",
+        "double",
+        "arrow",
+        "right"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "4ab3b94c28e68a5cfa809b11f322da2ca53e39eba5d358ad6984bd9e2f9fc624",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "keyboard_double_arrow_up": {
+      "id": "dl_01158aff499ed200761f",
+      "name": "keyboard_double_arrow_up",
+      "title": "Keyboard Double Arrow Up",
+      "file": "icons/keyboard_double_arrow_up.svg",
+      "path": "keyboard_double_arrow_up.svg",
+      "tags": [
+        "keyboard",
+        "double",
+        "arrow",
+        "up"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "44d33b19051202d2778e0b4a0ce773697b65472776dbfb3a2f75f49c573a78dd",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "link": {
+      "id": "dl_2e34914f4c1a9cf9c705",
+      "name": "link",
+      "title": "Link",
+      "file": "icons/link.svg",
+      "path": "link.svg",
+      "tags": [
+        "link"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "d5a8bc60852461620abcc9d64d4610af6fa8ce0d52a10d32bceb90c3ead9bc07",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "location_searching": {
+      "id": "dl_f36bff16a3a87862e332",
+      "name": "location_searching",
+      "title": "Location Searching",
+      "file": "icons/location_searching.svg",
+      "path": "location_searching.svg",
+      "tags": [
+        "location",
+        "searching"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "5c1a7e9cae9f0f76e78eeb22fa23f2450da87b58e7c6ddc9a120a42626b165a4",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "logout": {
+      "id": "dl_dafbbc02e84e6cb746a5",
+      "name": "logout",
+      "title": "Logout",
+      "file": "icons/logout.svg",
+      "path": "logout.svg",
+      "tags": [
+        "logout"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "924064956808369d0101e5e3a75665fe9d82571a83843d224e692e10a82c35ee",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "lowercase": {
+      "id": "dl_26321b83f73cced823cb",
+      "name": "lowercase",
+      "title": "Lowercase",
+      "file": "icons/lowercase.svg",
+      "path": "lowercase.svg",
+      "tags": [
+        "lowercase"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "fb84dc7b5d8d216094e08dfeb78187763bba7e095a64bf86ed823b58a05a240a",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "match_case": {
+      "id": "dl_0cd53558965e9094c116",
+      "name": "match_case",
+      "title": "Match Case",
+      "file": "icons/match_case.svg",
+      "path": "match_case.svg",
+      "tags": [
+        "match",
+        "case"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "a83e3b4e16d60a6c5e38e9190fc4d6eef7fbd6090659463362b8f6e439e169f9",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "move": {
+      "id": "dl_a5eae5c30028142a7c28",
+      "name": "move",
+      "title": "Move",
+      "file": "icons/move.svg",
+      "path": "move.svg",
+      "tags": [
+        "move"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "ee17823c7f10ab6211adecc3df5c7360df77d5571f58f815aba902be6c0c24c0",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "note_add": {
+      "id": "dl_df80059953f58446eace",
+      "name": "note_add",
+      "title": "Note Add",
+      "file": "icons/note_add.svg",
+      "path": "note_add.svg",
+      "tags": [
+        "note",
+        "add"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "425d1f50e888e31fb0319bb0e947f80a190083af162caa23fa32c054ce60452a",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "open_in_full": {
+      "id": "dl_c231d18a744acd925d60",
+      "name": "open_in_full",
+      "title": "Open In Full",
+      "file": "icons/open_in_full.svg",
+      "path": "open_in_full.svg",
+      "tags": [
+        "open",
+        "in",
+        "full"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "3629e6e77290ef4d8c53e8b2646c4ede4a90875219130baeb1ff42c1fed0ba78",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "paste": {
+      "id": "dl_445434bff2fc67acf7e7",
+      "name": "paste",
+      "title": "Paste",
+      "file": "icons/paste.svg",
+      "path": "paste.svg",
+      "tags": [
+        "paste"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "0d266b0cd81fa266bcc105f466bac18ef047c112d5fab9e3cc40a894007c3d49",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "person": {
+      "id": "dl_57ec802ce93569710a00",
+      "name": "person",
+      "title": "Person",
+      "file": "icons/person.svg",
+      "path": "person.svg",
+      "tags": [
+        "person"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "733f760cea5c1bba196e2424c2d55826cf295de40b4ef784af0dc0575139cbb4",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "play_arrow": {
+      "id": "dl_6a1301b21605d9e20fff",
+      "name": "play_arrow",
+      "title": "Play Arrow",
+      "file": "icons/play_arrow.svg",
+      "path": "play_arrow.svg",
+      "tags": [
+        "play",
+        "arrow"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "ba72eb7f2ce5d444fa4ccb79079117bba6c9f0160acc0ecc8d25a87245b507f6",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "plus": {
+      "id": "dl_217bda60a5aa7e5f4edd",
+      "name": "plus",
+      "title": "Plus",
+      "file": "icons/plus.svg",
+      "path": "plus.svg",
+      "tags": [
+        "plus"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "89bdc12d9f29a54f3a6801b75ab4054b3cc15a15e9de84d7046197e2d40b068d",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "redo": {
+      "id": "dl_36c32977254b00511686",
+      "name": "redo",
+      "title": "Redo",
+      "file": "icons/redo.svg",
+      "path": "redo.svg",
+      "tags": [
+        "redo"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "4d69626fc90aff899eb75406e476d94a1d1894e302609bd927c483db5c90a19a",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "regular_expression": {
+      "id": "dl_4469d407b6dd8bb2b748",
+      "name": "regular_expression",
+      "title": "Regular Expression",
+      "file": "icons/regular_expression.svg",
+      "path": "regular_expression.svg",
+      "tags": [
+        "regular",
+        "expression"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "1f888e86925d93830e269a09d2fa99456d0eed7ff6824f7dae212a2798b50123",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "remove": {
+      "id": "dl_027bb681cf4e81107975",
+      "name": "remove",
+      "title": "Remove",
+      "file": "icons/remove.svg",
+      "path": "remove.svg",
+      "tags": [
+        "remove"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "12616a9b25cd71d1c40f5dd2ea891214e52d5ab296e400b98e033c8a4583f1d9",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "route": {
+      "id": "dl_398443c9540874db3e47",
+      "name": "route",
+      "title": "Route",
+      "file": "icons/route.svg",
+      "path": "route.svg",
+      "tags": [
+        "route"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "4250c421be0cc6003e981e6213864f0b72f2f852cbf1b55caccc1df18204c90c",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "save": {
+      "id": "dl_115d8191922db15e7c2d",
+      "name": "save",
+      "title": "Save",
+      "file": "icons/save.svg",
+      "path": "save.svg",
+      "tags": [
+        "save"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "03fafafe8c84f72a40948bcc8e2b8b32282071df586f0361b4ee13dc6e71c885",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "search_off": {
+      "id": "dl_8aa6478e575d86bdb8a9",
+      "name": "search_off",
+      "title": "Search Off",
+      "file": "icons/search_off.svg",
+      "path": "search_off.svg",
+      "tags": [
+        "search",
+        "off"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "8f19b1b22a6d2e8ff3671a60398123e285d8dbbf6c556e7c635bbad14350c012",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "search": {
+      "id": "dl_ddd4bb51c362da338c39",
+      "name": "search",
+      "title": "Search",
+      "file": "icons/search.svg",
+      "path": "search.svg",
+      "tags": [
+        "search"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "ba246fa4bb2a1b01608d315c2339713d5b3202eb9ac49988057667189bc3bf49",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "select": {
+      "id": "dl_bc6d1613c25f1ed5cd4c",
+      "name": "select",
+      "title": "Select",
+      "file": "icons/select.svg",
+      "path": "select.svg",
+      "tags": [
+        "select"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "a1c0323248f553c62541121d84cb7f70e83814fc165bf25bcd092ef76f5b0960",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "selectAll": {
+      "id": "dl_1adb7f6aa93b026b4caf",
+      "name": "selectAll",
+      "title": "Select All",
+      "file": "icons/selectAll.svg",
+      "path": "selectAll.svg",
+      "tags": [
+        "selectall"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "aeb3878e50280d6f56f90858d2db569a12bec50bbe7a592cbe45b3cbd12303d7",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "settings": {
+      "id": "dl_cc53255635bc0be73c50",
+      "name": "settings",
+      "title": "Settings",
+      "file": "icons/settings.svg",
+      "path": "settings.svg",
+      "tags": [
+        "settings"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "185f1871c6f4e3bc336808f892e47a268b84532722046410b119feb89ec935a4",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "slab_serif": {
+      "id": "dl_ab324b269d90e12238f9",
+      "name": "slab_serif",
+      "title": "Slab Serif",
+      "file": "icons/slab_serif.svg",
+      "path": "slab_serif.svg",
+      "tags": [
+        "slab",
+        "serif"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "1c20b2f42f00d08d229060a81c5b84eb69a1d00d880ae2df037c80d71c65d476",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "sort": {
+      "id": "dl_018d4742825e7a6e7b97",
+      "name": "sort",
+      "title": "Sort",
+      "file": "icons/sort.svg",
+      "path": "sort.svg",
+      "tags": [
+        "sort"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "359beb4a1fd92946c3b9b3d5d948eb9e450034800dab78ea5eb2b1f8b704b385",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "star_border": {
+      "id": "dl_a2e368921f40c20b11cf",
+      "name": "star_border",
+      "title": "Star Border",
+      "file": "icons/star_border.svg",
+      "path": "star_border.svg",
+      "tags": [
+        "star",
+        "border"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "1d06d2713122ba1788e36e686b467fa1701281958ddfbccca7547698d4720670",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "star": {
+      "id": "dl_3eea1d58292990eebbc6",
+      "name": "star",
+      "title": "Star",
+      "file": "icons/star.svg",
+      "path": "star.svg",
+      "tags": [
+        "star"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "1d06d2713122ba1788e36e686b467fa1701281958ddfbccca7547698d4720670",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "swap_horiz": {
+      "id": "dl_cfbdd66665ac7c5c8ef0",
+      "name": "swap_horiz",
+      "title": "Swap Horiz",
+      "file": "icons/swap_horiz.svg",
+      "path": "swap_horiz.svg",
+      "tags": [
+        "swap",
+        "horiz"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "0da33b510bf21994ba192e493f934005041799bffb7912f08e94ccd8ba419c16",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "swapSaved": {
+      "id": "dl_7179b66d249c52f9c867",
+      "name": "swapSaved",
+      "title": "Swap Saved",
+      "file": "icons/swapSaved.svg",
+      "path": "swapSaved.svg",
+      "tags": [
+        "swapsaved"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "ce77f33114ead68d41981d6e383afbf02f8137973afd54ce2d110060a2d06366",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "switches": {
+      "id": "dl_41120482966d7fafe365",
+      "name": "switches",
+      "title": "Switches",
+      "file": "icons/switches.svg",
+      "path": "switches.svg",
+      "tags": [
+        "switches"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "6848f91a84ab2b401880174d486ff5d5b55c3e41d495b042147f143ec4cdce47",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "table": {
+      "id": "dl_b44446d88fd5060f158d",
+      "name": "table",
+      "title": "Table",
+      "file": "icons/table.svg",
+      "path": "table.svg",
+      "tags": [
+        "table"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "cdc56d7abcfb113b91bfabbf838c492b1fbecfd95837da75e023a2e26eb4cda9",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "text_fields": {
+      "id": "dl_948b3b2c74c2ebf1f866",
+      "name": "text_fields",
+      "title": "Text Fields",
+      "file": "icons/text_fields.svg",
+      "path": "text_fields.svg",
+      "tags": [
+        "text",
+        "fields"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "3da404b8d35b05b7b594ce30436b93dc63fa3280fd3e0267863080bf9a5ee1f1",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "text_up": {
+      "id": "dl_aadf5f28d788521afcb9",
+      "name": "text_up",
+      "title": "Text Up",
+      "file": "icons/text_up.svg",
+      "path": "text_up.svg",
+      "tags": [
+        "text",
+        "up"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "63e25812cdb1b2d7f3fc72f62221c10ab6a7dd394df14a4c5920a791ccc82063",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "tick": {
+      "id": "dl_57f503dee03c4a4aac79",
+      "name": "tick",
+      "title": "Tick",
+      "file": "icons/tick.svg",
+      "path": "tick.svg",
+      "tags": [
+        "tick"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "074ae77022da4d51720b0a8d6ef57453a705edc7bc7132c65f1e6eaa5f4423e8",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "trash": {
+      "id": "dl_5827698eb5c1e796076f",
+      "name": "trash",
+      "title": "Trash",
+      "file": "icons/trash.svg",
+      "path": "trash.svg",
+      "tags": [
+        "trash"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "5fa6a7fe970c599e4bf81bc4e143bbd2b9b5159fec389896a8b18769b12b7940",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "tune": {
+      "id": "dl_163a91981ed8ea261072",
+      "name": "tune",
+      "title": "Tune",
+      "file": "icons/tune.svg",
+      "path": "tune.svg",
+      "tags": [
+        "tune"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "f404cf373506b25fefab4c5ad43feb5f55a0e8bd913d0d1c3a64bd515029b54d",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "undo": {
+      "id": "dl_d8491ad8a6db4d45edb9",
+      "name": "undo",
+      "title": "Undo",
+      "file": "icons/undo.svg",
+      "path": "undo.svg",
+      "tags": [
+        "undo"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "220d6e1d5941fe4d7df818f6a54eb07c330e5b899c3d8920b1e1c058696ca3e4",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "up": {
+      "id": "dl_47d6795d396f2a6e4a55",
+      "name": "up",
+      "title": "Up",
+      "file": "icons/up.svg",
+      "path": "up.svg",
+      "tags": [
+        "up"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "c43ef6491ea7d1dd5570696deaed4c219fce7bd58cbb9d14b27924918b56588a",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "upload_file": {
+      "id": "dl_87dd90aaf50e9c3049f7",
+      "name": "upload_file",
+      "title": "Upload File",
+      "file": "icons/upload_file.svg",
+      "path": "upload_file.svg",
+      "tags": [
+        "upload",
+        "file"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "a95370cd9f8090e8002500c780becc8096b8ca73517b7e1e473f97eb0316ca7a",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "uppercase": {
+      "id": "dl_e6709b38f36451af6b79",
+      "name": "uppercase",
+      "title": "Uppercase",
+      "file": "icons/uppercase.svg",
+      "path": "uppercase.svg",
+      "tags": [
+        "uppercase"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "2ff615b298f41de1dc38bf1120afd4322716270da1caa62d8e31acf3948d78df",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "view_cozy": {
+      "id": "dl_26dfa6f0c9b1d2845c64",
+      "name": "view_cozy",
+      "title": "View Cozy",
+      "file": "icons/view_cozy.svg",
+      "path": "view_cozy.svg",
+      "tags": [
+        "view",
+        "cozy"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "056520ac9439bb4ed626784ee4d6e925d77cd0f541be3b70c573f119bb72c67a",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "view_object_track": {
+      "id": "dl_e1f596ff246765393693",
+      "name": "view_object_track",
+      "title": "View Object Track",
+      "file": "icons/view_object_track.svg",
+      "path": "view_object_track.svg",
+      "tags": [
+        "view",
+        "object",
+        "track"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "bb9d22dfee446cc902b2df7b2b114f9337f769388bad7919993ab0a8556a2e6b",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "x": {
+      "id": "dl_b381d6b75a2d10470864",
+      "name": "x",
+      "title": "X",
+      "file": "icons/x.svg",
+      "path": "x.svg",
+      "tags": [
+        "x"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "hash": "07bde35a9c0a90ea24cef38d5c95d3184cc3b28bebfdadec5db11a79d8109394",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    }
+  },
+  "aliases": {}
+}
