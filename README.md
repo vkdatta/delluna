@@ -32,10 +32,10 @@ The runtime loads the registry once and fetches only requested SVGs. Variants `o
 
 ## Admin publishing
 
-The Admin Portal provides persistent browser-backed upload batches, local analysis with live progress, SVG previews, conflict resolution, existing-icon rename/push, delete/push, favorites, collections, GitHub workflow status, responsive mobile navigation, and production-friendly error/success states.
+The Admin Portal provides persistent browser-backed upload batches, local analysis with live progress, SVG previews, conflict resolution, existing-icon rename/push, delete/push, favorites, collections, GitHub workflow status, responsive mobile navigation, folder creation/move/copy operations, editable upload destinations, and production-friendly error/success states.
 
 The publishing path is:
 
 `Admin → Cloudflare Worker → GitHub commit → GitHub Actions validation/build → dist → CDN`
 
-The Worker updates the configured branch with `force: true` as requested by the administrative publishing workflow. The UI deliberately labels the GitHub commit separately from the later Actions/CDN build state so a successful source commit cannot be mistaken for a completed public build.
+The Worker updates the configured branch with `force: true` as requested by the administrative publishing workflow. Admin publishes both canonical registry copies so the build validation step cannot fail because `registry.json` and `registry/icons.json` are stale. The UI tracks the source commit separately from the later Actions/CDN build state; a successful source commit is not presented as a completed public build until Actions succeeds.

@@ -12,6 +12,7 @@ const rootRegPath = path.join(root, 'registry.json');
 const old = fs.existsSync(regPath) ? JSON.parse(fs.readFileSync(regPath, 'utf8')) : { icons: {}, aliases: {} };
 const variants = old.variants || ['og', 'hud', 'orbit', 'circuit', 'plasma'];
 const aliases = old.aliases || {};
+const configuredFolders = new Set((old.folders || []).map(String).filter(Boolean));
 const oldIcons = Object.values(old.icons || {}).filter(x => !x.aliasOf);
 const byPath = new Map(oldIcons.map(x => [String(x.path || x.file || '').replace(/^icons\//, ''), x]));
 const byId = new Map(oldIcons.filter(x => x.id).map(x => [x.id, x]));
@@ -72,6 +73,7 @@ const registry = {
   version: 4,
   library: old.library || 'Delluna',
   variants,
+  folders: [...configuredFolders].sort(),
   generatedAt: new Date().toISOString(),
   icons: {},
   aliases
@@ -84,6 +86,7 @@ const changed = [];
 
 for (const file of files) {
   const rel = path.relative(src, file).replaceAll(path.sep, '/');
+  if (rel.includes('/')) configuredFolders.add(rel.slice(0, rel.lastIndexOf('/')));
   const raw = fs.readFileSync(file, 'utf8');
   if (!/<svg\b[^>]*>/i.test(raw) || !/<\/svg>\s*$/i.test(raw.trim())) {
     throw new Error(`Invalid SVG: ${rel}`);
@@ -124,6 +127,8 @@ for (const file of files) {
   if (oldSame) duplicates.push({ path: rel, duplicateOf: oldSame.path, id });
 }
 
+registry.folders = [...configuredFolders].sort();
+
 for (const [alias, target] of Object.entries(aliases)) {
   if (!registry.icons[alias] && registry.icons[target]) {
     registry.icons[alias] = {
@@ -150,6 +155,7 @@ fs.mkdirSync(path.join(dist, 'esm'), { recursive: true });
 
 for (const file of files) {
   const rel = path.relative(src, file).replaceAll(path.sep, '/');
+  if (rel.includes('/')) configuredFolders.add(rel.slice(0, rel.lastIndexOf('/')));
   const raw = fs.readFileSync(file, 'utf8');
   const embedded = raw.match(/data-delluna-id=["']([^"']+)["']/i)?.[1];
   const item = embedded
