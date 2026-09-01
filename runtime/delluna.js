@@ -1,6 +1,22 @@
 (function(){
 'use strict';
 
+const RUNTIME_SCRIPT=document.currentScript;
+
+const AUTO_BASE=(()=>{
+    if(!RUNTIME_SCRIPT||!RUNTIME_SCRIPT.src){
+        return '';
+    }
+
+    try{
+        return new URL('./',RUNTIME_SCRIPT.src).href.replace(/\/+$/,'');
+    }catch(e){
+        return String(RUNTIME_SCRIPT.src)
+            .replace(/\/delluna(?:\.min)?\.js(?:\?.*)?$/i,'')
+            .replace(/\/+$/,'');
+    }
+})();
+
 const DEFAULTS={
     base:'',
     variant:'og',
@@ -9,6 +25,7 @@ const DEFAULTS={
     wght:400,
     grad:0,
     opsz:24,
+    background:'transparent',
     plasmaColors:null
 };
 
@@ -40,7 +57,6 @@ function normalizeBase(value){
 }
 
 function getBase(){
-
     if(Delluna.baseUrl){
         return normalizeBase(Delluna.baseUrl);
     }
@@ -49,38 +65,34 @@ function getBase(){
         return normalizeBase(config.global.base);
     }
 
-    const script=document.currentScript;
-
-    if(script&&script.src){
-
-        const src=script.src.replace(
-            /\/delluna(?:\.min)?\.js(?:\?.*)?$/i,
-            ''
-        );
-
-        if(src&&src!==script.src){
-            return normalizeBase(src);
-        }
-    }
-
-    return '';
+    return normalizeBase(AUTO_BASE);
 }
 
 function requireBase(){
-
     const value=getBase();
 
     if(!value){
         throw new Error(
-            'Delluna base URL is not configured. Set window.DELLUNA_SITE.base before loading delluna.js.'
+            'Delluna base URL could not be determined. '+
+            'The runtime must be loaded from a valid delluna.js URL.'
         );
     }
 
     return value;
 }
 
-async function registry(){
+function debug(){
+    if(window.DellunaDebug&&console&&console.debug){
+        console.debug.apply(
+            console,
+            ['[Delluna]'].concat(
+                Array.from(arguments)
+            )
+        );
+    }
+}
 
+async function registry(){
     if(registryCache){
         return registryCache;
     }
@@ -91,15 +103,22 @@ async function registry(){
 
     const base=requireBase();
 
+    const registryUrl=
+        base+'/registry.json';
+
+    debug(
+        'Loading registry:',
+        registryUrl
+    );
+
     registryPending=
         fetch(
-            base+'/registry.json',
+            registryUrl,
             {
                 cache:'no-cache'
             }
         )
         .then(response=>{
-
             if(!response.ok){
                 throw new Error(
                     `Delluna registry unavailable: HTTP ${response.status}`
@@ -107,62 +126,79 @@ async function registry(){
             }
 
             return response.json();
-
         })
         .then(data=>{
-
             registryCache=data;
             registryPending=null;
 
-            return data;
+            debug(
+                'Registry loaded:',
+                data
+            );
 
+            return data;
         })
         .catch(error=>{
-
             registryPending=null;
-
             throw error;
-
         });
 
     return registryPending;
 }
 
 async function resolveItem(name){
-
     const r=await registry();
 
     let item=
-        r.icons?.[name]||null;
+        r.icons&&
+        r.icons[name]
+            ? r.icons[name]
+            : null;
 
-    if(item?.aliasOf){
+    if(item&&item.aliasOf){
         item=
-            r.icons?.[item.aliasOf]||null;
+            r.icons&&
+            r.icons[item.aliasOf]
+                ? r.icons[item.aliasOf]
+                : null;
     }
 
-    if(!item&&r.aliases?.[name]){
+    if(!item&&r.aliases&&r.aliases[name]){
         item=
-            r.icons?.[r.aliases[name]]||null;
+            r.icons&&
+            r.icons[r.aliases[name]]
+                ? r.icons[r.aliases[name]]
+                : null;
     }
 
     return item||null;
 }
 
 function iconFile(item,name){
-
-    if(item?.file){
+    if(item&&item.file){
         return item.file;
     }
 
-    if(item?.path){
+    if(item&&item.path){
         return item.path;
+    }
+
+    if(item&&item.filename){
+        return item.filename;
     }
 
     return `icons/${name}.svg`;
 }
 
-async function url(name){
+function normalizeIconPath(file){
+    return String(file||'')
+        .replace(/^\/+/,'')
+        .replace(/^dist\//i,'')
+        .replace(/^src\/icons\//i,'icons/')
+        .replace(/^src\/dist\//i,'');
+}
 
+async function url(name){
     const item=
         await resolveItem(name);
 
@@ -176,20 +212,29 @@ async function url(name){
         requireBase();
 
     const file=
-        iconFile(item,name)
-            .replace(/^\/+/,'')
-            .replace(/^dist\//,'')
-            .replace(/^src\/icons\//,'icons/');
+        normalizeIconPath(
+            iconFile(item,name)
+        );
 
-    return base+'/'+
+    const result=
+        base+'/'+
         file
             .split('/')
-            .map(encodeURIComponent)
+            .filter(Boolean)
+            .map(
+                encodeURIComponent
+            )
             .join('/');
+
+    debug(
+        'Icon URL:',
+        result
+    );
+
+    return result;
 }
 
 function parseSvg(str){
-
     const match=
         String(str)
             .trim()
@@ -221,20 +266,28 @@ function parseSvg(str){
             .map(Number);
 
     const w=
-        Number.isFinite(parts[2])
+        Number.isFinite(parts[2])&&
+        parts[2]>0
             ? parts[2]
             : 24;
 
     const h=
-        Number.isFinite(parts[3])
+        Number.isFinite(parts[3])&&
+        parts[3]>0
             ? parts[3]
             : 24;
 
     attrs=
-        attrs.replace(
-            /\s*viewBox=["'][^"']*["']/i,
-            ''
-        ).trim();
+        attrs
+            .replace(
+                /\s*viewBox=["'][^"']*["']/i,
+                ''
+            )
+            .replace(
+                /\s*(?:width|height)=["'][^"']*["']/gi,
+                ''
+            )
+            .trim();
 
     return{
         attrs,
@@ -245,7 +298,6 @@ function parseSvg(str){
 }
 
 function roundify(p){
-
     let attrs=
         p.attrs
             .replace(
@@ -266,7 +318,6 @@ function roundify(p){
         p.inner.replace(
             /<rect\b[^>]*\/>/gi,
             tag=>{
-
                 const wm=
                     tag.match(
                         /\bwidth=["']([\d.]+)["']/i
@@ -291,13 +342,11 @@ function roundify(p){
                         tag
                     )
                 ){
-
                     return tag.replace(
                         /rx=["']([\d.]+)["']/i,
                         (m,v)=>
                             `rx="${Math.max(+v,minRx)}"`
                     );
-
                 }
 
                 return tag.replace(
@@ -323,18 +372,33 @@ function clamp(v,a,b){
 }
 
 function mult(c){
-
     const w=
-        clamp(+c.wght||400,100,700);
+        clamp(
+            Number(c.wght)||400,
+            100,
+            700
+        );
 
     const g=
-        clamp(+c.grad||0,-25,200);
+        clamp(
+            Number(c.grad)||0,
+            -25,
+            200
+        );
 
     const f=
-        clamp(+c.fill||0,0,1);
+        clamp(
+            Number(c.fill)||0,
+            0,
+            1
+        );
 
     const o=
-        clamp(+c.opsz||24,16,48);
+        clamp(
+            Number(c.opsz)||24,
+            16,
+            48
+        );
 
     const m=
         (w+g)/400+
@@ -348,7 +412,6 @@ function mult(c){
 }
 
 function weight(p,m){
-
     if(Math.abs(m-1)<.001){
         return p;
     }
@@ -370,7 +433,6 @@ function weight(p,m){
 }
 
 function styleOg(p){
-
     return`
 <svg
     viewBox="0 0 ${p.w} ${p.h}"
@@ -379,7 +441,6 @@ function styleOg(p){
 }
 
 function styleHud(p){
-
     const w=p.w;
     const h=p.h;
 
@@ -396,7 +457,6 @@ function styleHud(p){
         +(w*.045).toFixed(2);
 
     function corner(x,y,hd,vd){
-
         const x1=
             +(x+hd*len).toFixed(2);
 
@@ -414,7 +474,6 @@ M${x1} ${y}
 L${rx} ${y}
 Q${x} ${y} ${x} ${ry}
 L${x} ${y1}`;
-
     }
 
     const d=
@@ -439,7 +498,6 @@ L${x} ${y1}`;
 }
 
 function styleOrbit(p){
-
     const w=p.w;
     const h=p.h;
 
@@ -502,7 +560,6 @@ function styleOrbit(p){
 }
 
 function styleCircuit(p){
-
     const w=p.w;
     const h=p.h;
 
@@ -534,7 +591,6 @@ function styleCircuit(p){
 }
 
 function stylePlasma(p,c){
-
     const w=p.w;
     const h=p.h;
 
@@ -542,31 +598,40 @@ function stylePlasma(p,c){
         'delluna-p'+uid++;
 
     const colors=
-        c.plasmaColors;
+        Array.isArray(c.plasmaColors)
+            ? c.plasmaColors
+            : null;
 
     const stops=
         colors&&colors.length
             ? colors.map(
-                (x,i)=>
-                    `<stop offset="${
-                        (
-                            colors.length===1
-                                ? 0
-                                : i/(colors.length-1)
-                        ).toFixed(2)
-                    }" stop-color="${String(x).replace(/"/g,'')}"/>`
+                (x,i)=>{
+                    const safe=
+                        String(x)
+                            .replace(/["<>]/g,'');
+
+                    const offset=
+                        colors.length===1
+                            ? 0
+                            : i/(colors.length-1);
+
+                    return`
+<stop
+    offset="${offset.toFixed(2)}"
+    stop-color="${safe}"
+/>`;
+                }
             ).join('')
             :
             `
-            <stop
-                offset="0"
-                stop-color="var(--delluna-plasma-center,#ffffff)"
-            />
-            <stop
-                offset="1"
-                stop-color="var(--delluna-plasma-edge,#ffffff)"
-            />
-            `;
+<stop
+    offset="0"
+    stop-color="var(--delluna-plasma-center,currentColor)"
+/>
+<stop
+    offset="1"
+    stop-color="var(--delluna-plasma-edge,currentColor)"
+/>`;
 
     const gradient=`
 <radialGradient
@@ -612,7 +677,6 @@ function stylePlasma(p,c){
 }
 
 function resolve(name,extra){
-
     const ic=
         Object.assign(
             {},
@@ -621,9 +685,9 @@ function resolve(name,extra){
         );
 
     const v=
-        ic.variant||
-        config.global.variant||
-        'og';
+        ic.variant!==undefined
+            ? ic.variant
+            : config.global.variant||'og';
 
     const vc=
         config.variants[v]||{};
@@ -643,22 +707,19 @@ function resolve(name,extra){
         'color',
         'background',
         'plasmaColors'
-    ].forEach(
-        key=>{
-            out[key]=
-                ic[key]!==undefined
-                    ? ic[key]
-                    : vc[key]!==undefined
-                        ? vc[key]
-                        : config.global[key];
-        }
-    );
+    ].forEach(key=>{
+        out[key]=
+            ic[key]!==undefined
+                ? ic[key]
+                : vc[key]!==undefined
+                    ? vc[key]
+                    : config.global[key];
+    });
 
     return out;
 }
 
 async function load(name){
-
     const item=
         await resolveItem(name);
 
@@ -670,6 +731,7 @@ async function load(name){
 
     const key=
         item.id||
+        item.file||
         name;
 
     if(cache.has(key)){
@@ -682,50 +744,42 @@ async function load(name){
 
     const request=
         url(name)
-            .then(
-                iconUrl=>
-                    fetch(iconUrl)
-            )
-            .then(
-                response=>{
-
-                    if(!response.ok){
-                        throw new Error(
-                            `Delluna SVG unavailable: HTTP ${response.status}`
-                        );
+            .then(iconUrl=>{
+                return fetch(
+                    iconUrl,
+                    {
+                        cache:'force-cache'
                     }
-
-                    return response.text();
-
-                }
-            )
-            .then(
-                text=>{
-
-                    cache.set(
-                        key,
-                        text
+                );
+            })
+            .then(response=>{
+                if(!response.ok){
+                    throw new Error(
+                        `Delluna SVG unavailable: HTTP ${response.status}`
                     );
-
-                    pending.delete(
-                        key
-                    );
-
-                    return text;
-
                 }
-            )
-            .catch(
-                error=>{
 
-                    pending.delete(
-                        key
-                    );
+                return response.text();
+            })
+            .then(text=>{
+                cache.set(
+                    key,
+                    text
+                );
 
-                    throw error;
+                pending.delete(
+                    key
+                );
 
-                }
-            );
+                return text;
+            })
+            .catch(error=>{
+                pending.delete(
+                    key
+                );
+
+                throw error;
+            });
 
     pending.set(
         key,
@@ -736,7 +790,6 @@ async function load(name){
 }
 
 async function render(name,extra){
-
     const raw=
         await load(name);
 
@@ -766,15 +819,13 @@ async function render(name,extra){
             c
         );
 
-    if(
-        c.color&&
-        c.color!=='currentColor'
-    ){
+    const safeColor=
+        c.color
+            ? String(c.color)
+                .replace(/["<>]/g,'')
+            : '';
 
-        const safeColor=
-            String(c.color)
-                .replace(/["<>]/g,'');
-
+    if(safeColor){
         svg=
             svg.replace(
                 '<svg ',
@@ -782,11 +833,80 @@ async function render(name,extra){
             );
     }
 
+    if(
+        c.background&&
+        c.background!=='transparent'
+    ){
+        const safeBackground=
+            String(c.background)
+                .replace(/["<>]/g,'');
+
+        svg=
+            svg.replace(
+                '<svg ',
+                `<svg style="background:${safeBackground};${safeColor?'color:'+safeColor+';':''}" `
+            );
+    }
+
     return svg;
 }
 
-async function paint(el){
+function collectAttributes(el){
+    const result={};
 
+    const variant=
+        el.getAttribute('variant');
+
+    const color=
+        el.getAttribute('color');
+
+    const fill=
+        el.getAttribute('fill');
+
+    const wght=
+        el.getAttribute('wght');
+
+    const grad=
+        el.getAttribute('grad');
+
+    const opsz=
+        el.getAttribute('opsz');
+
+    const background=
+        el.getAttribute('background');
+
+    if(variant!==null){
+        result.variant=variant;
+    }
+
+    if(color!==null){
+        result.color=color;
+    }
+
+    if(fill!==null){
+        result.fill=fill;
+    }
+
+    if(wght!==null){
+        result.wght=wght;
+    }
+
+    if(grad!==null){
+        result.grad=grad;
+    }
+
+    if(opsz!==null){
+        result.opsz=opsz;
+    }
+
+    if(background!==null){
+        result.background=background;
+    }
+
+    return result;
+}
+
+async function paint(el){
     const name=
         el.getAttribute('name')||
         el.getAttribute('data-icon');
@@ -795,41 +915,30 @@ async function paint(el){
         return;
     }
 
-    try{
+    const token=
+        String(
+            Number(el.__dellunaPaintToken||0)+1
+        );
 
+    el.__dellunaPaintToken=token;
+
+    el.removeAttribute(
+        'data-icon-error'
+    );
+
+    try{
         const svg=
             await render(
                 name,
-                {
-                    variant:
-                        el.getAttribute('variant')||
-                        undefined,
-
-                    color:
-                        el.getAttribute('color')||
-                        undefined,
-
-                    fill:
-                        el.hasAttribute('fill')
-                            ? el.getAttribute('fill')
-                            : undefined,
-
-                    wght:
-                        el.hasAttribute('wght')
-                            ? el.getAttribute('wght')
-                            : undefined,
-
-                    grad:
-                        el.hasAttribute('grad')
-                            ? el.getAttribute('grad')
-                            : undefined,
-
-                    opsz:
-                        el.hasAttribute('opsz')
-                            ? el.getAttribute('opsz')
-                            : undefined
-                }
+                collectAttributes(el)
             );
+
+        if(
+            String(el.__dellunaPaintToken)!==
+            token
+        ){
+            return;
+        }
 
         el.innerHTML=svg;
 
@@ -838,10 +947,20 @@ async function paint(el){
             name
         );
 
+        debug(
+            'Painted:',
+            name
+        );
     }catch(error){
+        if(
+            String(el.__dellunaPaintToken)!==
+            token
+        ){
+            return;
+        }
 
         console.error(
-            'Delluna icon error:',
+            '[Delluna]',
             name,
             error
         );
@@ -864,6 +983,49 @@ async function paint(el){
     }
 }
 
+function installStyles(){
+    if(
+        document.getElementById(
+            'delluna-runtime-style'
+        )
+    ){
+        return;
+    }
+
+    const style=
+        document.createElement('style');
+
+    style.id=
+        'delluna-runtime-style';
+
+    style.textContent=`
+delluna-icon{
+    display:inline-flex;
+    width:1em;
+    height:1em;
+    min-width:1em;
+    min-height:1em;
+    line-height:0;
+    vertical-align:middle;
+    flex:0 0 auto;
+}
+
+delluna-icon>svg{
+    display:block;
+    width:100%;
+    height:100%;
+    max-width:100%;
+    max-height:100%;
+    overflow:visible;
+}
+`;
+
+    (
+        document.head||
+        document.documentElement
+    ).appendChild(style);
+}
+
 class DellunaIcon extends HTMLElement{
 
     static get observedAttributes(){
@@ -874,7 +1036,8 @@ class DellunaIcon extends HTMLElement{
             'fill',
             'wght',
             'grad',
-            'opsz'
+            'opsz',
+            'background'
         ];
     }
 
@@ -901,7 +1064,6 @@ if(
 }
 
 function repaint(){
-
     document
         .querySelectorAll(
             'delluna-icon,[data-icon]'
@@ -911,17 +1073,17 @@ function repaint(){
 
 const Delluna={
 
-    baseUrl:'',
+    baseUrl:AUTO_BASE,
 
     configure(options){
-
         options=
             options||{};
+
+        let baseChanged=false;
 
         if(
             options.baseUrl!==undefined
         ){
-
             this.baseUrl=
                 normalizeBase(
                     options.baseUrl
@@ -930,14 +1092,12 @@ const Delluna={
             config.global.base=
                 this.baseUrl;
 
-            registryCache=null;
-            registryPending=null;
+            baseChanged=true;
         }
 
         if(
             options.base!==undefined
         ){
-
             this.baseUrl=
                 normalizeBase(
                     options.base
@@ -946,8 +1106,7 @@ const Delluna={
             config.global.base=
                 this.baseUrl;
 
-            registryCache=null;
-            registryPending=null;
+            baseChanged=true;
         }
 
         if(
@@ -965,54 +1124,52 @@ const Delluna={
             'color',
             'background',
             'plasmaColors'
-        ].forEach(
-            key=>{
-                if(
-                    options[key]!==undefined
-                ){
-                    config.global[key]=
-                        options[key];
-                }
+        ].forEach(key=>{
+            if(
+                options[key]!==undefined
+            ){
+                config.global[key]=
+                    options[key];
             }
-        );
+        });
 
         if(options.variants){
-
             Object.keys(
                 options.variants
-            ).forEach(
-                v=>{
-                    config.variants[v]=
-                        Object.assign(
-                            {},
-                            config.variants[v],
-                            options.variants[v]
-                        );
-                }
-            );
+            ).forEach(v=>{
+                config.variants[v]=
+                    Object.assign(
+                        {},
+                        config.variants[v],
+                        options.variants[v]
+                    );
+            });
         }
 
         if(options.icons){
-
             Object.keys(
                 options.icons
-            ).forEach(
-                name=>{
-                    config.icons[name]=
-                        Object.assign(
-                            {},
-                            config.icons[name],
-                            options.icons[name]
-                        );
-                }
-            );
+            ).forEach(name=>{
+                config.icons[name]=
+                    Object.assign(
+                        {},
+                        config.icons[name],
+                        options.icons[name]
+                    );
+            });
+        }
+
+        if(baseChanged){
+            registryCache=null;
+            registryPending=null;
         }
 
         repaint();
+
+        return this;
     },
 
     reset(){
-
         config={
             global:Object.assign(
                 {},
@@ -1022,7 +1179,8 @@ const Delluna={
             icons:{}
         };
 
-        this.baseUrl='';
+        this.baseUrl=
+            AUTO_BASE;
 
         registryCache=null;
         registryPending=null;
@@ -1031,6 +1189,8 @@ const Delluna={
         pending.clear();
 
         repaint();
+
+        return this;
     },
 
     resolve,
@@ -1038,9 +1198,9 @@ const Delluna={
     load,
 
     clearCache(){
-
         cache.clear();
         registryCache=null;
+        registryPending=null;
     },
 
     variants:Object.keys(
@@ -1052,19 +1212,21 @@ const Delluna={
     resolveItem
 };
 
-window.Delluna=Delluna;
-window.DexIcons=Delluna;
+window.Delluna=
+    Delluna;
+
+window.DexIcons=
+    Delluna;
 
 window.dexIcon=
     function(name,cls){
-
         const safeName=
             String(name)
                 .replace(/"/g,'&quot;');
 
         const safeClass=
             cls
-                ? ` class="${String(cls).replace(/"/g,'')}"`
+                ? ` class="${String(cls).replace(/["<>]/g,'')}"`
                 : '';
 
         return`
@@ -1074,62 +1236,69 @@ window.dexIcon=
     };
 
 function autoConfigure(){
-
     if(
         window.DELLUNA_SITE&&
         window.DELLUNA_SITE.base
     ){
-
         Delluna.configure({
             baseUrl:
                 window.DELLUNA_SITE.base
         });
 
-        return true;
+        return;
     }
 
-    return false;
+    Delluna.baseUrl=
+        AUTO_BASE;
+
+    config.global.base=
+        AUTO_BASE;
 }
 
+installStyles();
 autoConfigure();
 
-new MutationObserver(
-    mutations=>{
-        mutations.forEach(
-            mutation=>{
-                mutation.addedNodes.forEach(
-                    node=>{
+const observer=
+    new MutationObserver(
+        mutations=>{
+            mutations.forEach(
+                mutation=>{
+                    mutation.addedNodes.forEach(
+                        node=>{
+                            if(
+                                node.nodeType!==1
+                            ){
+                                return;
+                            }
 
-                        if(
-                            node.nodeType!==1
-                        ){
-                            return;
-                        }
-
-                        if(
-                            node.matches&&
-                            node.matches(
-                                'delluna-icon,[data-icon]'
-                            )
-                        ){
-                            paint(node);
-                        }
-
-                        if(
-                            node.querySelectorAll
-                        ){
-                            node
-                                .querySelectorAll(
+                            if(
+                                node.matches&&
+                                node.matches(
                                     'delluna-icon,[data-icon]'
                                 )
-                                .forEach(paint);
+                            ){
+                                paint(node);
+                            }
+
+                            if(
+                                node.querySelectorAll
+                            ){
+                                node
+                                    .querySelectorAll(
+                                        'delluna-icon,[data-icon]'
+                                    )
+                                    .forEach(
+                                        paint
+                                    );
+                            }
                         }
-                    }
-                );
-            }
-        );
-    }
-).observe(
+                    );
+                }
+            );
+        }
+    );
+
+observer.observe(
     document.documentElement,
     {
         childList:true,
@@ -1137,7 +1306,12 @@ new MutationObserver(
     }
 );
 
+debug(
+    'Runtime initialized',
+    {
+        baseUrl:Delluna.baseUrl,
+        variants:Delluna.variants
+    }
+);
+
 })();
-
-//v3
-
