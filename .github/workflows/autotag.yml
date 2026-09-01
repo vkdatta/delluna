@@ -1,24 +1,30 @@
-name: Auto Tag on Push
+name: Universal Auto Tag
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Delluna Build"] # Set to match your build workflow name (or remove workflow_run and use push for repos with no build step)
+    types:
+      - completed
+
+permissions:
+  contents: write
 
 jobs:
   tag:
+    # Only run if the build workflow succeeded
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
+          fetch-depth: 0
 
       - name: Create and Push SemVer Tag
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           default_bump: patch
-          initial_version: 1.0.0
+          initial_version: 0.0.1
           release_branches: main
