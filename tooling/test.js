@@ -31,6 +31,14 @@ const worker = fs.readFileSync(workerPath, 'utf8');
 for (const token of ['function normalizeSVG', 'MAX_UPLOAD_SVG_BYTES', 'MAX_BATCH_FILES', 'function isSafeSVG', 'function hasUnsafePathSegments']) {
   assert(worker.includes(token), `Worker publish contract missing ${token}`);
 }
+const adminApp = fs.readFileSync(path.resolve(root, '../../0002-frontend/admin/app.js'), 'utf8');
+const adminCss = fs.readFileSync(path.resolve(root, '../../0002-frontend/admin/style.css'), 'utf8');
+assert(adminApp.includes('normalizeLoadedBatch'), 'Admin batch migration guard is missing');
+assert(adminApp.includes('x.action !== "invalid" && !x.resolution'), 'Invalid SVGs must not be treated as unresolved conflict decisions');
+assert(adminApp.includes('batchStatusLabel'), 'Admin pending status labels are not normalized');
+assert(adminCss.includes('.row-fav svg'), 'Admin favorite button SVG styling is missing');
+assert(adminCss.includes('appearance:none'), 'Admin controls still allow browser-native button rendering');
+
 for (const dangerous of ['onload=alert(1)', 'href=javascript:alert(1)', 'src=https://example.com']) {
   assert(worker.includes('attrPattern') && worker.includes('javascript:'), `Worker SVG safety policy missing coverage for ${dangerous}`);
 }
@@ -88,6 +96,16 @@ try {
   assert(/\?v=[0-9a-f]{64}/.test(esm), 'Nested ESM URL is missing content-hash cache busting');
   result = spawnSync(process.execPath, [path.join(temp, 'tooling/validate.js')], { encoding: 'utf8' });
   assert(result.status === 0, `Nested validation failed:\n${result.stdout}\n${result.stderr}`);
+
+  // Common real-world SVG fixtures (XML prolog, metadata, defs and internal references)
+  // must not be misclassified as invalid uploads/build inputs.
+  const compatibleRel = 'singleton/v9_compatibility_probe.svg';
+  const compatiblePath = path.join(temp, 'src/icons', compatibleRel);
+  fs.writeFileSync(compatiblePath, `<?xml version="1.0" encoding="UTF-8"?>\n<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Probe</title><defs><linearGradient id="g"><stop offset="0" stop-color="currentColor"/><stop offset="1" stop-color="#000"/></linearGradient></defs><path id="p" fill="url(#g)" d="M2 2h20v20H2z"/></svg>`);
+  result = spawnSync(process.execPath, [path.join(temp, 'tooling/build.js')], { encoding: 'utf8' });
+  assert(result.status === 0, `Common SVG compatibility fixture failed build:\n${result.stdout}\n${result.stderr}`);
+  assert(fs.existsSync(path.join(temp, 'dist/styles/duotone/icons', compatibleRel)), 'Common SVG fixture did not receive style artifacts');
+  fs.rmSync(compatiblePath);
 
   // Direct source edits are supported: build must be able to regenerate the registry before validation.
   const tempRegistry = JSON.parse(fs.readFileSync(path.join(temp, 'registry/icons.json'), 'utf8'));

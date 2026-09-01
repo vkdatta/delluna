@@ -43,33 +43,36 @@ function hash(value) {
 }
 
 function isSafeSVG(value) {
-  const text = String(value || '');
-  if (/<!DOCTYPE|<!ENTITY|<\?xml/i.test(text)) return false;
-  const allowedTags = new Set(['svg','g','path','circle','rect','ellipse','line','polyline','polygon','text','tspan']);
-  const allowedAttrs = new Set(['viewbox','data-delluna-id','fill','stroke','stroke-width','stroke-linecap','stroke-linejoin','cx','cy','r','x','y','x1','y1','x2','y2','width','height','rx','ry','d','points','font-size','font-family','font-weight','fill-rule','clip-rule','opacity','transform','vector-effect','xmlns','xmlns:xlink','aria-hidden','role']);
+  let text = String(value || "");
+  text = text.replace(/^\s*(?:<\?xml[^>]*\?>\s*)+/i, "").replace(/<!--[\s\S]*?-->/g, "");
+  if (!/^\s*<svg\b/i.test(text) || !/<\/svg>\s*$/i.test(text)) return false;
+  if (/<\s*(script|foreignObject|iframe|object|embed|audio|video|image|symbol)\b/i.test(text)) return false;
+  if (/\son[a-z0-9:_-]*\s*=|javascript\s*:/i.test(text)) return false;
+  const allowedTags = new Set(["svg","g","path","circle","rect","ellipse","line","polyline","polygon","text","tspan","title","desc","metadata","defs","clippath","mask","lineargradient","radialgradient","stop","pattern","filter","fegaussianblur","feoffset","fecolormatrix","use","style"]);
+  const allowedAttrs = new Set(["viewbox","data-delluna-id","fill","stroke","stroke-width","stroke-linecap","stroke-linejoin","cx","cy","r","x","y","x1","y1","x2","y2","width","height","rx","ry","d","points","font-size","font-family","font-weight","fill-rule","clip-rule","opacity","fill-opacity","stroke-opacity","stroke-miterlimit","transform","transform-origin","vector-effect","xmlns","xmlns:xlink","aria-hidden","role","id","class","href","xlink:href","offset","stop-color","stop-opacity","gradientunits","gradienttransform","patternunits","patterncontentunits","preserveaspectratio","enable-background","filterunits","primitiveunits","result","in","in2","stddeviation","type","values","style","display","visibility","color-interpolation-filters"]);
   const tagPattern = /<\/?([a-zA-Z][\w:-]*)(?:\s+[^<>]*?)?\/?\s*>/g;
   const stack = []; let match; let count = 0;
   while ((match = tagPattern.exec(text))) {
     const tag = match[1].toLowerCase(); const raw = match[0];
     if (!allowedTags.has(tag)) return false;
-    if (raw.startsWith('</')) { if (stack.pop() !== tag) return false; continue; }
+    if (raw.startsWith("</")) { if (stack.pop() !== tag) return false; continue; }
     count++;
-    const attrs = raw.replace(/^<\s*[a-zA-Z][\w:-]*/, '').replace(/\/?\s*>$/, '');
-    const attrPattern = /([a-zA-Z_:][\w:.-]*)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/g; let a; let last=0;
-    while ((a=attrPattern.exec(attrs))) {
-      if (attrs.slice(last,a.index).trim()) return false; last=attrPattern.lastIndex;
-      const n=a[1].toLowerCase(), v=String(a[2] ?? a[3] ?? a[4] ?? '').trim();
+    const attrs = raw.replace(/^<\s*[a-zA-Z][\w:-]*/, "").replace(/\/?\s*>$/, "");
+    const attrPattern = /([a-zA-Z_:][\w:.-]*)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/g; let a; let last = 0;
+    while ((a = attrPattern.exec(attrs))) {
+      if (attrs.slice(last, a.index).trim()) return false; last = attrPattern.lastIndex;
+      const n = a[1].toLowerCase(), v = String(a[2] ?? a[3] ?? a[4] ?? "").trim();
       if (!allowedAttrs.has(n)) return false;
-      if (/^(?:javascript:|data:|https?:|\/\/)/i.test(v)) return false;
-      if (/\bon[a-z0-9:_-]*\s*=/i.test(a[0])) return false;
+      if (!["xmlns", "xmlns:xlink"].includes(n) && /^(?:javascript:|data:|https?:|\/\/)/i.test(v)) return false;
+      if ((n === "href" || n === "xlink:href") && !/^#[\w:.-]+$/.test(v)) return false;
+      if (n === "style" && /(?:@import|javascript:|expression\s*\(|url\s*\(\s*(?:https?:|data:|\/\/))/i.test(v)) return false;
       if (/url\s*\(/i.test(v) && !/^url\(\s*#[-\w:.]+\s*\)$/i.test(v)) return false;
     }
     if (attrs.slice(last).trim()) return false;
-    if (!/\/\s*>$/.test(raw)) stack.push(tag);
+    if (!raw.endsWith("/>") && !["path","circle","rect","ellipse","line","polyline","polygon","stop","use","fegaussianblur","feoffset","fecolormatrix"].includes(tag)) stack.push(tag);
   }
-  return count>0 && stack.length===0 && /^\s*<svg\b/i.test(text) && /<\/svg>\s*$/i.test(text.trim());
+  return count > 0 && stack.length === 0;
 }
-
 function validSourcePath(rel) {
   return /^[A-Za-z0-9][A-Za-z0-9._-]*(?:\/[A-Za-z0-9][A-Za-z0-9._-]*)*\.svg$/u.test(rel) && !rel.split('/').some(x => x === '.' || x === '..' || x.endsWith('.'));
 }
