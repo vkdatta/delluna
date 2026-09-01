@@ -1,6 +1,6 @@
 {
   "name": "delluna",
-  "version": "4.0.0",
+  "version": "9.0.0",
   "private": false,
   "type": "commonjs",
   "scripts": {
@@ -8,12 +8,14 @@
     "watch": "node tooling/watch.js",
     "dev": "node tooling/dev.js",
     "stop": "node tooling/stop.js",
-    "validate": "node tooling/validate.js"
+    "validate": "node tooling/validate.js",
+    "test": "node tooling/test.js"
   },
   "exports": {
     ".": "./dist/delluna.js",
     "./full": "./dist/delluna-full.js",
-    "./icons/*": "./dist/esm/*.js"
+    "./icons/*": "./dist/esm/*.js",
+    "./styles/*": "./dist/styles/*"
   },
   "files": [
     "dist",

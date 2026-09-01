@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 9,
   "library": "Delluna",
   "variants": [
     "og",
@@ -8,8 +8,26 @@
     "circuit",
     "plasma"
   ],
+  "styles": [
+    "single",
+    "outline",
+    "fill",
+    "solid",
+    "duotone",
+    "duocolor"
+  ],
+  "motions": [
+    "none",
+    "pulse",
+    "spin",
+    "bounce",
+    "shake",
+    "wiggle",
+    "float",
+    "draw"
+  ],
   "folders": [],
-  "generatedAt": "2026-09-01T14:35:11.161Z",
+  "generatedAt": "2026-09-01T16:56:13.333Z",
   "icons": {
     "align_horizontal_left": {
       "id": "dl_49d48a1ed0f4f5b1e837",
@@ -26,6 +44,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "60ace7b63e63d02573fbe9b4496f77eb83be9372f5bb358a6dd7de2752a58511",
       "updatedAt": "2026-08-31T18:44:46.205Z"
     },
@@ -43,6 +79,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "7a25e17095ffc5d0e672b66298cd09c083d12711617bff709e57e17dd96dbad3",
       "updatedAt": "2026-08-31T18:44:46.205Z"
     },
@@ -59,6 +113,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "cf9d9bcf42fbead3fd67db73d26e6c28464f3ea0e5f12a87808ac934049364d3",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -76,6 +148,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "6e69a08b016598d27b60f1abd622b39b194ca8950296e43b8c5316904868ca31",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -93,6 +183,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "b26105321b49e78bc7d4175d356f1d1be0cd8508e82426894cdabbd145e7e3c4",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -110,6 +218,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "2785e427801fef900557aa9b655fec199263056410a19c9e088c3dcd825ff3a9",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -127,6 +253,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "bb026a64de888113c3eaf3d81700e7cdfcd75fc1605f1e0c9f1f8aebbe47974a",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -143,6 +287,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "1337f057ee007805414cfac4b283195d36a894569b3c0dfb8b4c5f738fdd2032",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -159,6 +321,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "9127d558a8a5d0adfbebdfbf5375e55e5792a2823f43e8b29f39a63db8ac5c61",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -175,6 +355,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "e4c3fe9f618bd170c9afc14802b7d2fd04ee3a5e1df5899cfe0eb5fb62a9cc40",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -192,6 +390,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "9907533e3cfa280a66d033ded381f9b995f794ac10e360666e1d19373e0c17c2",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -208,6 +424,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "46ed0e26c26dcc8a7730ba30fb9d216299f8284c2138a6efb3cb443ecf17be20",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -224,6 +458,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "494bccba8f53a48ee0b5231c66102fb9eda68301f2fa513f800180f3f1419911",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -240,6 +492,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "9f09cf552f5ff62608023cddefe410d4e7b1627bf9ea96bf712216fccbbbde26",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -257,6 +527,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "5bbcce1affb582a8ca14e3f0e8c2928c654fd833a3d5ef02ca9124c7d0df7439",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -274,6 +562,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "9f09cf552f5ff62608023cddefe410d4e7b1627bf9ea96bf712216fccbbbde26",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -291,6 +597,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "a909f9995ea4e338bcfdbf3c89926bfdd495d078d7d3abe965031024d6a941b4",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -308,6 +632,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "9ad1ca699545b237cdaf2908c0ddb2d4bcaccbfd0a2e167c5acd6cea3cd650b4",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -325,6 +667,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "15fa23b7a46d0c8ceb37fa96d64ab62171d76b51057bb41969fb38eee854d6ca",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -342,6 +702,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "6067f23e8121aae6e358397d68b0192125e8ff1409f158d4dccce8f059f46500",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -358,6 +736,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "c08da6a2bfcb43a93b5217f48f1ce2e11c6245a40639e5fb44984446ea3c41d8",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -375,6 +771,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "23f1448f7357249c963059ec65a6dfc26308af5d8ceed5556774393ef1327b23",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -391,6 +805,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "c4aa30062dfd4e1e2c68ad113e4d55eb0ddb7e6fbdffb7ccdb734c91812f695f",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -407,6 +839,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "266807ae473efbf27c6c29621f17e36b4fa05aba1faea38770ec342e5a351196",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -424,6 +874,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "e3459c353e5a8d2c51afddd854bf73daba43fa7964eb0a55d989d55478f65152",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -440,6 +908,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "8da49b58d46b8793e631baf0db6343441d73f11107a111fdb434e3349ced72ba",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -457,6 +943,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "57481d80ee2032122a6fc8b97e74094336031c974ff2c470f8ab4d19daecc7c1",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -474,6 +978,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "7cfb53af0d279b04aa753678d85a0044e030f499eb2132c4bbe08646f7ad1d2a",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -490,6 +1012,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "9f557c3f0e88288fd9cab1eec4752a52dec30f109751572b91aad3ea320e2013",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -507,6 +1047,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "91d13cbdc432ef459c3c9653cd6af6c125845a1fcbc7573ac7daf11801d78f1f",
       "updatedAt": "2026-08-31T18:44:46.206Z"
     },
@@ -524,6 +1082,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "e50174d32117c262068b94539732d3e604db0d6dc1233ee275162a766fe2649a",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -540,6 +1116,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "f7ede28972f53d102871649ec90a7002464fb1b2785e6215aa6760158037a9a4",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -556,6 +1150,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "7290a80d5e15845ec8d32f219aaa03e4c75dc84823902455b3bf4578b7859358",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -572,6 +1184,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "8c6b23b9c61dcbce75187d78e415a64ab62b376367eccba1b38281b308918cab",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -589,6 +1219,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "cbd8cdc7a2d8dbbad1366aa0d9b6ed90541d7e8b2b647439c353bbfa21bf188e",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -606,6 +1254,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "7506647e6424ad64680a5cac59e9af2c451468da8c4f36281f6e63887c35720f",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -623,6 +1289,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "6f788bae3de5bb3f8118d740e584a909765e458c4a786ada4749586a12d9e1c1",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -639,6 +1323,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "c5caceb831e43f59d796dab2c9d9e072054d020e0acf0a237907f4de82f6232f",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -656,6 +1358,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "f637ef29d83f45dc5cf2d3225c85211f575d6a58fcd8e67cd364e69a4dd2c605",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -673,6 +1393,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "46c90bed2325ffd56a60c50c0bf62d3886541bdee655fc98b35ee698d30a9d60",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -689,6 +1427,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "436aba8dca33f7acf86fafc2d2610bb642bf9160d22c2bc2ae0a967ec7b934ba",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -707,6 +1463,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "9dee420eb142199634cc67845e7a02c6a2d5ea9e6c145c106a8b075cab0b80f8",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -725,6 +1499,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "66fed5a52dfeaf5402da25be4a524fff59b1910bbd5dc59254f385fddb487880",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -743,6 +1535,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "3610ee7d5ac7b13356b443d4a87d03a67675d363dff21635fbb7080ed9661eb3",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -760,6 +1570,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "71508956ed217ef9ce3631e6dfeeca9eb90c4399e5ae51af05e4ab5c22405153",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -778,6 +1606,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "36639a10c413da4e1e3f7785ad706c532f0b6bce4509f64c2af96bacc85d3739",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -796,6 +1642,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "34427fb8404eee7f447c223b3904d4dbdc8d2042e80b255b9d7cfaa70b172157",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -814,6 +1678,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "f44dc0288e39a15e2c242aa5ea0f623bf834b3ef21e6da582e04ef7770e6caee",
       "updatedAt": "2026-08-31T18:44:46.207Z"
     },
@@ -831,6 +1713,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "77cc2874bb9e84eca28abc9664c661fb8f771689296faf67f471952b448244a2",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -849,6 +1749,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "642f136514a9f27dad785f38555a38765083d2514e8f1fc6602db65d8b98c087",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -867,6 +1785,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "2e6db79a29e73a4011100cb8c4af855dc5330ff588a0ed72d8f4ab0548e8e258",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -884,6 +1820,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "3ae3032a55d8ee235720538ea5dbf7558e759989358983525722bf50f655e616",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -900,6 +1854,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "79942ce30aaea6d5d47ae9dd271b22eed442ec74ca150a4a8ada3d8c8ed2156b",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -918,6 +1890,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "16801477234ef7bb5deea423141787ad942f12af183474c2b6c17ba55ee6726c",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -934,6 +1924,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "20ae99cedd81cbe5f497cd6edae51bf39daf97774376995817b71c197cd37c2d",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -950,6 +1958,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "787983b7fbd346d1edbc2f7a436307fa9fb94b2f9844d1f68b60a0215e11a17d",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -966,6 +1992,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "c14d2ed64a6d7f7b8dbc09afc6edb6d7fbadf58694314fac2b89eda21121d582",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -983,6 +2027,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "b8c0f326f6346f12d7026a91b5b71aad3ee88a8b88a63fb47710eb01776d2bd6",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -999,6 +2061,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "3edb6a467b94a1b21d6b592c7b671dbd7863f3d34e64316793df49107ca75d62",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1015,6 +2095,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "6a60cf631e31a0a6d180376d4c4d285681c8da656caf18a5caa4d63409076b1f",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1031,6 +2129,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "eca6f64bc938a4f0e7d48cff468f6de7c6874cf8ccd91b420954c75ad118a676",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1050,6 +2166,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "441f70296173026b431580583b9c697cfd6ee2457643fd33243a6e1e11727965",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1069,6 +2203,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "a856d189ef11a93c7b969631befd3b0bf27bdad1fbf393da4bc9309f64a89076",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1088,6 +2240,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "4ab3b94c28e68a5cfa809b11f322da2ca53e39eba5d358ad6984bd9e2f9fc624",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1107,6 +2277,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "44d33b19051202d2778e0b4a0ce773697b65472776dbfb3a2f75f49c573a78dd",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1123,6 +2311,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "d5a8bc60852461620abcc9d64d4610af6fa8ce0d52a10d32bceb90c3ead9bc07",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1140,6 +2346,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "5c1a7e9cae9f0f76e78eeb22fa23f2450da87b58e7c6ddc9a120a42626b165a4",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1156,6 +2380,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "924064956808369d0101e5e3a75665fe9d82571a83843d224e692e10a82c35ee",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1172,6 +2414,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "fb84dc7b5d8d216094e08dfeb78187763bba7e095a64bf86ed823b58a05a240a",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1189,6 +2449,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "a83e3b4e16d60a6c5e38e9190fc4d6eef7fbd6090659463362b8f6e439e169f9",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1205,6 +2483,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "ee17823c7f10ab6211adecc3df5c7360df77d5571f58f815aba902be6c0c24c0",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1222,6 +2518,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "425d1f50e888e31fb0319bb0e947f80a190083af162caa23fa32c054ce60452a",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1240,6 +2554,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "3629e6e77290ef4d8c53e8b2646c4ede4a90875219130baeb1ff42c1fed0ba78",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1256,6 +2588,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "0d266b0cd81fa266bcc105f466bac18ef047c112d5fab9e3cc40a894007c3d49",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1272,6 +2622,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "733f760cea5c1bba196e2424c2d55826cf295de40b4ef784af0dc0575139cbb4",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1289,6 +2657,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "ba72eb7f2ce5d444fa4ccb79079117bba6c9f0160acc0ecc8d25a87245b507f6",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1305,6 +2691,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "89bdc12d9f29a54f3a6801b75ab4054b3cc15a15e9de84d7046197e2d40b068d",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1321,6 +2725,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "4d69626fc90aff899eb75406e476d94a1d1894e302609bd927c483db5c90a19a",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1338,6 +2760,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "1f888e86925d93830e269a09d2fa99456d0eed7ff6824f7dae212a2798b50123",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1354,6 +2794,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "12616a9b25cd71d1c40f5dd2ea891214e52d5ab296e400b98e033c8a4583f1d9",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1370,6 +2828,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "4250c421be0cc6003e981e6213864f0b72f2f852cbf1b55caccc1df18204c90c",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1386,6 +2862,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "03fafafe8c84f72a40948bcc8e2b8b32282071df586f0361b4ee13dc6e71c885",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1403,6 +2897,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "8f19b1b22a6d2e8ff3671a60398123e285d8dbbf6c556e7c635bbad14350c012",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1419,6 +2931,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "ba246fa4bb2a1b01608d315c2339713d5b3202eb9ac49988057667189bc3bf49",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1435,6 +2965,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "a1c0323248f553c62541121d84cb7f70e83814fc165bf25bcd092ef76f5b0960",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1451,6 +2999,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "aeb3878e50280d6f56f90858d2db569a12bec50bbe7a592cbe45b3cbd12303d7",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1467,6 +3033,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "185f1871c6f4e3bc336808f892e47a268b84532722046410b119feb89ec935a4",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1484,6 +3068,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "1c20b2f42f00d08d229060a81c5b84eb69a1d00d880ae2df037c80d71c65d476",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1500,6 +3102,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "359beb4a1fd92946c3b9b3d5d948eb9e450034800dab78ea5eb2b1f8b704b385",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1517,6 +3137,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "1d06d2713122ba1788e36e686b467fa1701281958ddfbccca7547698d4720670",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1533,6 +3171,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "1d06d2713122ba1788e36e686b467fa1701281958ddfbccca7547698d4720670",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1550,6 +3206,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "0da33b510bf21994ba192e493f934005041799bffb7912f08e94ccd8ba419c16",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
@@ -1566,6 +3240,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "ce77f33114ead68d41981d6e383afbf02f8137973afd54ce2d110060a2d06366",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1582,6 +3274,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "6848f91a84ab2b401880174d486ff5d5b55c3e41d495b042147f143ec4cdce47",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1598,6 +3308,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "cdc56d7abcfb113b91bfabbf838c492b1fbecfd95837da75e023a2e26eb4cda9",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1615,6 +3343,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "3da404b8d35b05b7b594ce30436b93dc63fa3280fd3e0267863080bf9a5ee1f1",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1632,6 +3378,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "63e25812cdb1b2d7f3fc72f62221c10ab6a7dd394df14a4c5920a791ccc82063",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1648,6 +3412,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "074ae77022da4d51720b0a8d6ef57453a705edc7bc7132c65f1e6eaa5f4423e8",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1664,6 +3446,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "5fa6a7fe970c599e4bf81bc4e143bbd2b9b5159fec389896a8b18769b12b7940",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1680,6 +3480,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "f404cf373506b25fefab4c5ad43feb5f55a0e8bd913d0d1c3a64bd515029b54d",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1696,6 +3514,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "220d6e1d5941fe4d7df818f6a54eb07c330e5b899c3d8920b1e1c058696ca3e4",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1712,6 +3548,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "c43ef6491ea7d1dd5570696deaed4c219fce7bd58cbb9d14b27924918b56588a",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1729,6 +3583,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "a95370cd9f8090e8002500c780becc8096b8ca73517b7e1e473f97eb0316ca7a",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1745,6 +3617,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "2ff615b298f41de1dc38bf1120afd4322716270da1caa62d8e31acf3948d78df",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1762,6 +3652,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "056520ac9439bb4ed626784ee4d6e925d77cd0f541be3b70c573f119bb72c67a",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1780,6 +3688,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "bb9d22dfee446cc902b2df7b2b114f9337f769388bad7919993ab0a8556a2e6b",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
@@ -1796,6 +3722,24 @@
         "general"
       ],
       "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
       "hash": "07bde35a9c0a90ea24cef38d5c95d3184cc3b28bebfdadec5db11a79d8109394",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     }

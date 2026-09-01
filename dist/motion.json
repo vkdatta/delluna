@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "motions": {
+    "none": {
+      "label": "None",
+      "description": "Static icon"
+    },
+    "pulse": {
+      "label": "Pulse",
+      "description": "Gentle scale pulse"
+    },
+    "spin": {
+      "label": "Spin",
+      "description": "Continuous rotation"
+    },
+    "bounce": {
+      "label": "Bounce",
+      "description": "Soft vertical bounce"
+    },
+    "shake": {
+      "label": "Shake",
+      "description": "Short attention shake"
+    },
+    "wiggle": {
+      "label": "Wiggle",
+      "description": "Small rotational wiggle"
+    },
+    "float": {
+      "label": "Float",
+      "description": "Slow floating motion"
+    },
+    "draw": {
+      "label": "Draw",
+      "description": "Outline draw-in where supported"
+    }
+  }
+}

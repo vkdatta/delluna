@@ -20,7 +20,10 @@ const AUTO_BASE=(()=>{
 const DEFAULTS={
     base:'',
     variant:'og',
+    style:'single',
+    motion:'none',
     color:'currentColor',
+    secondary:'currentColor',
     fill:0,
     wght:400,
     grad:0,
@@ -224,7 +227,8 @@ async function url(name){
             .map(
                 encodeURIComponent
             )
-            .join('/');
+            .join('/') +
+        (item.hash ? `?v=${encodeURIComponent(item.hash)}` : '');
 
     debug(
         'Icon URL:',
@@ -676,6 +680,30 @@ function stylePlasma(p,c){
 </svg>`;
 }
 
+function applyStyle(p, c){
+    const style=String(c.style||'single').toLowerCase();
+    const attrs=p.attrs||'';
+    const inner=p.inner||'';
+    const wrap=(body,extra='')=>`<svg viewBox="0 0 ${p.w} ${p.h}" ${extra}>${body}</svg>`;
+    const clean=inner.replace(/\s*fill=["'](?:none|#[0-9a-f]{3,8}|rgba?\([^)]*\)|[a-z]+)["']/gi,'').replace(/\s*stroke=["'](?:none|#[0-9a-f]{3,8}|rgba?\([^)]*\)|[a-z]+)["']/gi,'').replace(/\s*style=["'][^"']*["']/gi,'');
+    if(style==='outline') return wrap(inner,'fill="none" stroke="currentColor"');
+    if(style==='single') return wrap(clean,'color="currentColor"');
+    if(style==='fill') return wrap(clean.replace(/<([a-z][\w:-]*)([^>]*)>/gi,(m,t,a)=>{const self=/\/\s*$/.test(a);const attrs=a.replace(/\/\s*$/,'');return `<${t}${attrs} fill="currentColor" stroke="none"${self?'/':''}>`;}));
+    if(style==='solid') return wrap(clean.replace(/stroke-width=["']([\d.]+)["']/gi,(_,v)=>`stroke-width="${(Number(v)*1.65).toFixed(2)}"`).replace(/<([a-z][\w:-]*)([^>]*)>/gi,(m,t,a)=>{const self=/\/\s*$/.test(a);const attrs=a.replace(/\/\s*$/,'');return `<${t}${attrs} fill="currentColor"${self?'/':''}>`;}));
+    if(style==='duotone') return wrap(`<g opacity="0.18">${clean}</g><g>${clean}</g>`);
+    if(style==='duocolor') return wrap(`<g style="color:${String(c.secondary||'currentColor').replace(/["<>]/g,'')}">${clean}</g><g opacity="0.95">${clean}</g>`);
+    return wrap(inner,attrs);
+}
+
+function applyMotion(svg, motion){
+    const m=String(motion||'none').toLowerCase();
+    const allowed=new Set(['none','pulse','spin','bounce','shake','wiggle','float','draw']);
+    if(!allowed.has(m)||m==='none') return svg;
+    const style=`<style data-delluna-motion="${m}">@keyframes delluna-${m}{${m==='pulse'?'0%,100%{transform:scale(1)}50%{transform:scale(1.08)}':m==='spin'?'to{transform:rotate(360deg)}':m==='bounce'?'0%,100%{transform:translateY(0)}50%{transform:translateY(-8%)}':m==='shake'?'0%,100%{transform:translateX(0)}25%{transform:translateX(-5%)}75%{transform:translateX(5%)}':m==='wiggle'?'0%,100%{transform:rotate(0)}25%{transform:rotate(-4deg)}75%{transform:rotate(4deg)}':m==='float'?'0%,100%{transform:translateY(0)}50%{transform:translateY(-5%)}':'0%{stroke-dasharray:0 9999}100%{stroke-dasharray:9999 0}'}}@media(prefers-reduced-motion:reduce){:where(svg){animation:none!important}}</style>`;
+    const timing=m==='draw'?'1.2s ease-out forwards':m==='spin'?'1.6s linear infinite':m==='pulse'?'1.4s ease-in-out infinite':'1.2s ease-in-out infinite';
+    return svg.replace(/(<svg\b[^>]*>)/i, `$1${style}<g style="transform-box:fill-box;transform-origin:center;animation:delluna-${m} ${timing}">`).replace(/(<\/svg>\s*)$/i,'</g>$1');
+}
+
 function resolve(name,extra){
     const ic=
         Object.assign(
@@ -698,6 +726,9 @@ function resolve(name,extra){
     };
 
     [
+        'style',
+        'motion',
+        'secondary',
         'fill',
         'wght',
         'grad',
@@ -821,6 +852,11 @@ async function render(name,extra){
             ),
             c
         );
+    if(c.style && c.style !== 'single') {
+        const styled=parseSvg(svg);
+        if(styled) svg=applyStyle(styled,c);
+    }
+    svg=applyMotion(svg,c.motion);
 
     const safeColor=
         c.color
@@ -860,6 +896,10 @@ function collectAttributes(el){
     const variant=
         el.getAttribute('variant');
 
+    const style=el.getAttribute('style');
+    const motion=el.getAttribute('motion');
+    const secondary=el.getAttribute('secondary');
+
     const color=
         el.getAttribute('color');
 
@@ -881,6 +921,9 @@ function collectAttributes(el){
     if(variant!==null){
         result.variant=variant;
     }
+    if(style!==null){ result.style=style; }
+    if(motion!==null){ result.motion=motion; }
+    if(secondary!==null){ result.secondary=secondary; }
 
     if(color!==null){
         result.color=color;
@@ -1035,7 +1078,13 @@ class DellunaIcon extends HTMLElement{
         return[
             'name',
             'variant',
+            'style',
+            'motion',
+            'secondary',
             'color',
+            'style',
+            'motion',
+            'secondary',
             'fill',
             'wght',
             'grad',
@@ -1120,6 +1169,9 @@ const Delluna={
         }
 
         [
+            'style',
+            'motion',
+            'secondary',
             'fill',
             'wght',
             'grad',
@@ -1209,6 +1261,8 @@ const Delluna={
     variants:Object.keys(
         families
     ),
+    styles:['single','outline','fill','solid','duotone','duocolor'],
+    motions:['none','pulse','spin','bounce','shake','wiggle','float','draw'],
 
     iconUrl:url,
     registry,
