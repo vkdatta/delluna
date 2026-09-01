@@ -744,23 +744,28 @@ async function load(name){
 
     const request=
         url(name)
-            .then(iconUrl=>{
-                return fetch(
-                    iconUrl,
-                    {
-                        cache:'default'
-                    }
-                );
-            })
-            .then(response=>{
-                if(!response.ok){
-                    throw new Error(
-                        `Delluna SVG unavailable: HTTP ${response.status}`
-                    );
+            .then(async iconUrl=>{
+                const candidates=[iconUrl];
+                // jsDelivr can occasionally serve an SVG with an image-hosting/content-type
+                // edge failure. When the configured base is the public GitHub CDN, use
+                // raw.githubusercontent.com as a second source without changing the API.
+                const match=iconUrl.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^@/]+)@([^/]+)\/(dist\/.*)$/i);
+                if(match){
+                    candidates.push(`https://raw.githubusercontent.com/${match[1]}/${match[2]}/${match[3]}/${match[4]}`);
                 }
-
-                return response.text();
+                let lastError=null;
+                for(const candidate of candidates){
+                    try{
+                        const response=await fetch(candidate,{cache:'default'});
+                        if(response.ok) return response;
+                        lastError=new Error(`HTTP ${response.status}`);
+                    }catch(error){
+                        lastError=error;
+                    }
+                }
+                throw new Error(`Delluna SVG unavailable: ${lastError?.message||'network error'}`);
             })
+            .then(response=>response.text())
             .then(text=>{
                 cache.set(
                     key,
