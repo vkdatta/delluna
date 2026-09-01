@@ -29,7 +29,7 @@
   "folders": [
     "singleton"
   ],
-  "generatedAt": "2026-09-01T20:51:48.146Z",
+  "generatedAt": "2026-09-01T20:52:03.414Z",
   "icons": {
     "align_horizontal_left": {
       "id": "dl_49d48a1ed0f4f5b1e837",
@@ -3056,6 +3056,41 @@
       "hash": "185f1871c6f4e3bc336808f892e47a268b84532722046410b119feb89ec935a4",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
+    "clipboard": {
+      "id": "dl_6e6688875bbf423e9c23",
+      "name": "clipboard",
+      "title": "Clipboard",
+      "file": "icons/singleton/clipboard.svg",
+      "path": "singleton/clipboard.svg",
+      "tags": [
+        "singleton",
+        "clipboard"
+      ],
+      "categories": [
+        "singleton"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e117d77a4973157ebb6c62b12d833e97ffcec0103103ee82a7663b0fa3905f01",
+      "updatedAt": "2026-09-01T20:51:48.146Z"
+    },
     "slab_serif": {
       "id": "dl_ab324b269d90e12238f9",
       "name": "slab_serif",
@@ -3744,41 +3779,6 @@
       ],
       "hash": "07bde35a9c0a90ea24cef38d5c95d3184cc3b28bebfdadec5db11a79d8109394",
       "updatedAt": "2026-08-31T18:44:46.209Z"
-    },
-    "clipboard": {
-      "id": "dl_6e6688875bbf423e9c23",
-      "name": "clipboard",
-      "title": "Clipboard",
-      "file": "icons/singleton/clipboard.svg",
-      "path": "singleton/clipboard.svg",
-      "tags": [
-        "singleton",
-        "clipboard"
-      ],
-      "categories": [
-        "singleton"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "e117d77a4973157ebb6c62b12d833e97ffcec0103103ee82a7663b0fa3905f01",
-      "updatedAt": "2026-09-01T20:51:48.146Z"
     }
   },
   "aliases": {}
