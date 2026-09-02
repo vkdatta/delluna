@@ -27,9 +27,10 @@
     "draw"
   ],
   "folders": [
-    "singleton"
+    "singleton",
+    "updated-separated-svg-files"
   ],
-  "generatedAt": "2026-09-01T20:52:03.414Z",
+  "generatedAt": "2026-09-02T18:50:17.854Z",
   "icons": {
     "align_horizontal_left": {
       "id": "dl_49d48a1ed0f4f5b1e837",
@@ -3605,6 +3606,2946 @@
       ],
       "hash": "c43ef6491ea7d1dd5570696deaed4c219fce7bd58cbb9d14b27924918b56588a",
       "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "updated-separated-svg-files-arrow_heads": {
+      "id": "dl_2f9959b689bb425280a1",
+      "name": "updated-separated-svg-files-arrow_heads",
+      "title": "Updated Separated Svg Files Arrow Heads",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-arrow_heads.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-arrow_heads.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "arrow",
+        "heads"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "737b01279954c1966e6e53bea9657f68a3f2b668149c385cf12f815ec2c2dd78",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-arrow_stem": {
+      "id": "dl_45c7abc018b54602a778",
+      "name": "updated-separated-svg-files-arrow_stem",
+      "title": "Updated Separated Svg Files Arrow Stem",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-arrow_stem.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-arrow_stem.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "arrow",
+        "stem"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4a6949edbd8d591e214e71a4c04af8683568e70c1db6415cf5829353c6cde86d",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-badge": {
+      "id": "dl_725f1434f65348e99731",
+      "name": "updated-separated-svg-files-badge",
+      "title": "Updated Separated Svg Files Badge",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-badge.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-badge.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "badge"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5db9df7cdc910f13d80f5037fbeeaec517ebf9ff92ed57e062ed4b802831566b",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-board": {
+      "id": "dl_4c3ef9a728d24757883e",
+      "name": "updated-separated-svg-files-board",
+      "title": "Updated Separated Svg Files Board",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-board.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-board.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "board"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b9e7b8630d66672d9ce30cf8392e20277fc482537a3629d3c3ea98053147a47b",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-box": {
+      "id": "dl_64e7878c0f9347a1bd77",
+      "name": "updated-separated-svg-files-box",
+      "title": "Updated Separated Svg Files Box",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-box.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-box.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "box"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5104ebb402b7365cf9811b9b408983d715b2c7f301d757acc7c962c2610b36ed",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-braces": {
+      "id": "dl_9a861cbba889420b9daa",
+      "name": "updated-separated-svg-files-braces",
+      "title": "Updated Separated Svg Files Braces",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-braces.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-braces.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "braces"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "13382062ef0975eb579b491c9f082f2c13c5053f2e8c589db2f05d1ecbec5b89",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-capsule_nav": {
+      "id": "dl_b9e9f80916cd41f89578",
+      "name": "updated-separated-svg-files-capsule_nav",
+      "title": "Updated Separated Svg Files Capsule Nav",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-capsule_nav.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-capsule_nav.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "capsule",
+        "nav"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "087b4820e0d8356747e27706a3e10e257ad53c9a6ef013856feadfc9c654a85c",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-capsule": {
+      "id": "dl_c276af4491d54969b79c",
+      "name": "updated-separated-svg-files-capsule",
+      "title": "Updated Separated Svg Files Capsule",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-capsule.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-capsule.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "capsule"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "885d8891a3c0a324aab022b75ab2e9b7a583b417ad61bf0b55f1d8b4af895f90",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-checkmark": {
+      "id": "dl_58fc6c6752e04eb7a0b5",
+      "name": "updated-separated-svg-files-checkmark",
+      "title": "Updated Separated Svg Files Checkmark",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-checkmark.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-checkmark.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "checkmark"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "21da4e9959c3ef7313517a60a53f1886db1030b0c7554d11b9227059894fbcf2",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-chevrons": {
+      "id": "dl_f69cd2bcc85441c9965d",
+      "name": "updated-separated-svg-files-chevrons",
+      "title": "Updated Separated Svg Files Chevrons",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-chevrons.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-chevrons.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "chevrons"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "da4e35049848c9e56e15b94761e0df897aa036e6108ffd7e252dc6936dc23cc0",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-circle_swap": {
+      "id": "dl_ade936df477b428c919e",
+      "name": "updated-separated-svg-files-circle_swap",
+      "title": "Updated Separated Svg Files Circle Swap",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-circle_swap.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-circle_swap.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "circle",
+        "swap"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1636434ffc78d129f10098e18aa2aba9b1e3488e106de88c4de5d5983fd7931d",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-columns": {
+      "id": "dl_1a31197674584a16ab0d",
+      "name": "updated-separated-svg-files-columns",
+      "title": "Updated Separated Svg Files Columns",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-columns.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-columns.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "columns"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "62b6531c5d09f6fb931ad121f2ead6fb0b6466cbf2a2535194475a9535f0d423",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-crop": {
+      "id": "dl_a26c8003383d4045b7cb",
+      "name": "updated-separated-svg-files-crop",
+      "title": "Updated Separated Svg Files Crop",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-crop.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-crop.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "crop"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "429a542c259a3a4aac2733095c898d6c276e2c87d0b08d26c0f374fe726f6b13",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-cutter": {
+      "id": "dl_189f0bcd2dc54b4cac73",
+      "name": "updated-separated-svg-files-cutter",
+      "title": "Updated Separated Svg Files Cutter",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-cutter.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-cutter.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "cutter"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c1328ec568760ea5f0481510feb1a61b9d17a40ddf6650c03edf750363f1acbc",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-delta": {
+      "id": "dl_0ebf73629b3043d58041",
+      "name": "updated-separated-svg-files-delta",
+      "title": "Updated Separated Svg Files Delta",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-delta.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-delta.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "delta"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2957737517a0ab28ea9302ecf833553faa218e99ae8edae48c911842e7940585",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-derivative": {
+      "id": "dl_05742197d65b4747beca",
+      "name": "updated-separated-svg-files-derivative",
+      "title": "Updated Separated Svg Files Derivative",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-derivative.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-derivative.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "derivative"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "02168d8382518b945a561bc2128b405b1abd0e4f3ffbc59cfa21f234ce511dad",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-document": {
+      "id": "dl_80b8940475aa49eeb5f2",
+      "name": "updated-separated-svg-files-document",
+      "title": "Updated Separated Svg Files Document",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-document.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-document.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "document"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7ea3fe181fc542fc3f14ce59ad0331faae6dd28d2d546ad2d7e10150659c74b8",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-dot_chevron": {
+      "id": "dl_2303184041d24c3aae14",
+      "name": "updated-separated-svg-files-dot_chevron",
+      "title": "Updated Separated Svg Files Dot Chevron",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-dot_chevron.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-dot_chevron.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "dot",
+        "chevron"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f9fc8c8060183de8581a308d1b16ee940c67ae38da4fd222f4185b684084856e",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-dotted": {
+      "id": "dl_ca899a68e9ff4818a432",
+      "name": "updated-separated-svg-files-dotted",
+      "title": "Updated Separated Svg Files Dotted",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-dotted.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-dotted.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "dotted"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "65ce79b39f18a02fabad464ebc3f9fa738273f09dafafe95ed84c4e2caa153c3",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-fatarrow": {
+      "id": "dl_e63d4d286a3a4d079e9d",
+      "name": "updated-separated-svg-files-fatarrow",
+      "title": "Updated Separated Svg Files Fatarrow",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-fatarrow.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-fatarrow.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "fatarrow"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "abc5b1c1ce14700ea7a9f1407b0c49d1cfe8acdcfff5fa31358ab511bc27e003",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-function_arrow": {
+      "id": "dl_4ef508e8b149469785a9",
+      "name": "updated-separated-svg-files-function_arrow",
+      "title": "Updated Separated Svg Files Function Arrow",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-function_arrow.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-function_arrow.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "function",
+        "arrow"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "00cc923ddd509bf59f98e35afbde7bbe8f729ed2c977e7b4d472915db412f607",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-function_box": {
+      "id": "dl_71cdbdbbb1bf47aba224",
+      "name": "updated-separated-svg-files-function_box",
+      "title": "Updated Separated Svg Files Function Box",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-function_box.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-function_box.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "function",
+        "box"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c705c5d65ff345d749db93b139c5bd1f9655e953c8a3a602717afbcdffb9a7d2",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-function": {
+      "id": "dl_a61959f1cf4c4dae89c0",
+      "name": "updated-separated-svg-files-function",
+      "title": "Updated Separated Svg Files Function",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-function.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-function.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "function"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8a08b74796c5a801c2f6a224c16c18d72741a04e160dcef42bf824eee2565a54",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-gable": {
+      "id": "dl_5f566d735406445ab348",
+      "name": "updated-separated-svg-files-gable",
+      "title": "Updated Separated Svg Files Gable",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-gable.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-gable.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "gable"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8c2705d390f13b641c21b8918e3494e453e848799ca0310d4b2d9efa766a5c77",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-gear": {
+      "id": "dl_2a0043b2536d44d9af1d",
+      "name": "updated-separated-svg-files-gear",
+      "title": "Updated Separated Svg Files Gear",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-gear.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-gear.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "gear"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "88685d88c56bfa6b9b8451562b31e8bc27b97581f05bce950bd9ec477268c041",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-graph": {
+      "id": "dl_11ed3b4dfa9d4a80827c",
+      "name": "updated-separated-svg-files-graph",
+      "title": "Updated Separated Svg Files Graph",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-graph.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-graph.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "graph"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "810dcb43eb89fbaf854dca9f289fa06c79c2a9174999d1a1a990f2a5738396d3",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-home": {
+      "id": "dl_70da741ebf0d46489309",
+      "name": "updated-separated-svg-files-home",
+      "title": "Updated Separated Svg Files Home",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-home.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-home.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "home"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d910f686fb7741aa4994a0bf93dee352005d952d9b7e134c23485cacfe072034",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-horizontal_swap": {
+      "id": "dl_98fed5edd9ad41279fcd",
+      "name": "updated-separated-svg-files-horizontal_swap",
+      "title": "Updated Separated Svg Files Horizontal Swap",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-horizontal_swap.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-horizontal_swap.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "horizontal",
+        "swap"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "af70a30d0d80cf75e52a09913476a6855dd556bd9220666b7132eee1229e0b4a",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-infinity": {
+      "id": "dl_24cb7c57dc7a48e9a6d5",
+      "name": "updated-separated-svg-files-infinity",
+      "title": "Updated Separated Svg Files Infinity",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-infinity.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-infinity.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "infinity"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9db83e8700b9326601896e8e886bbaa0fedc8870e6f002728af7ea5da90c48d6",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-integral": {
+      "id": "dl_49ea990f4bb048bab2af",
+      "name": "updated-separated-svg-files-integral",
+      "title": "Updated Separated Svg Files Integral",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-integral.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-integral.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "integral"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1f4bd426625c8240c57a73700a76a338203aa69d78ab78bb9a1af8bb8f7e7c44",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-lambda": {
+      "id": "dl_fd255b583b2245198901",
+      "name": "updated-separated-svg-files-lambda",
+      "title": "Updated Separated Svg Files Lambda",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-lambda.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-lambda.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "lambda"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3ae3d3528fb6eb99adb27b3f63f745d239fe5636a52f0cbf852dfb64e485b1f7",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-logic": {
+      "id": "dl_5126c9a196244508b412",
+      "name": "updated-separated-svg-files-logic",
+      "title": "Updated Separated Svg Files Logic",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-logic.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-logic.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "logic"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ddd27b2e4d342e89e0a5837caf7efefd2f3a5f4e285903fa44e16f37584e7441",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-mapping": {
+      "id": "dl_d604c30bd0b54572ba74",
+      "name": "updated-separated-svg-files-mapping",
+      "title": "Updated Separated Svg Files Mapping",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-mapping.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-mapping.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "mapping"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ab6f2c98d29e02535cb8cc62308c9bf135c761d4860b3a2d99e676d07788d8be",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-method": {
+      "id": "dl_d323435fddc44231a43b",
+      "name": "updated-separated-svg-files-method",
+      "title": "Updated Separated Svg Files Method",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-method.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-method.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "method"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7a469928d012da4fa951df96362f6039213c41237751c4c7a9419240b7356638",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-navigation": {
+      "id": "dl_1cbead7b27454cffa546",
+      "name": "updated-separated-svg-files-navigation",
+      "title": "Updated Separated Svg Files Navigation",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-navigation.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-navigation.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "navigation"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8117fd3c620856cb46ebbed8657e6eb2ce60f763c9e77e1a84b561d07316c39d",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-nested_function": {
+      "id": "dl_1a42c857f33b4b59ba87",
+      "name": "updated-separated-svg-files-nested_function",
+      "title": "Updated Separated Svg Files Nested Function",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-nested_function.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-nested_function.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "nested",
+        "function"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "eb008442a7432d51c67753c5afd9e354ccb7f1c57176c9d6327202423bd09b79",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-nested": {
+      "id": "dl_9f91ba49691444e4ac7d",
+      "name": "updated-separated-svg-files-nested",
+      "title": "Updated Separated Svg Files Nested",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-nested.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-nested.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "nested"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "59ba211c61b2cadc85b1629b793b1756f48264a963756143ef968470ede4d4eb",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-node": {
+      "id": "dl_6f2421a552c3431c871d",
+      "name": "updated-separated-svg-files-node",
+      "title": "Updated Separated Svg Files Node",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-node.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-node.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "node"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5761526e56c4f768e24ab6ae747bc507851080e632647483a982ca956457d1c0",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-octagon": {
+      "id": "dl_34b6d5c65b2d473caf27",
+      "name": "updated-separated-svg-files-octagon",
+      "title": "Updated Separated Svg Files Octagon",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-octagon.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-octagon.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "octagon"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b22b2e3fb8247e20b6bda568dbd82c211ab145e119e259d23ede182e8be9cd50",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-offset_lines": {
+      "id": "dl_ceda1c7b8dd24d2ab211",
+      "name": "updated-separated-svg-files-offset_lines",
+      "title": "Updated Separated Svg Files Offset Lines",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-offset_lines.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-offset_lines.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "offset",
+        "lines"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ab89c8184014dd674dcdac3c79424d2178ebbf24feb2a5cc1304940d59df556c",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-offset": {
+      "id": "dl_559420d9b80942c4aa91",
+      "name": "updated-separated-svg-files-offset",
+      "title": "Updated Separated Svg Files Offset",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-offset.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-offset.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "offset"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1beb7f455d941714bcc3201177528327d3d7a97dbbf3a8354ef03e70aec1e457",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-panel": {
+      "id": "dl_c9a8402e442a46d78be0",
+      "name": "updated-separated-svg-files-panel",
+      "title": "Updated Separated Svg Files Panel",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-panel.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-panel.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "panel"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "071fcb70c080436ac6bf4c4c62f6c0349a94ec5ed1db1643335e5835cf09e3f8",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-parabola": {
+      "id": "dl_9f42c9764f804d7abd2a",
+      "name": "updated-separated-svg-files-parabola",
+      "title": "Updated Separated Svg Files Parabola",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-parabola.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-parabola.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "parabola"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a5f45221fd93416e99a01da18fa8ae6b363451d1754ab31b5736f075b57baaf7",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-parentheses": {
+      "id": "dl_7d22dcda5c59436c91e4",
+      "name": "updated-separated-svg-files-parentheses",
+      "title": "Updated Separated Svg Files Parentheses",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-parentheses.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-parentheses.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "parentheses"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5b1a3a0b5cce9c8642005836f9eebf10b957fdd2a1e69feab6f5b8beb4d1c0ce",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-pi": {
+      "id": "dl_a1104b5f8f7d4ed096c8",
+      "name": "updated-separated-svg-files-pi",
+      "title": "Updated Separated Svg Files Pi",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-pi.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-pi.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "pi"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3956d4d2e3bfc1f54db35d70bee883defac75e4a49a0d5e3203b6686edfabc14",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-pillswap": {
+      "id": "dl_ea5d6a919b77457eb8a5",
+      "name": "updated-separated-svg-files-pillswap",
+      "title": "Updated Separated Svg Files Pillswap",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-pillswap.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-pillswap.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "pillswap"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "879786e1aec6b3f2385ac06b9259cb619a1a4e014dcd311b037ec6936c055f7c",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-pipeline": {
+      "id": "dl_1c9104c9776c4707b589",
+      "name": "updated-separated-svg-files-pipeline",
+      "title": "Updated Separated Svg Files Pipeline",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-pipeline.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-pipeline.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "pipeline"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "88c0801ce3139d177708a1c3be11657fee252f92c7c36eca605974199cdfac6f",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-puzzle": {
+      "id": "dl_6f5ce3a719f74ebb83e5",
+      "name": "updated-separated-svg-files-puzzle",
+      "title": "Updated Separated Svg Files Puzzle",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-puzzle.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-puzzle.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "puzzle"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1470b173564a64d0ba6fe415734b1bf210ddf1509b101cb99018fd5b79afdf00",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-ribbon": {
+      "id": "dl_ae3ce9bf4c4e45e79b5d",
+      "name": "updated-separated-svg-files-ribbon",
+      "title": "Updated Separated Svg Files Ribbon",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-ribbon.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-ribbon.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "ribbon"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "eb82c20c2ca252ec40ad841f149c64b3c19ec53742006a4125a5485d838d783a",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-scissors": {
+      "id": "dl_27f27bc626fd45f5bf78",
+      "name": "updated-separated-svg-files-scissors",
+      "title": "Updated Separated Svg Files Scissors",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-scissors.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-scissors.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "scissors"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4364dfa6f73861a2521ebf7683690459b50ac0641feb6080bb847f1bc45a19e2",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-script_f": {
+      "id": "dl_55dfb92c0c434c699787",
+      "name": "updated-separated-svg-files-script_f",
+      "title": "Updated Separated Svg Files Script F",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-script_f.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-script_f.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "script",
+        "f"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "08b884078d5681300d1551bacfa1d5e83b0a4ce55df384646c87eb84d088639e",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-separator": {
+      "id": "dl_02f009b66c204feea951",
+      "name": "updated-separated-svg-files-separator",
+      "title": "Updated Separated Svg Files Separator",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-separator.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-separator.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "separator"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d73b02b10bdbe0e7f4024095d6b989e071786c832782ae5fd1d766c5b8b3befa",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-shear": {
+      "id": "dl_4319da88c03e4b2984ee",
+      "name": "updated-separated-svg-files-shear",
+      "title": "Updated Separated Svg Files Shear",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-shear.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-shear.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "shear"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a055c31cc8b0738895bd7e9f3d4f0f26d131dbaafa5382aa01693eb7890d93cb",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-sheets": {
+      "id": "dl_aba16ec6b15e4b49b73f",
+      "name": "updated-separated-svg-files-sheets",
+      "title": "Updated Separated Svg Files Sheets",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-sheets.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-sheets.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "sheets"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "257864bf8a9244bd352f8400c25f2d3154be9b0795c27b5a3a04218eadeccc0b",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-sigma": {
+      "id": "dl_9d7c59380a794d368a39",
+      "name": "updated-separated-svg-files-sigma",
+      "title": "Updated Separated Svg Files Sigma",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-sigma.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-sigma.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "sigma"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "71e1ab3dbad585956c4a386c87b89ebd57465e10a61cb515759f0b44e7c7100a",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-slide": {
+      "id": "dl_f9d8e0e33db347178a01",
+      "name": "updated-separated-svg-files-slide",
+      "title": "Updated Separated Svg Files Slide",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-slide.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-slide.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "slide"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5244ff66b9453a62adce021d59d01d1b8dedf5fb362917d288e2b3bda198d3ff",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-slider": {
+      "id": "dl_28da3d9c733545128e90",
+      "name": "updated-separated-svg-files-slider",
+      "title": "Updated Separated Svg Files Slider",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-slider.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-slider.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "slider"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8352e69ba1d042b0512eb959fabbbc2ba5f2701490c7eedd48fe5eccf00f4cfd",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-snippet": {
+      "id": "dl_8feeb6ca45654487b6d4",
+      "name": "updated-separated-svg-files-snippet",
+      "title": "Updated Separated Svg Files Snippet",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-snippet.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-snippet.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "snippet"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5f1fbc4888e618257891ae73298e19eef0811cf13726aad579fd32fa512f2b68",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-soft_chevron": {
+      "id": "dl_3d16a0a94721480392de",
+      "name": "updated-separated-svg-files-soft_chevron",
+      "title": "Updated Separated Svg Files Soft Chevron",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-soft_chevron.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-soft_chevron.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "soft",
+        "chevron"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e44ce1928594f47bd38deb6f3a15e70b2035bed3a52d173e6c790d82da7f5de6",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-split": {
+      "id": "dl_43ad1f214a3e40388a4c",
+      "name": "updated-separated-svg-files-split",
+      "title": "Updated Separated Svg Files Split",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-split.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-split.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "split"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "092adcb6259ac1464c405d1b97dac80bb66e9ab5b09f0279bcfe3b336b51b036",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-square_swap": {
+      "id": "dl_5667428e68ae41858541",
+      "name": "updated-separated-svg-files-square_swap",
+      "title": "Updated Separated Svg Files Square Swap",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-square_swap.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-square_swap.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "square",
+        "swap"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8476a94100868802523ecfd0229321bb7a50b55634ab1b071cdcff75799f3ccf",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-stack": {
+      "id": "dl_97c7e1c8589a4f1abd08",
+      "name": "updated-separated-svg-files-stack",
+      "title": "Updated Separated Svg Files Stack",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-stack.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-stack.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "stack"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9a8ffaf9cb2d0518df4f8a9fce99d51529d1e59260dea8ced10994a87cdf4b22",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-step": {
+      "id": "dl_8f6c0da877014fa98490",
+      "name": "updated-separated-svg-files-step",
+      "title": "Updated Separated Svg Files Step",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-step.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-step.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "step"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a27a833974c885f583f54fa927118bbec6dd3392b84458222b48d1e372920248",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-subroutine": {
+      "id": "dl_020f1e7212fe461b935e",
+      "name": "updated-separated-svg-files-subroutine",
+      "title": "Updated Separated Svg Files Subroutine",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-subroutine.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-subroutine.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "subroutine"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "57b2823a5090e67bc8768e477199366037f0f01849b77edcfeaac9430e1ca081",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-swerve": {
+      "id": "dl_609927229d55448ea6ab",
+      "name": "updated-separated-svg-files-swerve",
+      "title": "Updated Separated Svg Files Swerve",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-swerve.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-swerve.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "swerve"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "30f2b85aaf1da233c938aa7da2753223ab97897e4a8b4da4f94f0cb4dfdbe21e",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-tab": {
+      "id": "dl_14d06d46e34044a0a46d",
+      "name": "updated-separated-svg-files-tab",
+      "title": "Updated Separated Svg Files Tab",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-tab.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-tab.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "tab"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f660c2b2b39e005f934e157f02459df17e758b523e866432e13217e31dabb2db",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-target": {
+      "id": "dl_09728341e10748039908",
+      "name": "updated-separated-svg-files-target",
+      "title": "Updated Separated Svg Files Target",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-target.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-target.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "target"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0023eace1c7e1cd8ef124ea103642a6fec1e3f228d5495158dad640d9f8b8360",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-terminal": {
+      "id": "dl_8e1aed98f87a4c00b81c",
+      "name": "updated-separated-svg-files-terminal",
+      "title": "Updated Separated Svg Files Terminal",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-terminal.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-terminal.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "terminal"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b847e8197b602e608a1875fed40b2be0d5ecf5f3a0c857158dc0b4e510169665",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-ticket": {
+      "id": "dl_b0d891950555494989d4",
+      "name": "updated-separated-svg-files-ticket",
+      "title": "Updated Separated Svg Files Ticket",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-ticket.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-ticket.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "ticket"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fe35d98f24fe4ed01184f4d0e773389910f3265186f40985aca0a5657275d706",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-track": {
+      "id": "dl_3d11649ae6974ebc9749",
+      "name": "updated-separated-svg-files-track",
+      "title": "Updated Separated Svg Files Track",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-track.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-track.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "track"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "6bb2f4b1bc1fe47e691cb89b3df30d6b946dd6fbca9dcd53d84ddbcf9fdf7bfb",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-tray": {
+      "id": "dl_9f4c93c710d2433194dc",
+      "name": "updated-separated-svg-files-tray",
+      "title": "Updated Separated Svg Files Tray",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-tray.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-tray.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "tray"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3f53c6a8a8f5fd528c095b0ac0ab66d65d352d710d9ba48d9e855e6995591560",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-upload": {
+      "id": "dl_6698002408934c3eaa08",
+      "name": "updated-separated-svg-files-upload",
+      "title": "Updated Separated Svg Files Upload",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-upload.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-upload.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "upload"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "21643633319e57beed9a219384c68e5735400b5cc86d56f250f8ad08f1ba43fd",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-variable": {
+      "id": "dl_e2eb6a5caf104450b65d",
+      "name": "updated-separated-svg-files-variable",
+      "title": "Updated Separated Svg Files Variable",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-variable.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-variable.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "variable"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2cbaf916d5bedc655df79646a9105497bfc73bf70617e0513d9295e82e1648d1",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-vertical_swap": {
+      "id": "dl_21d1d3f2eb79425f89de",
+      "name": "updated-separated-svg-files-vertical_swap",
+      "title": "Updated Separated Svg Files Vertical Swap",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-vertical_swap.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-vertical_swap.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "vertical",
+        "swap"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "07a92bd5afb2663c8ef8e6ca3f3d315064f0abafbf4b2e6ecef0efd87ac53ed6",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-wave": {
+      "id": "dl_88fb564deb76431cb113",
+      "name": "updated-separated-svg-files-wave",
+      "title": "Updated Separated Svg Files Wave",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-wave.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-wave.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "wave"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ca00b225da115dc92e33934fccfb6f0ddcbd148cf8b68878b0e1a6c333da4bc1",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-window": {
+      "id": "dl_1dc78726f43e41e592d5",
+      "name": "updated-separated-svg-files-window",
+      "title": "Updated Separated Svg Files Window",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-window.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-window.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "window"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3bb0152366c10c8b530b7c2f2f2aa72d4c8bbe4dd9fb88162055811415403e60",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-wings": {
+      "id": "dl_23bec35753454e26960d",
+      "name": "updated-separated-svg-files-wings",
+      "title": "Updated Separated Svg Files Wings",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-wings.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-wings.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "wings"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "686a61f005311159c957188eea2b4a9d4d6b64baa23fd0e2b72fec2518475c3c",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
     },
     "upload_file": {
       "id": "dl_87dd90aaf50e9c3049f7",
