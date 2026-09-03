@@ -6,8 +6,8 @@
       "id": "dl_b44446d88fd5060f158d",
       "name": "table",
       "title": "Table",
-      "file": "icons/table.svg",
-      "path": "table.svg",
+      "file": "icons/lucid_4/table.svg",
+      "path": "lucid_4/table.svg",
       "tags": [
         "table"
       ],
@@ -33,8 +33,8 @@
         "float",
         "draw"
       ],
-      "hash": "cdc56d7abcfb113b91bfabbf838c492b1fbecfd95837da75e023a2e26eb4cda9",
-      "updatedAt": "2026-08-31T18:44:46.209Z"
+      "hash": "e9221679031a2e2f6ded3886c4c990f33810aa8fe3a1491af5856c23cb14e93d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
     },
     "text_fields": {
       "id": "dl_948b3b2c74c2ebf1f866",
@@ -207,6 +207,3489 @@
       ],
       "hash": "f404cf373506b25fefab4c5ad43feb5f55a0e8bd913d0d1c3a64bd515029b54d",
       "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "table-2": {
+      "id": "dl_16f281233c6d4d81bfd6",
+      "name": "table-2",
+      "title": "Table 2",
+      "aliases": [],
+      "tags": [
+        "table",
+        "2"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/table-2.svg",
+      "file": "icons/lucid_4/table-2.svg",
+      "hash": "94cf8139dc20e8420246dbdf315d8aa2affc9fc275c53e3b710fed707dafc12f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "table-cells-merge": {
+      "id": "dl_0f8468d7e55e451d9999",
+      "name": "table-cells-merge",
+      "title": "Table Cells Merge",
+      "aliases": [],
+      "tags": [
+        "table",
+        "cells",
+        "merge"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/table-cells-merge.svg",
+      "file": "icons/lucid_4/table-cells-merge.svg",
+      "hash": "f5675dcf3f5e1d7aefcaa8e0727aa5fd9a92918f37b7c569d7795b85f8ba4a5e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "table-cells-split": {
+      "id": "dl_1dbd3f89ae8a466e808c",
+      "name": "table-cells-split",
+      "title": "Table Cells Split",
+      "aliases": [],
+      "tags": [
+        "table",
+        "cells",
+        "split"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/table-cells-split.svg",
+      "file": "icons/lucid_4/table-cells-split.svg",
+      "hash": "cd14e83959bee90168acd9a24b0ba41faa3d1b55dd925e38fb9a8c1e27efd40c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "table-columns-split": {
+      "id": "dl_71912bdc5f564ab0a85b",
+      "name": "table-columns-split",
+      "title": "Table Columns Split",
+      "aliases": [],
+      "tags": [
+        "table",
+        "columns",
+        "split"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/table-columns-split.svg",
+      "file": "icons/lucid_4/table-columns-split.svg",
+      "hash": "8c23eb2f8734becd669b54dee2c9434360b77dbc55dfad2be9431b6275249d5e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "table-of-contents": {
+      "id": "dl_225e0e8df4b74f339430",
+      "name": "table-of-contents",
+      "title": "Table Of Contents",
+      "aliases": [],
+      "tags": [
+        "table",
+        "of",
+        "contents"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/table-of-contents.svg",
+      "file": "icons/lucid_4/table-of-contents.svg",
+      "hash": "a9543b308b2fbf642d3689970d94d6266eb95aacfaf3216a575f627cff24b0c9",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "table-properties": {
+      "id": "dl_535c7ffad9ab499db478",
+      "name": "table-properties",
+      "title": "Table Properties",
+      "aliases": [],
+      "tags": [
+        "table",
+        "properties"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/table-properties.svg",
+      "file": "icons/lucid_4/table-properties.svg",
+      "hash": "af09c2800db841e9d165af8f6c91568c78af474567ca20a98905b03e76ddf56d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "table-rows-split": {
+      "id": "dl_8e9f36a630ae4b15a0e7",
+      "name": "table-rows-split",
+      "title": "Table Rows Split",
+      "aliases": [],
+      "tags": [
+        "table",
+        "rows",
+        "split"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/table-rows-split.svg",
+      "file": "icons/lucid_4/table-rows-split.svg",
+      "hash": "24cdae5133a36374d1319cf636d75671fb12428821008e3e1e747a23149d47f5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tablet-smartphone": {
+      "id": "dl_deab320d1d8f4a4fb8c4",
+      "name": "tablet-smartphone",
+      "title": "Tablet Smartphone",
+      "aliases": [],
+      "tags": [
+        "tablet",
+        "smartphone"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tablet-smartphone.svg",
+      "file": "icons/lucid_4/tablet-smartphone.svg",
+      "hash": "fa97c77dbed6a6048175bd8f25e51c818336532617ffa770d5fce33706f135d3",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tablet": {
+      "id": "dl_bc36c5e8381e4ed3beed",
+      "name": "tablet",
+      "title": "Tablet",
+      "aliases": [],
+      "tags": [
+        "tablet"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tablet.svg",
+      "file": "icons/lucid_4/tablet.svg",
+      "hash": "3b444713d0748a2d11dad84d7aaf33240e9aef3fcff164027092368fb67d43bd",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tablets": {
+      "id": "dl_a2914f7da3494387a335",
+      "name": "tablets",
+      "title": "Tablets",
+      "aliases": [],
+      "tags": [
+        "tablets"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tablets.svg",
+      "file": "icons/lucid_4/tablets.svg",
+      "hash": "5ed6cd7cf4fc84ca4863c2c7cc90344992808bb0001c50a923c4f61914574966",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tag-plus": {
+      "id": "dl_b547a71f3b314c4cb2d5",
+      "name": "tag-plus",
+      "title": "Tag Plus",
+      "aliases": [],
+      "tags": [
+        "tag",
+        "plus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tag-plus.svg",
+      "file": "icons/lucid_4/tag-plus.svg",
+      "hash": "bf00e2731f9b0e21b5c71294cc7da251c93baeef5bee99b83b2430a4c680010e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tag-x": {
+      "id": "dl_242473bce6e6482aa14f",
+      "name": "tag-x",
+      "title": "Tag X",
+      "aliases": [],
+      "tags": [
+        "tag",
+        "x"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tag-x.svg",
+      "file": "icons/lucid_4/tag-x.svg",
+      "hash": "029f8d84daee941cee017659c3147007b5706fe3c51e17e742101404f5135b4c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tag": {
+      "id": "dl_22c5d43ef23249698bd2",
+      "name": "tag",
+      "title": "Tag",
+      "aliases": [],
+      "tags": [
+        "tag"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tag.svg",
+      "file": "icons/lucid_4/tag.svg",
+      "hash": "1664913929c5ad699a6935a6e3b1a536c6c2d7a9370f2f38c66a8892e46579c5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tags": {
+      "id": "dl_a39f01d305f9434c9d19",
+      "name": "tags",
+      "title": "Tags",
+      "aliases": [],
+      "tags": [
+        "tags"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tags.svg",
+      "file": "icons/lucid_4/tags.svg",
+      "hash": "4f573e991e620195ccd2cc211f0315cf3059d69e0d49eb903928ffb832564c37",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tally-1": {
+      "id": "dl_4d5039e8d19e4d4db50c",
+      "name": "tally-1",
+      "title": "Tally 1",
+      "aliases": [],
+      "tags": [
+        "tally",
+        "1"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tally-1.svg",
+      "file": "icons/lucid_4/tally-1.svg",
+      "hash": "6e517f107c7f5de5cbbdba92a1e9749317365c7cce5e3a3816bc02ff3e543877",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tally-2": {
+      "id": "dl_151768dbfae84f6bb3e1",
+      "name": "tally-2",
+      "title": "Tally 2",
+      "aliases": [],
+      "tags": [
+        "tally",
+        "2"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tally-2.svg",
+      "file": "icons/lucid_4/tally-2.svg",
+      "hash": "d620604586ede2f3f410ff3462485bd5611b4a02bd55804e7e8df99f6f73d588",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tally-3": {
+      "id": "dl_0db9c3d735a5499797db",
+      "name": "tally-3",
+      "title": "Tally 3",
+      "aliases": [],
+      "tags": [
+        "tally",
+        "3"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tally-3.svg",
+      "file": "icons/lucid_4/tally-3.svg",
+      "hash": "3d4bfe74b4a25429bfd01fad202f1a7d34a60ff27fe876b97851cb6162b3fe00",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tally-4": {
+      "id": "dl_eebbc80bcd224a84bbb8",
+      "name": "tally-4",
+      "title": "Tally 4",
+      "aliases": [],
+      "tags": [
+        "tally",
+        "4"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tally-4.svg",
+      "file": "icons/lucid_4/tally-4.svg",
+      "hash": "063e0c3f5640033e8cdc34f982e1b85dd036598ea758b5061da26f26ad6098b6",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tally-5": {
+      "id": "dl_8d99c949c39e4af6b4b6",
+      "name": "tally-5",
+      "title": "Tally 5",
+      "aliases": [],
+      "tags": [
+        "tally",
+        "5"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tally-5.svg",
+      "file": "icons/lucid_4/tally-5.svg",
+      "hash": "37c7498714d3b89badd28bec8113979fb0c0ddbc3db918ea0b4b3c9830c5ca16",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tangent": {
+      "id": "dl_91f588d0479c42f289b7",
+      "name": "tangent",
+      "title": "Tangent",
+      "aliases": [],
+      "tags": [
+        "tangent"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tangent.svg",
+      "file": "icons/lucid_4/tangent.svg",
+      "hash": "24388ba11a6591cd45198331163644612b71250c98f59d3c19f0aabc2c83371a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "target": {
+      "id": "dl_1ffac8f2c1c74b98b1ba",
+      "name": "target",
+      "title": "Target",
+      "aliases": [],
+      "tags": [
+        "target"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/target.svg",
+      "file": "icons/lucid_4/target.svg",
+      "hash": "e5eb361933c19eef463da1174d3a26384367b74e0ecff80195c0f4f2cafed524",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "telescope": {
+      "id": "dl_79a217c815df40569378",
+      "name": "telescope",
+      "title": "Telescope",
+      "aliases": [],
+      "tags": [
+        "telescope"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/telescope.svg",
+      "file": "icons/lucid_4/telescope.svg",
+      "hash": "bf24b797233c7171248d67f898124fbb8cd32268c8fe235d7a5241876dc043f5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tent-tree": {
+      "id": "dl_5658cc8913fb4c32bf81",
+      "name": "tent-tree",
+      "title": "Tent Tree",
+      "aliases": [],
+      "tags": [
+        "tent",
+        "tree"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tent-tree.svg",
+      "file": "icons/lucid_4/tent-tree.svg",
+      "hash": "9c8305aba2c4e776894862922c31cf6559ced74535ede4d03f54037277a2b9ad",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tent": {
+      "id": "dl_56db3641bf81480589ee",
+      "name": "tent",
+      "title": "Tent",
+      "aliases": [],
+      "tags": [
+        "tent"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tent.svg",
+      "file": "icons/lucid_4/tent.svg",
+      "hash": "f06a23d26971cbd47b682dc8543dec805fb20d817d88dafbe55392d416e0b2ef",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "terminal": {
+      "id": "dl_01ecd48b07094d6583c8",
+      "name": "terminal",
+      "title": "Terminal",
+      "aliases": [],
+      "tags": [
+        "terminal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/terminal.svg",
+      "file": "icons/lucid_4/terminal.svg",
+      "hash": "d8475bb343eccd06ee31440200a4ef59a457dd60c4618fcf937f80736d2720cb",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "test-tube-diagonal": {
+      "id": "dl_8321ee3045764f8096f8",
+      "name": "test-tube-diagonal",
+      "title": "Test Tube Diagonal",
+      "aliases": [],
+      "tags": [
+        "test",
+        "tube",
+        "diagonal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/test-tube-diagonal.svg",
+      "file": "icons/lucid_4/test-tube-diagonal.svg",
+      "hash": "68462407634120ae510ec95d22b908268b27cac3ff47b1b497a1ad675aa6b7a4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "test-tube": {
+      "id": "dl_a39de29cc89f4f3c955a",
+      "name": "test-tube",
+      "title": "Test Tube",
+      "aliases": [],
+      "tags": [
+        "test",
+        "tube"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/test-tube.svg",
+      "file": "icons/lucid_4/test-tube.svg",
+      "hash": "42be75204c169142dca289b8cb6f391225b21504d572580066b9470ed1552e53",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "test-tubes": {
+      "id": "dl_2b1a2a69c29f4ec68503",
+      "name": "test-tubes",
+      "title": "Test Tubes",
+      "aliases": [],
+      "tags": [
+        "test",
+        "tubes"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/test-tubes.svg",
+      "file": "icons/lucid_4/test-tubes.svg",
+      "hash": "5bb29b3a14adf93dbf5d7f171fb4fc8de7b299281082105bc60549d4f234b790",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-align-center": {
+      "id": "dl_1c0f0d09c8b645f4aa0c",
+      "name": "text-align-center",
+      "title": "Text Align Center",
+      "aliases": [],
+      "tags": [
+        "text",
+        "align",
+        "center"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-align-center.svg",
+      "file": "icons/lucid_4/text-align-center.svg",
+      "hash": "b7794411d72c18ec5f20c3c7df4e7384479d9cc8f9a8b9f25d0ee15646cef2dd",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-align-end": {
+      "id": "dl_5cb2c064350d46778fb6",
+      "name": "text-align-end",
+      "title": "Text Align End",
+      "aliases": [],
+      "tags": [
+        "text",
+        "align",
+        "end"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-align-end.svg",
+      "file": "icons/lucid_4/text-align-end.svg",
+      "hash": "5502c71232ae7cbd103599981db6a38949e7605cde08c88f4085ec94dd15ee25",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-align-justify": {
+      "id": "dl_6965a67137ce4b0192e4",
+      "name": "text-align-justify",
+      "title": "Text Align Justify",
+      "aliases": [],
+      "tags": [
+        "text",
+        "align",
+        "justify"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-align-justify.svg",
+      "file": "icons/lucid_4/text-align-justify.svg",
+      "hash": "bde79c5391e21d5f5d07a86db49c32653f3f4f56b7ed5f70a01e52ece3f7ec12",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-align-start": {
+      "id": "dl_5d08e4f03cac41878e93",
+      "name": "text-align-start",
+      "title": "Text Align Start",
+      "aliases": [],
+      "tags": [
+        "text",
+        "align",
+        "start"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-align-start.svg",
+      "file": "icons/lucid_4/text-align-start.svg",
+      "hash": "cbce332d40a3e13b4794c919defea70c44d42ee2f76f1c9e7fa2bf31645a9c03",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-cursor-input": {
+      "id": "dl_520ff86bd8d948bd8b8d",
+      "name": "text-cursor-input",
+      "title": "Text Cursor Input",
+      "aliases": [],
+      "tags": [
+        "text",
+        "cursor",
+        "input"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-cursor-input.svg",
+      "file": "icons/lucid_4/text-cursor-input.svg",
+      "hash": "22940eb72f30f80afdca1d2e567cde593bbae09a65214199f476b55bd1b2c782",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-cursor": {
+      "id": "dl_4228c34cc73549398999",
+      "name": "text-cursor",
+      "title": "Text Cursor",
+      "aliases": [],
+      "tags": [
+        "text",
+        "cursor"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-cursor.svg",
+      "file": "icons/lucid_4/text-cursor.svg",
+      "hash": "be0f01c6b70cae70f368c29d174de2a814a650ecf19fa514444250155ae11dc8",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-initial": {
+      "id": "dl_a22c50ad5704498da77a",
+      "name": "text-initial",
+      "title": "Text Initial",
+      "aliases": [],
+      "tags": [
+        "text",
+        "initial"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-initial.svg",
+      "file": "icons/lucid_4/text-initial.svg",
+      "hash": "e04349c459c03eb534c7e9f878eb5b3cbeb11e542842e2b6c0dfd515a71daaee",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-quote": {
+      "id": "dl_bb4fe413abd948b092bf",
+      "name": "text-quote",
+      "title": "Text Quote",
+      "aliases": [],
+      "tags": [
+        "text",
+        "quote"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-quote.svg",
+      "file": "icons/lucid_4/text-quote.svg",
+      "hash": "2a90586863981f06968b018fdbbd85069ec93a8314b6e2046a8a78d7c8f8c76e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-search": {
+      "id": "dl_cee180a80e3b40b693b4",
+      "name": "text-search",
+      "title": "Text Search",
+      "aliases": [],
+      "tags": [
+        "text",
+        "search"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-search.svg",
+      "file": "icons/lucid_4/text-search.svg",
+      "hash": "11f66ef0b29db5bf8d2601c582e4f7c5d1d9096fccc85c05de7d17fc7e44fc9c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "text-wrap": {
+      "id": "dl_2e3ffbe8126742b68aa3",
+      "name": "text-wrap",
+      "title": "Text Wrap",
+      "aliases": [],
+      "tags": [
+        "text",
+        "wrap"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/text-wrap.svg",
+      "file": "icons/lucid_4/text-wrap.svg",
+      "hash": "3ff61614e8219d7d5fdd7738dd01dcc8a10e1d4550773c0c08962a888e6381e5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "theater": {
+      "id": "dl_3ebbaaa83be5455c8f43",
+      "name": "theater",
+      "title": "Theater",
+      "aliases": [],
+      "tags": [
+        "theater"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/theater.svg",
+      "file": "icons/lucid_4/theater.svg",
+      "hash": "9fc7992624936b4df310fed08f693d0797e2a929fe090afa9238faca6e99958f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "thermometer-snowflake": {
+      "id": "dl_e445b60371df43fead84",
+      "name": "thermometer-snowflake",
+      "title": "Thermometer Snowflake",
+      "aliases": [],
+      "tags": [
+        "thermometer",
+        "snowflake"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/thermometer-snowflake.svg",
+      "file": "icons/lucid_4/thermometer-snowflake.svg",
+      "hash": "96358c1363fffa9cad2222d5b4e6b79bcde0ad910af2d88da2d991c0910b9fa7",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "thermometer-sun": {
+      "id": "dl_0da0a292502b4b2abbc6",
+      "name": "thermometer-sun",
+      "title": "Thermometer Sun",
+      "aliases": [],
+      "tags": [
+        "thermometer",
+        "sun"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/thermometer-sun.svg",
+      "file": "icons/lucid_4/thermometer-sun.svg",
+      "hash": "dc7d0ad03ff14aa94b1ce8408352f34adbf59e1e269347182e51b673429e3338",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "thermometer": {
+      "id": "dl_37f6a17215fc49dbbec4",
+      "name": "thermometer",
+      "title": "Thermometer",
+      "aliases": [],
+      "tags": [
+        "thermometer"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/thermometer.svg",
+      "file": "icons/lucid_4/thermometer.svg",
+      "hash": "cf6bf8de25dffca03c8443997e797a035ebd440e02c0ec7e72a2bdfca35bc9a6",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "thumbs-down": {
+      "id": "dl_3da75e7629fc4d62bd1c",
+      "name": "thumbs-down",
+      "title": "Thumbs Down",
+      "aliases": [],
+      "tags": [
+        "thumbs",
+        "down"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/thumbs-down.svg",
+      "file": "icons/lucid_4/thumbs-down.svg",
+      "hash": "7cea045f6891631d263a522c2502d51b90df0d032da952669a2ae250a4ee88b0",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "thumbs-up": {
+      "id": "dl_ade39af6cfc8468683e5",
+      "name": "thumbs-up",
+      "title": "Thumbs Up",
+      "aliases": [],
+      "tags": [
+        "thumbs",
+        "up"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/thumbs-up.svg",
+      "file": "icons/lucid_4/thumbs-up.svg",
+      "hash": "070426339ccdd0ec512076151d14abc691eeea0456629fc8dd2c3850a7153249",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "ticket-check": {
+      "id": "dl_55f47d20a74f4cc191b5",
+      "name": "ticket-check",
+      "title": "Ticket Check",
+      "aliases": [],
+      "tags": [
+        "ticket",
+        "check"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/ticket-check.svg",
+      "file": "icons/lucid_4/ticket-check.svg",
+      "hash": "1893b07c3ec0150fac2fb1ad9646a40bcdb891bdf4360fafb91afdd343e2112e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "ticket-minus": {
+      "id": "dl_318fd31645f0491187f8",
+      "name": "ticket-minus",
+      "title": "Ticket Minus",
+      "aliases": [],
+      "tags": [
+        "ticket",
+        "minus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/ticket-minus.svg",
+      "file": "icons/lucid_4/ticket-minus.svg",
+      "hash": "112ff0374b1d766f1ad144d02ef4a48ef25513db7b729954f772e27802d01b95",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "ticket-percent": {
+      "id": "dl_00598cf03ae440fca640",
+      "name": "ticket-percent",
+      "title": "Ticket Percent",
+      "aliases": [],
+      "tags": [
+        "ticket",
+        "percent"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/ticket-percent.svg",
+      "file": "icons/lucid_4/ticket-percent.svg",
+      "hash": "fd799697868f0675aa30e74746db495dee01bf6aa027a4263027b388c7282c1b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "ticket-plus": {
+      "id": "dl_764a3aa3578745b5b8a2",
+      "name": "ticket-plus",
+      "title": "Ticket Plus",
+      "aliases": [],
+      "tags": [
+        "ticket",
+        "plus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/ticket-plus.svg",
+      "file": "icons/lucid_4/ticket-plus.svg",
+      "hash": "99aad72feacc426abec5feafa2d56d85f3e9e0b50a9f11cb928a7538e92a80db",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "ticket-slash": {
+      "id": "dl_84fccd5eb9b24ec2ac98",
+      "name": "ticket-slash",
+      "title": "Ticket Slash",
+      "aliases": [],
+      "tags": [
+        "ticket",
+        "slash"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/ticket-slash.svg",
+      "file": "icons/lucid_4/ticket-slash.svg",
+      "hash": "504fd008eaf4cc0091d2380485f61ab90eef34f5d1d49b82420e9ca267e55489",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "ticket-x": {
+      "id": "dl_94e2ba5e6e934e6898f6",
+      "name": "ticket-x",
+      "title": "Ticket X",
+      "aliases": [],
+      "tags": [
+        "ticket",
+        "x"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/ticket-x.svg",
+      "file": "icons/lucid_4/ticket-x.svg",
+      "hash": "50b2d768112e379a65fde9b8bdb7cbc54b11e9bf5a7f0ab3425883ee49a38eba",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "ticket": {
+      "id": "dl_f47416f515244f619371",
+      "name": "ticket",
+      "title": "Ticket",
+      "aliases": [],
+      "tags": [
+        "ticket"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/ticket.svg",
+      "file": "icons/lucid_4/ticket.svg",
+      "hash": "e06b2b69ea1311a422f8afff812b69325e3e3c5ba90f01bf968839ce577b2b4a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tickets-plane": {
+      "id": "dl_f9d991da56db4ae2b4e1",
+      "name": "tickets-plane",
+      "title": "Tickets Plane",
+      "aliases": [],
+      "tags": [
+        "tickets",
+        "plane"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tickets-plane.svg",
+      "file": "icons/lucid_4/tickets-plane.svg",
+      "hash": "156b212a5283c8d978bf5fdd81275222acfad185a1ca128748f94c9447d2f84f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tickets": {
+      "id": "dl_e68a7f284eab4b0ca2db",
+      "name": "tickets",
+      "title": "Tickets",
+      "aliases": [],
+      "tags": [
+        "tickets"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tickets.svg",
+      "file": "icons/lucid_4/tickets.svg",
+      "hash": "9a5780e798da106b9c77439812e4b44f9ada99a1117842208690d379348c00ea",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "timeline": {
+      "id": "dl_e0346f4eb5234093a02f",
+      "name": "timeline",
+      "title": "Timeline",
+      "aliases": [],
+      "tags": [
+        "timeline"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/timeline.svg",
+      "file": "icons/lucid_4/timeline.svg",
+      "hash": "70ee7e7d3c96a3f110cdf49c73a32ca1bbe634038301d1762e6f4a8ad354e027",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "timer-off": {
+      "id": "dl_ea685f37361d4a65abe7",
+      "name": "timer-off",
+      "title": "Timer Off",
+      "aliases": [],
+      "tags": [
+        "timer",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/timer-off.svg",
+      "file": "icons/lucid_4/timer-off.svg",
+      "hash": "e39b96a95747c3cadd340295c6f717ba838fc34545e1fff4cde4bda042e11586",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "timer-reset": {
+      "id": "dl_8034a58b3095446dad68",
+      "name": "timer-reset",
+      "title": "Timer Reset",
+      "aliases": [],
+      "tags": [
+        "timer",
+        "reset"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/timer-reset.svg",
+      "file": "icons/lucid_4/timer-reset.svg",
+      "hash": "8c238b3b515c99434160260b6a6920cdda18377a0f7da35a7e09cd8a5a4941bc",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "timer": {
+      "id": "dl_85bf35fa22f24b30a410",
+      "name": "timer",
+      "title": "Timer",
+      "aliases": [],
+      "tags": [
+        "timer"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/timer.svg",
+      "file": "icons/lucid_4/timer.svg",
+      "hash": "1714afcd9a2cc020f3bcc8bfec190c56df7fda259b6acd38586535022e64e505",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "toggle-left": {
+      "id": "dl_05f62451e6ca4f7e8dfe",
+      "name": "toggle-left",
+      "title": "Toggle Left",
+      "aliases": [],
+      "tags": [
+        "toggle",
+        "left"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/toggle-left.svg",
+      "file": "icons/lucid_4/toggle-left.svg",
+      "hash": "51a82736a85df38043762ac06ef9aea2da18a29ba6a6d07f4be251040bea311c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "toggle-right": {
+      "id": "dl_cefb0ae0bad64c1685b6",
+      "name": "toggle-right",
+      "title": "Toggle Right",
+      "aliases": [],
+      "tags": [
+        "toggle",
+        "right"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/toggle-right.svg",
+      "file": "icons/lucid_4/toggle-right.svg",
+      "hash": "3b0aedd2a07e41e47c7e99f6cc9c79ea67e2616ba204da50a76f1a0cc4b5d1b9",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "toilet": {
+      "id": "dl_1d6562ec993342d8b5fe",
+      "name": "toilet",
+      "title": "Toilet",
+      "aliases": [],
+      "tags": [
+        "toilet"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/toilet.svg",
+      "file": "icons/lucid_4/toilet.svg",
+      "hash": "c8ba5e782b1a39ed2a61038c46c66c544963fe9ca77c6fa55e158fbd17945eff",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tool-case": {
+      "id": "dl_2774ea49bb3a4b239fd2",
+      "name": "tool-case",
+      "title": "Tool Case",
+      "aliases": [],
+      "tags": [
+        "tool",
+        "case"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tool-case.svg",
+      "file": "icons/lucid_4/tool-case.svg",
+      "hash": "c0be061f759e18930fac72760a07ac6d7cea660f86d6b173c8acb2b34ec46631",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "toolbox": {
+      "id": "dl_22d3c9c948394f25988b",
+      "name": "toolbox",
+      "title": "Toolbox",
+      "aliases": [],
+      "tags": [
+        "toolbox"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/toolbox.svg",
+      "file": "icons/lucid_4/toolbox.svg",
+      "hash": "5e35e75b4a63d1da747ca801085f4288af1142326e49012f3d305ad48ad57dd8",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tornado": {
+      "id": "dl_81e8dd2249604db399ff",
+      "name": "tornado",
+      "title": "Tornado",
+      "aliases": [],
+      "tags": [
+        "tornado"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tornado.svg",
+      "file": "icons/lucid_4/tornado.svg",
+      "hash": "52e4c02b2e4279f75991b4795439d1c190cd19f0096ce74ef79720a38375d970",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "torus": {
+      "id": "dl_bd6e69b0722942928ce8",
+      "name": "torus",
+      "title": "Torus",
+      "aliases": [],
+      "tags": [
+        "torus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/torus.svg",
+      "file": "icons/lucid_4/torus.svg",
+      "hash": "d0b30a5822278ace79adf956877f152db99767a4638b5396c4aa7ea06f79996e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "touchpad-off": {
+      "id": "dl_1601aa1441be4d8c9217",
+      "name": "touchpad-off",
+      "title": "Touchpad Off",
+      "aliases": [],
+      "tags": [
+        "touchpad",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/touchpad-off.svg",
+      "file": "icons/lucid_4/touchpad-off.svg",
+      "hash": "0d9114f177084eac3569ed800816fd9044fb6fd024b2189ddb395d4ee5e22c6c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "touchpad": {
+      "id": "dl_abb1fc7a0f994e898400",
+      "name": "touchpad",
+      "title": "Touchpad",
+      "aliases": [],
+      "tags": [
+        "touchpad"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/touchpad.svg",
+      "file": "icons/lucid_4/touchpad.svg",
+      "hash": "bd80de42184c9c72ab467dbe1677e04235e99f74411edde550b5a733b787e9bb",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "towel-rack": {
+      "id": "dl_908187b6a64d4e01816d",
+      "name": "towel-rack",
+      "title": "Towel Rack",
+      "aliases": [],
+      "tags": [
+        "towel",
+        "rack"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/towel-rack.svg",
+      "file": "icons/lucid_4/towel-rack.svg",
+      "hash": "feabfc4540faf52ebe2396102a42e6a71e6aa0743769ca89091ef785b71e1972",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tower-control": {
+      "id": "dl_eb29323514254b62b183",
+      "name": "tower-control",
+      "title": "Tower Control",
+      "aliases": [],
+      "tags": [
+        "tower",
+        "control"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tower-control.svg",
+      "file": "icons/lucid_4/tower-control.svg",
+      "hash": "a0c3eebe676443c952b69b021e20e8a3abee82347aa598525d1b35538e167959",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "toy-brick": {
+      "id": "dl_0e93b81aa2584d6a9e00",
+      "name": "toy-brick",
+      "title": "Toy Brick",
+      "aliases": [],
+      "tags": [
+        "toy",
+        "brick"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/toy-brick.svg",
+      "file": "icons/lucid_4/toy-brick.svg",
+      "hash": "f46c6379545277722f3b93db3ce313767c58db20509cb092947e8b4b64f143cc",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "train-track": {
+      "id": "dl_07d631d9d8404feba620",
+      "name": "train-track",
+      "title": "Train Track",
+      "aliases": [],
+      "tags": [
+        "train",
+        "track"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/train-track.svg",
+      "file": "icons/lucid_4/train-track.svg",
+      "hash": "37c486fd8d9f4ffc35b0e3741b3c8640212b6844477a0a8514b781022013a2e3",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tram-front": {
+      "id": "dl_786b1bb617a04861b0ea",
+      "name": "tram-front",
+      "title": "Tram Front",
+      "aliases": [],
+      "tags": [
+        "tram",
+        "front"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tram-front.svg",
+      "file": "icons/lucid_4/tram-front.svg",
+      "hash": "5a20b1b1177cf78ca898751610e2121d8c60502802412c167e44c2ff41f90913",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tree-pine": {
+      "id": "dl_f8909ef3b4f240fabf58",
+      "name": "tree-pine",
+      "title": "Tree Pine",
+      "aliases": [],
+      "tags": [
+        "tree",
+        "pine"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tree-pine.svg",
+      "file": "icons/lucid_4/tree-pine.svg",
+      "hash": "5ccfca47512c091b2e214e0bdf47f01e410b105ddf6d68fee90cde0b38fa62dc",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "trending-up-down": {
+      "id": "dl_e587c032a788459f8caf",
+      "name": "trending-up-down",
+      "title": "Trending Up Down",
+      "aliases": [],
+      "tags": [
+        "trending",
+        "up",
+        "down"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/trending-up-down.svg",
+      "file": "icons/lucid_4/trending-up-down.svg",
+      "hash": "6fb09abce8739ec13f1e5dbf9684e10423d72f0048ca2908655d82f90292ac1d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "triangle-alert": {
+      "id": "dl_2bf1b2da7bcc4f03bf0b",
+      "name": "triangle-alert",
+      "title": "Triangle Alert",
+      "aliases": [],
+      "tags": [
+        "triangle",
+        "alert"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/triangle-alert.svg",
+      "file": "icons/lucid_4/triangle-alert.svg",
+      "hash": "c0fdc7cae07b292f02281280f0b671f618bdecce12710bdd1ad9bbb46394976f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "triangle": {
+      "id": "dl_089004979c8849ad90b9",
+      "name": "triangle",
+      "title": "Triangle",
+      "aliases": [],
+      "tags": [
+        "triangle"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/triangle.svg",
+      "file": "icons/lucid_4/triangle.svg",
+      "hash": "6880ebdc8a387aea44ef19c69b6c403a373f98a9fa7dcc7ee5474a6296df9922",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tv-minimal": {
+      "id": "dl_60008ea33c4142a385f4",
+      "name": "tv-minimal",
+      "title": "Tv Minimal",
+      "aliases": [],
+      "tags": [
+        "tv",
+        "minimal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tv-minimal.svg",
+      "file": "icons/lucid_4/tv-minimal.svg",
+      "hash": "d297c0efcb819df0fc31826f0106a01176b6b34466f0936feadc3ce343d93991",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tractor": {
+      "id": "dl_dbdbf1fa60974897a24a",
+      "name": "tractor",
+      "title": "Tractor",
+      "aliases": [],
+      "tags": [
+        "tractor"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tractor.svg",
+      "file": "icons/lucid_4/tractor.svg",
+      "hash": "ac1313d51b98862e996dbae72e30649727bfb54214bdba4310f4aa05c2a3b19b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "traffic-cone": {
+      "id": "dl_6da3c2b2972a40b99ba4",
+      "name": "traffic-cone",
+      "title": "Traffic Cone",
+      "aliases": [],
+      "tags": [
+        "traffic",
+        "cone"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/traffic-cone.svg",
+      "file": "icons/lucid_4/traffic-cone.svg",
+      "hash": "cbab184426f2ce71912567e61d14d1db369fa2b0e49c3c4753ebc3d7b4ce9857",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "trailer": {
+      "id": "dl_fdaab6a9be4142e59c9f",
+      "name": "trailer",
+      "title": "Trailer",
+      "aliases": [],
+      "tags": [
+        "trailer"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/trailer.svg",
+      "file": "icons/lucid_4/trailer.svg",
+      "hash": "922076f60c294eb62f73c49f0b42df8bcd4b0d90cf42790c56d929005273a90d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "train-front-tunnel": {
+      "id": "dl_a82ade1d1cba49edaa76",
+      "name": "train-front-tunnel",
+      "title": "Train Front Tunnel",
+      "aliases": [],
+      "tags": [
+        "train",
+        "front",
+        "tunnel"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/train-front-tunnel.svg",
+      "file": "icons/lucid_4/train-front-tunnel.svg",
+      "hash": "9c2ce448195dc4132ddcb3317b6db6fcc9f2e883855a8c6d6883ee0a59968564",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "train-front": {
+      "id": "dl_c80a97aaa8d14433953c",
+      "name": "train-front",
+      "title": "Train Front",
+      "aliases": [],
+      "tags": [
+        "train",
+        "front"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/train-front.svg",
+      "file": "icons/lucid_4/train-front.svg",
+      "hash": "cbe09a55a431de61d73df67eb99da1bf95f5ab24232d44886b7db452a78beff5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "transgender": {
+      "id": "dl_3802ddf7cb2a418b8445",
+      "name": "transgender",
+      "title": "Transgender",
+      "aliases": [],
+      "tags": [
+        "transgender"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/transgender.svg",
+      "file": "icons/lucid_4/transgender.svg",
+      "hash": "e8d1209f463f0d686ba048e52fcaa7a59a1a8f2742f20fab387fca7213bcefe2",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "trash-2": {
+      "id": "dl_45a3af58b26646a7b00a",
+      "name": "trash-2",
+      "title": "Trash 2",
+      "aliases": [],
+      "tags": [
+        "trash",
+        "2"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/trash-2.svg",
+      "file": "icons/lucid_4/trash-2.svg",
+      "hash": "2b6919d8eed772e53163b4f038393b7a70adcaaeedc4fa7ce6368ceb974d0ab9",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tree-deciduous": {
+      "id": "dl_7aa48a8efcae4143ac29",
+      "name": "tree-deciduous",
+      "title": "Tree Deciduous",
+      "aliases": [],
+      "tags": [
+        "tree",
+        "deciduous"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tree-deciduous.svg",
+      "file": "icons/lucid_4/tree-deciduous.svg",
+      "hash": "b3fe20fc57fdf8c232f1d7a395d91e19a94bad76ef2b83dd26bc4079a215e22f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tree-palm": {
+      "id": "dl_5232e0be5c7b4289ae21",
+      "name": "tree-palm",
+      "title": "Tree Palm",
+      "aliases": [],
+      "tags": [
+        "tree",
+        "palm"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tree-palm.svg",
+      "file": "icons/lucid_4/tree-palm.svg",
+      "hash": "451aadeadcc3cd682468742837ecafc7a9079c3d5d11067479fa7b8acfde6489",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "trees": {
+      "id": "dl_be6bf339c27e48288952",
+      "name": "trees",
+      "title": "Trees",
+      "aliases": [],
+      "tags": [
+        "trees"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/trees.svg",
+      "file": "icons/lucid_4/trees.svg",
+      "hash": "6ed54692c6b0ff006718d281f285ec655d00c4e917e82dbe86790c733ee64d90",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "trending-down": {
+      "id": "dl_05a3fe073cd847e19cf9",
+      "name": "trending-down",
+      "title": "Trending Down",
+      "aliases": [],
+      "tags": [
+        "trending",
+        "down"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/trending-down.svg",
+      "file": "icons/lucid_4/trending-down.svg",
+      "hash": "f70edc6fb8c74f2b26fb8d9463c21bf88c0842b1f00cd780288514354747d70e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "trending-up": {
+      "id": "dl_5b95424ac8344d6b865d",
+      "name": "trending-up",
+      "title": "Trending Up",
+      "aliases": [],
+      "tags": [
+        "trending",
+        "up"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/trending-up.svg",
+      "file": "icons/lucid_4/trending-up.svg",
+      "hash": "99381bdc2c7f7378ce108c6eb3096f909ece7431125470d6a7790d59361c10e8",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "triangle-dashed": {
+      "id": "dl_12101ec8ed1640efaaac",
+      "name": "triangle-dashed",
+      "title": "Triangle Dashed",
+      "aliases": [],
+      "tags": [
+        "triangle",
+        "dashed"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/triangle-dashed.svg",
+      "file": "icons/lucid_4/triangle-dashed.svg",
+      "hash": "18893004db6d1e8d28bfacb188213e30b378167ea56b4e7c65a045856cc6d99b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "triangle-right": {
+      "id": "dl_63793fbbcb3546d4bcaa",
+      "name": "triangle-right",
+      "title": "Triangle Right",
+      "aliases": [],
+      "tags": [
+        "triangle",
+        "right"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/triangle-right.svg",
+      "file": "icons/lucid_4/triangle-right.svg",
+      "hash": "e8658f25c531f9d726433aa456adc73d5bb3ec9114dda320bf011d96f1877c44",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "trophy": {
+      "id": "dl_e12fd020672a410288a9",
+      "name": "trophy",
+      "title": "Trophy",
+      "aliases": [],
+      "tags": [
+        "trophy"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/trophy.svg",
+      "file": "icons/lucid_4/trophy.svg",
+      "hash": "748de2509923eac444baabd34c5a110221db807f712dd7ff0bc61375e847352b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "truck-electric": {
+      "id": "dl_384b85e546d4412699f8",
+      "name": "truck-electric",
+      "title": "Truck Electric",
+      "aliases": [],
+      "tags": [
+        "truck",
+        "electric"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/truck-electric.svg",
+      "file": "icons/lucid_4/truck-electric.svg",
+      "hash": "f6a0b4eaf3f5b3babc15fcd8bac9ed52330daf43ff68a00e8d1db654ba915156",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "truck": {
+      "id": "dl_9b2c7d40d97f4beeb7dd",
+      "name": "truck",
+      "title": "Truck",
+      "aliases": [],
+      "tags": [
+        "truck"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/truck.svg",
+      "file": "icons/lucid_4/truck.svg",
+      "hash": "333444185a769d0692d359b5102dfaf031a87681094a14d4fd6cc343a40e955d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "turkish-lira": {
+      "id": "dl_d2e1c79698d44856be5c",
+      "name": "turkish-lira",
+      "title": "Turkish Lira",
+      "aliases": [],
+      "tags": [
+        "turkish",
+        "lira"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/turkish-lira.svg",
+      "file": "icons/lucid_4/turkish-lira.svg",
+      "hash": "a708802aa76f1d033401cdb12bf069fbebe5c6997776d93ca5490b1c072958e9",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "turntable": {
+      "id": "dl_b050328c31a241caa0d9",
+      "name": "turntable",
+      "title": "Turntable",
+      "aliases": [],
+      "tags": [
+        "turntable"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/turntable.svg",
+      "file": "icons/lucid_4/turntable.svg",
+      "hash": "61f96f0349a40443ea3ad2332cd389e3077e5e38aa6567d9c1650888bedd7441",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "turtle": {
+      "id": "dl_b8bf166d818847da97b0",
+      "name": "turtle",
+      "title": "Turtle",
+      "aliases": [],
+      "tags": [
+        "turtle"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/turtle.svg",
+      "file": "icons/lucid_4/turtle.svg",
+      "hash": "3ea109f2d0bfe15f866cf35dfa41b7b95495c13d1ee3cead3e2271f3689d24eb",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tv-minimal-play": {
+      "id": "dl_93d7dafebd26401496aa",
+      "name": "tv-minimal-play",
+      "title": "Tv Minimal Play",
+      "aliases": [],
+      "tags": [
+        "tv",
+        "minimal",
+        "play"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tv-minimal-play.svg",
+      "file": "icons/lucid_4/tv-minimal-play.svg",
+      "hash": "18b5c996f5de0286facebbc522a3a1b537d0bef27b240515cd4f20c749575496",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "tv": {
+      "id": "dl_7e9ed127d5fb43a69082",
+      "name": "tv",
+      "title": "Tv",
+      "aliases": [],
+      "tags": [
+        "tv"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/tv.svg",
+      "file": "icons/lucid_4/tv.svg",
+      "hash": "8971d6413819934fb6476608eb15c32fb8ad8dfe17eb83f65661770f00d568f5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "type-outline": {
+      "id": "dl_6205dd096ea84f9b88cd",
+      "name": "type-outline",
+      "title": "Type Outline",
+      "aliases": [],
+      "tags": [
+        "type",
+        "outline"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/type-outline.svg",
+      "file": "icons/lucid_4/type-outline.svg",
+      "hash": "9d9f05209f7d7cca4ebae962749d195969d639fcbc1b1a117a3a1c97b8f95eb4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "type": {
+      "id": "dl_11ea2afa1c054dd7a986",
+      "name": "type",
+      "title": "Type",
+      "aliases": [],
+      "tags": [
+        "type"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/type.svg",
+      "file": "icons/lucid_4/type.svg",
+      "hash": "f4733b0a13769e06109e226d7db545c00898716d3ee0c9d518e525890ead3ed3",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
     }
   },
   "aliases": {}

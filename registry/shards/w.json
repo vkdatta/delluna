@@ -1,0 +1,1428 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "wallet-cards": {
+      "id": "dl_d6050eeb30a0444da5ad",
+      "name": "wallet-cards",
+      "title": "Wallet Cards",
+      "aliases": [],
+      "tags": [
+        "wallet",
+        "cards"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wallet-cards.svg",
+      "file": "icons/lucid_4/wallet-cards.svg",
+      "hash": "32bc2ec385bb55308c73b5fca55115ccd05b460e384d262e1398e221c91a4e21",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wallet": {
+      "id": "dl_efd2b75b5db745ec9605",
+      "name": "wallet",
+      "title": "Wallet",
+      "aliases": [],
+      "tags": [
+        "wallet"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wallet.svg",
+      "file": "icons/lucid_4/wallet.svg",
+      "hash": "fb52aaf53538c2d615d5f9ea0977c94ea315c34abba68f0ed606aef95c12b85c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "waves-arrow-down": {
+      "id": "dl_f1c4747891b2497b92e3",
+      "name": "waves-arrow-down",
+      "title": "Waves Arrow Down",
+      "aliases": [],
+      "tags": [
+        "waves",
+        "arrow",
+        "down"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/waves-arrow-down.svg",
+      "file": "icons/lucid_4/waves-arrow-down.svg",
+      "hash": "909b5a000c8c0fff339bee9eee05c44f5ff8115540ced03b100a0b0bd4921fe7",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "waves-arrow-up": {
+      "id": "dl_f7b314b76ef0489b8e5c",
+      "name": "waves-arrow-up",
+      "title": "Waves Arrow Up",
+      "aliases": [],
+      "tags": [
+        "waves",
+        "arrow",
+        "up"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/waves-arrow-up.svg",
+      "file": "icons/lucid_4/waves-arrow-up.svg",
+      "hash": "f788ec72a214939d9d3314f653346df23ff013f21428140af59f976a9a48af4a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "waves-ladder": {
+      "id": "dl_13529ff48cd94e9d894c",
+      "name": "waves-ladder",
+      "title": "Waves Ladder",
+      "aliases": [],
+      "tags": [
+        "waves",
+        "ladder"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/waves-ladder.svg",
+      "file": "icons/lucid_4/waves-ladder.svg",
+      "hash": "cc91c1c873f27a409507a5f40aeebe8dd382903a491363a8b54103ec99f21e2e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "waves-vertical": {
+      "id": "dl_a38473c39365489e9363",
+      "name": "waves-vertical",
+      "title": "Waves Vertical",
+      "aliases": [],
+      "tags": [
+        "waves",
+        "vertical"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/waves-vertical.svg",
+      "file": "icons/lucid_4/waves-vertical.svg",
+      "hash": "c2aceee10d3f8dd1f8ea6fa2b00c50bb37b4f6b6f2e406a386348d04238a3d9d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "webcam-off": {
+      "id": "dl_f20a02e01c2948da8c26",
+      "name": "webcam-off",
+      "title": "Webcam Off",
+      "aliases": [],
+      "tags": [
+        "webcam",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/webcam-off.svg",
+      "file": "icons/lucid_4/webcam-off.svg",
+      "hash": "f72fa7a9e3636a9f447d1d563daa4686ebe437a1926d0bd7700d89ea101a78bb",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "webcam": {
+      "id": "dl_6d12e0a479464e3f9222",
+      "name": "webcam",
+      "title": "Webcam",
+      "aliases": [],
+      "tags": [
+        "webcam"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/webcam.svg",
+      "file": "icons/lucid_4/webcam.svg",
+      "hash": "9e88fe9d68f4ee0b460502a6f2bd4dc38b62fd4c703dae5569234a3b0f8ccad5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "webhook-off": {
+      "id": "dl_96d076f3f5684acc8647",
+      "name": "webhook-off",
+      "title": "Webhook Off",
+      "aliases": [],
+      "tags": [
+        "webhook",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/webhook-off.svg",
+      "file": "icons/lucid_4/webhook-off.svg",
+      "hash": "d89ae3fc7b4b04362134dfc9016471ccfb278ca5f8c4d932f866fc3031957c16",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "webhook": {
+      "id": "dl_c4f44283239a46559fb4",
+      "name": "webhook",
+      "title": "Webhook",
+      "aliases": [],
+      "tags": [
+        "webhook"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/webhook.svg",
+      "file": "icons/lucid_4/webhook.svg",
+      "hash": "5bdc35f937f92e719da027a0c7bb7aeef8514596e00a14ff425efb13a2fc6df6",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "weight": {
+      "id": "dl_2de7b198099946519105",
+      "name": "weight",
+      "title": "Weight",
+      "aliases": [],
+      "tags": [
+        "weight"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/weight.svg",
+      "file": "icons/lucid_4/weight.svg",
+      "hash": "ee0a0e12ba4b4b0ac454a561d9db4a4fc77b6b36e08177319296bfdfca983487",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wheat-off": {
+      "id": "dl_d76ff4ed5f584cbf86cf",
+      "name": "wheat-off",
+      "title": "Wheat Off",
+      "aliases": [],
+      "tags": [
+        "wheat",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wheat-off.svg",
+      "file": "icons/lucid_4/wheat-off.svg",
+      "hash": "ab7fbc9a812f343a83c87d8f4d540b0369fa017fac7462ab0753e0b9ad102d6c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wheat": {
+      "id": "dl_7907ae95a8f24867a6d6",
+      "name": "wheat",
+      "title": "Wheat",
+      "aliases": [],
+      "tags": [
+        "wheat"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wheat.svg",
+      "file": "icons/lucid_4/wheat.svg",
+      "hash": "1e0a341e033e2d00bec57ec5f1bfa37d8b6ffb5c91085be72c48e3df08d41446",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "whistle": {
+      "id": "dl_f30d64eed99549b3ad82",
+      "name": "whistle",
+      "title": "Whistle",
+      "aliases": [],
+      "tags": [
+        "whistle"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/whistle.svg",
+      "file": "icons/lucid_4/whistle.svg",
+      "hash": "3a630664a76f9897344e4b302b15d98c4823eebcc9d967a565e544a102d7ee7e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wifi-low": {
+      "id": "dl_df332a72b32d47218109",
+      "name": "wifi-low",
+      "title": "Wifi Low",
+      "aliases": [],
+      "tags": [
+        "wifi",
+        "low"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wifi-low.svg",
+      "file": "icons/lucid_4/wifi-low.svg",
+      "hash": "20c43d7b341c3c48a8ea719b3209449e6ff03b7d100283d60a8851f7f54e63f5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wifi-off": {
+      "id": "dl_12da83f3c3df4d69ae2e",
+      "name": "wifi-off",
+      "title": "Wifi Off",
+      "aliases": [],
+      "tags": [
+        "wifi",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wifi-off.svg",
+      "file": "icons/lucid_4/wifi-off.svg",
+      "hash": "a006a328c1627dac0ea381f64616fa98784833657937db6161787d5af990ac62",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wifi-pen": {
+      "id": "dl_06f024b2770d4a2a9e47",
+      "name": "wifi-pen",
+      "title": "Wifi Pen",
+      "aliases": [],
+      "tags": [
+        "wifi",
+        "pen"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wifi-pen.svg",
+      "file": "icons/lucid_4/wifi-pen.svg",
+      "hash": "239a7552fe1aaae30c2fa5071099c2c45c5085b5efb220ee387e5ebc3ec5757b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wifi-zero": {
+      "id": "dl_75a318ca98e144b8b154",
+      "name": "wifi-zero",
+      "title": "Wifi Zero",
+      "aliases": [],
+      "tags": [
+        "wifi",
+        "zero"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wifi-zero.svg",
+      "file": "icons/lucid_4/wifi-zero.svg",
+      "hash": "6853dde65fe1d800637a0de56beafae74245bc81f26bf9d3636081bbd416e47f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wind-arrow-down": {
+      "id": "dl_34144465a79d434c8a2b",
+      "name": "wind-arrow-down",
+      "title": "Wind Arrow Down",
+      "aliases": [],
+      "tags": [
+        "wind",
+        "arrow",
+        "down"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wind-arrow-down.svg",
+      "file": "icons/lucid_4/wind-arrow-down.svg",
+      "hash": "855f90c5779f6d9cfe7a9d3209bcd327c9c1f6dec5053747886bf91d8be7594d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wine-off": {
+      "id": "dl_b9195bad052b40d081c6",
+      "name": "wine-off",
+      "title": "Wine Off",
+      "aliases": [],
+      "tags": [
+        "wine",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wine-off.svg",
+      "file": "icons/lucid_4/wine-off.svg",
+      "hash": "c1ef2539fb855140ab16dfaadc88445dbf35795ffe3ccbaaa50d21aaef61123b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "workflow": {
+      "id": "dl_5f8a5bf2cabc4368a1df",
+      "name": "workflow",
+      "title": "Workflow",
+      "aliases": [],
+      "tags": [
+        "workflow"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/workflow.svg",
+      "file": "icons/lucid_4/workflow.svg",
+      "hash": "402f6c4cccb91c9dea372313881b82ecff7f44e756907b3eff8404d1afd755e8",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "worm": {
+      "id": "dl_875390c23a7046319c2d",
+      "name": "worm",
+      "title": "Worm",
+      "aliases": [],
+      "tags": [
+        "worm"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/worm.svg",
+      "file": "icons/lucid_4/worm.svg",
+      "hash": "dabd2d312d912657ded29bf5c98ea8df07f3327e6372e6496485d204a00e1e06",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wrench": {
+      "id": "dl_73068e58dea64e4386ec",
+      "name": "wrench",
+      "title": "Wrench",
+      "aliases": [],
+      "tags": [
+        "wrench"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wrench.svg",
+      "file": "icons/lucid_4/wrench.svg",
+      "hash": "79235ec3ac0e42158af7e8da2ec847f77bcbd2a55983fcd9d414631ee0f4e554",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wallet-minimal": {
+      "id": "dl_0eb6d3ff5e264fd18a73",
+      "name": "wallet-minimal",
+      "title": "Wallet Minimal",
+      "aliases": [],
+      "tags": [
+        "wallet",
+        "minimal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wallet-minimal.svg",
+      "file": "icons/lucid_4/wallet-minimal.svg",
+      "hash": "2d49f0bf36ba22ffef9cb14b4372e51ae1c0d4368f62965e1f59792bc8f83920",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wallpaper": {
+      "id": "dl_46d72a3e352943fe8753",
+      "name": "wallpaper",
+      "title": "Wallpaper",
+      "aliases": [],
+      "tags": [
+        "wallpaper"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wallpaper.svg",
+      "file": "icons/lucid_4/wallpaper.svg",
+      "hash": "cd028bb06d2386c7e348b1f0d8cec276ba4b730f4a32055dac9cbe5b8cf5d7c4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wand-sparkles": {
+      "id": "dl_68e7b35f73034c1a9538",
+      "name": "wand-sparkles",
+      "title": "Wand Sparkles",
+      "aliases": [],
+      "tags": [
+        "wand",
+        "sparkles"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wand-sparkles.svg",
+      "file": "icons/lucid_4/wand-sparkles.svg",
+      "hash": "9fc031e164959b069eb87b07d5a4379d97a430b16ce468d2f1ea0db47ee04c16",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wand": {
+      "id": "dl_dd54abcefe064e298c36",
+      "name": "wand",
+      "title": "Wand",
+      "aliases": [],
+      "tags": [
+        "wand"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wand.svg",
+      "file": "icons/lucid_4/wand.svg",
+      "hash": "0361a4be9fbf196abc5129feb558ceb7e5d3f2b714bbb8caef50f06dd895ee4e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "warehouse": {
+      "id": "dl_f4e3448362064335896a",
+      "name": "warehouse",
+      "title": "Warehouse",
+      "aliases": [],
+      "tags": [
+        "warehouse"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/warehouse.svg",
+      "file": "icons/lucid_4/warehouse.svg",
+      "hash": "c86a90e15010d664db5cc91cd897a6f16400251435358974ff6ae2e0148ea945",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "washing-machine": {
+      "id": "dl_ea8ef86a827d4d9c8e99",
+      "name": "washing-machine",
+      "title": "Washing Machine",
+      "aliases": [],
+      "tags": [
+        "washing",
+        "machine"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/washing-machine.svg",
+      "file": "icons/lucid_4/washing-machine.svg",
+      "hash": "3c596ef80fc75be89234eeed63fbedc132734c0bc5ff6ccce128e2b3ebfd645f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "watch": {
+      "id": "dl_0c6e4d29e2e7438d96fc",
+      "name": "watch",
+      "title": "Watch",
+      "aliases": [],
+      "tags": [
+        "watch"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/watch.svg",
+      "file": "icons/lucid_4/watch.svg",
+      "hash": "323b28fb7d19120f92b3f5abf0ea7f54660bb9e8e5a8202ca18c70b525046388",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "waves-horizontal": {
+      "id": "dl_99504ee65e1d456e892a",
+      "name": "waves-horizontal",
+      "title": "Waves Horizontal",
+      "aliases": [],
+      "tags": [
+        "waves",
+        "horizontal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/waves-horizontal.svg",
+      "file": "icons/lucid_4/waves-horizontal.svg",
+      "hash": "036082a9b06474107079ed5200c2fb65842091647ce7dd4edde2811672ca4561",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "waypoints": {
+      "id": "dl_eea846d488f3468f9765",
+      "name": "waypoints",
+      "title": "Waypoints",
+      "aliases": [],
+      "tags": [
+        "waypoints"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/waypoints.svg",
+      "file": "icons/lucid_4/waypoints.svg",
+      "hash": "41615686e61c013c6145829821f106e863762a175b1a98cac09b005489d42b11",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "weight-tilde": {
+      "id": "dl_ff2d82a28a904fd6ad01",
+      "name": "weight-tilde",
+      "title": "Weight Tilde",
+      "aliases": [],
+      "tags": [
+        "weight",
+        "tilde"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/weight-tilde.svg",
+      "file": "icons/lucid_4/weight-tilde.svg",
+      "hash": "c933b458bc3ec802df92864dca9031f0895a3f29ab71896991ffc47782ab10bc",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "whole-word": {
+      "id": "dl_a400e9d373b64fb2988f",
+      "name": "whole-word",
+      "title": "Whole Word",
+      "aliases": [],
+      "tags": [
+        "whole",
+        "word"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/whole-word.svg",
+      "file": "icons/lucid_4/whole-word.svg",
+      "hash": "23237da279dd547b2f281009feb9a89aa1b7688a86c1c200160ad175b37bb121",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wifi-cog": {
+      "id": "dl_924e752c066743e6bfd5",
+      "name": "wifi-cog",
+      "title": "Wifi Cog",
+      "aliases": [],
+      "tags": [
+        "wifi",
+        "cog"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wifi-cog.svg",
+      "file": "icons/lucid_4/wifi-cog.svg",
+      "hash": "a694db1078a6e3749cf2ee44d15d32399ca6f16ced021c82a256f9c570d3867e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wifi-high": {
+      "id": "dl_bad10f95ce0649c7a3ee",
+      "name": "wifi-high",
+      "title": "Wifi High",
+      "aliases": [],
+      "tags": [
+        "wifi",
+        "high"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wifi-high.svg",
+      "file": "icons/lucid_4/wifi-high.svg",
+      "hash": "4b442397bb7c4d6f57e4b8f97483991ae59d055af01916fea7b4f8c8eeeb7548",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wifi-sync": {
+      "id": "dl_09270cc7e55a47658a45",
+      "name": "wifi-sync",
+      "title": "Wifi Sync",
+      "aliases": [],
+      "tags": [
+        "wifi",
+        "sync"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wifi-sync.svg",
+      "file": "icons/lucid_4/wifi-sync.svg",
+      "hash": "19ba75961f0e1e58b2cc3d7dbab140e5cdf47f260dc7b26f38247ef574af6a90",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wifi": {
+      "id": "dl_caffdfa6845244e6b086",
+      "name": "wifi",
+      "title": "Wifi",
+      "aliases": [],
+      "tags": [
+        "wifi"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wifi.svg",
+      "file": "icons/lucid_4/wifi.svg",
+      "hash": "cd78ccf12f0fc0a3ad8c0578fe042d8a570e6c8184d91caa61344c10cfcb2d5c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wind": {
+      "id": "dl_c283c1118a2645a5be75",
+      "name": "wind",
+      "title": "Wind",
+      "aliases": [],
+      "tags": [
+        "wind"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wind.svg",
+      "file": "icons/lucid_4/wind.svg",
+      "hash": "ba08c464cae1a3dd2600b1f247ebe7b36008dc8a1c002ca33682cb1ff36e30ed",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wine": {
+      "id": "dl_268ca4510ef84d8a8619",
+      "name": "wine",
+      "title": "Wine",
+      "aliases": [],
+      "tags": [
+        "wine"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wine.svg",
+      "file": "icons/lucid_4/wine.svg",
+      "hash": "4ba040c27e92748555e78ee56623d12e78f516db1face7903b3d900327ae1cdb",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wrench-off": {
+      "id": "dl_94e746d8452641a78b2d",
+      "name": "wrench-off",
+      "title": "Wrench Off",
+      "aliases": [],
+      "tags": [
+        "wrench",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/wrench-off.svg",
+      "file": "icons/lucid_4/wrench-off.svg",
+      "hash": "4fe6f36de147e0f9e70cd7dee8b51e50867ada65ca2a0810f2324ab3b2792f8d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    }
+  },
+  "aliases": {}
+}

@@ -1,0 +1,601 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "zap-off": {
+      "id": "dl_a0923715994a4b39aa67",
+      "name": "zap-off",
+      "title": "Zap Off",
+      "aliases": [],
+      "tags": [
+        "zap",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zap-off.svg",
+      "file": "icons/lucid_4/zap-off.svg",
+      "hash": "191cb82d272fdd58219fd75fd3fa8b3cc710c1c307772a420089b55c380ee6fe",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-aquarius": {
+      "id": "dl_8c365caf4dc34a92b568",
+      "name": "zodiac-aquarius",
+      "title": "Zodiac Aquarius",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "aquarius"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-aquarius.svg",
+      "file": "icons/lucid_4/zodiac-aquarius.svg",
+      "hash": "8fcd64f77e22eab29c08ac2877b23d060a1b6b8760e61f4061c72ab21de842b9",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-aries": {
+      "id": "dl_259ed9ec0ccd4c34b614",
+      "name": "zodiac-aries",
+      "title": "Zodiac Aries",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "aries"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-aries.svg",
+      "file": "icons/lucid_4/zodiac-aries.svg",
+      "hash": "152facd828279e746178a04669e0abe7690882c62c23c247fd261ec824488461",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-capricorn": {
+      "id": "dl_4315389c79e44f598360",
+      "name": "zodiac-capricorn",
+      "title": "Zodiac Capricorn",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "capricorn"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-capricorn.svg",
+      "file": "icons/lucid_4/zodiac-capricorn.svg",
+      "hash": "650b599706c7160fce583a25738f2d5c7e582656cbda3b68482a6a551e2dd497",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-gemini": {
+      "id": "dl_a97159f7fb4740499c64",
+      "name": "zodiac-gemini",
+      "title": "Zodiac Gemini",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "gemini"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-gemini.svg",
+      "file": "icons/lucid_4/zodiac-gemini.svg",
+      "hash": "dfa2815867f36ad21976b06fb2e0065807352bfe59d229e069de5916a5a4114b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-sagittarius": {
+      "id": "dl_312f89347c7644819dcf",
+      "name": "zodiac-sagittarius",
+      "title": "Zodiac Sagittarius",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "sagittarius"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-sagittarius.svg",
+      "file": "icons/lucid_4/zodiac-sagittarius.svg",
+      "hash": "66a7cf9ecf17101e989b2c4697a2ddbfd1d47c971f5043e2f7ef079b2a25469a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-virgo": {
+      "id": "dl_60a37129485a4571b8dd",
+      "name": "zodiac-virgo",
+      "title": "Zodiac Virgo",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "virgo"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-virgo.svg",
+      "file": "icons/lucid_4/zodiac-virgo.svg",
+      "hash": "2b33d16ae0ad02f1418ecce64f0d56d4fc3f4bdb477c909a91beb8b434cb8b1e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zoom-in": {
+      "id": "dl_614dc6b10a5549b6b705",
+      "name": "zoom-in",
+      "title": "Zoom In",
+      "aliases": [],
+      "tags": [
+        "zoom",
+        "in"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zoom-in.svg",
+      "file": "icons/lucid_4/zoom-in.svg",
+      "hash": "322bfc5f1d2f64c1975d4e26056f962b25b8a3dc8b548ff8e1bfe7b69dd3c2f4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zoom-out": {
+      "id": "dl_9a9dfb683b3d4611affb",
+      "name": "zoom-out",
+      "title": "Zoom Out",
+      "aliases": [],
+      "tags": [
+        "zoom",
+        "out"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zoom-out.svg",
+      "file": "icons/lucid_4/zoom-out.svg",
+      "hash": "df12ddbbca13cd03aba1ee632022ec0a5a1f3e6b09e81ac134cbf791f68ce62c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zap": {
+      "id": "dl_b7554e601ec84c9dba78",
+      "name": "zap",
+      "title": "Zap",
+      "aliases": [],
+      "tags": [
+        "zap"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zap.svg",
+      "file": "icons/lucid_4/zap.svg",
+      "hash": "6d0949f3aa044b82ca4a25102bc177e3b2a43caba26c97603bdff4bdb4c2603f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-cancer": {
+      "id": "dl_bff9ad3980ce448193a0",
+      "name": "zodiac-cancer",
+      "title": "Zodiac Cancer",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "cancer"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-cancer.svg",
+      "file": "icons/lucid_4/zodiac-cancer.svg",
+      "hash": "95d2960cf3ba5241a72ca489b2fc130d6fc07dfc99c7c07f54be74337c0de9c4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-leo": {
+      "id": "dl_44cbdff2a3f4407391cb",
+      "name": "zodiac-leo",
+      "title": "Zodiac Leo",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "leo"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-leo.svg",
+      "file": "icons/lucid_4/zodiac-leo.svg",
+      "hash": "6581ae37b71bb8e692cfe34afcaf934a8a25c2906f16782c914fa21e628b9e53",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-libra": {
+      "id": "dl_b489d84af8aa4304aa95",
+      "name": "zodiac-libra",
+      "title": "Zodiac Libra",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "libra"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-libra.svg",
+      "file": "icons/lucid_4/zodiac-libra.svg",
+      "hash": "9bd7448dd39bd629d6062e60081e9ebf739fa24381250cca2426db6c5cc55598",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-ophiuchus": {
+      "id": "dl_d77513d028d24757bafa",
+      "name": "zodiac-ophiuchus",
+      "title": "Zodiac Ophiuchus",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "ophiuchus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-ophiuchus.svg",
+      "file": "icons/lucid_4/zodiac-ophiuchus.svg",
+      "hash": "b61fdb0b29acc361a4f67b992f3843f8a1a581adb9643751564aff27b3719735",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-pisces": {
+      "id": "dl_ef15a704c0404ead857a",
+      "name": "zodiac-pisces",
+      "title": "Zodiac Pisces",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "pisces"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-pisces.svg",
+      "file": "icons/lucid_4/zodiac-pisces.svg",
+      "hash": "b7f011328fd099abd6cce7e837c2b44f9a12c7535990296662e2983a13d75fd6",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-scorpio": {
+      "id": "dl_971753d2637149188ca1",
+      "name": "zodiac-scorpio",
+      "title": "Zodiac Scorpio",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "scorpio"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-scorpio.svg",
+      "file": "icons/lucid_4/zodiac-scorpio.svg",
+      "hash": "dc1ab8bb3d3594a3b8c1b8184df585823092e7e320cd95f756324e83e7522294",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "zodiac-taurus": {
+      "id": "dl_3be4147e2a084c7a9211",
+      "name": "zodiac-taurus",
+      "title": "Zodiac Taurus",
+      "aliases": [],
+      "tags": [
+        "zodiac",
+        "taurus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/zodiac-taurus.svg",
+      "file": "icons/lucid_4/zodiac-taurus.svg",
+      "hash": "a2c86c4ec5eea0d7c799fc39ff668937d36ccaea8cdc2421f02892739256f9a4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    }
+  },
+  "aliases": {}
+}

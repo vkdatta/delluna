@@ -35,6 +35,42 @@
       ],
       "hash": "07bde35a9c0a90ea24cef38d5c95d3184cc3b28bebfdadec5db11a79d8109394",
       "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "x-line-top": {
+      "id": "dl_73ba9aca676a4a6a9015",
+      "name": "x-line-top",
+      "title": "X Line Top",
+      "aliases": [],
+      "tags": [
+        "x",
+        "line",
+        "top"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "lucid_4/x-line-top.svg",
+      "file": "icons/lucid_4/x-line-top.svg",
+      "hash": "134e562bbd02b084677c8fd9576426621af66abb19c8b1a6ee7b05d389afa88a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
     }
   },
   "aliases": {}
