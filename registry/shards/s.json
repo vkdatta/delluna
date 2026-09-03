@@ -2,6 +2,3189 @@
   "version": 9,
   "library": "Delluna",
   "icons": {
+    "square-dashed-mouse-pointer": {
+      "id": "dl_d0c352d917d746bb9c38",
+      "name": "square-dashed-mouse-pointer",
+      "title": "Square Dashed Mouse Pointer",
+      "file": "icons/lucid_4/square-dashed-mouse-pointer.svg",
+      "path": "lucid_4/square-dashed-mouse-pointer.svg",
+      "tags": [
+        "square",
+        "dashed",
+        "mouse",
+        "pointer"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "49c4f785bdae0a2dd0eb58446a75d3e36e8faefd1d7573462e0e3763856ce7aa",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-dashed-text": {
+      "id": "dl_582e9bdb113c40fea097",
+      "name": "square-dashed-text",
+      "title": "Square Dashed Text",
+      "file": "icons/lucid_4/square-dashed-text.svg",
+      "path": "lucid_4/square-dashed-text.svg",
+      "tags": [
+        "square",
+        "dashed",
+        "text"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "87af8e981fc8d2aa4394ee750b686417b88f240d8b08545d3778f4497457409a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-dashed-top-solid": {
+      "id": "dl_506e73030ea841718898",
+      "name": "square-dashed-top-solid",
+      "title": "Square Dashed Top Solid",
+      "file": "icons/lucid_4/square-dashed-top-solid.svg",
+      "path": "lucid_4/square-dashed-top-solid.svg",
+      "tags": [
+        "square",
+        "dashed",
+        "top",
+        "solid"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c448fa9b42cbbb9be5a6e982066e063445c57d2d6732ee3ad4ae81d2529a4fcf",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-dashed": {
+      "id": "dl_24485bd7bee04f51a1f9",
+      "name": "square-dashed",
+      "title": "Square Dashed",
+      "file": "icons/lucid_4/square-dashed.svg",
+      "path": "lucid_4/square-dashed.svg",
+      "tags": [
+        "square",
+        "dashed"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "23624d5e198f2606086d20b900e20732357ebf736d1e2ea11027f743b9a933be",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-dimensions": {
+      "id": "dl_fb75ab4ee9d042029282",
+      "name": "square-dimensions",
+      "title": "Square Dimensions",
+      "file": "icons/lucid_4/square-dimensions.svg",
+      "path": "lucid_4/square-dimensions.svg",
+      "tags": [
+        "square",
+        "dimensions"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ea7e5a11fcc62a0e307f43a4623e314730aaf6cabf3f0104b8fd735e79a50e38",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-divide": {
+      "id": "dl_4dbb1f0b2e99429799c7",
+      "name": "square-divide",
+      "title": "Square Divide",
+      "file": "icons/lucid_4/square-divide.svg",
+      "path": "lucid_4/square-divide.svg",
+      "tags": [
+        "square",
+        "divide"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0aabcda6344a79ca15b6d9f02cf1147e5357bcc8d9da2b9763166dd2389cde12",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-dot": {
+      "id": "dl_7860a82d76de4c30963a",
+      "name": "square-dot",
+      "title": "Square Dot",
+      "file": "icons/lucid_4/square-dot.svg",
+      "path": "lucid_4/square-dot.svg",
+      "tags": [
+        "square",
+        "dot"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8aa7e134d2a1cc0e14470a28185564ab953a81a3ee5e176e74835f626f8014fe",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-equal": {
+      "id": "dl_84f69252e35e4826ac61",
+      "name": "square-equal",
+      "title": "Square Equal",
+      "file": "icons/lucid_4/square-equal.svg",
+      "path": "lucid_4/square-equal.svg",
+      "tags": [
+        "square",
+        "equal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "166be6f4af6281324372b88bc1692e24a7e3cf6c1de6032fcd002358ffcaeeff",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-exclamation-point": {
+      "id": "dl_0f4b9151313d4c60a80d",
+      "name": "square-exclamation-point",
+      "title": "Square Exclamation Point",
+      "file": "icons/lucid_4/square-exclamation-point.svg",
+      "path": "lucid_4/square-exclamation-point.svg",
+      "tags": [
+        "square",
+        "exclamation",
+        "point"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "144aa816ce92952206be0722ac1d6d7591b45bbbb6e8f8465b6e3e5ad3489e2e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-function": {
+      "id": "dl_eb0d883b25404ed1bf61",
+      "name": "square-function",
+      "title": "Square Function",
+      "file": "icons/lucid_4/square-function.svg",
+      "path": "lucid_4/square-function.svg",
+      "tags": [
+        "square",
+        "function"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ae470d1f98f337138c5804de5f7889f8f27615e5c1a2d1505f974d583582a231",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-kanban": {
+      "id": "dl_07eccdab53b74a86b7a1",
+      "name": "square-kanban",
+      "title": "Square Kanban",
+      "file": "icons/lucid_4/square-kanban.svg",
+      "path": "lucid_4/square-kanban.svg",
+      "tags": [
+        "square",
+        "kanban"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "27023ed1c4e54cf0fa5fce77f3408082084d31a6475db6905a92eaad28040d28",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-library": {
+      "id": "dl_4c1ef0ec2f9a45e78ebe",
+      "name": "square-library",
+      "title": "Square Library",
+      "file": "icons/lucid_4/square-library.svg",
+      "path": "lucid_4/square-library.svg",
+      "tags": [
+        "square",
+        "library"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ad68deb9448868521fe3ed79b87121edf2078444a49c5df775b2b63ff3cb17c5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-m": {
+      "id": "dl_355018d9bc06426fb063",
+      "name": "square-m",
+      "title": "Square M",
+      "file": "icons/lucid_4/square-m.svg",
+      "path": "lucid_4/square-m.svg",
+      "tags": [
+        "square",
+        "m"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b586186cc3970c0ad082b2c99e3f22920ef2c074b0f8d2a08fdc4f60639a8c65",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-menu": {
+      "id": "dl_38f3f36c38d14cfdb300",
+      "name": "square-menu",
+      "title": "Square Menu",
+      "file": "icons/lucid_4/square-menu.svg",
+      "path": "lucid_4/square-menu.svg",
+      "tags": [
+        "square",
+        "menu"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "347444a2924b6638204d09d2740cba00de7ffa2653d7ababab0bdbe106dde9ed",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-minus": {
+      "id": "dl_4accee062c114ff78f8b",
+      "name": "square-minus",
+      "title": "Square Minus",
+      "file": "icons/lucid_4/square-minus.svg",
+      "path": "lucid_4/square-minus.svg",
+      "tags": [
+        "square",
+        "minus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d024e8c21d4ad9acb5e921bd493b28deab74dd8d6bfdbb8523b74e6bef13b701",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-mouse-pointer": {
+      "id": "dl_6696f75afe594bbab860",
+      "name": "square-mouse-pointer",
+      "title": "Square Mouse Pointer",
+      "file": "icons/lucid_4/square-mouse-pointer.svg",
+      "path": "lucid_4/square-mouse-pointer.svg",
+      "tags": [
+        "square",
+        "mouse",
+        "pointer"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "451171b20524cfe15d31304f17f25b1ed492fd4c4ab1e65acadaa66b32f6beed",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-off": {
+      "id": "dl_4384866b3a0242c1b6b4",
+      "name": "square-off",
+      "title": "Square Off",
+      "file": "icons/lucid_4/square-off.svg",
+      "path": "lucid_4/square-off.svg",
+      "tags": [
+        "square",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "70c285c7290a9847a94d4886669fa22024c837ce2dd391bcc926fa2d34e4f301",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-parking-off": {
+      "id": "dl_283f7da5408a4df0a763",
+      "name": "square-parking-off",
+      "title": "Square Parking Off",
+      "file": "icons/lucid_4/square-parking-off.svg",
+      "path": "lucid_4/square-parking-off.svg",
+      "tags": [
+        "square",
+        "parking",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3c7a147af063c775621b31c5ba4048a5adc74a5b16226586f72362b457634c9d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-parking": {
+      "id": "dl_171a3e7863f24ede8f19",
+      "name": "square-parking",
+      "title": "Square Parking",
+      "file": "icons/lucid_4/square-parking.svg",
+      "path": "lucid_4/square-parking.svg",
+      "tags": [
+        "square",
+        "parking"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b6e32b62281fbe2929a9f82da7f1ada7eec2b50f859bf3866250c852ed4fd757",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-pause": {
+      "id": "dl_5a8bc502856c4bbfb02c",
+      "name": "square-pause",
+      "title": "Square Pause",
+      "file": "icons/lucid_4/square-pause.svg",
+      "path": "lucid_4/square-pause.svg",
+      "tags": [
+        "square",
+        "pause"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "dc47d3e6c2f90ec2e1e41f5f091e73fde634c50247869855576b3b8d9bc3295e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-pen": {
+      "id": "dl_bfde6865c3284c9b8cec",
+      "name": "square-pen",
+      "title": "Square Pen",
+      "file": "icons/lucid_4/square-pen.svg",
+      "path": "lucid_4/square-pen.svg",
+      "tags": [
+        "square",
+        "pen"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fc8222560bc64b61aa9f6f39c2c680a4e116c1b813f9abd35544c83813b5e0ff",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-percent": {
+      "id": "dl_cb070652859643c7b00b",
+      "name": "square-percent",
+      "title": "Square Percent",
+      "file": "icons/lucid_4/square-percent.svg",
+      "path": "lucid_4/square-percent.svg",
+      "tags": [
+        "square",
+        "percent"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ed26db831026ed3b2c267b08c06a771e2c280985a74ff7cd8c254306c548de3c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-pi": {
+      "id": "dl_27c979c38abb407bb26a",
+      "name": "square-pi",
+      "title": "Square Pi",
+      "file": "icons/lucid_4/square-pi.svg",
+      "path": "lucid_4/square-pi.svg",
+      "tags": [
+        "square",
+        "pi"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2dc6aeded8ffece9e5d6c0ed525f1a89e49014fb27cd61ee963696cf903d93a6",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-pilcrow": {
+      "id": "dl_a2024cdc654544b3ab79",
+      "name": "square-pilcrow",
+      "title": "Square Pilcrow",
+      "file": "icons/lucid_4/square-pilcrow.svg",
+      "path": "lucid_4/square-pilcrow.svg",
+      "tags": [
+        "square",
+        "pilcrow"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "31a025e12d143275c2185592ba3bd0d7e17b114558f8c4ef7bd357327e373ba9",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-play": {
+      "id": "dl_d2c0defc60124e2f8b35",
+      "name": "square-play",
+      "title": "Square Play",
+      "file": "icons/lucid_4/square-play.svg",
+      "path": "lucid_4/square-play.svg",
+      "tags": [
+        "square",
+        "play"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "23ce792778ddfd19163c2a87fce45345a382ea60cdc00a948401275ccdb61468",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-plus": {
+      "id": "dl_ff975f123c664860871d",
+      "name": "square-plus",
+      "title": "Square Plus",
+      "file": "icons/lucid_4/square-plus.svg",
+      "path": "lucid_4/square-plus.svg",
+      "tags": [
+        "square",
+        "plus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4c0db2f36b5332eb0755f5a5ea86ee116188638b334632abdc16f9c62ee4a72b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-power": {
+      "id": "dl_e0e9f3c2255446c89e79",
+      "name": "square-power",
+      "title": "Square Power",
+      "file": "icons/lucid_4/square-power.svg",
+      "path": "lucid_4/square-power.svg",
+      "tags": [
+        "square",
+        "power"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "254862d5dca8c01b1246169f80d1ec0b4b472744979e6358bb7bd7a07bae5f16",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-radical": {
+      "id": "dl_737d4a35d61c45faaff5",
+      "name": "square-radical",
+      "title": "Square Radical",
+      "file": "icons/lucid_4/square-radical.svg",
+      "path": "lucid_4/square-radical.svg",
+      "tags": [
+        "square",
+        "radical"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8b691fe37762ecb116786ee81818f6eb98d4ae95ece21b9c363360343580490e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-round-corner": {
+      "id": "dl_4b8c8241e6884bdd843d",
+      "name": "square-round-corner",
+      "title": "Square Round Corner",
+      "file": "icons/lucid_4/square-round-corner.svg",
+      "path": "lucid_4/square-round-corner.svg",
+      "tags": [
+        "square",
+        "round",
+        "corner"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "86888c30423e1409d6e95be945c74404108446503a783e14490594698cc14175",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-scissors": {
+      "id": "dl_a1baf5e0482b4d0c85d0",
+      "name": "square-scissors",
+      "title": "Square Scissors",
+      "file": "icons/lucid_4/square-scissors.svg",
+      "path": "lucid_4/square-scissors.svg",
+      "tags": [
+        "square",
+        "scissors"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3b0babc83fc1224eca6cfd96439dc0ae6c78961c7bd6b6642809fdd095b602fc",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-sigma": {
+      "id": "dl_f9903258a8ab439a9f5d",
+      "name": "square-sigma",
+      "title": "Square Sigma",
+      "file": "icons/lucid_4/square-sigma.svg",
+      "path": "lucid_4/square-sigma.svg",
+      "tags": [
+        "square",
+        "sigma"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c4332b39aa42aa9e24904c245f9463e4d1c2c3ac7e3869e694592e542a7d58d4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-slash": {
+      "id": "dl_fee9b8386172472092e7",
+      "name": "square-slash",
+      "title": "Square Slash",
+      "file": "icons/lucid_4/square-slash.svg",
+      "path": "lucid_4/square-slash.svg",
+      "tags": [
+        "square",
+        "slash"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e8b8884a31542bac3311f01d27f30f3f412ec5ae27e5941f10bda337410a48ce",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-split-horizontal": {
+      "id": "dl_7acd7e23aa264c4284cc",
+      "name": "square-split-horizontal",
+      "title": "Square Split Horizontal",
+      "file": "icons/lucid_4/square-split-horizontal.svg",
+      "path": "lucid_4/square-split-horizontal.svg",
+      "tags": [
+        "square",
+        "split",
+        "horizontal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c9aa42ddcf3ba030151761f06efbcb08b84fe00be8437710851a87a19e98f7ba",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-split-vertical": {
+      "id": "dl_21f1677d3971489c98b3",
+      "name": "square-split-vertical",
+      "title": "Square Split Vertical",
+      "file": "icons/lucid_4/square-split-vertical.svg",
+      "path": "lucid_4/square-split-vertical.svg",
+      "tags": [
+        "square",
+        "split",
+        "vertical"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a5e76a64a11230b5d8042e93b349f211d9bce90243793e27edd10bd52c5fb910",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-square": {
+      "id": "dl_a2bdf76b9c314792b112",
+      "name": "square-square",
+      "title": "Square Square",
+      "file": "icons/lucid_4/square-square.svg",
+      "path": "lucid_4/square-square.svg",
+      "tags": [
+        "square",
+        "square"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "27c2240c26c7db70c03a9bb504ceae7aae59386e535107a9de7700cb92769e41",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-stack": {
+      "id": "dl_24ae6fbffa664b10b868",
+      "name": "square-stack",
+      "title": "Square Stack",
+      "file": "icons/lucid_4/square-stack.svg",
+      "path": "lucid_4/square-stack.svg",
+      "tags": [
+        "square",
+        "stack"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a71790ba1e70c6433b598592ca54a160837107480f248ace21f359102d1b4004",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-star": {
+      "id": "dl_da44615bf570494b89a9",
+      "name": "square-star",
+      "title": "Square Star",
+      "file": "icons/lucid_4/square-star.svg",
+      "path": "lucid_4/square-star.svg",
+      "tags": [
+        "square",
+        "star"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "526c42cdc4e2ec05fdf76c9041d76ad26a20f8a1b530315a2c5f98268aeafded",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-stop": {
+      "id": "dl_492f6cdda30d475aa15a",
+      "name": "square-stop",
+      "title": "Square Stop",
+      "file": "icons/lucid_4/square-stop.svg",
+      "path": "lucid_4/square-stop.svg",
+      "tags": [
+        "square",
+        "stop"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "652691c42bd4ebc8c15ef0d3654f1c049867a3655ce24da5379d26d1d1e1ad57",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-terminal": {
+      "id": "dl_c41b627bbe03414580a0",
+      "name": "square-terminal",
+      "title": "Square Terminal",
+      "file": "icons/lucid_4/square-terminal.svg",
+      "path": "lucid_4/square-terminal.svg",
+      "tags": [
+        "square",
+        "terminal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a2c4b6c25282ac5d21ce7a63a16e8cc0c7ed2e15773c023e576ffac7549c66ea",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-text": {
+      "id": "dl_1844f3bcefe4450a873c",
+      "name": "square-text",
+      "title": "Square Text",
+      "file": "icons/lucid_4/square-text.svg",
+      "path": "lucid_4/square-text.svg",
+      "tags": [
+        "square",
+        "text"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "87be25bf54087111cfc1456af19b9cb6f01da56e4dad1c747663207f35579e4e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-user-round": {
+      "id": "dl_12b640bd6bcc41b693b2",
+      "name": "square-user-round",
+      "title": "Square User Round",
+      "file": "icons/lucid_4/square-user-round.svg",
+      "path": "lucid_4/square-user-round.svg",
+      "tags": [
+        "square",
+        "user",
+        "round"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "338e17e7f68d250a486575a7ca992be6b2f95983dda68ea63243a4fc7f6b10aa",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-user": {
+      "id": "dl_5a753f51990f475b8320",
+      "name": "square-user",
+      "title": "Square User",
+      "file": "icons/lucid_4/square-user.svg",
+      "path": "lucid_4/square-user.svg",
+      "tags": [
+        "square",
+        "user"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "50c5c3a540cddd78d48a941da455c5df54417e9541113422238a9ac22e8bb23e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square-x": {
+      "id": "dl_548abb2ab44445979260",
+      "name": "square-x",
+      "title": "Square X",
+      "file": "icons/lucid_4/square-x.svg",
+      "path": "lucid_4/square-x.svg",
+      "tags": [
+        "square",
+        "x"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9790ed98550b9b7b0f02019f3e2a51d14eddcfa561cf110f398ed62602e8f049",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "square": {
+      "id": "dl_6b6e0fc0fe30401a8b53",
+      "name": "square",
+      "title": "Square",
+      "file": "icons/lucid_4/square.svg",
+      "path": "lucid_4/square.svg",
+      "tags": [
+        "square"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0702a8b124006685ae3b486f0716f457f00ac5136e8761f469af4e1cc424d75b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "squares-exclude": {
+      "id": "dl_4d8aa840f7d449d78961",
+      "name": "squares-exclude",
+      "title": "Squares Exclude",
+      "file": "icons/lucid_4/squares-exclude.svg",
+      "path": "lucid_4/squares-exclude.svg",
+      "tags": [
+        "squares",
+        "exclude"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9ecefd165f9432553ddc8dfc403ce594883cd6757227fe94e0d50bc73966c4ad",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "squares-intersect": {
+      "id": "dl_d7014c6be2fd499a8457",
+      "name": "squares-intersect",
+      "title": "Squares Intersect",
+      "file": "icons/lucid_4/squares-intersect.svg",
+      "path": "lucid_4/squares-intersect.svg",
+      "tags": [
+        "squares",
+        "intersect"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "94a81a4495f6225aa1f5f65bae15715bdf2b367265cc4d25cc704a688a45b452",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "squares-subtract": {
+      "id": "dl_478fb075120e4826b25d",
+      "name": "squares-subtract",
+      "title": "Squares Subtract",
+      "file": "icons/lucid_4/squares-subtract.svg",
+      "path": "lucid_4/squares-subtract.svg",
+      "tags": [
+        "squares",
+        "subtract"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "42df1b6689474a780a6e47b84f7eef74467add0f6a3560fae95ae23303852bc9",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "squares-unite": {
+      "id": "dl_97868d864115465baa2b",
+      "name": "squares-unite",
+      "title": "Squares Unite",
+      "file": "icons/lucid_4/squares-unite.svg",
+      "path": "lucid_4/squares-unite.svg",
+      "tags": [
+        "squares",
+        "unite"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3cc6d848c12d64ceac20038ccc524b38107564b40a67691671bc32105aca6389",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "squircle-dashed": {
+      "id": "dl_81621577ed5e4500b11f",
+      "name": "squircle-dashed",
+      "title": "Squircle Dashed",
+      "file": "icons/lucid_4/squircle-dashed.svg",
+      "path": "lucid_4/squircle-dashed.svg",
+      "tags": [
+        "squircle",
+        "dashed"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0d76078ff8af1a926ae3cdd893a96bc36bc3336e8bddb518cf2d274eaab0f017",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "squircle": {
+      "id": "dl_ff515c6eb5714c5abbd9",
+      "name": "squircle",
+      "title": "Squircle",
+      "file": "icons/lucid_4/squircle.svg",
+      "path": "lucid_4/squircle.svg",
+      "tags": [
+        "squircle"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7ceace4db185761c3575ef4021fa1cfb0cfa418ef0a1f43759556f71bb11f470",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "squirrel": {
+      "id": "dl_5a30065b4063424c86f1",
+      "name": "squirrel",
+      "title": "Squirrel",
+      "file": "icons/lucid_4/squirrel.svg",
+      "path": "lucid_4/squirrel.svg",
+      "tags": [
+        "squirrel"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "63a861670db8f28f1524a9124fdb9f0eefbcf9b34353e53c30dab1839b1bd693",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "stamp": {
+      "id": "dl_0ccdf4ce1208473a90b4",
+      "name": "stamp",
+      "title": "Stamp",
+      "file": "icons/lucid_4/stamp.svg",
+      "path": "lucid_4/stamp.svg",
+      "tags": [
+        "stamp"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "01bb4744540dd3e275cb5faacc14eded91d6ae6767ab8db3db45459fdfe2bb1c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "star-check": {
+      "id": "dl_2d479755179b4b08b767",
+      "name": "star-check",
+      "title": "Star Check",
+      "file": "icons/lucid_4/star-check.svg",
+      "path": "lucid_4/star-check.svg",
+      "tags": [
+        "star",
+        "check"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "07862dd2f52b71abf78bfc94fdf6dde26818b0b71377f15af03bb9196506f72c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "star-half": {
+      "id": "dl_fad2c7f6df734121b560",
+      "name": "star-half",
+      "title": "Star Half",
+      "file": "icons/lucid_4/star-half.svg",
+      "path": "lucid_4/star-half.svg",
+      "tags": [
+        "star",
+        "half"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a263e9fd5d6579beb3a3cb9f5520e3a41bf1b4a0e05db697b6dfe4854f64620d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "star-minus": {
+      "id": "dl_2f6c318776704efc8630",
+      "name": "star-minus",
+      "title": "Star Minus",
+      "file": "icons/lucid_4/star-minus.svg",
+      "path": "lucid_4/star-minus.svg",
+      "tags": [
+        "star",
+        "minus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "87df09df910987dc05bcf0007d4e2da04b875a2cd005d91dbfae20c181e82c3a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "star-off": {
+      "id": "dl_eb53fbd9c0d1450385d8",
+      "name": "star-off",
+      "title": "Star Off",
+      "file": "icons/lucid_4/star-off.svg",
+      "path": "lucid_4/star-off.svg",
+      "tags": [
+        "star",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a64a66b9c0d7051d9b4893b31c77960994e0e4e4a2a9121d45bd2e003ed202c1",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "star-plus": {
+      "id": "dl_d21bef4e51264bd99d8f",
+      "name": "star-plus",
+      "title": "Star Plus",
+      "file": "icons/lucid_4/star-plus.svg",
+      "path": "lucid_4/star-plus.svg",
+      "tags": [
+        "star",
+        "plus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2aab6c4e95086998a29ee7aa0326343c6ceb98ba9862d57fd851249366c992ef",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "star-x": {
+      "id": "dl_d7af8668f37f4092a18a",
+      "name": "star-x",
+      "title": "Star X",
+      "file": "icons/lucid_4/star-x.svg",
+      "path": "lucid_4/star-x.svg",
+      "tags": [
+        "star",
+        "x"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c7d6ddc44877f302e79daa915cc47523a264d50f64b24c29691db2208a741529",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "star": {
+      "id": "dl_3eea1d58292990eebbc6",
+      "name": "star",
+      "title": "Star",
+      "file": "icons/lucid_4/star.svg",
+      "path": "lucid_4/star.svg",
+      "tags": [
+        "star"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8fb32176ecb5774b6da8ac928bcbac971c3056ba8f2db6c16374c77f48e0b555",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "step-back": {
+      "id": "dl_c11160e18e514669b9f3",
+      "name": "step-back",
+      "title": "Step Back",
+      "file": "icons/lucid_4/step-back.svg",
+      "path": "lucid_4/step-back.svg",
+      "tags": [
+        "step",
+        "back"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a82936857424e2db58e780a689426ffbfb98e0845da3ccce6e53bc97d21724cd",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "step-forward": {
+      "id": "dl_d11ce184e3a848dfb879",
+      "name": "step-forward",
+      "title": "Step Forward",
+      "file": "icons/lucid_4/step-forward.svg",
+      "path": "lucid_4/step-forward.svg",
+      "tags": [
+        "step",
+        "forward"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fbdc07116d7fbf5b7661624972bacf30a89c5aaa9317b7ec6441cd6ac0dc7883",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "stethoscope": {
+      "id": "dl_67df1d5074f24c84a2ff",
+      "name": "stethoscope",
+      "title": "Stethoscope",
+      "file": "icons/lucid_4/stethoscope.svg",
+      "path": "lucid_4/stethoscope.svg",
+      "tags": [
+        "stethoscope"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c1e5986dc93b7d557839b77253c3f80ddbda4ed2d795c5d39d98ba6510d105c7",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sticker": {
+      "id": "dl_50259962fd3048a1887e",
+      "name": "sticker",
+      "title": "Sticker",
+      "file": "icons/lucid_4/sticker.svg",
+      "path": "lucid_4/sticker.svg",
+      "tags": [
+        "sticker"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fcff44fead338b8768ec56960b958c633aef4f8e878e75685a4c286851388b8c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sticky-note-check": {
+      "id": "dl_cad95a78ead4431ea7b6",
+      "name": "sticky-note-check",
+      "title": "Sticky Note Check",
+      "file": "icons/lucid_4/sticky-note-check.svg",
+      "path": "lucid_4/sticky-note-check.svg",
+      "tags": [
+        "sticky",
+        "note",
+        "check"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "58815a8bc02468effc5e5fc93d2c66e889a895a97d64c8b5dbeb784673b57f8a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sticky-note-minus": {
+      "id": "dl_67318d6f555149238915",
+      "name": "sticky-note-minus",
+      "title": "Sticky Note Minus",
+      "file": "icons/lucid_4/sticky-note-minus.svg",
+      "path": "lucid_4/sticky-note-minus.svg",
+      "tags": [
+        "sticky",
+        "note",
+        "minus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ac129fb26a0bd622e42478b722473e20c84fb05c1a8626334b8bf08ce8a2d975",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sticky-note-off": {
+      "id": "dl_dac9e818b1254961b7db",
+      "name": "sticky-note-off",
+      "title": "Sticky Note Off",
+      "file": "icons/lucid_4/sticky-note-off.svg",
+      "path": "lucid_4/sticky-note-off.svg",
+      "tags": [
+        "sticky",
+        "note",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9d0f363f5036164e2caf095c2e1509d5a86bf90c846f75cd3cdc08fff43c4750",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sticky-note-plus": {
+      "id": "dl_310c75e70665425088c7",
+      "name": "sticky-note-plus",
+      "title": "Sticky Note Plus",
+      "file": "icons/lucid_4/sticky-note-plus.svg",
+      "path": "lucid_4/sticky-note-plus.svg",
+      "tags": [
+        "sticky",
+        "note",
+        "plus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "42fbe733200ecdc9671b83e97d77aefe790f1a970af3f16c6ec387ec3e6500fa",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sticky-note-x": {
+      "id": "dl_7d2d004963a049dbb7e4",
+      "name": "sticky-note-x",
+      "title": "Sticky Note X",
+      "file": "icons/lucid_4/sticky-note-x.svg",
+      "path": "lucid_4/sticky-note-x.svg",
+      "tags": [
+        "sticky",
+        "note",
+        "x"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b818ccc680e2704b5c78527deacd758956ce1fb10c9f1ab1ba71ceda617d8b31",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sticky-note": {
+      "id": "dl_06a29c16f64746849052",
+      "name": "sticky-note",
+      "title": "Sticky Note",
+      "file": "icons/lucid_4/sticky-note.svg",
+      "path": "lucid_4/sticky-note.svg",
+      "tags": [
+        "sticky",
+        "note"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "358af8479d3d000ae2b3f8d99832efd5bc98b22f5b8bcd34ac68e54766c6b5a8",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sticky-notes": {
+      "id": "dl_5682c307aa9244de81b6",
+      "name": "sticky-notes",
+      "title": "Sticky Notes",
+      "file": "icons/lucid_4/sticky-notes.svg",
+      "path": "lucid_4/sticky-notes.svg",
+      "tags": [
+        "sticky",
+        "notes"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b9ce2f4b8ed7690777bdcd8b93b2bc237ff6d6690524e36a5af1bc378c55a2c6",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "stone": {
+      "id": "dl_eec09a76f12344688ccc",
+      "name": "stone",
+      "title": "Stone",
+      "file": "icons/lucid_4/stone.svg",
+      "path": "lucid_4/stone.svg",
+      "tags": [
+        "stone"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "85f739b1f46d3dbad8728d99c4e1d05548cd9a016e74712f66bf8d224bdab45a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "store": {
+      "id": "dl_3d80b7d66e614b07b9b2",
+      "name": "store",
+      "title": "Store",
+      "file": "icons/lucid_4/store.svg",
+      "path": "lucid_4/store.svg",
+      "tags": [
+        "store"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b6cff8c4645e52e745372043c6ba89c01a528da60e4cb1ba6fa922e311ef9644",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "stretch-horizontal": {
+      "id": "dl_bc7bf82fdc7a4947905d",
+      "name": "stretch-horizontal",
+      "title": "Stretch Horizontal",
+      "file": "icons/lucid_4/stretch-horizontal.svg",
+      "path": "lucid_4/stretch-horizontal.svg",
+      "tags": [
+        "stretch",
+        "horizontal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "372bcf232493fb3343ec8317df790f51cffbd42c27ab8874ca0884041aac69d5",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "stretch-vertical": {
+      "id": "dl_f18cb42b773e433fb42d",
+      "name": "stretch-vertical",
+      "title": "Stretch Vertical",
+      "file": "icons/lucid_4/stretch-vertical.svg",
+      "path": "lucid_4/stretch-vertical.svg",
+      "tags": [
+        "stretch",
+        "vertical"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d321131ab67b87797da9227745c935c5c1db1b730ca4b0e6abea604dc23ed23b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "strikethrough": {
+      "id": "dl_1bec68d538c2490daa10",
+      "name": "strikethrough",
+      "title": "Strikethrough",
+      "file": "icons/lucid_4/strikethrough.svg",
+      "path": "lucid_4/strikethrough.svg",
+      "tags": [
+        "strikethrough"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8a85b3b9ba76182f91c421bcbbbbcd103ded686fce53b66fcb48447afba42d38",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "subscript": {
+      "id": "dl_4ab46ed235a04c7ea3b1",
+      "name": "subscript",
+      "title": "Subscript",
+      "file": "icons/lucid_4/subscript.svg",
+      "path": "lucid_4/subscript.svg",
+      "tags": [
+        "subscript"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c82b097741ed4f01797b1ea2497494a9394a7e29d2fa5ffdb49645ad93b46439",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "summary": {
+      "id": "dl_13b9aa389eff4e558600",
+      "name": "summary",
+      "title": "Summary",
+      "file": "icons/lucid_4/summary.svg",
+      "path": "lucid_4/summary.svg",
+      "tags": [
+        "summary"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3be7127a725fd51b4d50504aac74bc5e4e7af736a1c81c4133a1d2a9a88fc4d3",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sun-dim": {
+      "id": "dl_21fabc86e67d41bab2ff",
+      "name": "sun-dim",
+      "title": "Sun Dim",
+      "file": "icons/lucid_4/sun-dim.svg",
+      "path": "lucid_4/sun-dim.svg",
+      "tags": [
+        "sun",
+        "dim"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c8ff740fb4b80f5fac2b1d74a9aa1faaf4e28c2959ebe505f660e0c176096e74",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sun-medium": {
+      "id": "dl_bf68266431584d4e88b2",
+      "name": "sun-medium",
+      "title": "Sun Medium",
+      "file": "icons/lucid_4/sun-medium.svg",
+      "path": "lucid_4/sun-medium.svg",
+      "tags": [
+        "sun",
+        "medium"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "00663d441210f0ae21b69ed3423a517518efc3af2eb4788598c525357b3efa9a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sun-moon": {
+      "id": "dl_4aed4afb739943e4b671",
+      "name": "sun-moon",
+      "title": "Sun Moon",
+      "file": "icons/lucid_4/sun-moon.svg",
+      "path": "lucid_4/sun-moon.svg",
+      "tags": [
+        "sun",
+        "moon"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fd96c5ddbda5d1d673097b0454b8ba50f770c496268b0695b31b7f85f9bf49c3",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sun-snow": {
+      "id": "dl_c9607f4f5f9f49beab6f",
+      "name": "sun-snow",
+      "title": "Sun Snow",
+      "file": "icons/lucid_4/sun-snow.svg",
+      "path": "lucid_4/sun-snow.svg",
+      "tags": [
+        "sun",
+        "snow"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1ff0eaaa5abcf493bbe6d8cde7696bec3f90174c81de9e9acd197f641a0d0db3",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sun": {
+      "id": "dl_c7907b69e669401f9cd6",
+      "name": "sun",
+      "title": "Sun",
+      "file": "icons/lucid_4/sun.svg",
+      "path": "lucid_4/sun.svg",
+      "tags": [
+        "sun"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "dade6653f7452fd8f82a09a3b4be78f06627433842392e171605becf3305bbb4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sunrise": {
+      "id": "dl_b84688133b6c40e39dda",
+      "name": "sunrise",
+      "title": "Sunrise",
+      "file": "icons/lucid_4/sunrise.svg",
+      "path": "lucid_4/sunrise.svg",
+      "tags": [
+        "sunrise"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d3ae0194a3add7d23ef7f0522e63ef716c0fe98e5481662b4a2895ec564d0d4b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sunset": {
+      "id": "dl_bdd1bed5768240b9ada5",
+      "name": "sunset",
+      "title": "Sunset",
+      "file": "icons/lucid_4/sunset.svg",
+      "path": "lucid_4/sunset.svg",
+      "tags": [
+        "sunset"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a10867669717d5dd296f19e39794d286bc6b3c63c1e3411810a89485b44062ef",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "superscript": {
+      "id": "dl_601c7e5dd4ce4b6f90bb",
+      "name": "superscript",
+      "title": "Superscript",
+      "file": "icons/lucid_4/superscript.svg",
+      "path": "lucid_4/superscript.svg",
+      "tags": [
+        "superscript"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "695c8d747cdbb7c7694effd94c41f2342b1678a7e3459455ac7ba66c6f74940d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "swatch-book": {
+      "id": "dl_383d3051f2a54f5dac27",
+      "name": "swatch-book",
+      "title": "Swatch Book",
+      "file": "icons/lucid_4/swatch-book.svg",
+      "path": "lucid_4/swatch-book.svg",
+      "tags": [
+        "swatch",
+        "book"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f07683b1ab0baec16754726cf7bf48c08eba4cf970deb561394afff246b455ca",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "swiss-franc": {
+      "id": "dl_4f47dd52ae0c47d5adf9",
+      "name": "swiss-franc",
+      "title": "Swiss Franc",
+      "file": "icons/lucid_4/swiss-franc.svg",
+      "path": "lucid_4/swiss-franc.svg",
+      "tags": [
+        "swiss",
+        "franc"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f42b6cd44a92c09781972e49ce5a9c95fae7c7be0c66bd8bdfa618dc3e2175c4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "switch-camera": {
+      "id": "dl_ecb9632c1ab141b5bce6",
+      "name": "switch-camera",
+      "title": "Switch Camera",
+      "file": "icons/lucid_4/switch-camera.svg",
+      "path": "lucid_4/switch-camera.svg",
+      "tags": [
+        "switch",
+        "camera"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a03ffdf0ea514bbbde7f8b21128725f41bfc122ba7a75996565e94a2e249070a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "sword": {
+      "id": "dl_cd574fec96604b9fba73",
+      "name": "sword",
+      "title": "Sword",
+      "file": "icons/lucid_4/sword.svg",
+      "path": "lucid_4/sword.svg",
+      "tags": [
+        "sword"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "799a21d37f6bbad31d6209e139d4cfba471fe89a240ac4835bd53a9203fe7320",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "swords": {
+      "id": "dl_c23145dae737400ab034",
+      "name": "swords",
+      "title": "Swords",
+      "file": "icons/lucid_4/swords.svg",
+      "path": "lucid_4/swords.svg",
+      "tags": [
+        "swords"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "430c99df5f72ef0612a21635fcfc2101d01cbde12d1dc93765d42dd9f79fe2b7",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "syringe": {
+      "id": "dl_7b659ab2f0c8471c9583",
+      "name": "syringe",
+      "title": "Syringe",
+      "file": "icons/lucid_4/syringe.svg",
+      "path": "lucid_4/syringe.svg",
+      "tags": [
+        "syringe"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "925ebb5ae1ef446f155564b7dbf7b8356ade8c0c89cf4569c370fe5792cdb344",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
     "save": {
       "id": "dl_115d8191922db15e7c2d",
       "name": "save",
@@ -311,40 +3494,6 @@
       "hash": "1d06d2713122ba1788e36e686b467fa1701281958ddfbccca7547698d4720670",
       "updatedAt": "2026-08-31T18:44:46.208Z"
     },
-    "star": {
-      "id": "dl_3eea1d58292990eebbc6",
-      "name": "star",
-      "title": "Star",
-      "file": "icons/lucid_4/star.svg",
-      "path": "lucid_4/star.svg",
-      "tags": [
-        "star"
-      ],
-      "categories": [
-        "general"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "8fb32176ecb5774b6da8ac928bcbac971c3056ba8f2db6c16374c77f48e0b555",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
     "swap_horiz": {
       "id": "dl_cfbdd66665ac7c5c8ef0",
       "name": "swap_horiz",
@@ -447,3155 +3596,6 @@
       ],
       "hash": "6848f91a84ab2b401880174d486ff5d5b55c3e41d495b042147f143ec4cdce47",
       "updatedAt": "2026-08-31T18:44:46.209Z"
-    },
-    "square-dashed-mouse-pointer": {
-      "id": "dl_d0c352d917d746bb9c38",
-      "name": "square-dashed-mouse-pointer",
-      "title": "Square Dashed Mouse Pointer",
-      "aliases": [],
-      "tags": [
-        "square",
-        "dashed",
-        "mouse",
-        "pointer"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-dashed-mouse-pointer.svg",
-      "file": "icons/lucid_4/square-dashed-mouse-pointer.svg",
-      "hash": "49c4f785bdae0a2dd0eb58446a75d3e36e8faefd1d7573462e0e3763856ce7aa",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-dashed-text": {
-      "id": "dl_582e9bdb113c40fea097",
-      "name": "square-dashed-text",
-      "title": "Square Dashed Text",
-      "aliases": [],
-      "tags": [
-        "square",
-        "dashed",
-        "text"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-dashed-text.svg",
-      "file": "icons/lucid_4/square-dashed-text.svg",
-      "hash": "87af8e981fc8d2aa4394ee750b686417b88f240d8b08545d3778f4497457409a",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-dashed-top-solid": {
-      "id": "dl_506e73030ea841718898",
-      "name": "square-dashed-top-solid",
-      "title": "Square Dashed Top Solid",
-      "aliases": [],
-      "tags": [
-        "square",
-        "dashed",
-        "top",
-        "solid"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-dashed-top-solid.svg",
-      "file": "icons/lucid_4/square-dashed-top-solid.svg",
-      "hash": "c448fa9b42cbbb9be5a6e982066e063445c57d2d6732ee3ad4ae81d2529a4fcf",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-dashed": {
-      "id": "dl_24485bd7bee04f51a1f9",
-      "name": "square-dashed",
-      "title": "Square Dashed",
-      "aliases": [],
-      "tags": [
-        "square",
-        "dashed"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-dashed.svg",
-      "file": "icons/lucid_4/square-dashed.svg",
-      "hash": "23624d5e198f2606086d20b900e20732357ebf736d1e2ea11027f743b9a933be",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-dimensions": {
-      "id": "dl_fb75ab4ee9d042029282",
-      "name": "square-dimensions",
-      "title": "Square Dimensions",
-      "aliases": [],
-      "tags": [
-        "square",
-        "dimensions"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-dimensions.svg",
-      "file": "icons/lucid_4/square-dimensions.svg",
-      "hash": "ea7e5a11fcc62a0e307f43a4623e314730aaf6cabf3f0104b8fd735e79a50e38",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-divide": {
-      "id": "dl_4dbb1f0b2e99429799c7",
-      "name": "square-divide",
-      "title": "Square Divide",
-      "aliases": [],
-      "tags": [
-        "square",
-        "divide"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-divide.svg",
-      "file": "icons/lucid_4/square-divide.svg",
-      "hash": "0aabcda6344a79ca15b6d9f02cf1147e5357bcc8d9da2b9763166dd2389cde12",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-dot": {
-      "id": "dl_7860a82d76de4c30963a",
-      "name": "square-dot",
-      "title": "Square Dot",
-      "aliases": [],
-      "tags": [
-        "square",
-        "dot"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-dot.svg",
-      "file": "icons/lucid_4/square-dot.svg",
-      "hash": "8aa7e134d2a1cc0e14470a28185564ab953a81a3ee5e176e74835f626f8014fe",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-equal": {
-      "id": "dl_84f69252e35e4826ac61",
-      "name": "square-equal",
-      "title": "Square Equal",
-      "aliases": [],
-      "tags": [
-        "square",
-        "equal"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-equal.svg",
-      "file": "icons/lucid_4/square-equal.svg",
-      "hash": "166be6f4af6281324372b88bc1692e24a7e3cf6c1de6032fcd002358ffcaeeff",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-exclamation-point": {
-      "id": "dl_0f4b9151313d4c60a80d",
-      "name": "square-exclamation-point",
-      "title": "Square Exclamation Point",
-      "aliases": [],
-      "tags": [
-        "square",
-        "exclamation",
-        "point"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-exclamation-point.svg",
-      "file": "icons/lucid_4/square-exclamation-point.svg",
-      "hash": "144aa816ce92952206be0722ac1d6d7591b45bbbb6e8f8465b6e3e5ad3489e2e",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-function": {
-      "id": "dl_eb0d883b25404ed1bf61",
-      "name": "square-function",
-      "title": "Square Function",
-      "aliases": [],
-      "tags": [
-        "square",
-        "function"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-function.svg",
-      "file": "icons/lucid_4/square-function.svg",
-      "hash": "ae470d1f98f337138c5804de5f7889f8f27615e5c1a2d1505f974d583582a231",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-kanban": {
-      "id": "dl_07eccdab53b74a86b7a1",
-      "name": "square-kanban",
-      "title": "Square Kanban",
-      "aliases": [],
-      "tags": [
-        "square",
-        "kanban"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-kanban.svg",
-      "file": "icons/lucid_4/square-kanban.svg",
-      "hash": "27023ed1c4e54cf0fa5fce77f3408082084d31a6475db6905a92eaad28040d28",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-library": {
-      "id": "dl_4c1ef0ec2f9a45e78ebe",
-      "name": "square-library",
-      "title": "Square Library",
-      "aliases": [],
-      "tags": [
-        "square",
-        "library"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-library.svg",
-      "file": "icons/lucid_4/square-library.svg",
-      "hash": "ad68deb9448868521fe3ed79b87121edf2078444a49c5df775b2b63ff3cb17c5",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-m": {
-      "id": "dl_355018d9bc06426fb063",
-      "name": "square-m",
-      "title": "Square M",
-      "aliases": [],
-      "tags": [
-        "square",
-        "m"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-m.svg",
-      "file": "icons/lucid_4/square-m.svg",
-      "hash": "b586186cc3970c0ad082b2c99e3f22920ef2c074b0f8d2a08fdc4f60639a8c65",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-menu": {
-      "id": "dl_38f3f36c38d14cfdb300",
-      "name": "square-menu",
-      "title": "Square Menu",
-      "aliases": [],
-      "tags": [
-        "square",
-        "menu"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-menu.svg",
-      "file": "icons/lucid_4/square-menu.svg",
-      "hash": "347444a2924b6638204d09d2740cba00de7ffa2653d7ababab0bdbe106dde9ed",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-minus": {
-      "id": "dl_4accee062c114ff78f8b",
-      "name": "square-minus",
-      "title": "Square Minus",
-      "aliases": [],
-      "tags": [
-        "square",
-        "minus"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-minus.svg",
-      "file": "icons/lucid_4/square-minus.svg",
-      "hash": "d024e8c21d4ad9acb5e921bd493b28deab74dd8d6bfdbb8523b74e6bef13b701",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-mouse-pointer": {
-      "id": "dl_6696f75afe594bbab860",
-      "name": "square-mouse-pointer",
-      "title": "Square Mouse Pointer",
-      "aliases": [],
-      "tags": [
-        "square",
-        "mouse",
-        "pointer"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-mouse-pointer.svg",
-      "file": "icons/lucid_4/square-mouse-pointer.svg",
-      "hash": "451171b20524cfe15d31304f17f25b1ed492fd4c4ab1e65acadaa66b32f6beed",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-off": {
-      "id": "dl_4384866b3a0242c1b6b4",
-      "name": "square-off",
-      "title": "Square Off",
-      "aliases": [],
-      "tags": [
-        "square",
-        "off"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-off.svg",
-      "file": "icons/lucid_4/square-off.svg",
-      "hash": "70c285c7290a9847a94d4886669fa22024c837ce2dd391bcc926fa2d34e4f301",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-parking-off": {
-      "id": "dl_283f7da5408a4df0a763",
-      "name": "square-parking-off",
-      "title": "Square Parking Off",
-      "aliases": [],
-      "tags": [
-        "square",
-        "parking",
-        "off"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-parking-off.svg",
-      "file": "icons/lucid_4/square-parking-off.svg",
-      "hash": "3c7a147af063c775621b31c5ba4048a5adc74a5b16226586f72362b457634c9d",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-parking": {
-      "id": "dl_171a3e7863f24ede8f19",
-      "name": "square-parking",
-      "title": "Square Parking",
-      "aliases": [],
-      "tags": [
-        "square",
-        "parking"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-parking.svg",
-      "file": "icons/lucid_4/square-parking.svg",
-      "hash": "b6e32b62281fbe2929a9f82da7f1ada7eec2b50f859bf3866250c852ed4fd757",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-pause": {
-      "id": "dl_5a8bc502856c4bbfb02c",
-      "name": "square-pause",
-      "title": "Square Pause",
-      "aliases": [],
-      "tags": [
-        "square",
-        "pause"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-pause.svg",
-      "file": "icons/lucid_4/square-pause.svg",
-      "hash": "dc47d3e6c2f90ec2e1e41f5f091e73fde634c50247869855576b3b8d9bc3295e",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-pen": {
-      "id": "dl_bfde6865c3284c9b8cec",
-      "name": "square-pen",
-      "title": "Square Pen",
-      "aliases": [],
-      "tags": [
-        "square",
-        "pen"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-pen.svg",
-      "file": "icons/lucid_4/square-pen.svg",
-      "hash": "fc8222560bc64b61aa9f6f39c2c680a4e116c1b813f9abd35544c83813b5e0ff",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-percent": {
-      "id": "dl_cb070652859643c7b00b",
-      "name": "square-percent",
-      "title": "Square Percent",
-      "aliases": [],
-      "tags": [
-        "square",
-        "percent"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-percent.svg",
-      "file": "icons/lucid_4/square-percent.svg",
-      "hash": "ed26db831026ed3b2c267b08c06a771e2c280985a74ff7cd8c254306c548de3c",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-pi": {
-      "id": "dl_27c979c38abb407bb26a",
-      "name": "square-pi",
-      "title": "Square Pi",
-      "aliases": [],
-      "tags": [
-        "square",
-        "pi"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-pi.svg",
-      "file": "icons/lucid_4/square-pi.svg",
-      "hash": "2dc6aeded8ffece9e5d6c0ed525f1a89e49014fb27cd61ee963696cf903d93a6",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-pilcrow": {
-      "id": "dl_a2024cdc654544b3ab79",
-      "name": "square-pilcrow",
-      "title": "Square Pilcrow",
-      "aliases": [],
-      "tags": [
-        "square",
-        "pilcrow"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-pilcrow.svg",
-      "file": "icons/lucid_4/square-pilcrow.svg",
-      "hash": "31a025e12d143275c2185592ba3bd0d7e17b114558f8c4ef7bd357327e373ba9",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-play": {
-      "id": "dl_d2c0defc60124e2f8b35",
-      "name": "square-play",
-      "title": "Square Play",
-      "aliases": [],
-      "tags": [
-        "square",
-        "play"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-play.svg",
-      "file": "icons/lucid_4/square-play.svg",
-      "hash": "23ce792778ddfd19163c2a87fce45345a382ea60cdc00a948401275ccdb61468",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-plus": {
-      "id": "dl_ff975f123c664860871d",
-      "name": "square-plus",
-      "title": "Square Plus",
-      "aliases": [],
-      "tags": [
-        "square",
-        "plus"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-plus.svg",
-      "file": "icons/lucid_4/square-plus.svg",
-      "hash": "4c0db2f36b5332eb0755f5a5ea86ee116188638b334632abdc16f9c62ee4a72b",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-power": {
-      "id": "dl_e0e9f3c2255446c89e79",
-      "name": "square-power",
-      "title": "Square Power",
-      "aliases": [],
-      "tags": [
-        "square",
-        "power"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-power.svg",
-      "file": "icons/lucid_4/square-power.svg",
-      "hash": "254862d5dca8c01b1246169f80d1ec0b4b472744979e6358bb7bd7a07bae5f16",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-radical": {
-      "id": "dl_737d4a35d61c45faaff5",
-      "name": "square-radical",
-      "title": "Square Radical",
-      "aliases": [],
-      "tags": [
-        "square",
-        "radical"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-radical.svg",
-      "file": "icons/lucid_4/square-radical.svg",
-      "hash": "8b691fe37762ecb116786ee81818f6eb98d4ae95ece21b9c363360343580490e",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-round-corner": {
-      "id": "dl_4b8c8241e6884bdd843d",
-      "name": "square-round-corner",
-      "title": "Square Round Corner",
-      "aliases": [],
-      "tags": [
-        "square",
-        "round",
-        "corner"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-round-corner.svg",
-      "file": "icons/lucid_4/square-round-corner.svg",
-      "hash": "86888c30423e1409d6e95be945c74404108446503a783e14490594698cc14175",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-scissors": {
-      "id": "dl_a1baf5e0482b4d0c85d0",
-      "name": "square-scissors",
-      "title": "Square Scissors",
-      "aliases": [],
-      "tags": [
-        "square",
-        "scissors"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-scissors.svg",
-      "file": "icons/lucid_4/square-scissors.svg",
-      "hash": "3b0babc83fc1224eca6cfd96439dc0ae6c78961c7bd6b6642809fdd095b602fc",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-sigma": {
-      "id": "dl_f9903258a8ab439a9f5d",
-      "name": "square-sigma",
-      "title": "Square Sigma",
-      "aliases": [],
-      "tags": [
-        "square",
-        "sigma"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-sigma.svg",
-      "file": "icons/lucid_4/square-sigma.svg",
-      "hash": "c4332b39aa42aa9e24904c245f9463e4d1c2c3ac7e3869e694592e542a7d58d4",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-slash": {
-      "id": "dl_fee9b8386172472092e7",
-      "name": "square-slash",
-      "title": "Square Slash",
-      "aliases": [],
-      "tags": [
-        "square",
-        "slash"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-slash.svg",
-      "file": "icons/lucid_4/square-slash.svg",
-      "hash": "e8b8884a31542bac3311f01d27f30f3f412ec5ae27e5941f10bda337410a48ce",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-split-horizontal": {
-      "id": "dl_7acd7e23aa264c4284cc",
-      "name": "square-split-horizontal",
-      "title": "Square Split Horizontal",
-      "aliases": [],
-      "tags": [
-        "square",
-        "split",
-        "horizontal"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-split-horizontal.svg",
-      "file": "icons/lucid_4/square-split-horizontal.svg",
-      "hash": "c9aa42ddcf3ba030151761f06efbcb08b84fe00be8437710851a87a19e98f7ba",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-split-vertical": {
-      "id": "dl_21f1677d3971489c98b3",
-      "name": "square-split-vertical",
-      "title": "Square Split Vertical",
-      "aliases": [],
-      "tags": [
-        "square",
-        "split",
-        "vertical"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-split-vertical.svg",
-      "file": "icons/lucid_4/square-split-vertical.svg",
-      "hash": "a5e76a64a11230b5d8042e93b349f211d9bce90243793e27edd10bd52c5fb910",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-square": {
-      "id": "dl_a2bdf76b9c314792b112",
-      "name": "square-square",
-      "title": "Square Square",
-      "aliases": [],
-      "tags": [
-        "square",
-        "square"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-square.svg",
-      "file": "icons/lucid_4/square-square.svg",
-      "hash": "27c2240c26c7db70c03a9bb504ceae7aae59386e535107a9de7700cb92769e41",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-stack": {
-      "id": "dl_24ae6fbffa664b10b868",
-      "name": "square-stack",
-      "title": "Square Stack",
-      "aliases": [],
-      "tags": [
-        "square",
-        "stack"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-stack.svg",
-      "file": "icons/lucid_4/square-stack.svg",
-      "hash": "a71790ba1e70c6433b598592ca54a160837107480f248ace21f359102d1b4004",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-star": {
-      "id": "dl_da44615bf570494b89a9",
-      "name": "square-star",
-      "title": "Square Star",
-      "aliases": [],
-      "tags": [
-        "square",
-        "star"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-star.svg",
-      "file": "icons/lucid_4/square-star.svg",
-      "hash": "526c42cdc4e2ec05fdf76c9041d76ad26a20f8a1b530315a2c5f98268aeafded",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-stop": {
-      "id": "dl_492f6cdda30d475aa15a",
-      "name": "square-stop",
-      "title": "Square Stop",
-      "aliases": [],
-      "tags": [
-        "square",
-        "stop"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-stop.svg",
-      "file": "icons/lucid_4/square-stop.svg",
-      "hash": "652691c42bd4ebc8c15ef0d3654f1c049867a3655ce24da5379d26d1d1e1ad57",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-terminal": {
-      "id": "dl_c41b627bbe03414580a0",
-      "name": "square-terminal",
-      "title": "Square Terminal",
-      "aliases": [],
-      "tags": [
-        "square",
-        "terminal"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-terminal.svg",
-      "file": "icons/lucid_4/square-terminal.svg",
-      "hash": "a2c4b6c25282ac5d21ce7a63a16e8cc0c7ed2e15773c023e576ffac7549c66ea",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-text": {
-      "id": "dl_1844f3bcefe4450a873c",
-      "name": "square-text",
-      "title": "Square Text",
-      "aliases": [],
-      "tags": [
-        "square",
-        "text"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-text.svg",
-      "file": "icons/lucid_4/square-text.svg",
-      "hash": "87be25bf54087111cfc1456af19b9cb6f01da56e4dad1c747663207f35579e4e",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-user-round": {
-      "id": "dl_12b640bd6bcc41b693b2",
-      "name": "square-user-round",
-      "title": "Square User Round",
-      "aliases": [],
-      "tags": [
-        "square",
-        "user",
-        "round"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-user-round.svg",
-      "file": "icons/lucid_4/square-user-round.svg",
-      "hash": "338e17e7f68d250a486575a7ca992be6b2f95983dda68ea63243a4fc7f6b10aa",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-user": {
-      "id": "dl_5a753f51990f475b8320",
-      "name": "square-user",
-      "title": "Square User",
-      "aliases": [],
-      "tags": [
-        "square",
-        "user"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-user.svg",
-      "file": "icons/lucid_4/square-user.svg",
-      "hash": "50c5c3a540cddd78d48a941da455c5df54417e9541113422238a9ac22e8bb23e",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square-x": {
-      "id": "dl_548abb2ab44445979260",
-      "name": "square-x",
-      "title": "Square X",
-      "aliases": [],
-      "tags": [
-        "square",
-        "x"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square-x.svg",
-      "file": "icons/lucid_4/square-x.svg",
-      "hash": "9790ed98550b9b7b0f02019f3e2a51d14eddcfa561cf110f398ed62602e8f049",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "square": {
-      "id": "dl_6b6e0fc0fe30401a8b53",
-      "name": "square",
-      "title": "Square",
-      "aliases": [],
-      "tags": [
-        "square"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/square.svg",
-      "file": "icons/lucid_4/square.svg",
-      "hash": "0702a8b124006685ae3b486f0716f457f00ac5136e8761f469af4e1cc424d75b",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "squares-exclude": {
-      "id": "dl_4d8aa840f7d449d78961",
-      "name": "squares-exclude",
-      "title": "Squares Exclude",
-      "aliases": [],
-      "tags": [
-        "squares",
-        "exclude"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/squares-exclude.svg",
-      "file": "icons/lucid_4/squares-exclude.svg",
-      "hash": "9ecefd165f9432553ddc8dfc403ce594883cd6757227fe94e0d50bc73966c4ad",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "squares-intersect": {
-      "id": "dl_d7014c6be2fd499a8457",
-      "name": "squares-intersect",
-      "title": "Squares Intersect",
-      "aliases": [],
-      "tags": [
-        "squares",
-        "intersect"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/squares-intersect.svg",
-      "file": "icons/lucid_4/squares-intersect.svg",
-      "hash": "94a81a4495f6225aa1f5f65bae15715bdf2b367265cc4d25cc704a688a45b452",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "squares-subtract": {
-      "id": "dl_478fb075120e4826b25d",
-      "name": "squares-subtract",
-      "title": "Squares Subtract",
-      "aliases": [],
-      "tags": [
-        "squares",
-        "subtract"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/squares-subtract.svg",
-      "file": "icons/lucid_4/squares-subtract.svg",
-      "hash": "42df1b6689474a780a6e47b84f7eef74467add0f6a3560fae95ae23303852bc9",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "squares-unite": {
-      "id": "dl_97868d864115465baa2b",
-      "name": "squares-unite",
-      "title": "Squares Unite",
-      "aliases": [],
-      "tags": [
-        "squares",
-        "unite"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/squares-unite.svg",
-      "file": "icons/lucid_4/squares-unite.svg",
-      "hash": "3cc6d848c12d64ceac20038ccc524b38107564b40a67691671bc32105aca6389",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "squircle-dashed": {
-      "id": "dl_81621577ed5e4500b11f",
-      "name": "squircle-dashed",
-      "title": "Squircle Dashed",
-      "aliases": [],
-      "tags": [
-        "squircle",
-        "dashed"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/squircle-dashed.svg",
-      "file": "icons/lucid_4/squircle-dashed.svg",
-      "hash": "0d76078ff8af1a926ae3cdd893a96bc36bc3336e8bddb518cf2d274eaab0f017",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "squircle": {
-      "id": "dl_ff515c6eb5714c5abbd9",
-      "name": "squircle",
-      "title": "Squircle",
-      "aliases": [],
-      "tags": [
-        "squircle"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/squircle.svg",
-      "file": "icons/lucid_4/squircle.svg",
-      "hash": "7ceace4db185761c3575ef4021fa1cfb0cfa418ef0a1f43759556f71bb11f470",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "squirrel": {
-      "id": "dl_5a30065b4063424c86f1",
-      "name": "squirrel",
-      "title": "Squirrel",
-      "aliases": [],
-      "tags": [
-        "squirrel"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/squirrel.svg",
-      "file": "icons/lucid_4/squirrel.svg",
-      "hash": "63a861670db8f28f1524a9124fdb9f0eefbcf9b34353e53c30dab1839b1bd693",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "stamp": {
-      "id": "dl_0ccdf4ce1208473a90b4",
-      "name": "stamp",
-      "title": "Stamp",
-      "aliases": [],
-      "tags": [
-        "stamp"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/stamp.svg",
-      "file": "icons/lucid_4/stamp.svg",
-      "hash": "01bb4744540dd3e275cb5faacc14eded91d6ae6767ab8db3db45459fdfe2bb1c",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "star-check": {
-      "id": "dl_2d479755179b4b08b767",
-      "name": "star-check",
-      "title": "Star Check",
-      "aliases": [],
-      "tags": [
-        "star",
-        "check"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/star-check.svg",
-      "file": "icons/lucid_4/star-check.svg",
-      "hash": "07862dd2f52b71abf78bfc94fdf6dde26818b0b71377f15af03bb9196506f72c",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "star-half": {
-      "id": "dl_fad2c7f6df734121b560",
-      "name": "star-half",
-      "title": "Star Half",
-      "aliases": [],
-      "tags": [
-        "star",
-        "half"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/star-half.svg",
-      "file": "icons/lucid_4/star-half.svg",
-      "hash": "a263e9fd5d6579beb3a3cb9f5520e3a41bf1b4a0e05db697b6dfe4854f64620d",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "star-minus": {
-      "id": "dl_2f6c318776704efc8630",
-      "name": "star-minus",
-      "title": "Star Minus",
-      "aliases": [],
-      "tags": [
-        "star",
-        "minus"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/star-minus.svg",
-      "file": "icons/lucid_4/star-minus.svg",
-      "hash": "87df09df910987dc05bcf0007d4e2da04b875a2cd005d91dbfae20c181e82c3a",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "star-off": {
-      "id": "dl_eb53fbd9c0d1450385d8",
-      "name": "star-off",
-      "title": "Star Off",
-      "aliases": [],
-      "tags": [
-        "star",
-        "off"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/star-off.svg",
-      "file": "icons/lucid_4/star-off.svg",
-      "hash": "a64a66b9c0d7051d9b4893b31c77960994e0e4e4a2a9121d45bd2e003ed202c1",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "star-plus": {
-      "id": "dl_d21bef4e51264bd99d8f",
-      "name": "star-plus",
-      "title": "Star Plus",
-      "aliases": [],
-      "tags": [
-        "star",
-        "plus"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/star-plus.svg",
-      "file": "icons/lucid_4/star-plus.svg",
-      "hash": "2aab6c4e95086998a29ee7aa0326343c6ceb98ba9862d57fd851249366c992ef",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "star-x": {
-      "id": "dl_d7af8668f37f4092a18a",
-      "name": "star-x",
-      "title": "Star X",
-      "aliases": [],
-      "tags": [
-        "star",
-        "x"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/star-x.svg",
-      "file": "icons/lucid_4/star-x.svg",
-      "hash": "c7d6ddc44877f302e79daa915cc47523a264d50f64b24c29691db2208a741529",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "step-back": {
-      "id": "dl_c11160e18e514669b9f3",
-      "name": "step-back",
-      "title": "Step Back",
-      "aliases": [],
-      "tags": [
-        "step",
-        "back"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/step-back.svg",
-      "file": "icons/lucid_4/step-back.svg",
-      "hash": "a82936857424e2db58e780a689426ffbfb98e0845da3ccce6e53bc97d21724cd",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "step-forward": {
-      "id": "dl_d11ce184e3a848dfb879",
-      "name": "step-forward",
-      "title": "Step Forward",
-      "aliases": [],
-      "tags": [
-        "step",
-        "forward"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/step-forward.svg",
-      "file": "icons/lucid_4/step-forward.svg",
-      "hash": "fbdc07116d7fbf5b7661624972bacf30a89c5aaa9317b7ec6441cd6ac0dc7883",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "stethoscope": {
-      "id": "dl_67df1d5074f24c84a2ff",
-      "name": "stethoscope",
-      "title": "Stethoscope",
-      "aliases": [],
-      "tags": [
-        "stethoscope"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/stethoscope.svg",
-      "file": "icons/lucid_4/stethoscope.svg",
-      "hash": "c1e5986dc93b7d557839b77253c3f80ddbda4ed2d795c5d39d98ba6510d105c7",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sticker": {
-      "id": "dl_50259962fd3048a1887e",
-      "name": "sticker",
-      "title": "Sticker",
-      "aliases": [],
-      "tags": [
-        "sticker"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sticker.svg",
-      "file": "icons/lucid_4/sticker.svg",
-      "hash": "fcff44fead338b8768ec56960b958c633aef4f8e878e75685a4c286851388b8c",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sticky-note-check": {
-      "id": "dl_cad95a78ead4431ea7b6",
-      "name": "sticky-note-check",
-      "title": "Sticky Note Check",
-      "aliases": [],
-      "tags": [
-        "sticky",
-        "note",
-        "check"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sticky-note-check.svg",
-      "file": "icons/lucid_4/sticky-note-check.svg",
-      "hash": "58815a8bc02468effc5e5fc93d2c66e889a895a97d64c8b5dbeb784673b57f8a",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sticky-note-minus": {
-      "id": "dl_67318d6f555149238915",
-      "name": "sticky-note-minus",
-      "title": "Sticky Note Minus",
-      "aliases": [],
-      "tags": [
-        "sticky",
-        "note",
-        "minus"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sticky-note-minus.svg",
-      "file": "icons/lucid_4/sticky-note-minus.svg",
-      "hash": "ac129fb26a0bd622e42478b722473e20c84fb05c1a8626334b8bf08ce8a2d975",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sticky-note-off": {
-      "id": "dl_dac9e818b1254961b7db",
-      "name": "sticky-note-off",
-      "title": "Sticky Note Off",
-      "aliases": [],
-      "tags": [
-        "sticky",
-        "note",
-        "off"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sticky-note-off.svg",
-      "file": "icons/lucid_4/sticky-note-off.svg",
-      "hash": "9d0f363f5036164e2caf095c2e1509d5a86bf90c846f75cd3cdc08fff43c4750",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sticky-note-plus": {
-      "id": "dl_310c75e70665425088c7",
-      "name": "sticky-note-plus",
-      "title": "Sticky Note Plus",
-      "aliases": [],
-      "tags": [
-        "sticky",
-        "note",
-        "plus"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sticky-note-plus.svg",
-      "file": "icons/lucid_4/sticky-note-plus.svg",
-      "hash": "42fbe733200ecdc9671b83e97d77aefe790f1a970af3f16c6ec387ec3e6500fa",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sticky-note-x": {
-      "id": "dl_7d2d004963a049dbb7e4",
-      "name": "sticky-note-x",
-      "title": "Sticky Note X",
-      "aliases": [],
-      "tags": [
-        "sticky",
-        "note",
-        "x"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sticky-note-x.svg",
-      "file": "icons/lucid_4/sticky-note-x.svg",
-      "hash": "b818ccc680e2704b5c78527deacd758956ce1fb10c9f1ab1ba71ceda617d8b31",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sticky-note": {
-      "id": "dl_06a29c16f64746849052",
-      "name": "sticky-note",
-      "title": "Sticky Note",
-      "aliases": [],
-      "tags": [
-        "sticky",
-        "note"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sticky-note.svg",
-      "file": "icons/lucid_4/sticky-note.svg",
-      "hash": "358af8479d3d000ae2b3f8d99832efd5bc98b22f5b8bcd34ac68e54766c6b5a8",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sticky-notes": {
-      "id": "dl_5682c307aa9244de81b6",
-      "name": "sticky-notes",
-      "title": "Sticky Notes",
-      "aliases": [],
-      "tags": [
-        "sticky",
-        "notes"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sticky-notes.svg",
-      "file": "icons/lucid_4/sticky-notes.svg",
-      "hash": "b9ce2f4b8ed7690777bdcd8b93b2bc237ff6d6690524e36a5af1bc378c55a2c6",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "stone": {
-      "id": "dl_eec09a76f12344688ccc",
-      "name": "stone",
-      "title": "Stone",
-      "aliases": [],
-      "tags": [
-        "stone"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/stone.svg",
-      "file": "icons/lucid_4/stone.svg",
-      "hash": "85f739b1f46d3dbad8728d99c4e1d05548cd9a016e74712f66bf8d224bdab45a",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "store": {
-      "id": "dl_3d80b7d66e614b07b9b2",
-      "name": "store",
-      "title": "Store",
-      "aliases": [],
-      "tags": [
-        "store"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/store.svg",
-      "file": "icons/lucid_4/store.svg",
-      "hash": "b6cff8c4645e52e745372043c6ba89c01a528da60e4cb1ba6fa922e311ef9644",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "subscript": {
-      "id": "dl_4ab46ed235a04c7ea3b1",
-      "name": "subscript",
-      "title": "Subscript",
-      "aliases": [],
-      "tags": [
-        "subscript"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/subscript.svg",
-      "file": "icons/lucid_4/subscript.svg",
-      "hash": "c82b097741ed4f01797b1ea2497494a9394a7e29d2fa5ffdb49645ad93b46439",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "stretch-horizontal": {
-      "id": "dl_bc7bf82fdc7a4947905d",
-      "name": "stretch-horizontal",
-      "title": "Stretch Horizontal",
-      "aliases": [],
-      "tags": [
-        "stretch",
-        "horizontal"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/stretch-horizontal.svg",
-      "file": "icons/lucid_4/stretch-horizontal.svg",
-      "hash": "372bcf232493fb3343ec8317df790f51cffbd42c27ab8874ca0884041aac69d5",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "stretch-vertical": {
-      "id": "dl_f18cb42b773e433fb42d",
-      "name": "stretch-vertical",
-      "title": "Stretch Vertical",
-      "aliases": [],
-      "tags": [
-        "stretch",
-        "vertical"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/stretch-vertical.svg",
-      "file": "icons/lucid_4/stretch-vertical.svg",
-      "hash": "d321131ab67b87797da9227745c935c5c1db1b730ca4b0e6abea604dc23ed23b",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "strikethrough": {
-      "id": "dl_1bec68d538c2490daa10",
-      "name": "strikethrough",
-      "title": "Strikethrough",
-      "aliases": [],
-      "tags": [
-        "strikethrough"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/strikethrough.svg",
-      "file": "icons/lucid_4/strikethrough.svg",
-      "hash": "8a85b3b9ba76182f91c421bcbbbbcd103ded686fce53b66fcb48447afba42d38",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "summary": {
-      "id": "dl_13b9aa389eff4e558600",
-      "name": "summary",
-      "title": "Summary",
-      "aliases": [],
-      "tags": [
-        "summary"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/summary.svg",
-      "file": "icons/lucid_4/summary.svg",
-      "hash": "3be7127a725fd51b4d50504aac74bc5e4e7af736a1c81c4133a1d2a9a88fc4d3",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sun-dim": {
-      "id": "dl_21fabc86e67d41bab2ff",
-      "name": "sun-dim",
-      "title": "Sun Dim",
-      "aliases": [],
-      "tags": [
-        "sun",
-        "dim"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sun-dim.svg",
-      "file": "icons/lucid_4/sun-dim.svg",
-      "hash": "c8ff740fb4b80f5fac2b1d74a9aa1faaf4e28c2959ebe505f660e0c176096e74",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sun-medium": {
-      "id": "dl_bf68266431584d4e88b2",
-      "name": "sun-medium",
-      "title": "Sun Medium",
-      "aliases": [],
-      "tags": [
-        "sun",
-        "medium"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sun-medium.svg",
-      "file": "icons/lucid_4/sun-medium.svg",
-      "hash": "00663d441210f0ae21b69ed3423a517518efc3af2eb4788598c525357b3efa9a",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sun-moon": {
-      "id": "dl_4aed4afb739943e4b671",
-      "name": "sun-moon",
-      "title": "Sun Moon",
-      "aliases": [],
-      "tags": [
-        "sun",
-        "moon"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sun-moon.svg",
-      "file": "icons/lucid_4/sun-moon.svg",
-      "hash": "fd96c5ddbda5d1d673097b0454b8ba50f770c496268b0695b31b7f85f9bf49c3",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sun-snow": {
-      "id": "dl_c9607f4f5f9f49beab6f",
-      "name": "sun-snow",
-      "title": "Sun Snow",
-      "aliases": [],
-      "tags": [
-        "sun",
-        "snow"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sun-snow.svg",
-      "file": "icons/lucid_4/sun-snow.svg",
-      "hash": "1ff0eaaa5abcf493bbe6d8cde7696bec3f90174c81de9e9acd197f641a0d0db3",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sun": {
-      "id": "dl_c7907b69e669401f9cd6",
-      "name": "sun",
-      "title": "Sun",
-      "aliases": [],
-      "tags": [
-        "sun"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sun.svg",
-      "file": "icons/lucid_4/sun.svg",
-      "hash": "dade6653f7452fd8f82a09a3b4be78f06627433842392e171605becf3305bbb4",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sunrise": {
-      "id": "dl_b84688133b6c40e39dda",
-      "name": "sunrise",
-      "title": "Sunrise",
-      "aliases": [],
-      "tags": [
-        "sunrise"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sunrise.svg",
-      "file": "icons/lucid_4/sunrise.svg",
-      "hash": "d3ae0194a3add7d23ef7f0522e63ef716c0fe98e5481662b4a2895ec564d0d4b",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sunset": {
-      "id": "dl_bdd1bed5768240b9ada5",
-      "name": "sunset",
-      "title": "Sunset",
-      "aliases": [],
-      "tags": [
-        "sunset"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sunset.svg",
-      "file": "icons/lucid_4/sunset.svg",
-      "hash": "a10867669717d5dd296f19e39794d286bc6b3c63c1e3411810a89485b44062ef",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "superscript": {
-      "id": "dl_601c7e5dd4ce4b6f90bb",
-      "name": "superscript",
-      "title": "Superscript",
-      "aliases": [],
-      "tags": [
-        "superscript"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/superscript.svg",
-      "file": "icons/lucid_4/superscript.svg",
-      "hash": "695c8d747cdbb7c7694effd94c41f2342b1678a7e3459455ac7ba66c6f74940d",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "swatch-book": {
-      "id": "dl_383d3051f2a54f5dac27",
-      "name": "swatch-book",
-      "title": "Swatch Book",
-      "aliases": [],
-      "tags": [
-        "swatch",
-        "book"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/swatch-book.svg",
-      "file": "icons/lucid_4/swatch-book.svg",
-      "hash": "f07683b1ab0baec16754726cf7bf48c08eba4cf970deb561394afff246b455ca",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "swiss-franc": {
-      "id": "dl_4f47dd52ae0c47d5adf9",
-      "name": "swiss-franc",
-      "title": "Swiss Franc",
-      "aliases": [],
-      "tags": [
-        "swiss",
-        "franc"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/swiss-franc.svg",
-      "file": "icons/lucid_4/swiss-franc.svg",
-      "hash": "f42b6cd44a92c09781972e49ce5a9c95fae7c7be0c66bd8bdfa618dc3e2175c4",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "switch-camera": {
-      "id": "dl_ecb9632c1ab141b5bce6",
-      "name": "switch-camera",
-      "title": "Switch Camera",
-      "aliases": [],
-      "tags": [
-        "switch",
-        "camera"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/switch-camera.svg",
-      "file": "icons/lucid_4/switch-camera.svg",
-      "hash": "a03ffdf0ea514bbbde7f8b21128725f41bfc122ba7a75996565e94a2e249070a",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "sword": {
-      "id": "dl_cd574fec96604b9fba73",
-      "name": "sword",
-      "title": "Sword",
-      "aliases": [],
-      "tags": [
-        "sword"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/sword.svg",
-      "file": "icons/lucid_4/sword.svg",
-      "hash": "799a21d37f6bbad31d6209e139d4cfba471fe89a240ac4835bd53a9203fe7320",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "swords": {
-      "id": "dl_c23145dae737400ab034",
-      "name": "swords",
-      "title": "Swords",
-      "aliases": [],
-      "tags": [
-        "swords"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/swords.svg",
-      "file": "icons/lucid_4/swords.svg",
-      "hash": "430c99df5f72ef0612a21635fcfc2101d01cbde12d1dc93765d42dd9f79fe2b7",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
-    },
-    "syringe": {
-      "id": "dl_7b659ab2f0c8471c9583",
-      "name": "syringe",
-      "title": "Syringe",
-      "aliases": [],
-      "tags": [
-        "syringe"
-      ],
-      "categories": [
-        "lucid_4"
-      ],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "path": "lucid_4/syringe.svg",
-      "file": "icons/lucid_4/syringe.svg",
-      "hash": "925ebb5ae1ef446f155564b7dbf7b8356ade8c0c89cf4569c370fe5792cdb344",
-      "updatedAt": "2026-09-03T21:56:24.635Z"
     }
   },
   "aliases": {}

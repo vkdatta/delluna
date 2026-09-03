@@ -19,16 +19,6 @@
       "path": "lucid_1/lucid_1-clock.svg",
       "duplicateOf": "lucid_1/lucid_1-clock-4.svg",
       "id": "dl_e7ed4c20652f4736bb6e"
-    },
-    {
-      "path": "star_border.svg",
-      "duplicateOf": "star.svg",
-      "id": "dl_a2e368921f40c20b11cf"
-    },
-    {
-      "path": "star.svg",
-      "duplicateOf": "star_border.svg",
-      "id": "dl_3eea1d58292990eebbc6"
     }
   ]
 }

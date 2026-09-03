@@ -2,6 +2,1476 @@
   "version": 9,
   "library": "Delluna",
   "icons": {
+    "umbrella-off": {
+      "id": "dl_ee7352d287214f58a1d1",
+      "name": "umbrella-off",
+      "title": "Umbrella Off",
+      "file": "icons/lucid_4/umbrella-off.svg",
+      "path": "lucid_4/umbrella-off.svg",
+      "tags": [
+        "umbrella",
+        "off"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "801d1e178f3be39493a83bc85dcaf5f313711078f2bdb9acb86f50593125388d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "umbrella": {
+      "id": "dl_267cc0ff6bca438eb6ef",
+      "name": "umbrella",
+      "title": "Umbrella",
+      "file": "icons/lucid_4/umbrella.svg",
+      "path": "lucid_4/umbrella.svg",
+      "tags": [
+        "umbrella"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "85baf7954846d6750811a2633d6116a195e0cfecfc529477e07485ba4c84897a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "underline": {
+      "id": "dl_d990962978f0468aa298",
+      "name": "underline",
+      "title": "Underline",
+      "file": "icons/lucid_4/underline.svg",
+      "path": "lucid_4/underline.svg",
+      "tags": [
+        "underline"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "01739d00f43db2321ba2e9153747348368d73b454b39f50afdfe44f29e7ebae8",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "undo-2": {
+      "id": "dl_c4b452afad9842ebb125",
+      "name": "undo-2",
+      "title": "Undo 2",
+      "file": "icons/lucid_4/undo-2.svg",
+      "path": "lucid_4/undo-2.svg",
+      "tags": [
+        "undo",
+        "2"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d0164ba53ab47cbae4e014a4dcfa94e05051cbfb9210554fe9bc28c80acb211a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "undo-dot": {
+      "id": "dl_8a9ed63fee534c6da385",
+      "name": "undo-dot",
+      "title": "Undo Dot",
+      "file": "icons/lucid_4/undo-dot.svg",
+      "path": "lucid_4/undo-dot.svg",
+      "tags": [
+        "undo",
+        "dot"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "703de40d3a592979a16a8b997fc74d6aa81deec8ebf92dc961f049e03fdc8032",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "unfold-horizontal": {
+      "id": "dl_436188aec8c24001b4c1",
+      "name": "unfold-horizontal",
+      "title": "Unfold Horizontal",
+      "file": "icons/lucid_4/unfold-horizontal.svg",
+      "path": "lucid_4/unfold-horizontal.svg",
+      "tags": [
+        "unfold",
+        "horizontal"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7050e1659344f86ff6e25852a2f1d313998a140e22e8b6052168aaeab34e2991",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "unfold-vertical": {
+      "id": "dl_78d888718edf4d18810f",
+      "name": "unfold-vertical",
+      "title": "Unfold Vertical",
+      "file": "icons/lucid_4/unfold-vertical.svg",
+      "path": "lucid_4/unfold-vertical.svg",
+      "tags": [
+        "unfold",
+        "vertical"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "042979194d9c823a6651553adf801968549678c840c7950c348dfcf977d3ca16",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "ungroup": {
+      "id": "dl_0bfcc4db382e4d588cdb",
+      "name": "ungroup",
+      "title": "Ungroup",
+      "file": "icons/lucid_4/ungroup.svg",
+      "path": "lucid_4/ungroup.svg",
+      "tags": [
+        "ungroup"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "6903f0965ac9eec423dca45a62ebe6cdaf4db9d4ceea4e695da297d89538cfbf",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "university": {
+      "id": "dl_d27b5dba7ecb4ede9ebe",
+      "name": "university",
+      "title": "University",
+      "file": "icons/lucid_4/university.svg",
+      "path": "lucid_4/university.svg",
+      "tags": [
+        "university"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "6ce3af2a8ebd546d5cab2c917c89f96b10dbe6eb7c87849605ac35bd3dc998db",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "unlink-2": {
+      "id": "dl_ea682da779fc48fd9d6a",
+      "name": "unlink-2",
+      "title": "Unlink 2",
+      "file": "icons/lucid_4/unlink-2.svg",
+      "path": "lucid_4/unlink-2.svg",
+      "tags": [
+        "unlink",
+        "2"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f17c3fbd4f641218533a18024bb3b33f82b95c5e7062b54b18b1a1e794f3ae88",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "unlink": {
+      "id": "dl_c8c37666da3c44e3919f",
+      "name": "unlink",
+      "title": "Unlink",
+      "file": "icons/lucid_4/unlink.svg",
+      "path": "lucid_4/unlink.svg",
+      "tags": [
+        "unlink"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "528f80afec03aa52f8274f307f6ac4df2d3455268b4f99353cb2e3ef21ab2807",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "unplug": {
+      "id": "dl_9810c88caab34c00ab3a",
+      "name": "unplug",
+      "title": "Unplug",
+      "file": "icons/lucid_4/unplug.svg",
+      "path": "lucid_4/unplug.svg",
+      "tags": [
+        "unplug"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "47c83cedca71911f33f1a8f97657f79403f0f5de843f243a93190349402ba8dc",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "upload": {
+      "id": "dl_c23b8cd4520b49e0a09f",
+      "name": "upload",
+      "title": "Upload",
+      "file": "icons/lucid_4/upload.svg",
+      "path": "lucid_4/upload.svg",
+      "tags": [
+        "upload"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "532aabc24fb365736933b5011b5b7ee224b371a71b513d7efce16219e63fb7da",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "usb-c-port": {
+      "id": "dl_da318371907b4a82976a",
+      "name": "usb-c-port",
+      "title": "Usb C Port",
+      "file": "icons/lucid_4/usb-c-port.svg",
+      "path": "lucid_4/usb-c-port.svg",
+      "tags": [
+        "usb",
+        "c",
+        "port"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9f09839c6fc2e4ff19aa9aa4f2553883abe3fe037702fcefb5824eb2e79d7a9c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "usb": {
+      "id": "dl_8725835e6d4e493baf06",
+      "name": "usb",
+      "title": "Usb",
+      "file": "icons/lucid_4/usb.svg",
+      "path": "lucid_4/usb.svg",
+      "tags": [
+        "usb"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2af628ae71425e0a0e1f12dceefb77dd4ff147602e2d8e5f15272fb0d58513cf",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-check": {
+      "id": "dl_4d346248a76b431bbad9",
+      "name": "user-check",
+      "title": "User Check",
+      "file": "icons/lucid_4/user-check.svg",
+      "path": "lucid_4/user-check.svg",
+      "tags": [
+        "user",
+        "check"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9a3d44f09adf327965d178848ec06a551de7be142f05bd7732b2c92fb4d2a3ff",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-cog": {
+      "id": "dl_e058e0d184c1496ab652",
+      "name": "user-cog",
+      "title": "User Cog",
+      "file": "icons/lucid_4/user-cog.svg",
+      "path": "lucid_4/user-cog.svg",
+      "tags": [
+        "user",
+        "cog"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "21f4832477e97b35966702a7dbedc669570c6382d4148cc40c538c78c8997670",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-key": {
+      "id": "dl_e85f39688162404198a3",
+      "name": "user-key",
+      "title": "User Key",
+      "file": "icons/lucid_4/user-key.svg",
+      "path": "lucid_4/user-key.svg",
+      "tags": [
+        "user",
+        "key"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "06deaaaa2909b2ec379323198d7f881a3c46556d9ab36455aceee37b94ccdc8f",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-lock": {
+      "id": "dl_dc5fa1bb7321412089c2",
+      "name": "user-lock",
+      "title": "User Lock",
+      "file": "icons/lucid_4/user-lock.svg",
+      "path": "lucid_4/user-lock.svg",
+      "tags": [
+        "user",
+        "lock"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "58457a16ce65b4b89f830a020da94b3702292ecc61f374b02f182281a318fd85",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-minus": {
+      "id": "dl_5cf5abee3c0340398280",
+      "name": "user-minus",
+      "title": "User Minus",
+      "file": "icons/lucid_4/user-minus.svg",
+      "path": "lucid_4/user-minus.svg",
+      "tags": [
+        "user",
+        "minus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c2cf726198e5d573db315db8bd1707ff57771c44c20406e216a9fd0cb5b527a6",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-pen": {
+      "id": "dl_b4e30c82d8b941189a92",
+      "name": "user-pen",
+      "title": "User Pen",
+      "file": "icons/lucid_4/user-pen.svg",
+      "path": "lucid_4/user-pen.svg",
+      "tags": [
+        "user",
+        "pen"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4d2388b489b0f933fa83d39b64d274a75c7dfdfb0b382ad2503f407d720780dc",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-plus": {
+      "id": "dl_973409d0a4a3450e9a94",
+      "name": "user-plus",
+      "title": "User Plus",
+      "file": "icons/lucid_4/user-plus.svg",
+      "path": "lucid_4/user-plus.svg",
+      "tags": [
+        "user",
+        "plus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a6c639341a8eab5aefce9f278067a5df4772f30c13d9f8bd353f67c2df640341",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-arrow-left": {
+      "id": "dl_a81cb82ec9074f5fb99b",
+      "name": "user-round-arrow-left",
+      "title": "User Round Arrow Left",
+      "file": "icons/lucid_4/user-round-arrow-left.svg",
+      "path": "lucid_4/user-round-arrow-left.svg",
+      "tags": [
+        "user",
+        "round",
+        "arrow",
+        "left"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f5d5fe151e7489feb24a60ebfeb43fd7024f470e0ec4e7e977799525d9c64c9e",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-check": {
+      "id": "dl_e2c37f8fbebb4822b60e",
+      "name": "user-round-check",
+      "title": "User Round Check",
+      "file": "icons/lucid_4/user-round-check.svg",
+      "path": "lucid_4/user-round-check.svg",
+      "tags": [
+        "user",
+        "round",
+        "check"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "17fab15a89984cb5b86f36bb1d707e53bbe15d10f7acbe5b936a498be413dc8c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-cog": {
+      "id": "dl_8104a0f83709448cb109",
+      "name": "user-round-cog",
+      "title": "User Round Cog",
+      "file": "icons/lucid_4/user-round-cog.svg",
+      "path": "lucid_4/user-round-cog.svg",
+      "tags": [
+        "user",
+        "round",
+        "cog"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "366e2c0ddd142a19b1734c42588fe27166a51506d60d60270a6ef8338ea8d7b8",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-key": {
+      "id": "dl_fe4d5d0045d64fd9a895",
+      "name": "user-round-key",
+      "title": "User Round Key",
+      "file": "icons/lucid_4/user-round-key.svg",
+      "path": "lucid_4/user-round-key.svg",
+      "tags": [
+        "user",
+        "round",
+        "key"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fa69f979de5299b4fcb90d53fc41a7bff822880f3d64554e69f88c6acecb719c",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-minus": {
+      "id": "dl_8eb816fcad7c4a9c9ea1",
+      "name": "user-round-minus",
+      "title": "User Round Minus",
+      "file": "icons/lucid_4/user-round-minus.svg",
+      "path": "lucid_4/user-round-minus.svg",
+      "tags": [
+        "user",
+        "round",
+        "minus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b83314c4f3c7f5ef8bcb5e8f3535b8286b723a0f59a9e79dbaa76c5cbabcf381",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-pen": {
+      "id": "dl_0a06e53d562046e191ec",
+      "name": "user-round-pen",
+      "title": "User Round Pen",
+      "file": "icons/lucid_4/user-round-pen.svg",
+      "path": "lucid_4/user-round-pen.svg",
+      "tags": [
+        "user",
+        "round",
+        "pen"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3d477e4cd0f5a9fa6a04bdeb31dfcd9d8103d4abebac7d12ca7ebc7aa9e0d5ce",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-plus": {
+      "id": "dl_97c231521be44b3d80b9",
+      "name": "user-round-plus",
+      "title": "User Round Plus",
+      "file": "icons/lucid_4/user-round-plus.svg",
+      "path": "lucid_4/user-round-plus.svg",
+      "tags": [
+        "user",
+        "round",
+        "plus"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "64f7cb36dfea051dafe7cca58de359df3ce2019a143b8cb26098ca405859e1a2",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-search": {
+      "id": "dl_f86cff24491345cdb87d",
+      "name": "user-round-search",
+      "title": "User Round Search",
+      "file": "icons/lucid_4/user-round-search.svg",
+      "path": "lucid_4/user-round-search.svg",
+      "tags": [
+        "user",
+        "round",
+        "search"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "978b1e0776cae72a316f63c912b5d34ece8f18559751c0b5786da2b0490efbaf",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round-x": {
+      "id": "dl_c8c612b1942f4e649a8d",
+      "name": "user-round-x",
+      "title": "User Round X",
+      "file": "icons/lucid_4/user-round-x.svg",
+      "path": "lucid_4/user-round-x.svg",
+      "tags": [
+        "user",
+        "round",
+        "x"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7428534993c6459f080b46c34cf45670bd1d86e6303ca923698ed25caaaae0cb",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-round": {
+      "id": "dl_94809bb65a2845c589ca",
+      "name": "user-round",
+      "title": "User Round",
+      "file": "icons/lucid_4/user-round.svg",
+      "path": "lucid_4/user-round.svg",
+      "tags": [
+        "user",
+        "round"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c542b6febd266f159e8dba2f268aee72aa262723b40c04b1bfb6819cc9a22be9",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-search": {
+      "id": "dl_65af48716e4d4995b663",
+      "name": "user-search",
+      "title": "User Search",
+      "file": "icons/lucid_4/user-search.svg",
+      "path": "lucid_4/user-search.svg",
+      "tags": [
+        "user",
+        "search"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "68ccf6054babcbe685ef51b5be486d0bc43351e1f1f05b2232455e0e389f35d6",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-shield": {
+      "id": "dl_5906a117a3074f4fa391",
+      "name": "user-shield",
+      "title": "User Shield",
+      "file": "icons/lucid_4/user-shield.svg",
+      "path": "lucid_4/user-shield.svg",
+      "tags": [
+        "user",
+        "shield"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "51d24d4749d5a318c494088e14bbe40741789108bad57ea9be58c86567310808",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-star": {
+      "id": "dl_933018c9ed7841a49ef3",
+      "name": "user-star",
+      "title": "User Star",
+      "file": "icons/lucid_4/user-star.svg",
+      "path": "lucid_4/user-star.svg",
+      "tags": [
+        "user",
+        "star"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b6a25a87aae0b9dbc61991a66159af19c75becdb2462873cf715714b78949349",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user-x": {
+      "id": "dl_be1fe404522d4c8faaa9",
+      "name": "user-x",
+      "title": "User X",
+      "file": "icons/lucid_4/user-x.svg",
+      "path": "lucid_4/user-x.svg",
+      "tags": [
+        "user",
+        "x"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4d782c2cbce9d3616fe8dadb20566b080c5063ed826c857d291a9cc23134bc88",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "user": {
+      "id": "dl_733c16b0b3f245c78a03",
+      "name": "user",
+      "title": "User",
+      "file": "icons/lucid_4/user.svg",
+      "path": "lucid_4/user.svg",
+      "tags": [
+        "user"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3f7e4ca469d1933976e9ba8221b24c23668f3e35513763ae5cd1705a9b73cb9d",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "users-round": {
+      "id": "dl_8cc5642fc95d40c1afb7",
+      "name": "users-round",
+      "title": "Users Round",
+      "file": "icons/lucid_4/users-round.svg",
+      "path": "lucid_4/users-round.svg",
+      "tags": [
+        "users",
+        "round"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "96f2a45725448a4dbbaa4285da5883bdaabe1f732ca0db99c810cdd38d09edfb",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "users": {
+      "id": "dl_37deeced7b6b445f95df",
+      "name": "users",
+      "title": "Users",
+      "file": "icons/lucid_4/users.svg",
+      "path": "lucid_4/users.svg",
+      "tags": [
+        "users"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d216a68550e6db766b9b4b8cf319348aeaab678dd4839a9f55888bab61731dd7",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "utensils-crossed": {
+      "id": "dl_47c46a9a65504c069a8e",
+      "name": "utensils-crossed",
+      "title": "Utensils Crossed",
+      "file": "icons/lucid_4/utensils-crossed.svg",
+      "path": "lucid_4/utensils-crossed.svg",
+      "tags": [
+        "utensils",
+        "crossed"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0e157fbfb208b61b4ec2e5e34b31121575898b4ab5c924f228a1c49db66c17a4",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "utensils": {
+      "id": "dl_6f26f1443cf24a509ac2",
+      "name": "utensils",
+      "title": "Utensils",
+      "file": "icons/lucid_4/utensils.svg",
+      "path": "lucid_4/utensils.svg",
+      "tags": [
+        "utensils"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "58ac47dfcdb4f9cf8716ebb4f1ba3c49d8ca3325513c0f384d0a7faa78469b7b",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "utility-pole": {
+      "id": "dl_2a6e44436806429f9518",
+      "name": "utility-pole",
+      "title": "Utility Pole",
+      "file": "icons/lucid_4/utility-pole.svg",
+      "path": "lucid_4/utility-pole.svg",
+      "tags": [
+        "utility",
+        "pole"
+      ],
+      "categories": [
+        "lucid_4"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "23f1ea824cb0b85360a8519fff67240f9e64935df2e4b30958c3e9180f4a3f8a",
+      "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
     "undo": {
       "id": "dl_d8491ad8a6db4d45edb9",
       "name": "undo",
