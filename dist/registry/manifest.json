@@ -1,0 +1,64 @@
+{
+  "version": 9,
+  "schemaVersion": 9,
+  "library": "Delluna",
+  "variants": [
+    "og",
+    "hud",
+    "orbit",
+    "circuit",
+    "plasma"
+  ],
+  "styles": [
+    "single",
+    "outline",
+    "fill",
+    "solid",
+    "duotone",
+    "duocolor"
+  ],
+  "motions": [
+    "none",
+    "pulse",
+    "spin",
+    "bounce",
+    "shake",
+    "wiggle",
+    "float",
+    "draw"
+  ],
+  "folders": [
+    "lucid_1",
+    "lucid_2",
+    "lucid_3",
+    "singleton",
+    "updated-separated-svg-files"
+  ],
+  "shardAlgorithm": "name-prefix-v2",
+  "shardPattern": "registry/shards/{first-normalized-char}.json",
+  "shards": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "x"
+  ],
+  "iconCount": 1657,
+  "generatedAt": "2026-09-03T17:51:42.222Z"
+}

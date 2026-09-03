@@ -1,0 +1,252 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "align_horizontal_left": {
+      "id": "dl_49d48a1ed0f4f5b1e837",
+      "name": "align_horizontal_left",
+      "title": "Align Horizontal Left",
+      "file": "icons/align_horizontal_left.svg",
+      "path": "align_horizontal_left.svg",
+      "tags": [
+        "align",
+        "horizontal",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "60ace7b63e63d02573fbe9b4496f77eb83be9372f5bb358a6dd7de2752a58511",
+      "updatedAt": "2026-08-31T18:44:46.205Z"
+    },
+    "alternate_email": {
+      "id": "dl_a12548ec2186b8f24161",
+      "name": "alternate_email",
+      "title": "Alternate Email",
+      "file": "icons/alternate_email.svg",
+      "path": "alternate_email.svg",
+      "tags": [
+        "alternate",
+        "email"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7a25e17095ffc5d0e672b66298cd09c083d12711617bff709e57e17dd96dbad3",
+      "updatedAt": "2026-08-31T18:44:46.205Z"
+    },
+    "apps": {
+      "id": "dl_fcc2ca335c731b35c959",
+      "name": "apps",
+      "title": "Apps",
+      "file": "icons/apps.svg",
+      "path": "apps.svg",
+      "tags": [
+        "apps"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "cf9d9bcf42fbead3fd67db73d26e6c28464f3ea0e5f12a87808ac934049364d3",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "arrow_back": {
+      "id": "dl_d25f1fe91c87871d603b",
+      "name": "arrow_back",
+      "title": "Arrow Back",
+      "file": "icons/arrow_back.svg",
+      "path": "arrow_back.svg",
+      "tags": [
+        "arrow",
+        "back"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "6e69a08b016598d27b60f1abd622b39b194ca8950296e43b8c5316904868ca31",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "arrow_forward": {
+      "id": "dl_7bd279ff9ccc1cd6e863",
+      "name": "arrow_forward",
+      "title": "Arrow Forward",
+      "file": "icons/arrow_forward.svg",
+      "path": "arrow_forward.svg",
+      "tags": [
+        "arrow",
+        "forward"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b26105321b49e78bc7d4175d356f1d1be0cd8508e82426894cdabbd145e7e3c4",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "arrow_left": {
+      "id": "dl_ea2fbd041e1536844ac4",
+      "name": "arrow_left",
+      "title": "Arrow Left",
+      "file": "icons/arrow_left.svg",
+      "path": "arrow_left.svg",
+      "tags": [
+        "arrow",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2785e427801fef900557aa9b655fec199263056410a19c9e088c3dcd825ff3a9",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "auto_awesome": {
+      "id": "dl_7cbe64e0fe7ee1e8b300",
+      "name": "auto_awesome",
+      "title": "Auto Awesome",
+      "file": "icons/auto_awesome.svg",
+      "path": "auto_awesome.svg",
+      "tags": [
+        "auto",
+        "awesome"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "bb026a64de888113c3eaf3d81700e7cdfcd75fc1605f1e0c9f1f8aebbe47974a",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    }
+  },
+  "aliases": {}
+}

@@ -1,0 +1,41 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "javascript": {
+      "id": "dl_18e9ea304662c1d11b07",
+      "name": "javascript",
+      "title": "Javascript",
+      "file": "icons/javascript.svg",
+      "path": "javascript.svg",
+      "tags": [
+        "javascript"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "6a60cf631e31a0a6d180376d4c4d285681c8da656caf18a5caa4d63409076b1f",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    }
+  },
+  "aliases": {}
+}

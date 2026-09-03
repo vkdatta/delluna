@@ -41,8 +41,6 @@ let config={
 const cache=new Map();
 const pending=new Map();
 
-let registryCache=null;
-let registryPending=null;
 let uid=0;
 
 const families={
@@ -95,85 +93,42 @@ function debug(){
     }
 }
 
-async function registry(){
-    if(registryCache){
-        return registryCache;
-    }
-
-    if(registryPending){
-        return registryPending;
-    }
-
-    const base=requireBase();
-
-    const registryUrl=
-        base+'/registry.json';
-
-    debug(
-        'Loading registry:',
-        registryUrl
-    );
-
-    registryPending=
-        fetch(
-            registryUrl,
-            {
-                cache:'no-cache'
-            }
-        )
-        .then(response=>{
-            if(!response.ok){
-                throw new Error(
-                    `Delluna registry unavailable: HTTP ${response.status}`
-                );
-            }
-
-            return response.json();
-        })
-        .then(data=>{
-            registryCache=data;
-            registryPending=null;
-
-            debug(
-                'Registry loaded:',
-                data
-            );
-
-            return data;
-        })
-        .catch(error=>{
-            registryPending=null;
-            throw error;
-        });
-
-    return registryPending;
+const shardCache=new Map();
+const shardPending=new Map();
+function registryShardKey(name){
+    const value=String(name||'').toLowerCase();
+    const alphabet='0123456789abcdefghijklmnopqrstuvwxyz_-';
+    return alphabet.includes(value[0])?value[0]:'_';
 }
-
+async function registryShard(name){
+    const key=registryShardKey(name);
+    if(shardCache.has(key)) return shardCache.get(key);
+    if(shardPending.has(key)) return shardPending.get(key);
+    const base=requireBase();
+    const pending=fetch(`${base}/registry/shards/${encodeURIComponent(key)}.json`,{cache:'force-cache'})
+      .then(response=>{ if(!response.ok) throw new Error(`Delluna registry shard unavailable: HTTP ${response.status}`); return response.json(); })
+      .then(data=>{ shardCache.set(key,data); shardPending.delete(key); return data; })
+      .catch(error=>{ shardPending.delete(key); throw error; });
+    shardPending.set(key,pending);
+    return pending;
+}
 async function resolveItem(name){
-    const r=await registry();
-
-    let item=
-        r.icons&&
-        r.icons[name]
-            ? r.icons[name]
-            : null;
-
-    if(item&&item.aliasOf){
-        item=
-            r.icons&&
-            r.icons[item.aliasOf]
-                ? r.icons[item.aliasOf]
-                : null;
+    const key=String(name||'');
+    const shard=await registryShard(key);
+    let item=shard.icons&&shard.icons[key]?shard.icons[key]:null;
+    const aliasTarget=shard.aliases&&shard.aliases[key]?shard.aliases[key]:null;
+    if(!item&&aliasTarget) {
+        const targetShard=await registryShard(aliasTarget);
+        item=targetShard.icons&&targetShard.icons[aliasTarget]?targetShard.icons[aliasTarget]:null;
     }
-
-    if(!item&&r.aliases&&r.aliases[name]){
-        item=
-            r.icons&&
-            r.icons[r.aliases[name]]
-                ? r.icons[r.aliases[name]]
-                : null;
+    if(item) return item;
+    // Backward compatibility for deployments that have not built shards yet.
+    const legacy=await fetch(requireBase()+'/registry.json',{cache:'force-cache'}).then(r=>r.ok?r.json():null).catch(()=>null);
+    if(legacy&&legacy.icons){
+        item=legacy.icons[key]||null;
+        if(item&&item.aliasOf) item=legacy.icons[item.aliasOf]||null;
+        if(!item&&legacy.aliases&&legacy.aliases[key]) item=legacy.icons[legacy.aliases[key]]||null;
     }
-
     return item||null;
 }
 
@@ -1215,8 +1170,8 @@ const Delluna={
         }
 
         if(baseChanged){
-            registryCache=null;
-            registryPending=null;
+            shardCache.clear();
+            shardPending.clear();
         }
 
         repaint();
@@ -1237,8 +1192,8 @@ const Delluna={
         this.baseUrl=
             AUTO_BASE;
 
-        registryCache=null;
-        registryPending=null;
+        shardCache.clear();
+        shardPending.clear();
 
         cache.clear();
         pending.clear();
@@ -1254,8 +1209,8 @@ const Delluna={
 
     clearCache(){
         cache.clear();
-        registryCache=null;
-        registryPending=null;
+        shardCache.clear();
+        shardPending.clear();
     },
 
     variants:Object.keys(

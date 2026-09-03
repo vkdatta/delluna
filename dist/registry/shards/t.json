@@ -1,0 +1,213 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "table": {
+      "id": "dl_b44446d88fd5060f158d",
+      "name": "table",
+      "title": "Table",
+      "file": "icons/table.svg",
+      "path": "table.svg",
+      "tags": [
+        "table"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "cdc56d7abcfb113b91bfabbf838c492b1fbecfd95837da75e023a2e26eb4cda9",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "text_fields": {
+      "id": "dl_948b3b2c74c2ebf1f866",
+      "name": "text_fields",
+      "title": "Text Fields",
+      "file": "icons/text_fields.svg",
+      "path": "text_fields.svg",
+      "tags": [
+        "text",
+        "fields"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3da404b8d35b05b7b594ce30436b93dc63fa3280fd3e0267863080bf9a5ee1f1",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "text_up": {
+      "id": "dl_aadf5f28d788521afcb9",
+      "name": "text_up",
+      "title": "Text Up",
+      "file": "icons/text_up.svg",
+      "path": "text_up.svg",
+      "tags": [
+        "text",
+        "up"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "63e25812cdb1b2d7f3fc72f62221c10ab6a7dd394df14a4c5920a791ccc82063",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "tick": {
+      "id": "dl_57f503dee03c4a4aac79",
+      "name": "tick",
+      "title": "Tick",
+      "file": "icons/tick.svg",
+      "path": "tick.svg",
+      "tags": [
+        "tick"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "074ae77022da4d51720b0a8d6ef57453a705edc7bc7132c65f1e6eaa5f4423e8",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "trash": {
+      "id": "dl_5827698eb5c1e796076f",
+      "name": "trash",
+      "title": "Trash",
+      "file": "icons/trash.svg",
+      "path": "trash.svg",
+      "tags": [
+        "trash"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5fa6a7fe970c599e4bf81bc4e143bbd2b9b5159fec389896a8b18769b12b7940",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "tune": {
+      "id": "dl_163a91981ed8ea261072",
+      "name": "tune",
+      "title": "Tune",
+      "file": "icons/tune.svg",
+      "path": "tune.svg",
+      "tags": [
+        "tune"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f404cf373506b25fefab4c5ad43feb5f55a0e8bd913d0d1c3a64bd515029b54d",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    }
+  },
+  "aliases": {}
+}

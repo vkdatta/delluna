@@ -1,0 +1,111 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "home_app_logo": {
+      "id": "dl_356c4ed840a47771660d",
+      "name": "home_app_logo",
+      "title": "Home App Logo",
+      "file": "icons/home_app_logo.svg",
+      "path": "home_app_logo.svg",
+      "tags": [
+        "home",
+        "app",
+        "logo"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "16801477234ef7bb5deea423141787ad942f12af183474c2b6c17ba55ee6726c",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "html": {
+      "id": "dl_532952e79cc87a4b5c8d",
+      "name": "html",
+      "title": "Html",
+      "file": "icons/html.svg",
+      "path": "html.svg",
+      "tags": [
+        "html"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "20ae99cedd81cbe5f497cd6edae51bf39daf97774376995817b71c197cd37c2d",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "hub": {
+      "id": "dl_c9e361cd2ecef764682a",
+      "name": "hub",
+      "title": "Hub",
+      "file": "icons/hub.svg",
+      "path": "hub.svg",
+      "tags": [
+        "hub"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "787983b7fbd346d1edbc2f7a436307fa9fb94b2f9844d1f68b60a0215e11a17d",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    }
+  },
+  "aliases": {}
+}

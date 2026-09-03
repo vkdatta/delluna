@@ -1,0 +1,214 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "edit_document": {
+      "id": "dl_688fb9ae6fbc385bd58f",
+      "name": "edit_document",
+      "title": "Edit Document",
+      "file": "icons/edit_document.svg",
+      "path": "edit_document.svg",
+      "tags": [
+        "edit",
+        "document"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e50174d32117c262068b94539732d3e604db0d6dc1233ee275162a766fe2649a",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "edit": {
+      "id": "dl_900a88c049a8b61654b6",
+      "name": "edit",
+      "title": "Edit",
+      "file": "icons/edit.svg",
+      "path": "edit.svg",
+      "tags": [
+        "edit"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f7ede28972f53d102871649ec90a7002464fb1b2785e6215aa6760158037a9a4",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "encrypted": {
+      "id": "dl_f79be6f6ae07eea91725",
+      "name": "encrypted",
+      "title": "Encrypted",
+      "file": "icons/encrypted.svg",
+      "path": "encrypted.svg",
+      "tags": [
+        "encrypted"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7290a80d5e15845ec8d32f219aaa03e4c75dc84823902455b3bf4578b7859358",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "enter": {
+      "id": "dl_3105691065ff9395cab3",
+      "name": "enter",
+      "title": "Enter",
+      "file": "icons/enter.svg",
+      "path": "enter.svg",
+      "tags": [
+        "enter"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8c6b23b9c61dcbce75187d78e415a64ab62b376367eccba1b38281b308918cab",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "expand_less": {
+      "id": "dl_47f77e91c0346c6983bb",
+      "name": "expand_less",
+      "title": "Expand Less",
+      "file": "icons/expand_less.svg",
+      "path": "expand_less.svg",
+      "tags": [
+        "expand",
+        "less"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "cbd8cdc7a2d8dbbad1366aa0d9b6ed90541d7e8b2b647439c353bbfa21bf188e",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    },
+    "expand_more": {
+      "id": "dl_9cf7cf04081bc4c2d897",
+      "name": "expand_more",
+      "title": "Expand More",
+      "file": "icons/expand_more.svg",
+      "path": "expand_more.svg",
+      "tags": [
+        "expand",
+        "more"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7506647e6424ad64680a5cac59e9af2c451468da8c4f36281f6e63887c35720f",
+      "updatedAt": "2026-08-31T18:44:46.207Z"
+    }
+  },
+  "aliases": {}
+}

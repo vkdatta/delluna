@@ -1,0 +1,78 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "view_cozy": {
+      "id": "dl_26dfa6f0c9b1d2845c64",
+      "name": "view_cozy",
+      "title": "View Cozy",
+      "file": "icons/view_cozy.svg",
+      "path": "view_cozy.svg",
+      "tags": [
+        "view",
+        "cozy"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "056520ac9439bb4ed626784ee4d6e925d77cd0f541be3b70c573f119bb72c67a",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "view_object_track": {
+      "id": "dl_e1f596ff246765393693",
+      "name": "view_object_track",
+      "title": "View Object Track",
+      "file": "icons/view_object_track.svg",
+      "path": "view_object_track.svg",
+      "tags": [
+        "view",
+        "object",
+        "track"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "bb9d22dfee446cc902b2df7b2b114f9337f769388bad7919993ab0a8556a2e6b",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    }
+  },
+  "aliases": {}
+}

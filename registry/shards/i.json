@@ -1,0 +1,110 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "image": {
+      "id": "dl_0e16e918a3710bd22e61",
+      "name": "image",
+      "title": "Image",
+      "file": "icons/image.svg",
+      "path": "image.svg",
+      "tags": [
+        "image"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c14d2ed64a6d7f7b8dbc09afc6edb6d7fbadf58694314fac2b89eda21121d582",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "import_contacts": {
+      "id": "dl_469f18dbaca37698330f",
+      "name": "import_contacts",
+      "title": "Import Contacts",
+      "file": "icons/import_contacts.svg",
+      "path": "import_contacts.svg",
+      "tags": [
+        "import",
+        "contacts"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b8c0f326f6346f12d7026a91b5b71aad3ee88a8b88a63fb47710eb01776d2bd6",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "info": {
+      "id": "dl_308523e5cf143553e4fb",
+      "name": "info",
+      "title": "Info",
+      "file": "icons/info.svg",
+      "path": "info.svg",
+      "tags": [
+        "info"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3edb6a467b94a1b21d6b592c7b671dbd7863f3d34e64316793df49107ca75d62",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    }
+  },
+  "aliases": {}
+}

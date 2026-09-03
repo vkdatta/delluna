@@ -6,7 +6,26 @@ const { spawnSync } = require('child_process');
 
 const root = path.resolve(__dirname, '..');
 const src = path.join(root, 'src/icons');
-const registry = JSON.parse(fs.readFileSync(path.join(root, 'registry/icons.json'), 'utf8'));
+function loadCanonicalRegistry() {
+  const canonical = path.join(root, 'registry/icons.json');
+  if (fs.existsSync(canonical)) return JSON.parse(fs.readFileSync(canonical, 'utf8'));
+  const manifest = JSON.parse(fs.readFileSync(path.join(root, 'registry/manifest.json'), 'utf8'));
+  const icons = {}, aliases = {};
+  for (const key of manifest.shards || []) {
+    const shard = JSON.parse(fs.readFileSync(path.join(root, 'registry/shards', `${key}.json`), 'utf8'));
+    Object.assign(icons, shard.icons || {});
+    Object.assign(aliases, shard.aliases || {});
+  }
+  return { ...manifest, icons, aliases };
+}
+const registry = loadCanonicalRegistry();
+const shardManifestPath = path.join(root, 'registry/manifest.json');
+assert(fs.existsSync(shardManifestPath), 'Registry shard manifest is missing');
+const shardManifest = JSON.parse(fs.readFileSync(shardManifestPath, 'utf8'));
+assert(shardManifest.shardAlgorithm === 'name-prefix-v2' && Array.isArray(shardManifest.shards), 'Registry shard manifest contract is missing');
+assert(shardManifest.shards.length <= 50, 'Registry shard count must remain within the Cloudflare Workers Free-plan subrequest budget');
+const shardDir = path.join(root, 'registry/shards');
+for (const key of shardManifest.shards) assert(fs.existsSync(path.join(shardDir, `${key}.json`)), `Missing registry shard: ${key}`);
 
 function walk(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
@@ -26,13 +45,28 @@ function assert(condition, message) { if (!condition) throw new Error(message); 
 const sample = `<svg data-delluna-id="old"><g>\n  <path d="M0 0"/>\n</g></svg>`;
 assert(normalizeBuild(sample) === normalizeWorkerEquivalent(sample), 'Worker/build normalization contract diverged');
 
-const workerPath = path.resolve(root, '../admin/worker.js');
+function firstExisting(paths) {
+  for (const candidate of paths) if (fs.existsSync(candidate)) return candidate;
+  throw new Error(`Required integration file not found. Tried: ${paths.join(', ')}`);
+}
+const workerPath = firstExisting([
+  path.resolve(root, '../admin/worker.js'),
+  path.resolve(root, '../../admin/backend/worker.js')
+]);
 const worker = fs.readFileSync(workerPath, 'utf8');
 for (const token of ['function normalizeSVG', 'MAX_UPLOAD_SVG_BYTES', 'MAX_BATCH_FILES', 'function isSafeSVG', 'function hasUnsafePathSegments']) {
   assert(worker.includes(token), `Worker publish contract missing ${token}`);
 }
-const adminApp = fs.readFileSync(path.resolve(root, '../../0002-frontend/admin/app.js'), 'utf8');
-const adminCss = fs.readFileSync(path.resolve(root, '../../0002-frontend/admin/style.css'), 'utf8');
+const adminAppPath = firstExisting([
+  path.resolve(root, '../../0002-frontend/admin/app.js'),
+  path.resolve(root, '../../admin/frontend/app.js')
+]);
+const adminCssPath = firstExisting([
+  path.resolve(root, '../../0002-frontend/admin/style.css'),
+  path.resolve(root, '../../admin/frontend/style.css')
+]);
+const adminApp = fs.readFileSync(adminAppPath, 'utf8');
+const adminCss = fs.readFileSync(adminCssPath, 'utf8');
 assert(adminApp.includes('normalizeLoadedBatch'), 'Admin batch migration guard is missing');
 assert(adminApp.includes('x.action !== "invalid" && !x.resolution'), 'Invalid SVGs must not be treated as unresolved conflict decisions');
 assert(adminApp.includes('batchStatusLabel'), 'Admin pending status labels are not normalized');
@@ -40,8 +74,21 @@ assert(adminCss.includes('.row-fav svg'), 'Admin favorite button SVG styling is 
 assert(adminCss.includes('appearance:none'), 'Admin controls still allow browser-native button rendering');
 
 for (const dangerous of ['onload=alert(1)', 'href=javascript:alert(1)', 'src=https://example.com']) {
-  assert(worker.includes('attrPattern') && worker.includes('javascript:'), `Worker SVG safety policy missing coverage for ${dangerous}`);
+  assert(worker.includes('attrPattern') && worker.includes('javascript:'), `Worker SVG safety policy missing coverage for ${dangerous}`);assert(worker.includes('canonicalUploadPath'), 'Worker upload-path canonicalization is missing');
+assert(worker.includes('MAX_BATCH_TOTAL_BYTES'), 'Worker total batch-size guard is missing');
+assert(worker.includes('MAX_BATCH_FILES = 10000'), 'Worker 10,000-file batch limit is missing');
+assert(adminApp.includes('selectAllResults'), 'Admin Select All control is missing');
+assert(adminApp.includes('virtual-list') && adminApp.includes('overscan=10'), 'Admin database virtualization contract is missing');
+assert(adminApp.includes('searchIndex') && adminApp.includes('rebuildSearchIndex'), 'Admin indexed-search contract is missing');
+assert(adminApp.includes('/rename-bulk'), 'Admin bulk rename endpoint integration is missing');
+assert(adminApp.includes('canonicalPath'), 'Admin publish destination canonicalization is missing');
+assert(worker.includes('registry/shards?ref=') && worker.includes('git/blobs/'), 'Shard registry loading must avoid per-shard Contents API fallback subrequests');
+const workflow = fs.readFileSync(path.join(root, '.github/workflows/build.yml'), 'utf8');
+assert(workflow.includes('registry/manifest.json') && workflow.includes('registry/shards'), 'Build workflow must commit registry manifest and shards');
+assert(worker.includes('handleEdit') && worker.includes('commitRegistryAndTree(env, base, nextRegistry, tree, `admin: rename'), 'Edit endpoint must use shard-aware registry commits');
+assert(worker.includes('handleDelete') && worker.includes('commitRegistryAndTree(env, base, nextRegistry, tree, `admin: delete'), 'Delete endpoint must use shard-aware registry commits');
 }
+
 
 const expectedStyles = ['single','outline','fill','solid','duotone','duocolor'];
 const expectedMotions = ['none','pulse','spin','bounce','shake','wiggle','float','draw'];
@@ -108,7 +155,17 @@ try {
   fs.rmSync(compatiblePath);
 
   // Direct source edits are supported: build must be able to regenerate the registry before validation.
-  const tempRegistry = JSON.parse(fs.readFileSync(path.join(temp, 'registry/icons.json'), 'utf8'));
+  const tempRegistry = (() => {
+    const canonical = path.join(temp, 'registry/icons.json');
+    if (fs.existsSync(canonical)) return JSON.parse(fs.readFileSync(canonical, 'utf8'));
+    const manifest = JSON.parse(fs.readFileSync(path.join(temp, 'registry/manifest.json'), 'utf8'));
+    const icons = {}, aliases = {};
+    for (const key of manifest.shards || []) {
+      const shard = JSON.parse(fs.readFileSync(path.join(temp, 'registry/shards', `${key}.json`), 'utf8'));
+      Object.assign(icons, shard.icons || {}); Object.assign(aliases, shard.aliases || {});
+    }
+    return { ...manifest, icons, aliases };
+  })();
   assert(tempRegistry.icons.v6_nested_probe, 'Build did not register source-only nested icon');
   assert(expectedStyles.every(style => fs.existsSync(path.join(temp, 'dist/styles', style, 'icons/singleton/v6_nested_probe.svg'))), 'Nested style artifacts were not generated for every style');
   assert(fs.existsSync(path.join(temp, 'dist/motion.json')), 'Motion manifest was not generated');

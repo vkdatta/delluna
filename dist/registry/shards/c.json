@@ -1,0 +1,491 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "cached": {
+      "id": "dl_d66a4d623ad54323ac55",
+      "name": "cached",
+      "title": "Cached",
+      "file": "icons/cached.svg",
+      "path": "cached.svg",
+      "tags": [
+        "cached"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "46ed0e26c26dcc8a7730ba30fb9d216299f8284c2138a6efb3cb443ecf17be20",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "category": {
+      "id": "dl_844a1a37c87331208b82",
+      "name": "category",
+      "title": "Category",
+      "file": "icons/category.svg",
+      "path": "category.svg",
+      "tags": [
+        "category"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "494bccba8f53a48ee0b5231c66102fb9eda68301f2fa513f800180f3f1419911",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "chev": {
+      "id": "dl_0554a62a9cbcd41ab805",
+      "name": "chev",
+      "title": "Chev",
+      "file": "icons/chev.svg",
+      "path": "chev.svg",
+      "tags": [
+        "chev"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9f09cf552f5ff62608023cddefe410d4e7b1627bf9ea96bf712216fccbbbde26",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "chevron_left": {
+      "id": "dl_5ffdff5a1ea56855ec87",
+      "name": "chevron_left",
+      "title": "Chevron Left",
+      "file": "icons/chevron_left.svg",
+      "path": "chevron_left.svg",
+      "tags": [
+        "chevron",
+        "left"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5bbcce1affb582a8ca14e3f0e8c2928c654fd833a3d5ef02ca9124c7d0df7439",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "chevron_right": {
+      "id": "dl_70cd1c7ec4b0b46102f8",
+      "name": "chevron_right",
+      "title": "Chevron Right",
+      "file": "icons/chevron_right.svg",
+      "path": "chevron_right.svg",
+      "tags": [
+        "chevron",
+        "right"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9f09cf552f5ff62608023cddefe410d4e7b1627bf9ea96bf712216fccbbbde26",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "cleaning_services": {
+      "id": "dl_6c21f9929c274c8a4ceb",
+      "name": "cleaning_services",
+      "title": "Cleaning Services",
+      "file": "icons/cleaning_services.svg",
+      "path": "cleaning_services.svg",
+      "tags": [
+        "cleaning",
+        "services"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a909f9995ea4e338bcfdbf3c89926bfdd495d078d7d3abe965031024d6a941b4",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "clear_all": {
+      "id": "dl_b7f4f6e685a6d9c721a4",
+      "name": "clear_all",
+      "title": "Clear All",
+      "file": "icons/clear_all.svg",
+      "path": "clear_all.svg",
+      "tags": [
+        "clear",
+        "all"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9ad1ca699545b237cdaf2908c0ddb2d4bcaccbfd0a2e167c5acd6cea3cd650b4",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "close_fullscreen": {
+      "id": "dl_edfb6dac27213cb87a54",
+      "name": "close_fullscreen",
+      "title": "Close Fullscreen",
+      "file": "icons/close_fullscreen.svg",
+      "path": "close_fullscreen.svg",
+      "tags": [
+        "close",
+        "fullscreen"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "15fa23b7a46d0c8ceb37fa96d64ab62171d76b51057bb41969fb38eee854d6ca",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "cloud_upload": {
+      "id": "dl_5673ca481d5b5ecba804",
+      "name": "cloud_upload",
+      "title": "Cloud Upload",
+      "file": "icons/cloud_upload.svg",
+      "path": "cloud_upload.svg",
+      "tags": [
+        "cloud",
+        "upload"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "6067f23e8121aae6e358397d68b0192125e8ff1409f158d4dccce8f059f46500",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "code": {
+      "id": "dl_6866cab24c5dfbb81a90",
+      "name": "code",
+      "title": "Code",
+      "file": "icons/code.svg",
+      "path": "code.svg",
+      "tags": [
+        "code"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c08da6a2bfcb43a93b5217f48f1ce2e11c6245a40639e5fb44984446ea3c41d8",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "content_cut": {
+      "id": "dl_5fcaa7ee281f5478d150",
+      "name": "content_cut",
+      "title": "Content Cut",
+      "file": "icons/content_cut.svg",
+      "path": "content_cut.svg",
+      "tags": [
+        "content",
+        "cut"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "23f1448f7357249c963059ec65a6dfc26308af5d8ceed5556774393ef1327b23",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "copy": {
+      "id": "dl_77480153d3db17f90317",
+      "name": "copy",
+      "title": "Copy",
+      "file": "icons/copy.svg",
+      "path": "copy.svg",
+      "tags": [
+        "copy"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c4aa30062dfd4e1e2c68ad113e4d55eb0ddb7e6fbdffb7ccdb734c91812f695f",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "css": {
+      "id": "dl_c6f3f9408a1173c78a74",
+      "name": "css",
+      "title": "Css",
+      "file": "icons/css.svg",
+      "path": "css.svg",
+      "tags": [
+        "css"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "266807ae473efbf27c6c29621f17e36b4fa05aba1faea38770ec342e5a351196",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "clipboard": {
+      "id": "dl_6e6688875bbf423e9c23",
+      "name": "clipboard",
+      "title": "Clipboard",
+      "file": "icons/singleton/clipboard.svg",
+      "path": "singleton/clipboard.svg",
+      "tags": [
+        "singleton",
+        "clipboard"
+      ],
+      "categories": [
+        "singleton"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e117d77a4973157ebb6c62b12d833e97ffcec0103103ee82a7663b0fa3905f01",
+      "updatedAt": "2026-09-01T20:51:48.146Z"
+    }
+  },
+  "aliases": {}
+}

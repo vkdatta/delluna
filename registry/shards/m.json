@@ -1,0 +1,76 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "match_case": {
+      "id": "dl_0cd53558965e9094c116",
+      "name": "match_case",
+      "title": "Match Case",
+      "file": "icons/match_case.svg",
+      "path": "match_case.svg",
+      "tags": [
+        "match",
+        "case"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a83e3b4e16d60a6c5e38e9190fc4d6eef7fbd6090659463362b8f6e439e169f9",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "move": {
+      "id": "dl_a5eae5c30028142a7c28",
+      "name": "move",
+      "title": "Move",
+      "file": "icons/move.svg",
+      "path": "move.svg",
+      "tags": [
+        "move"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ee17823c7f10ab6211adecc3df5c7360df77d5571f58f815aba902be6c0c24c0",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    }
+  },
+  "aliases": {}
+}

@@ -1,0 +1,42 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "note_add": {
+      "id": "dl_df80059953f58446eace",
+      "name": "note_add",
+      "title": "Note Add",
+      "file": "icons/note_add.svg",
+      "path": "note_add.svg",
+      "tags": [
+        "note",
+        "add"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "425d1f50e888e31fb0319bb0e947f80a190083af162caa23fa32c054ce60452a",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    }
+  },
+  "aliases": {}
+}

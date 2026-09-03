@@ -1,0 +1,43 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "open_in_full": {
+      "id": "dl_c231d18a744acd925d60",
+      "name": "open_in_full",
+      "title": "Open In Full",
+      "file": "icons/open_in_full.svg",
+      "path": "open_in_full.svg",
+      "tags": [
+        "open",
+        "in",
+        "full"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3629e6e77290ef4d8c53e8b2646c4ede4a90875219130baeb1ff42c1fed0ba78",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    }
+  },
+  "aliases": {}
+}

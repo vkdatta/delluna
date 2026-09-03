@@ -1,0 +1,144 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "backspace": {
+      "id": "dl_d71c9730fd21bfb0587d",
+      "name": "backspace",
+      "title": "Backspace",
+      "file": "icons/backspace.svg",
+      "path": "backspace.svg",
+      "tags": [
+        "backspace"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1337f057ee007805414cfac4b283195d36a894569b3c0dfb8b4c5f738fdd2032",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "bolt": {
+      "id": "dl_ebe8e6b27c85e655141c",
+      "name": "bolt",
+      "title": "Bolt",
+      "file": "icons/bolt.svg",
+      "path": "bolt.svg",
+      "tags": [
+        "bolt"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9127d558a8a5d0adfbebdfbf5375e55e5792a2823f43e8b29f39a63db8ac5c61",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "bookmark": {
+      "id": "dl_a93eb90c9c75e18b3a87",
+      "name": "bookmark",
+      "title": "Bookmark",
+      "file": "icons/bookmark.svg",
+      "path": "bookmark.svg",
+      "tags": [
+        "bookmark"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e4c3fe9f618bd170c9afc14802b7d2fd04ee3a5e1df5899cfe0eb5fb62a9cc40",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "bug_report": {
+      "id": "dl_d0cdba03128b7e93f73f",
+      "name": "bug_report",
+      "title": "Bug Report",
+      "file": "icons/bug_report.svg",
+      "path": "bug_report.svg",
+      "tags": [
+        "bug",
+        "report"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9907533e3cfa280a66d033ded381f9b995f794ac10e360666e1d19373e0c17c2",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    }
+  },
+  "aliases": {}
+}

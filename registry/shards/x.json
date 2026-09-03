@@ -1,0 +1,41 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "x": {
+      "id": "dl_b381d6b75a2d10470864",
+      "name": "x",
+      "title": "X",
+      "file": "icons/x.svg",
+      "path": "x.svg",
+      "tags": [
+        "x"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "07bde35a9c0a90ea24cef38d5c95d3184cc3b28bebfdadec5db11a79d8109394",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    }
+  },
+  "aliases": {}
+}

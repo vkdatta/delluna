@@ -1,0 +1,453 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "save": {
+      "id": "dl_115d8191922db15e7c2d",
+      "name": "save",
+      "title": "Save",
+      "file": "icons/save.svg",
+      "path": "save.svg",
+      "tags": [
+        "save"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "03fafafe8c84f72a40948bcc8e2b8b32282071df586f0361b4ee13dc6e71c885",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "search_off": {
+      "id": "dl_8aa6478e575d86bdb8a9",
+      "name": "search_off",
+      "title": "Search Off",
+      "file": "icons/search_off.svg",
+      "path": "search_off.svg",
+      "tags": [
+        "search",
+        "off"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8f19b1b22a6d2e8ff3671a60398123e285d8dbbf6c556e7c635bbad14350c012",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "search": {
+      "id": "dl_ddd4bb51c362da338c39",
+      "name": "search",
+      "title": "Search",
+      "file": "icons/search.svg",
+      "path": "search.svg",
+      "tags": [
+        "search"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ba246fa4bb2a1b01608d315c2339713d5b3202eb9ac49988057667189bc3bf49",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "select": {
+      "id": "dl_bc6d1613c25f1ed5cd4c",
+      "name": "select",
+      "title": "Select",
+      "file": "icons/select.svg",
+      "path": "select.svg",
+      "tags": [
+        "select"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a1c0323248f553c62541121d84cb7f70e83814fc165bf25bcd092ef76f5b0960",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "selectAll": {
+      "id": "dl_1adb7f6aa93b026b4caf",
+      "name": "selectAll",
+      "title": "Select All",
+      "file": "icons/selectAll.svg",
+      "path": "selectAll.svg",
+      "tags": [
+        "selectall"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "aeb3878e50280d6f56f90858d2db569a12bec50bbe7a592cbe45b3cbd12303d7",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "settings": {
+      "id": "dl_cc53255635bc0be73c50",
+      "name": "settings",
+      "title": "Settings",
+      "file": "icons/settings.svg",
+      "path": "settings.svg",
+      "tags": [
+        "settings"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "185f1871c6f4e3bc336808f892e47a268b84532722046410b119feb89ec935a4",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "slab_serif": {
+      "id": "dl_ab324b269d90e12238f9",
+      "name": "slab_serif",
+      "title": "Slab Serif",
+      "file": "icons/slab_serif.svg",
+      "path": "slab_serif.svg",
+      "tags": [
+        "slab",
+        "serif"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1c20b2f42f00d08d229060a81c5b84eb69a1d00d880ae2df037c80d71c65d476",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "sort": {
+      "id": "dl_018d4742825e7a6e7b97",
+      "name": "sort",
+      "title": "Sort",
+      "file": "icons/sort.svg",
+      "path": "sort.svg",
+      "tags": [
+        "sort"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "359beb4a1fd92946c3b9b3d5d948eb9e450034800dab78ea5eb2b1f8b704b385",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "star_border": {
+      "id": "dl_a2e368921f40c20b11cf",
+      "name": "star_border",
+      "title": "Star Border",
+      "file": "icons/star_border.svg",
+      "path": "star_border.svg",
+      "tags": [
+        "star",
+        "border"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1d06d2713122ba1788e36e686b467fa1701281958ddfbccca7547698d4720670",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "star": {
+      "id": "dl_3eea1d58292990eebbc6",
+      "name": "star",
+      "title": "Star",
+      "file": "icons/star.svg",
+      "path": "star.svg",
+      "tags": [
+        "star"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1d06d2713122ba1788e36e686b467fa1701281958ddfbccca7547698d4720670",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "swap_horiz": {
+      "id": "dl_cfbdd66665ac7c5c8ef0",
+      "name": "swap_horiz",
+      "title": "Swap Horiz",
+      "file": "icons/swap_horiz.svg",
+      "path": "swap_horiz.svg",
+      "tags": [
+        "swap",
+        "horiz"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0da33b510bf21994ba192e493f934005041799bffb7912f08e94ccd8ba419c16",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "swapSaved": {
+      "id": "dl_7179b66d249c52f9c867",
+      "name": "swapSaved",
+      "title": "Swap Saved",
+      "file": "icons/swapSaved.svg",
+      "path": "swapSaved.svg",
+      "tags": [
+        "swapsaved"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ce77f33114ead68d41981d6e383afbf02f8137973afd54ce2d110060a2d06366",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "switches": {
+      "id": "dl_41120482966d7fafe365",
+      "name": "switches",
+      "title": "Switches",
+      "file": "icons/switches.svg",
+      "path": "switches.svg",
+      "tags": [
+        "switches"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "6848f91a84ab2b401880174d486ff5d5b55c3e41d495b042147f143ec4cdce47",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    }
+  },
+  "aliases": {}
+}

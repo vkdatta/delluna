@@ -1,0 +1,215 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "data_object": {
+      "id": "dl_cc542f674ea1e6046303",
+      "name": "data_object",
+      "title": "Data Object",
+      "file": "icons/data_object.svg",
+      "path": "data_object.svg",
+      "tags": [
+        "data",
+        "object"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e3459c353e5a8d2c51afddd854bf73daba43fa7964eb0a55d989d55478f65152",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "description": {
+      "id": "dl_d01b4e37c7ba7b93008f",
+      "name": "description",
+      "title": "Description",
+      "file": "icons/description.svg",
+      "path": "description.svg",
+      "tags": [
+        "description"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8da49b58d46b8793e631baf0db6343441d73f11107a111fdb434e3349ced72ba",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "discover_tune": {
+      "id": "dl_c108d45eaa3cb5ecb4e8",
+      "name": "discover_tune",
+      "title": "Discover Tune",
+      "file": "icons/discover_tune.svg",
+      "path": "discover_tune.svg",
+      "tags": [
+        "discover",
+        "tune"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "57481d80ee2032122a6fc8b97e74094336031c974ff2c470f8ab4d19daecc7c1",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "document_scanner": {
+      "id": "dl_bd69f28695a0960b8c99",
+      "name": "document_scanner",
+      "title": "Document Scanner",
+      "file": "icons/document_scanner.svg",
+      "path": "document_scanner.svg",
+      "tags": [
+        "document",
+        "scanner"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7cfb53af0d279b04aa753678d85a0044e030f499eb2132c4bbe08646f7ad1d2a",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "download": {
+      "id": "dl_276c17f5a91c18895f3d",
+      "name": "download",
+      "title": "Download",
+      "file": "icons/download.svg",
+      "path": "download.svg",
+      "tags": [
+        "download"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9f557c3f0e88288fd9cab1eec4752a52dec30f109751572b91aad3ea320e2013",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "drag_indicator": {
+      "id": "dl_b53c978fa132e2e6b091",
+      "name": "drag_indicator",
+      "title": "Drag Indicator",
+      "file": "icons/drag_indicator.svg",
+      "path": "drag_indicator.svg",
+      "tags": [
+        "drag",
+        "indicator"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "91d13cbdc432ef459c3c9653cd6af6c125845a1fcbc7573ac7daf11801d78f1f",
+      "updatedAt": "2026-08-31T18:44:46.206Z"
+    }
+  },
+  "aliases": {}
+}

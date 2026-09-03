@@ -1,0 +1,144 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "redo": {
+      "id": "dl_36c32977254b00511686",
+      "name": "redo",
+      "title": "Redo",
+      "file": "icons/redo.svg",
+      "path": "redo.svg",
+      "tags": [
+        "redo"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4d69626fc90aff899eb75406e476d94a1d1894e302609bd927c483db5c90a19a",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "regular_expression": {
+      "id": "dl_4469d407b6dd8bb2b748",
+      "name": "regular_expression",
+      "title": "Regular Expression",
+      "file": "icons/regular_expression.svg",
+      "path": "regular_expression.svg",
+      "tags": [
+        "regular",
+        "expression"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1f888e86925d93830e269a09d2fa99456d0eed7ff6824f7dae212a2798b50123",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "remove": {
+      "id": "dl_027bb681cf4e81107975",
+      "name": "remove",
+      "title": "Remove",
+      "file": "icons/remove.svg",
+      "path": "remove.svg",
+      "tags": [
+        "remove"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "12616a9b25cd71d1c40f5dd2ea891214e52d5ab296e400b98e033c8a4583f1d9",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "route": {
+      "id": "dl_398443c9540874db3e47",
+      "name": "route",
+      "title": "Route",
+      "file": "icons/route.svg",
+      "path": "route.svg",
+      "tags": [
+        "route"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4250c421be0cc6003e981e6213864f0b72f2f852cbf1b55caccc1df18204c90c",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    }
+  },
+  "aliases": {}
+}

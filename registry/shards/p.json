@@ -1,0 +1,144 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "paste": {
+      "id": "dl_445434bff2fc67acf7e7",
+      "name": "paste",
+      "title": "Paste",
+      "file": "icons/paste.svg",
+      "path": "paste.svg",
+      "tags": [
+        "paste"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0d266b0cd81fa266bcc105f466bac18ef047c112d5fab9e3cc40a894007c3d49",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "person": {
+      "id": "dl_57ec802ce93569710a00",
+      "name": "person",
+      "title": "Person",
+      "file": "icons/person.svg",
+      "path": "person.svg",
+      "tags": [
+        "person"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "733f760cea5c1bba196e2424c2d55826cf295de40b4ef784af0dc0575139cbb4",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "play_arrow": {
+      "id": "dl_6a1301b21605d9e20fff",
+      "name": "play_arrow",
+      "title": "Play Arrow",
+      "file": "icons/play_arrow.svg",
+      "path": "play_arrow.svg",
+      "tags": [
+        "play",
+        "arrow"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ba72eb7f2ce5d444fa4ccb79079117bba6c9f0160acc0ecc8d25a87245b507f6",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "plus": {
+      "id": "dl_217bda60a5aa7e5f4edd",
+      "name": "plus",
+      "title": "Plus",
+      "file": "icons/plus.svg",
+      "path": "plus.svg",
+      "tags": [
+        "plus"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "89bdc12d9f29a54f3a6801b75ab4054b3cc15a15e9de84d7046197e2d40b068d",
+      "updatedAt": "2026-08-31T18:44:46.208Z"
+    }
+  },
+  "aliases": {}
+}
