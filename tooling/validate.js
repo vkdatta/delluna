@@ -40,6 +40,11 @@ if (fs.existsSync(rootRegPath) && fs.existsSync(regPath)) {
 if (fs.existsSync(manifestPath)) {
   const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
   if (manifest.shardAlgorithm !== 'name-prefix-v2' || !Array.isArray(manifest.shards)) throw new Error('Invalid registry shard manifest');
+  if (fs.existsSync(regPath)) {
+    const canonicalText = fs.readFileSync(regPath, 'utf8');
+    const expectedHash = crypto.createHash('sha256').update(canonicalText).digest('hex');
+    if (manifest.registryHash !== expectedHash) throw new Error('Registry manifest integrity hash does not match registry/icons.json');
+  }
   for (const key of manifest.shards) if (!fs.existsSync(path.join(shardDir, `${key}.json`))) throw new Error(`Missing registry shard: ${key}`);
   const shardIcons = {}, shardAliases = {};
   for (const key of manifest.shards) {

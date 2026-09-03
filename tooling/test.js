@@ -23,7 +23,9 @@ const shardManifestPath = path.join(root, 'registry/manifest.json');
 assert(fs.existsSync(shardManifestPath), 'Registry shard manifest is missing');
 const shardManifest = JSON.parse(fs.readFileSync(shardManifestPath, 'utf8'));
 assert(shardManifest.shardAlgorithm === 'name-prefix-v2' && Array.isArray(shardManifest.shards), 'Registry shard manifest contract is missing');
-assert(shardManifest.shards.length <= 50, 'Registry shard count must remain within the Cloudflare Workers Free-plan subrequest budget');
+assert(/^[0-9a-f]{64}$/.test(String(shardManifest.registryHash || '')), 'Registry manifest integrity hash is missing');
+assert(shardManifest.registryHash === crypto.createHash('sha256').update(JSON.stringify(registry, null, 2) + '\n').digest('hex'), 'Registry manifest hash does not match canonical registry');
+assert(shardManifest.shards.length <= 30, 'Registry shard count must remain within the safe Cloudflare Workers Free-plan mutation budget');
 const shardDir = path.join(root, 'registry/shards');
 for (const key of shardManifest.shards) assert(fs.existsSync(path.join(shardDir, `${key}.json`)), `Missing registry shard: ${key}`);
 
@@ -76,13 +78,27 @@ assert(adminCss.includes('appearance:none'), 'Admin controls still allow browser
 for (const dangerous of ['onload=alert(1)', 'href=javascript:alert(1)', 'src=https://example.com']) {
   assert(worker.includes('attrPattern') && worker.includes('javascript:'), `Worker SVG safety policy missing coverage for ${dangerous}`);assert(worker.includes('canonicalUploadPath'), 'Worker upload-path canonicalization is missing');
 assert(worker.includes('MAX_BATCH_TOTAL_BYTES'), 'Worker total batch-size guard is missing');
+assert(worker.includes('MAX_FREE_REGISTRY_SHARDS = 30'), 'Worker registry shard safety guard is missing');
 assert(worker.includes('MAX_BATCH_FILES = 10000'), 'Worker 10,000-file batch limit is missing');
 assert(adminApp.includes('selectAllResults'), 'Admin Select All control is missing');
 assert(adminApp.includes('virtual-list') && adminApp.includes('overscan=10'), 'Admin database virtualization contract is missing');
 assert(adminApp.includes('searchIndex') && adminApp.includes('rebuildSearchIndex'), 'Admin indexed-search contract is missing');
 assert(adminApp.includes('/rename-bulk'), 'Admin bulk rename endpoint integration is missing');
 assert(adminApp.includes('canonicalPath'), 'Admin publish destination canonicalization is missing');
+assert(adminApp.includes('canonicalUploadPathClient'), 'Admin upload-path canonicalization is missing');
+assert(adminApp.includes('totalBytes > 50 * 1024 * 1024'), 'Admin total batch-size guard is missing');
+assert(!adminApp.includes('PUBLIC_BASE = `https://cdn.jsdelivr.net/gh/${repoId}@${statusData.latestTag}/dist`'), 'Admin must not pin previews to a potentially stale latest tag');
+assert(adminCss.includes('.virtual-list{position:relative;'), 'Virtual list positioning contract is missing');
+assert(adminCss.includes('.virtual-list .virtual-window{position:absolute;'), 'Virtual window overlay contract is missing');
+assert(adminCss.includes('.toolbar>.button{display:inline-flex;align-items:center;justify-content:center;'), 'Toolbar action alignment contract is missing');
+const headersPath = path.join(path.dirname(adminCssPath), '_headers');
+if (fs.existsSync(headersPath)) { const headers = fs.readFileSync(headersPath, 'utf8'); assert(headers.includes('https://storage.googleapis.com'), 'Admin CSP must allow the configured favicon host'); }
+
 assert(worker.includes('registry/shards?ref=') && worker.includes('git/blobs/'), 'Shard registry loading must avoid per-shard Contents API fallback subrequests');
+assert(worker.includes('registryHash') && worker.includes('manifest declares the canonical registry generation'), 'Worker must integrity-check legacy registry copies against the shard manifest');
+assert(worker.includes('const chunkSize = 1000'), 'Git tree writes must be chunked for large batches');
+assert(worker.includes('const MAX_INLINE_SVG_BYTES = MAX_UPLOAD_SVG_BYTES'), 'Allowed SVGs should not consume one blob subrequest each on Workers Free');
+assert(worker.includes('.replace(/[^a-zA-Z0-9_-]+/g, "-")'), 'Worker name sanitizer must preserve camelCase');
 const workflow = fs.readFileSync(path.join(root, '.github/workflows/build.yml'), 'utf8');
 assert(workflow.includes('registry/manifest.json') && workflow.includes('registry/shards'), 'Build workflow must commit registry manifest and shards');
 assert(worker.includes('handleEdit') && worker.includes('commitRegistryAndTree(env, base, nextRegistry, tree, `admin: rename'), 'Edit endpoint must use shard-aware registry commits');

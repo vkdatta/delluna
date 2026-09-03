@@ -144,7 +144,8 @@ function writeRegistryShards(registry) {
     else shards.get(key).icons[name] = item;
   }
   for (const [key, value] of shards) writeJSON(path.join(dir, key + '.json'), value);
-  writeJSON(path.join(regDir, 'manifest.json'), { version: registry.version, schemaVersion: registry.schemaVersion || registry.version, library: registry.library, variants: registry.variants || [], styles: registry.styles || [], motions: registry.motions || [], folders: registry.folders || [], shardAlgorithm: 'name-prefix-v2', shardPattern: 'registry/shards/{first-normalized-char}.json', shards: [...shards.keys()].sort(), iconCount: Object.values(registry.icons || {}).filter(x => !x.aliasOf).length, generatedAt: registry.generatedAt });
+  const serialized = JSON.stringify(registry, null, 2) + '\n';
+  writeJSON(path.join(regDir, 'manifest.json'), { version: registry.version, schemaVersion: registry.schemaVersion || registry.version, library: registry.library, variants: registry.variants || [], styles: registry.styles || [], motions: registry.motions || [], folders: registry.folders || [], shardAlgorithm: 'name-prefix-v2', shardPattern: 'registry/shards/{first-normalized-char}.json', shards: [...shards.keys()].sort(), iconCount: Object.values(registry.icons || {}).filter(x => !x.aliasOf).length, generatedAt: registry.generatedAt, registryHash: hash(serialized) });
 }
 function sourceForFullBundle(raw) {
   // The full runtime intentionally contains the raw source artwork without

@@ -1,4 +1,4 @@
-# Delluna Icons V5
+# Delluna Icons V9
 
 Delluna V6 is a source-first SVG icon library with immutable icon IDs, a registry, a JIT browser runtime, generated distribution files, and a production-oriented administrative publishing workflow.
 
@@ -38,7 +38,7 @@ The publishing path is:
 
 `Admin → Cloudflare Worker → GitHub commit → GitHub Actions validation/build → dist → CDN`
 
-The Worker creates a normal Git commit from the current branch head and updates the branch without a force push, so concurrent admin publishes cannot silently overwrite each other. Admin publishes both canonical registry copies so the build validation step cannot fail because `registry.json` and `registry/icons.json` are stale. The UI tracks the source commit separately from the later Actions/CDN build state; a successful source commit is not presented as a completed public build until Actions succeeds.
+The Worker creates a normal Git commit from the current branch head and updates the branch without a force push, so concurrent admin publishes cannot silently overwrite each other. Admin publishing creates the source commit with the manifest/shards as the scalable registry authority, and keeps `registry.json` / `registry/icons.json` as integrity-checked compatibility copies while they remain below the legacy size threshold. The UI tracks the source commit separately from the later Actions/CDN build state; a successful source commit is not presented as a completed public build until Actions succeeds.
 
 
 ## Publish/build lifecycle
