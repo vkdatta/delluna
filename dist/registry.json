@@ -43,6 +43,7 @@
     "N",
     "O",
     "P",
+    "Q",
     "lucid_1",
     "lucid_2",
     "lucid_3",
@@ -50,7 +51,7 @@
     "singleton",
     "updated-separated-svg-files"
   ],
-  "generatedAt": "2026-09-04T21:42:31.579Z",
+  "generatedAt": "2026-09-04T22:33:37.419Z",
   "icons": {
     "acorn-bold": {
       "id": "dl_be4fc717b866449fbcfd",
@@ -308082,6 +308083,1063 @@
       ],
       "hash": "89bdc12d9f29a54f3a6801b75ab4054b3cc15a15e9de84d7046197e2d40b068d",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "qr-code-bold": {
+      "id": "dl_5fabf208b1a449018f53",
+      "name": "qr-code-bold",
+      "title": "Qr Code Bold",
+      "file": "icons/Q/qr-code-bold.svg",
+      "path": "Q/qr-code-bold.svg",
+      "tags": [
+        "qr",
+        "code",
+        "bold"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e98a2a19ff836b57cf7af739e3884fa9420c01aa6ff5855b1930e822ae54bb96",
+      "updatedAt": "2026-09-04T22:33:39.472Z"
+    },
+    "qr-code-duotone": {
+      "id": "dl_d5036191952b4032a9ae",
+      "name": "qr-code-duotone",
+      "title": "Qr Code Duotone",
+      "file": "icons/Q/qr-code-duotone.svg",
+      "path": "Q/qr-code-duotone.svg",
+      "tags": [
+        "qr",
+        "code",
+        "duotone"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4ebad3b0851e6acc3dc490560db7df97e57bd9f5eeae59bb601b7864add1bef1",
+      "updatedAt": "2026-09-04T22:33:39.472Z"
+    },
+    "qr-code-fill": {
+      "id": "dl_7faae22a07984e88ade0",
+      "name": "qr-code-fill",
+      "title": "Qr Code Fill",
+      "file": "icons/Q/qr-code-fill.svg",
+      "path": "Q/qr-code-fill.svg",
+      "tags": [
+        "qr",
+        "code",
+        "fill"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4378bd504fbb40018f35d9605284b3d620b46ac8a7cea0e6624617c4a64231a5",
+      "updatedAt": "2026-09-04T22:33:39.472Z"
+    },
+    "qr-code-light": {
+      "id": "dl_4e53d4d970164fe3b02e",
+      "name": "qr-code-light",
+      "title": "Qr Code Light",
+      "file": "icons/Q/qr-code-light.svg",
+      "path": "Q/qr-code-light.svg",
+      "tags": [
+        "qr",
+        "code",
+        "light"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a1505b99a2dcb42b81075f6fff0e2e2e91d5b4156490fa293a206eedc8315e49",
+      "updatedAt": "2026-09-04T22:33:39.472Z"
+    },
+    "qr-code-thin": {
+      "id": "dl_305f9330ae284a3d8054",
+      "name": "qr-code-thin",
+      "title": "Qr Code Thin",
+      "file": "icons/Q/qr-code-thin.svg",
+      "path": "Q/qr-code-thin.svg",
+      "tags": [
+        "qr",
+        "code",
+        "thin"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9fde78f40961fa681e7006273475cb4d4d371f778407582a5b72020138cdc7fa",
+      "updatedAt": "2026-09-04T22:33:39.473Z"
+    },
+    "qr-code": {
+      "id": "dl_6b01f1986ceb4cedaf3e",
+      "name": "qr-code",
+      "title": "Qr Code",
+      "file": "icons/Q/qr-code.svg",
+      "path": "Q/qr-code.svg",
+      "tags": [
+        "qr",
+        "code"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7c6b19eb844b25e39b343576dec7c38b1da24caa661f72392fbf1318db7f5330",
+      "updatedAt": "2026-09-04T22:33:39.473Z"
+    },
+    "question-bold": {
+      "id": "dl_b8a1a9e7b9884df5b462",
+      "name": "question-bold",
+      "title": "Question Bold",
+      "file": "icons/Q/question-bold.svg",
+      "path": "Q/question-bold.svg",
+      "tags": [
+        "question",
+        "bold"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "605254a6f6dc50f1a34bf7d8995d01902e064c2e459fbe8108b8f7890de7c259",
+      "updatedAt": "2026-09-04T22:33:39.473Z"
+    },
+    "question-duotone": {
+      "id": "dl_4aa19736c98042e3bf0f",
+      "name": "question-duotone",
+      "title": "Question Duotone",
+      "file": "icons/Q/question-duotone.svg",
+      "path": "Q/question-duotone.svg",
+      "tags": [
+        "question",
+        "duotone"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "af995bac28b5f0007c9ff20cf23351dba0a8c07cea55868cd8b65056bc103515",
+      "updatedAt": "2026-09-04T22:33:39.473Z"
+    },
+    "question-fill": {
+      "id": "dl_a263050be5af4a15bde2",
+      "name": "question-fill",
+      "title": "Question Fill",
+      "file": "icons/Q/question-fill.svg",
+      "path": "Q/question-fill.svg",
+      "tags": [
+        "question",
+        "fill"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "91390e2c8d076dedcf73ec4ffc5ac6531dbf93aadac7e0907ba1cfb9e95a145b",
+      "updatedAt": "2026-09-04T22:33:39.473Z"
+    },
+    "question-light": {
+      "id": "dl_a7632a81e3f5454e9580",
+      "name": "question-light",
+      "title": "Question Light",
+      "file": "icons/Q/question-light.svg",
+      "path": "Q/question-light.svg",
+      "tags": [
+        "question",
+        "light"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c122a1cc393313d1e969e6ae873cf72353198590e50195826a265b65afb38dc0",
+      "updatedAt": "2026-09-04T22:33:39.474Z"
+    },
+    "question-mark-bold": {
+      "id": "dl_f5bc536a2c90420a91d8",
+      "name": "question-mark-bold",
+      "title": "Question Mark Bold",
+      "file": "icons/Q/question-mark-bold.svg",
+      "path": "Q/question-mark-bold.svg",
+      "tags": [
+        "question",
+        "mark",
+        "bold"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f2255812dcdfd029ad767216a7f0b361e4e51e2c2ffc53db008232191b085206",
+      "updatedAt": "2026-09-04T22:33:39.474Z"
+    },
+    "question-mark-duotone": {
+      "id": "dl_1daf8cb1c68a4ede8cc4",
+      "name": "question-mark-duotone",
+      "title": "Question Mark Duotone",
+      "file": "icons/Q/question-mark-duotone.svg",
+      "path": "Q/question-mark-duotone.svg",
+      "tags": [
+        "question",
+        "mark",
+        "duotone"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d7cb8e943dd33413153c2aae4cce6a3fabccef5283c8ef149b4b5a103b329c02",
+      "updatedAt": "2026-09-04T22:33:39.474Z"
+    },
+    "question-mark-fill": {
+      "id": "dl_0de55f2a150d4dd7b042",
+      "name": "question-mark-fill",
+      "title": "Question Mark Fill",
+      "file": "icons/Q/question-mark-fill.svg",
+      "path": "Q/question-mark-fill.svg",
+      "tags": [
+        "question",
+        "mark",
+        "fill"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e3f4cc0cdfc483928ee7e06430fe9ebf8493986f78939a0aab33da362548aefd",
+      "updatedAt": "2026-09-04T22:33:39.474Z"
+    },
+    "question-mark-light": {
+      "id": "dl_09d5a818ef524e1f8d9e",
+      "name": "question-mark-light",
+      "title": "Question Mark Light",
+      "file": "icons/Q/question-mark-light.svg",
+      "path": "Q/question-mark-light.svg",
+      "tags": [
+        "question",
+        "mark",
+        "light"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fdab144b800a3e05ec182cc0c3739c02aca13f1d0b7e0803c0a67d6560f4ab01",
+      "updatedAt": "2026-09-04T22:33:39.474Z"
+    },
+    "question-mark-thin": {
+      "id": "dl_8787b10891e4432fb561",
+      "name": "question-mark-thin",
+      "title": "Question Mark Thin",
+      "file": "icons/Q/question-mark-thin.svg",
+      "path": "Q/question-mark-thin.svg",
+      "tags": [
+        "question",
+        "mark",
+        "thin"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "847de9fb15f82de81ecb4377ba1265ed583c4c453305b59b651858ec27a80400",
+      "updatedAt": "2026-09-04T22:33:39.475Z"
+    },
+    "question-mark": {
+      "id": "dl_8a32c35432174493b936",
+      "name": "question-mark",
+      "title": "Question Mark",
+      "file": "icons/Q/question-mark.svg",
+      "path": "Q/question-mark.svg",
+      "tags": [
+        "question",
+        "mark"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "74b780ed771a478161c04088ca8ca5a232749491cf71ecd9402122bfabf11781",
+      "updatedAt": "2026-09-04T22:33:39.475Z"
+    },
+    "question-thin": {
+      "id": "dl_d0c925129b5741778310",
+      "name": "question-thin",
+      "title": "Question Thin",
+      "file": "icons/Q/question-thin.svg",
+      "path": "Q/question-thin.svg",
+      "tags": [
+        "question",
+        "thin"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4b446745887bf91da0fcb5f721ef76ff1c9ff99d5fa5bd78e14a178b7140be25",
+      "updatedAt": "2026-09-04T22:33:39.475Z"
+    },
+    "question": {
+      "id": "dl_d9d2b78c05f942a3b6c2",
+      "name": "question",
+      "title": "Question",
+      "file": "icons/Q/question.svg",
+      "path": "Q/question.svg",
+      "tags": [
+        "question"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fd9a87cfce2abaa9113058be90e5281da58f665e2185974b80c7425d5c7fe2d6",
+      "updatedAt": "2026-09-04T22:33:39.475Z"
+    },
+    "queue-bold": {
+      "id": "dl_c886e19801a447c5bc7b",
+      "name": "queue-bold",
+      "title": "Queue Bold",
+      "file": "icons/Q/queue-bold.svg",
+      "path": "Q/queue-bold.svg",
+      "tags": [
+        "queue",
+        "bold"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ac90de6aa6a01d05126e675e7adf04f22e0076539e251baee817797aae02e6bc",
+      "updatedAt": "2026-09-04T22:33:39.476Z"
+    },
+    "queue-duotone": {
+      "id": "dl_0dd4d70765574a0fb9de",
+      "name": "queue-duotone",
+      "title": "Queue Duotone",
+      "file": "icons/Q/queue-duotone.svg",
+      "path": "Q/queue-duotone.svg",
+      "tags": [
+        "queue",
+        "duotone"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c44a454deaa71e06ef553b4eedb00cd27d5d94a76051ba7b4c1f7098ac5e30e0",
+      "updatedAt": "2026-09-04T22:33:39.476Z"
+    },
+    "queue-fill": {
+      "id": "dl_de678065c1a74cc0befb",
+      "name": "queue-fill",
+      "title": "Queue Fill",
+      "file": "icons/Q/queue-fill.svg",
+      "path": "Q/queue-fill.svg",
+      "tags": [
+        "queue",
+        "fill"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9145f78d46c35445684d64d7507e9b1b3a756fd6de42b70dbd7e5261cb10fa54",
+      "updatedAt": "2026-09-04T22:33:39.476Z"
+    },
+    "queue-light": {
+      "id": "dl_1aeb31721c4d462fa682",
+      "name": "queue-light",
+      "title": "Queue Light",
+      "file": "icons/Q/queue-light.svg",
+      "path": "Q/queue-light.svg",
+      "tags": [
+        "queue",
+        "light"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a9ebcd837babfefe785be3a91ee544473499a6ef1792ad86d6f0ea9fc129dcd8",
+      "updatedAt": "2026-09-04T22:33:39.476Z"
+    },
+    "queue-thin": {
+      "id": "dl_27111c6ac6ea41db8d3d",
+      "name": "queue-thin",
+      "title": "Queue Thin",
+      "file": "icons/Q/queue-thin.svg",
+      "path": "Q/queue-thin.svg",
+      "tags": [
+        "queue",
+        "thin"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4e040e007fa8d6586f074fdfa4e6dba18fb11103e4c5de0db2afe7be1536e0f4",
+      "updatedAt": "2026-09-04T22:33:39.476Z"
+    },
+    "queue": {
+      "id": "dl_b8ec22f82225465f8a4b",
+      "name": "queue",
+      "title": "Queue",
+      "file": "icons/Q/queue.svg",
+      "path": "Q/queue.svg",
+      "tags": [
+        "queue"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "afca8abc51d163ba1aa058888463146cceb0d131ad9654ed4f37253e19e429d6",
+      "updatedAt": "2026-09-04T22:33:39.477Z"
+    },
+    "quotes-bold": {
+      "id": "dl_7d6890f21c2d475b84ff",
+      "name": "quotes-bold",
+      "title": "Quotes Bold",
+      "file": "icons/Q/quotes-bold.svg",
+      "path": "Q/quotes-bold.svg",
+      "tags": [
+        "quotes",
+        "bold"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3a7005c35862a14005a9abc79b391b3750fc4977f66a420094fe9ea46f28fe94",
+      "updatedAt": "2026-09-04T22:33:39.477Z"
+    },
+    "quotes-duotone": {
+      "id": "dl_4cc977fa712f42508a2a",
+      "name": "quotes-duotone",
+      "title": "Quotes Duotone",
+      "file": "icons/Q/quotes-duotone.svg",
+      "path": "Q/quotes-duotone.svg",
+      "tags": [
+        "quotes",
+        "duotone"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e8a6b1fe1264c19c614c443871723b822d79a8d8a3af9438b1d4b0a260429380",
+      "updatedAt": "2026-09-04T22:33:39.477Z"
+    },
+    "quotes-fill": {
+      "id": "dl_7b9f784f549e4c499669",
+      "name": "quotes-fill",
+      "title": "Quotes Fill",
+      "file": "icons/Q/quotes-fill.svg",
+      "path": "Q/quotes-fill.svg",
+      "tags": [
+        "quotes",
+        "fill"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f441827988f4444d76aa5f8ed4b6aa248b9858755a699f2db8e0dba75fd6ad20",
+      "updatedAt": "2026-09-04T22:33:39.477Z"
+    },
+    "quotes-light": {
+      "id": "dl_e8c1ec4ebf2946259493",
+      "name": "quotes-light",
+      "title": "Quotes Light",
+      "file": "icons/Q/quotes-light.svg",
+      "path": "Q/quotes-light.svg",
+      "tags": [
+        "quotes",
+        "light"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fd7095c154bd54b27104268682ee0157f79f52268b3ac864c6450a5b628ce25c",
+      "updatedAt": "2026-09-04T22:33:39.477Z"
+    },
+    "quotes-thin": {
+      "id": "dl_607ddf085c0e45ba8bdc",
+      "name": "quotes-thin",
+      "title": "Quotes Thin",
+      "file": "icons/Q/quotes-thin.svg",
+      "path": "Q/quotes-thin.svg",
+      "tags": [
+        "quotes",
+        "thin"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a844d2d5dc739e119e8f2e08aafc6ed2213c96c8120a46b30b2e96ad80fe3416",
+      "updatedAt": "2026-09-04T22:33:39.478Z"
+    },
+    "quotes": {
+      "id": "dl_f11464280c7b48eeac5a",
+      "name": "quotes",
+      "title": "Quotes",
+      "file": "icons/Q/quotes.svg",
+      "path": "Q/quotes.svg",
+      "tags": [
+        "quotes"
+      ],
+      "categories": [
+        "Q"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e6afaa07d488b94413b5edbbe813d45fa8db5b6c9269a4de3b20bdae77d8a142",
+      "updatedAt": "2026-09-04T22:33:39.478Z"
     },
     "redo": {
       "id": "dl_36c32977254b00511686",
