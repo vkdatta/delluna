@@ -41,6 +41,7 @@
     "L",
     "M",
     "N",
+    "O",
     "lucid_1",
     "lucid_2",
     "lucid_3",
@@ -48,7 +49,7 @@
     "singleton",
     "updated-separated-svg-files"
   ],
-  "generatedAt": "2026-09-04T11:20:04.976Z",
+  "generatedAt": "2026-09-04T11:27:50.425Z",
   "icons": {
     "acorn-bold": {
       "id": "dl_be4fc717b866449fbcfd",
@@ -283647,8 +283648,8 @@
       "id": "dl_34b6d5c65b2d473caf27",
       "name": "octagon",
       "title": "Octagon",
-      "file": "icons/updated-separated-svg-files/octagon.svg",
-      "path": "updated-separated-svg-files/octagon.svg",
+      "file": "icons/O/octagon.svg",
+      "path": "O/octagon.svg",
       "tags": [
         "updated",
         "separated",
@@ -283678,8 +283679,8 @@
         "float",
         "draw"
       ],
-      "hash": "b22b2e3fb8247e20b6bda568dbd82c211ab145e119e259d23ede182e8be9cd50",
-      "updatedAt": "2026-09-04T10:02:28.528Z"
+      "hash": "4a260d0a4335dc1bc0a527355b0720d6302c768250491c720f604f088dc53c84",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
     },
     "offset_lines": {
       "id": "dl_ceda1c7b8dd24d2ab211",
@@ -285303,7 +285304,1670 @@
       ],
       "hash": "07bde35a9c0a90ea24cef38d5c95d3184cc3b28bebfdadec5db11a79d8109394",
       "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "octagon-bold": {
+      "id": "dl_19d58ed8a3514ef5827c",
+      "name": "octagon-bold",
+      "title": "Octagon Bold",
+      "aliases": [],
+      "tags": [
+        "octagon",
+        "bold"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/octagon-bold.svg",
+      "file": "icons/O/octagon-bold.svg",
+      "hash": "fbdcebb87873594507ea55fb5bb9aed3fa0ebcff79927fad8967e1ac264aacae",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "octagon-duotone": {
+      "id": "dl_86902b80eef442c99e71",
+      "name": "octagon-duotone",
+      "title": "Octagon Duotone",
+      "aliases": [],
+      "tags": [
+        "octagon",
+        "duotone"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/octagon-duotone.svg",
+      "file": "icons/O/octagon-duotone.svg",
+      "hash": "97648470cf81db9c11231c6bb4e0079ea5acd60b5bcd8942aaec5d51972f8ea5",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "octagon-fill": {
+      "id": "dl_8acb6c3d4fa54970808f",
+      "name": "octagon-fill",
+      "title": "Octagon Fill",
+      "aliases": [],
+      "tags": [
+        "octagon",
+        "fill"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/octagon-fill.svg",
+      "file": "icons/O/octagon-fill.svg",
+      "hash": "ba27d4fad3be37836c645131f0be9c6fa3b4e8bddb33984adc7afb29ff0f5941",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "octagon-light": {
+      "id": "dl_1687962d9c59467bad8d",
+      "name": "octagon-light",
+      "title": "Octagon Light",
+      "aliases": [],
+      "tags": [
+        "octagon",
+        "light"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/octagon-light.svg",
+      "file": "icons/O/octagon-light.svg",
+      "hash": "4f7bb14ece932989a85ad880e143d4e5a029677e41df013d8b8f0ba534620327",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "octagon-thin": {
+      "id": "dl_d53f8c51a9c04028af7d",
+      "name": "octagon-thin",
+      "title": "Octagon Thin",
+      "aliases": [],
+      "tags": [
+        "octagon",
+        "thin"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/octagon-thin.svg",
+      "file": "icons/O/octagon-thin.svg",
+      "hash": "d5af77e977a1cc9f3b081f88e8c0018cb02388738dce61363f59a1357a9dda5f",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "office-chair-bold": {
+      "id": "dl_78392b45531b40619796",
+      "name": "office-chair-bold",
+      "title": "Office Chair Bold",
+      "aliases": [],
+      "tags": [
+        "office",
+        "chair",
+        "bold"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/office-chair-bold.svg",
+      "file": "icons/O/office-chair-bold.svg",
+      "hash": "526acb6a1165a76a53e6cc7457921b36fc6edcc2e34b0e567571b3f69d72e786",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "office-chair-duotone": {
+      "id": "dl_7060a0ec88e44034802a",
+      "name": "office-chair-duotone",
+      "title": "Office Chair Duotone",
+      "aliases": [],
+      "tags": [
+        "office",
+        "chair",
+        "duotone"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/office-chair-duotone.svg",
+      "file": "icons/O/office-chair-duotone.svg",
+      "hash": "7e547db7dc619743f37707464a2cdc8b8dec21f304a29dec688d3226de7d6717",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "office-chair-fill": {
+      "id": "dl_6837912b2c0c484aa437",
+      "name": "office-chair-fill",
+      "title": "Office Chair Fill",
+      "aliases": [],
+      "tags": [
+        "office",
+        "chair",
+        "fill"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/office-chair-fill.svg",
+      "file": "icons/O/office-chair-fill.svg",
+      "hash": "f4785f4eeb622dcc21a7e2ec47b68b1a82b9988abffd9ea5b86f884351b37d48",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "office-chair-light": {
+      "id": "dl_011869c5c9a84528b2b4",
+      "name": "office-chair-light",
+      "title": "Office Chair Light",
+      "aliases": [],
+      "tags": [
+        "office",
+        "chair",
+        "light"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/office-chair-light.svg",
+      "file": "icons/O/office-chair-light.svg",
+      "hash": "81944e6b2f8b8c849426f4a7be19a521faef9abd3d1b853080a105dff19508db",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "office-chair-thin": {
+      "id": "dl_d5ed9c251b6640528bde",
+      "name": "office-chair-thin",
+      "title": "Office Chair Thin",
+      "aliases": [],
+      "tags": [
+        "office",
+        "chair",
+        "thin"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/office-chair-thin.svg",
+      "file": "icons/O/office-chair-thin.svg",
+      "hash": "46e2b331be51f677838577a2d9dd1f9fcab0546184b08bdba9d5fdf424661d76",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "office-chair": {
+      "id": "dl_9bbbd9b3119b4e74ba96",
+      "name": "office-chair",
+      "title": "Office Chair",
+      "aliases": [],
+      "tags": [
+        "office",
+        "chair"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/office-chair.svg",
+      "file": "icons/O/office-chair.svg",
+      "hash": "293a07a81c4fd2b170f601c74cebf42b37a2076b80843098d2be43be468b1cf0",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "onigiri-bold": {
+      "id": "dl_02dd412fad9d4512ba67",
+      "name": "onigiri-bold",
+      "title": "Onigiri Bold",
+      "aliases": [],
+      "tags": [
+        "onigiri",
+        "bold"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/onigiri-bold.svg",
+      "file": "icons/O/onigiri-bold.svg",
+      "hash": "0893821d68349e50ded4c09857c71a187fa9141def5e140a5f4ef3c230b956fc",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "onigiri-duotone": {
+      "id": "dl_bebaf857f03e41448eb6",
+      "name": "onigiri-duotone",
+      "title": "Onigiri Duotone",
+      "aliases": [],
+      "tags": [
+        "onigiri",
+        "duotone"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/onigiri-duotone.svg",
+      "file": "icons/O/onigiri-duotone.svg",
+      "hash": "7f87d5dcdc4794f9af9cf76dcc6416a2c5a9d14213767be88bce7ba06c51f481",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "onigiri-fill": {
+      "id": "dl_156cd9c5b1f449a98f56",
+      "name": "onigiri-fill",
+      "title": "Onigiri Fill",
+      "aliases": [],
+      "tags": [
+        "onigiri",
+        "fill"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/onigiri-fill.svg",
+      "file": "icons/O/onigiri-fill.svg",
+      "hash": "1ab830e1c30c52f58aab68c993d3f150488479e29fe1057c50a34fdcf97d5e9d",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "onigiri-light": {
+      "id": "dl_263d4f1402634b34b62e",
+      "name": "onigiri-light",
+      "title": "Onigiri Light",
+      "aliases": [],
+      "tags": [
+        "onigiri",
+        "light"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/onigiri-light.svg",
+      "file": "icons/O/onigiri-light.svg",
+      "hash": "864fd6ab53fe9806c66d6141b557890d2e5310d315770f2839cfbce8b0eae8af",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "onigiri-thin": {
+      "id": "dl_310e13574f75429a8eb4",
+      "name": "onigiri-thin",
+      "title": "Onigiri Thin",
+      "aliases": [],
+      "tags": [
+        "onigiri",
+        "thin"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/onigiri-thin.svg",
+      "file": "icons/O/onigiri-thin.svg",
+      "hash": "4c5e97ffec69c8ec6d668f2dc78fd1935ae16986b402a2e84394bf8852e16e0c",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "onigiri": {
+      "id": "dl_8601162bfd0c40c18bbe",
+      "name": "onigiri",
+      "title": "Onigiri",
+      "aliases": [],
+      "tags": [
+        "onigiri"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/onigiri.svg",
+      "file": "icons/O/onigiri.svg",
+      "hash": "e51127f1d270bb439520dcade19722fa8439172822f00e6848b7d29a021ffa61",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "open-ai-logo-bold": {
+      "id": "dl_e05488d14e1c459582a5",
+      "name": "open-ai-logo-bold",
+      "title": "Open Ai Logo Bold",
+      "aliases": [],
+      "tags": [
+        "open",
+        "ai",
+        "logo",
+        "bold"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/open-ai-logo-bold.svg",
+      "file": "icons/O/open-ai-logo-bold.svg",
+      "hash": "7a3236bbba392bbac533950aa73c30a0ddb96acb8a66e313e81372e180effcad",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "open-ai-logo-duotone": {
+      "id": "dl_f2ea889c751249ec8e92",
+      "name": "open-ai-logo-duotone",
+      "title": "Open Ai Logo Duotone",
+      "aliases": [],
+      "tags": [
+        "open",
+        "ai",
+        "logo",
+        "duotone"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/open-ai-logo-duotone.svg",
+      "file": "icons/O/open-ai-logo-duotone.svg",
+      "hash": "d3ba7eb313201538f101c1607af1ee08d1b1f6935e235a8208633b22e695fee5",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "open-ai-logo-fill": {
+      "id": "dl_cebdb1e2615442d89ecb",
+      "name": "open-ai-logo-fill",
+      "title": "Open Ai Logo Fill",
+      "aliases": [],
+      "tags": [
+        "open",
+        "ai",
+        "logo",
+        "fill"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/open-ai-logo-fill.svg",
+      "file": "icons/O/open-ai-logo-fill.svg",
+      "hash": "ef36b8b663be27f4021701ff58f5c756e0db4ab9c4c7febcc5e487f3b3c5b313",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "open-ai-logo-light": {
+      "id": "dl_e62d4a29d31047d98f39",
+      "name": "open-ai-logo-light",
+      "title": "Open Ai Logo Light",
+      "aliases": [],
+      "tags": [
+        "open",
+        "ai",
+        "logo",
+        "light"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/open-ai-logo-light.svg",
+      "file": "icons/O/open-ai-logo-light.svg",
+      "hash": "cfa6dd181f8a9b5c13f2c0482447bb9d1f04731fc618ae431f5076472151e106",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "open-ai-logo-thin": {
+      "id": "dl_977aa4459950468e9e6a",
+      "name": "open-ai-logo-thin",
+      "title": "Open Ai Logo Thin",
+      "aliases": [],
+      "tags": [
+        "open",
+        "ai",
+        "logo",
+        "thin"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/open-ai-logo-thin.svg",
+      "file": "icons/O/open-ai-logo-thin.svg",
+      "hash": "d2adecfc6fbcc9c55f4fec91483f364e6cf2ea9dbe426f54010c79afd9e2ea6f",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "open-ai-logo": {
+      "id": "dl_142602b7adec40e390c7",
+      "name": "open-ai-logo",
+      "title": "Open Ai Logo",
+      "aliases": [],
+      "tags": [
+        "open",
+        "ai",
+        "logo"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/open-ai-logo.svg",
+      "file": "icons/O/open-ai-logo.svg",
+      "hash": "d26575fc063bafec9f0fed60c5de66107db81df25a79a97d75d6f81dd85c090a",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "option-bold": {
+      "id": "dl_28137dc0154640a4a563",
+      "name": "option-bold",
+      "title": "Option Bold",
+      "aliases": [],
+      "tags": [
+        "option",
+        "bold"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/option-bold.svg",
+      "file": "icons/O/option-bold.svg",
+      "hash": "a1d8d20b78dd82ba6e3dc02d8f3ac1e55e92cc5087d7fa6f458bf67f9c6ff190",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "option-duotone": {
+      "id": "dl_9ade4861df1a435ba911",
+      "name": "option-duotone",
+      "title": "Option Duotone",
+      "aliases": [],
+      "tags": [
+        "option",
+        "duotone"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/option-duotone.svg",
+      "file": "icons/O/option-duotone.svg",
+      "hash": "f75e728cd5f268dca310389cc26b7fccc01623b0e7c841a75787f22db24486f9",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "option-fill": {
+      "id": "dl_8ef5a83e9e4e46c89b38",
+      "name": "option-fill",
+      "title": "Option Fill",
+      "aliases": [],
+      "tags": [
+        "option",
+        "fill"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/option-fill.svg",
+      "file": "icons/O/option-fill.svg",
+      "hash": "36ffb5473a1b0714261573b44e7d8b993321700b8e3b0a36581b323f401c6298",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "option-light": {
+      "id": "dl_3a2611e0a95e4c6a9118",
+      "name": "option-light",
+      "title": "Option Light",
+      "aliases": [],
+      "tags": [
+        "option",
+        "light"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/option-light.svg",
+      "file": "icons/O/option-light.svg",
+      "hash": "bf82bc0a99d3cc2b9d55c2e2eb9f519b586f978a623c75b48e44c445f75db8d9",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "option-thin": {
+      "id": "dl_2a395c2c615b41f3ad2d",
+      "name": "option-thin",
+      "title": "Option Thin",
+      "aliases": [],
+      "tags": [
+        "option",
+        "thin"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/option-thin.svg",
+      "file": "icons/O/option-thin.svg",
+      "hash": "30aa61f2e99b321036d1852c2e3c5f9f6dfaf94626b864062129b7a1cdd88961",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "option": {
+      "id": "dl_f40aee25173941fc8b8a",
+      "name": "option",
+      "title": "Option",
+      "aliases": [],
+      "tags": [
+        "option"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/option.svg",
+      "file": "icons/O/option.svg",
+      "hash": "8ab95149bbb90b717e4397e535f8f086cdeaf4296373367a6c24a4e4243b76c7",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-bold": {
+      "id": "dl_f9e5a4dba8b8480194f8",
+      "name": "orange-bold",
+      "title": "Orange Bold",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "bold"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-bold.svg",
+      "file": "icons/O/orange-bold.svg",
+      "hash": "633bcbd3dacc2c63a0b4422fc00c626a6f6319471800bf14129e6962c0b743e1",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-duotone": {
+      "id": "dl_58dca6f9e1cc437aaf99",
+      "name": "orange-duotone",
+      "title": "Orange Duotone",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "duotone"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-duotone.svg",
+      "file": "icons/O/orange-duotone.svg",
+      "hash": "af8b77578f1c0389e21272aba4f26fc007f9965ba02d79c05946d6fa4f3cff15",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-fill": {
+      "id": "dl_505d2ad458ac4c8bb5a8",
+      "name": "orange-fill",
+      "title": "Orange Fill",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "fill"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-fill.svg",
+      "file": "icons/O/orange-fill.svg",
+      "hash": "9e755e3f02a94cf917f7e5f668b21e7f9f9ca1d85f4a42ad2f40454ded912c9a",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-light": {
+      "id": "dl_a87663a47dd74af2a7d8",
+      "name": "orange-light",
+      "title": "Orange Light",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "light"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-light.svg",
+      "file": "icons/O/orange-light.svg",
+      "hash": "3bf020e49b485b39bbe25776bf48a917fef5e30af3bea304ba2129c9fb00917a",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-slice-bold": {
+      "id": "dl_8297225d063e42ddaf04",
+      "name": "orange-slice-bold",
+      "title": "Orange Slice Bold",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "slice",
+        "bold"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-slice-bold.svg",
+      "file": "icons/O/orange-slice-bold.svg",
+      "hash": "c6e336b42fe442b64ef5205dbe8a729a6ea61c2c6d2ffd0892bb36186bad5b8f",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-slice-duotone": {
+      "id": "dl_0dcd78e1399943cbb465",
+      "name": "orange-slice-duotone",
+      "title": "Orange Slice Duotone",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "slice",
+        "duotone"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-slice-duotone.svg",
+      "file": "icons/O/orange-slice-duotone.svg",
+      "hash": "ce297a926c6f6ec232cb48dfcbaa7e60430f502e87d41e7996e96d40bf6b24b7",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-slice-fill": {
+      "id": "dl_73d9b0db48d94f55a77b",
+      "name": "orange-slice-fill",
+      "title": "Orange Slice Fill",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "slice",
+        "fill"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-slice-fill.svg",
+      "file": "icons/O/orange-slice-fill.svg",
+      "hash": "ced4b3ae166527d71a7fd394378d74498b3fd81b80e5c5a26171586b8162d44f",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-slice-light": {
+      "id": "dl_be980facbfe34aea838b",
+      "name": "orange-slice-light",
+      "title": "Orange Slice Light",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "slice",
+        "light"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-slice-light.svg",
+      "file": "icons/O/orange-slice-light.svg",
+      "hash": "94dd5b063f113de4c0adc7f5ffd739e23e54770a78da76c7717a5d872643eec5",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-slice-thin": {
+      "id": "dl_ee59532f62d248bdac58",
+      "name": "orange-slice-thin",
+      "title": "Orange Slice Thin",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "slice",
+        "thin"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-slice-thin.svg",
+      "file": "icons/O/orange-slice-thin.svg",
+      "hash": "7ddf03f327fde1d9ce31dd35214f06824ba70c28a624766ca8e697dbe4cdcf8c",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-slice": {
+      "id": "dl_2fcc804910a94f488bcd",
+      "name": "orange-slice",
+      "title": "Orange Slice",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "slice"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-slice.svg",
+      "file": "icons/O/orange-slice.svg",
+      "hash": "565b919b405a903c22f791bf7ef69a33f29b8f3379998d46162267efaa6ebea5",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange-thin": {
+      "id": "dl_83c3cbbb3b3d48feb9f2",
+      "name": "orange-thin",
+      "title": "Orange Thin",
+      "aliases": [],
+      "tags": [
+        "orange",
+        "thin"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange-thin.svg",
+      "file": "icons/O/orange-thin.svg",
+      "hash": "3088dd5a4f7cf1c2496c94cb59423425116d4edc1ea9a1dd143ced571868922b",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "orange": {
+      "id": "dl_782c769afb2d4d7283a0",
+      "name": "orange",
+      "title": "Orange",
+      "aliases": [],
+      "tags": [
+        "orange"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/orange.svg",
+      "file": "icons/O/orange.svg",
+      "hash": "578012ab57bb77c882faf624f76b94310efe92a2558f726a45b0c1115bee5e78",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "oven-bold": {
+      "id": "dl_0ca38e01c61648eca202",
+      "name": "oven-bold",
+      "title": "Oven Bold",
+      "aliases": [],
+      "tags": [
+        "oven",
+        "bold"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/oven-bold.svg",
+      "file": "icons/O/oven-bold.svg",
+      "hash": "430c68ef3e8829d1a864af82aabc29a9598b2831f2f1d8158db896af5d8ccc5d",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "oven-duotone": {
+      "id": "dl_b33fa6529eda425585a1",
+      "name": "oven-duotone",
+      "title": "Oven Duotone",
+      "aliases": [],
+      "tags": [
+        "oven",
+        "duotone"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/oven-duotone.svg",
+      "file": "icons/O/oven-duotone.svg",
+      "hash": "ea07da9006fa113e2125645ed6e69e3071de514fc57dc38df59676c134e5dbf2",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "oven-fill": {
+      "id": "dl_001353dba91b48ef90a1",
+      "name": "oven-fill",
+      "title": "Oven Fill",
+      "aliases": [],
+      "tags": [
+        "oven",
+        "fill"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/oven-fill.svg",
+      "file": "icons/O/oven-fill.svg",
+      "hash": "03c94f46336b5dc074d6cc710a047e0b95afbad3882897bac4733cfcea933908",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "oven-light": {
+      "id": "dl_e5853752a2a04712b9c0",
+      "name": "oven-light",
+      "title": "Oven Light",
+      "aliases": [],
+      "tags": [
+        "oven",
+        "light"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/oven-light.svg",
+      "file": "icons/O/oven-light.svg",
+      "hash": "87d228f924c571d374a4d376531cd499bbc738c1f74eacc316d9f9039400a7d8",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "oven-thin": {
+      "id": "dl_2c7ee2d1a2044dcf8083",
+      "name": "oven-thin",
+      "title": "Oven Thin",
+      "aliases": [],
+      "tags": [
+        "oven",
+        "thin"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/oven-thin.svg",
+      "file": "icons/O/oven-thin.svg",
+      "hash": "437563538c067d66119ff17923c6c99f3efac39cafecb25ef1bb30a808da7af6",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
+    },
+    "oven": {
+      "id": "dl_6ba215eef383411f8857",
+      "name": "oven",
+      "title": "Oven",
+      "aliases": [],
+      "tags": [
+        "oven"
+      ],
+      "categories": [
+        "O"
+      ],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "path": "O/oven.svg",
+      "file": "icons/O/oven.svg",
+      "hash": "1b09d431795dc75cbb0746be8e5aebc3987f3d03c15b9c533efdaef1909b8e34",
+      "updatedAt": "2026-09-04T11:27:50.425Z"
     }
   },
-  "aliases": {}
+  "aliases": {},
+  "schemaVersion": 9
 }
