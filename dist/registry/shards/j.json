@@ -2,6 +2,848 @@
   "version": 9,
   "library": "Delluna",
   "icons": {
+    "jar-bold": {
+      "id": "dl_b0d4645afb5f468a9f1b",
+      "name": "jar-bold",
+      "title": "Jar Bold",
+      "file": "icons/J/jar-bold.svg",
+      "path": "J/jar-bold.svg",
+      "tags": [
+        "jar",
+        "bold"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c7840149ccdacfeaa0fb4d5b2fb8819d8e29e55eaff8f5cc7ca95b68ef8ba83c",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-duotone": {
+      "id": "dl_2c9560aa7b9047e1b8f6",
+      "name": "jar-duotone",
+      "title": "Jar Duotone",
+      "file": "icons/J/jar-duotone.svg",
+      "path": "J/jar-duotone.svg",
+      "tags": [
+        "jar",
+        "duotone"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "387842214b478e839ffcdf184ec49b89836bc2cb86f33f78399fa375595fe063",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-fill": {
+      "id": "dl_90570785c03f4b2791ca",
+      "name": "jar-fill",
+      "title": "Jar Fill",
+      "file": "icons/J/jar-fill.svg",
+      "path": "J/jar-fill.svg",
+      "tags": [
+        "jar",
+        "fill"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c20e7a94f288422e563b6b8e65c3a383bdac648f227b957d9de76ee43bde1163",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-label-bold": {
+      "id": "dl_4f3e06d9544e498ebed7",
+      "name": "jar-label-bold",
+      "title": "Jar Label Bold",
+      "file": "icons/J/jar-label-bold.svg",
+      "path": "J/jar-label-bold.svg",
+      "tags": [
+        "jar",
+        "label",
+        "bold"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b045a8e300b8ae248efa360b26c24292ccc7043f9143abc2ce2f3b8beeaf5d83",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-label-duotone": {
+      "id": "dl_39f46284ced64416badb",
+      "name": "jar-label-duotone",
+      "title": "Jar Label Duotone",
+      "file": "icons/J/jar-label-duotone.svg",
+      "path": "J/jar-label-duotone.svg",
+      "tags": [
+        "jar",
+        "label",
+        "duotone"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "af61171d76f988ab69768a4a081a96be59db48a8c362e622b2746955e222ca5c",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-label-fill": {
+      "id": "dl_75ef0b3c177540889715",
+      "name": "jar-label-fill",
+      "title": "Jar Label Fill",
+      "file": "icons/J/jar-label-fill.svg",
+      "path": "J/jar-label-fill.svg",
+      "tags": [
+        "jar",
+        "label",
+        "fill"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ce452952cd990153655182f7053b2619d46020f2c01457c54388979fb36842f3",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-label-light": {
+      "id": "dl_63132691661c471994ca",
+      "name": "jar-label-light",
+      "title": "Jar Label Light",
+      "file": "icons/J/jar-label-light.svg",
+      "path": "J/jar-label-light.svg",
+      "tags": [
+        "jar",
+        "label",
+        "light"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d48cb83ec2a0a3659efcd3085a91c2ffae7c56114cf949b61536a54f54f6a746",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-label-thin": {
+      "id": "dl_7254f3bb36f8475ba35e",
+      "name": "jar-label-thin",
+      "title": "Jar Label Thin",
+      "file": "icons/J/jar-label-thin.svg",
+      "path": "J/jar-label-thin.svg",
+      "tags": [
+        "jar",
+        "label",
+        "thin"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "730d47f4f6293e517b8396bfc8e099550d66255e3f4fedbb8ea781c71c9d96a7",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-label": {
+      "id": "dl_06f2da1196bf4edbb93d",
+      "name": "jar-label",
+      "title": "Jar Label",
+      "file": "icons/J/jar-label.svg",
+      "path": "J/jar-label.svg",
+      "tags": [
+        "jar",
+        "label"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ec0660b6ed47c96bb12bcef7559dc9bc047aaafc0a84551c1d013d9f4984e2fc",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-light": {
+      "id": "dl_27f01f88898244709736",
+      "name": "jar-light",
+      "title": "Jar Light",
+      "file": "icons/J/jar-light.svg",
+      "path": "J/jar-light.svg",
+      "tags": [
+        "jar",
+        "light"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2b32456e4c451bb225172a671fa47ddee8e5c7d49582cc7d50f9e4b7d12d6c00",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar-thin": {
+      "id": "dl_e870474ff33f4f229aa9",
+      "name": "jar-thin",
+      "title": "Jar Thin",
+      "file": "icons/J/jar-thin.svg",
+      "path": "J/jar-thin.svg",
+      "tags": [
+        "jar",
+        "thin"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "30655b1d9bc32bd014b9d642bbf0c7a8e64393c183f029a65da00a00c0b7b263",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jar": {
+      "id": "dl_6e0e541cb5de4c50b21e",
+      "name": "jar",
+      "title": "Jar",
+      "file": "icons/J/jar.svg",
+      "path": "J/jar.svg",
+      "tags": [
+        "jar"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e837a23a1f4a8d190d6569afc9e36941e2f9af74de982be6dc6a85858ca57152",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jeep-bold": {
+      "id": "dl_212efe0abcb14fe6ab6d",
+      "name": "jeep-bold",
+      "title": "Jeep Bold",
+      "file": "icons/J/jeep-bold.svg",
+      "path": "J/jeep-bold.svg",
+      "tags": [
+        "jeep",
+        "bold"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1d99de04fd602a760d8c9aee695e1d516acf90fee6c7946541d4d3b6dbb1192b",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jeep-duotone": {
+      "id": "dl_f1e0a1d317b8402f9693",
+      "name": "jeep-duotone",
+      "title": "Jeep Duotone",
+      "file": "icons/J/jeep-duotone.svg",
+      "path": "J/jeep-duotone.svg",
+      "tags": [
+        "jeep",
+        "duotone"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4eb6bf3760178c9c802edbde27fca626e444188ea2ac9c9c6176d65f2a971982",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jeep-fill": {
+      "id": "dl_af2054b0315d4122b700",
+      "name": "jeep-fill",
+      "title": "Jeep Fill",
+      "file": "icons/J/jeep-fill.svg",
+      "path": "J/jeep-fill.svg",
+      "tags": [
+        "jeep",
+        "fill"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c6e5b2fa5d4aba67e5b2286938b79983b9c40057332b114fc9d0c4067fa6b605",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jeep-light": {
+      "id": "dl_de5c3ffe30404795b20f",
+      "name": "jeep-light",
+      "title": "Jeep Light",
+      "file": "icons/J/jeep-light.svg",
+      "path": "J/jeep-light.svg",
+      "tags": [
+        "jeep",
+        "light"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3b8ddc36c0cb0582c08e1aa53df62bb45afc4379d16c10b223d1aba366c3ae90",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jeep-thin": {
+      "id": "dl_511c670032dc43ef8c58",
+      "name": "jeep-thin",
+      "title": "Jeep Thin",
+      "file": "icons/J/jeep-thin.svg",
+      "path": "J/jeep-thin.svg",
+      "tags": [
+        "jeep",
+        "thin"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d6996bc3607263a21170a7ec1867724b383cc4c5cc68cb9d6916d5cc17db0c90",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "jeep": {
+      "id": "dl_af64b51e0062469caaf5",
+      "name": "jeep",
+      "title": "Jeep",
+      "file": "icons/J/jeep.svg",
+      "path": "J/jeep.svg",
+      "tags": [
+        "jeep"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3d966f1327e7357c3b30b95447de33e3bb8fb3786fc2af862e8cf342e7f5cf5a",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "joystick-bold": {
+      "id": "dl_4ef4d7d40ad54c34843e",
+      "name": "joystick-bold",
+      "title": "Joystick Bold",
+      "file": "icons/J/joystick-bold.svg",
+      "path": "J/joystick-bold.svg",
+      "tags": [
+        "joystick",
+        "bold"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "19c929167cf0fb6cf1633b7f813cd621caff0d783fc11b92f92cc47a382b6d32",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "joystick-duotone": {
+      "id": "dl_20e01f2956fb44b6b360",
+      "name": "joystick-duotone",
+      "title": "Joystick Duotone",
+      "file": "icons/J/joystick-duotone.svg",
+      "path": "J/joystick-duotone.svg",
+      "tags": [
+        "joystick",
+        "duotone"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b57bcae4df049e0ad1c0c8812ce3a1be21cec0dbdfe00852887bedbb72d290cc",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "joystick-fill": {
+      "id": "dl_8b1bf90f7bef4e51971b",
+      "name": "joystick-fill",
+      "title": "Joystick Fill",
+      "file": "icons/J/joystick-fill.svg",
+      "path": "J/joystick-fill.svg",
+      "tags": [
+        "joystick",
+        "fill"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e6657a1c4b6ec8423dd79e835e2f156f363950a0541e0342aa1d9cfe4e894df0",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "joystick-light": {
+      "id": "dl_0f6aa779ab2341e0884e",
+      "name": "joystick-light",
+      "title": "Joystick Light",
+      "file": "icons/J/joystick-light.svg",
+      "path": "J/joystick-light.svg",
+      "tags": [
+        "joystick",
+        "light"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ad49ba7da93d0cd6887bdf3f376c1f79c9d6ea04a424a444e12caccb5502ba15",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "joystick-thin": {
+      "id": "dl_f244012be1f8411cb2b9",
+      "name": "joystick-thin",
+      "title": "Joystick Thin",
+      "file": "icons/J/joystick-thin.svg",
+      "path": "J/joystick-thin.svg",
+      "tags": [
+        "joystick",
+        "thin"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "937cefac4b4bc071e15fa27ca5929c3ca25ef4c6efc472f893ae71cc961fcad4",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
+    "joystick": {
+      "id": "dl_3c7da5eb2cae45ab972d",
+      "name": "joystick",
+      "title": "Joystick",
+      "file": "icons/J/joystick.svg",
+      "path": "J/joystick.svg",
+      "tags": [
+        "joystick"
+      ],
+      "categories": [
+        "J"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7e516e27846aff48c00e85b73f1523f0f732eb35b1d7028a498c9186604868b9",
+      "updatedAt": "2026-09-04T10:54:22.226Z"
+    },
     "javascript": {
       "id": "dl_18e9ea304662c1d11b07",
       "name": "javascript",
