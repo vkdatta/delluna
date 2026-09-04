@@ -1,6 +1,26 @@
 {
   "duplicates": [
     {
+      "path": "B/battery-empty-fill.svg",
+      "duplicateOf": "B/battery-empty.svg",
+      "id": "dl_b9686e4307d94e31bdad"
+    },
+    {
+      "path": "B/battery-empty.svg",
+      "duplicateOf": "B/battery-empty-fill.svg",
+      "id": "dl_6a78310e49bc483e93b6"
+    },
+    {
+      "path": "B/battery-vertical-empty-fill.svg",
+      "duplicateOf": "B/battery-vertical-empty.svg",
+      "id": "dl_7461c42e2c0149b28113"
+    },
+    {
+      "path": "B/battery-vertical-empty.svg",
+      "duplicateOf": "B/battery-vertical-empty-fill.svg",
+      "id": "dl_a13fbb8e9705497182af"
+    },
+    {
       "path": "chev.svg",
       "duplicateOf": "chevron_right.svg",
       "id": "dl_0554a62a9cbcd41ab805"

@@ -1,0 +1,4 @@
+export const name="battery-empty-fill";
+export const id="dl_b9686e4307d94e31bdad";
+export const url=new URL("../../icons/B/battery-empty-fill.svg?v=2c9019f0652b4557657dc7c3a22d9c6d63e3de21a13ff97c6e8ac99f382e873d",import.meta.url).href;
+export async function svg(){return fetch(url).then(r=>r.text())}
