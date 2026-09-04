@@ -33,6 +33,7 @@
     "C",
     "D",
     "E",
+    "F",
     "lucid_1",
     "lucid_2",
     "lucid_3",
@@ -68,7 +69,7 @@
     "x",
     "z"
   ],
-  "iconCount": 5278,
-  "generatedAt": "2026-09-04T10:23:28.872Z",
-  "registryHash": "13278706bff7132457cf750f904b9c0e2970e6aa453164f43cc4cf6887592531"
+  "iconCount": 5965,
+  "generatedAt": "2026-09-04T10:29:59.491Z",
+  "registryHash": "738e578269f7955ccea71ad54f426d9f06063dad7875c48a6b96c57be3cc2d86"
 }
