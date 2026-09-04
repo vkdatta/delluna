@@ -32440,6 +32440,84 @@
       ],
       "hash": "bb026a64de888113c3eaf3d81700e7cdfcd75fc1605f1e0c9f1f8aebbe47974a",
       "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "arrow_heads": {
+      "id": "dl_2f9959b689bb425280a1",
+      "name": "arrow_heads",
+      "title": "Arrow Heads",
+      "file": "icons/updated-separated-svg-files/arrow_heads.svg",
+      "path": "updated-separated-svg-files/arrow_heads.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "arrow",
+        "heads"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "737b01279954c1966e6e53bea9657f68a3f2b668149c385cf12f815ec2c2dd78",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "arrow_stem": {
+      "id": "dl_45c7abc018b54602a778",
+      "name": "arrow_stem",
+      "title": "Arrow Stem",
+      "file": "icons/updated-separated-svg-files/arrow_stem.svg",
+      "path": "updated-separated-svg-files/arrow_stem.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "arrow",
+        "stem"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4a6949edbd8d591e214e71a4c04af8683568e70c1db6415cf5829353c6cde86d",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

@@ -601,6 +601,160 @@
       ],
       "hash": "79942ce30aaea6d5d47ae9dd271b22eed442ec74ca150a4a8ada3d8c8ed2156b",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "fatarrow": {
+      "id": "dl_e63d4d286a3a4d079e9d",
+      "name": "fatarrow",
+      "title": "Fatarrow",
+      "file": "icons/updated-separated-svg-files/fatarrow.svg",
+      "path": "updated-separated-svg-files/fatarrow.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "fatarrow"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "abc5b1c1ce14700ea7a9f1407b0c49d1cfe8acdcfff5fa31358ab511bc27e003",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "function_arrow": {
+      "id": "dl_4ef508e8b149469785a9",
+      "name": "function_arrow",
+      "title": "Function Arrow",
+      "file": "icons/updated-separated-svg-files/function_arrow.svg",
+      "path": "updated-separated-svg-files/function_arrow.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "function",
+        "arrow"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "00cc923ddd509bf59f98e35afbde7bbe8f729ed2c977e7b4d472915db412f607",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "function_box": {
+      "id": "dl_71cdbdbbb1bf47aba224",
+      "name": "function_box",
+      "title": "Function Box",
+      "file": "icons/updated-separated-svg-files/function_box.svg",
+      "path": "updated-separated-svg-files/function_box.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "function",
+        "box"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "c705c5d65ff345d749db93b139c5bd1f9655e953c8a3a602717afbcdffb9a7d2",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "function": {
+      "id": "dl_a61959f1cf4c4dae89c0",
+      "name": "function",
+      "title": "Function",
+      "file": "icons/updated-separated-svg-files/function.svg",
+      "path": "updated-separated-svg-files/function.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "function"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8a08b74796c5a801c2f6a224c16c18d72741a04e160dcef42bf824eee2565a54",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

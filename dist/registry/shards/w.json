@@ -1422,6 +1422,120 @@
       ],
       "hash": "79235ec3ac0e42158af7e8da2ec847f77bcbd2a55983fcd9d414631ee0f4e554",
       "updatedAt": "2026-09-03T21:56:24.635Z"
+    },
+    "wave": {
+      "id": "dl_88fb564deb76431cb113",
+      "name": "wave",
+      "title": "Wave",
+      "file": "icons/updated-separated-svg-files/wave.svg",
+      "path": "updated-separated-svg-files/wave.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "wave"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ca00b225da115dc92e33934fccfb6f0ddcbd148cf8b68878b0e1a6c333da4bc1",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "window": {
+      "id": "dl_1dc78726f43e41e592d5",
+      "name": "window",
+      "title": "Window",
+      "file": "icons/updated-separated-svg-files/window.svg",
+      "path": "updated-separated-svg-files/window.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "window"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3bb0152366c10c8b530b7c2f2f2aa72d4c8bbe4dd9fb88162055811415403e60",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "wings": {
+      "id": "dl_23bec35753454e26960d",
+      "name": "wings",
+      "title": "Wings",
+      "file": "icons/updated-separated-svg-files/wings.svg",
+      "path": "updated-separated-svg-files/wings.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "wings"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "686a61f005311159c957188eea2b4a9d4d6b64baa23fd0e2b72fec2518475c3c",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

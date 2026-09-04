@@ -36,6 +36,159 @@
       ],
       "hash": "425d1f50e888e31fb0319bb0e947f80a190083af162caa23fa32c054ce60452a",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "navigation": {
+      "id": "dl_1cbead7b27454cffa546",
+      "name": "navigation",
+      "title": "Navigation",
+      "file": "icons/updated-separated-svg-files/navigation.svg",
+      "path": "updated-separated-svg-files/navigation.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "navigation"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8117fd3c620856cb46ebbed8657e6eb2ce60f763c9e77e1a84b561d07316c39d",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "nested_function": {
+      "id": "dl_1a42c857f33b4b59ba87",
+      "name": "nested_function",
+      "title": "Nested Function",
+      "file": "icons/updated-separated-svg-files/nested_function.svg",
+      "path": "updated-separated-svg-files/nested_function.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "nested",
+        "function"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "eb008442a7432d51c67753c5afd9e354ccb7f1c57176c9d6327202423bd09b79",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "nested": {
+      "id": "dl_9f91ba49691444e4ac7d",
+      "name": "nested",
+      "title": "Nested",
+      "file": "icons/updated-separated-svg-files/nested.svg",
+      "path": "updated-separated-svg-files/nested.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "nested"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "59ba211c61b2cadc85b1629b793b1756f48264a963756143ef968470ede4d4eb",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "node": {
+      "id": "dl_6f2421a552c3431c871d",
+      "name": "node",
+      "title": "Node",
+      "file": "icons/updated-separated-svg-files/node.svg",
+      "path": "updated-separated-svg-files/node.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "node"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5761526e56c4f768e24ab6ae747bc507851080e632647483a982ca956457d1c0",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

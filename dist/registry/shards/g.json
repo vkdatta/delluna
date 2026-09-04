@@ -1,0 +1,121 @@
+{
+  "version": 9,
+  "library": "Delluna",
+  "icons": {
+    "gable": {
+      "id": "dl_5f566d735406445ab348",
+      "name": "gable",
+      "title": "Gable",
+      "file": "icons/updated-separated-svg-files/gable.svg",
+      "path": "updated-separated-svg-files/gable.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "gable"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8c2705d390f13b641c21b8918e3494e453e848799ca0310d4b2d9efa766a5c77",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "gear": {
+      "id": "dl_2a0043b2536d44d9af1d",
+      "name": "gear",
+      "title": "Gear",
+      "file": "icons/updated-separated-svg-files/gear.svg",
+      "path": "updated-separated-svg-files/gear.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "gear"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "88685d88c56bfa6b9b8451562b31e8bc27b97581f05bce950bd9ec477268c041",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "graph": {
+      "id": "dl_11ed3b4dfa9d4a80827c",
+      "name": "graph",
+      "title": "Graph",
+      "file": "icons/updated-separated-svg-files/graph.svg",
+      "path": "updated-separated-svg-files/graph.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "graph"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "810dcb43eb89fbaf854dca9f289fa06c79c2a9174999d1a1a990f2a5738396d3",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    }
+  },
+  "aliases": {}
+}

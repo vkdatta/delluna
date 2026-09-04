@@ -138,6 +138,272 @@
       ],
       "hash": "89bdc12d9f29a54f3a6801b75ab4054b3cc15a15e9de84d7046197e2d40b068d",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "panel": {
+      "id": "dl_c9a8402e442a46d78be0",
+      "name": "panel",
+      "title": "Panel",
+      "file": "icons/updated-separated-svg-files/panel.svg",
+      "path": "updated-separated-svg-files/panel.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "panel"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "071fcb70c080436ac6bf4c4c62f6c0349a94ec5ed1db1643335e5835cf09e3f8",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "parabola": {
+      "id": "dl_9f42c9764f804d7abd2a",
+      "name": "parabola",
+      "title": "Parabola",
+      "file": "icons/updated-separated-svg-files/parabola.svg",
+      "path": "updated-separated-svg-files/parabola.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "parabola"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a5f45221fd93416e99a01da18fa8ae6b363451d1754ab31b5736f075b57baaf7",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "parentheses": {
+      "id": "dl_7d22dcda5c59436c91e4",
+      "name": "parentheses",
+      "title": "Parentheses",
+      "file": "icons/updated-separated-svg-files/parentheses.svg",
+      "path": "updated-separated-svg-files/parentheses.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "parentheses"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5b1a3a0b5cce9c8642005836f9eebf10b957fdd2a1e69feab6f5b8beb4d1c0ce",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "pi": {
+      "id": "dl_a1104b5f8f7d4ed096c8",
+      "name": "pi",
+      "title": "Pi",
+      "file": "icons/updated-separated-svg-files/pi.svg",
+      "path": "updated-separated-svg-files/pi.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "pi"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3956d4d2e3bfc1f54db35d70bee883defac75e4a49a0d5e3203b6686edfabc14",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "pillswap": {
+      "id": "dl_ea5d6a919b77457eb8a5",
+      "name": "pillswap",
+      "title": "Pillswap",
+      "file": "icons/updated-separated-svg-files/pillswap.svg",
+      "path": "updated-separated-svg-files/pillswap.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "pillswap"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "879786e1aec6b3f2385ac06b9259cb619a1a4e014dcd311b037ec6936c055f7c",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "pipeline": {
+      "id": "dl_1c9104c9776c4707b589",
+      "name": "pipeline",
+      "title": "Pipeline",
+      "file": "icons/updated-separated-svg-files/pipeline.svg",
+      "path": "updated-separated-svg-files/pipeline.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "pipeline"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "88c0801ce3139d177708a1c3be11657fee252f92c7c36eca605974199cdfac6f",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "puzzle": {
+      "id": "dl_6f5ce3a719f74ebb83e5",
+      "name": "puzzle",
+      "title": "Puzzle",
+      "file": "icons/updated-separated-svg-files/puzzle.svg",
+      "path": "updated-separated-svg-files/puzzle.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "puzzle"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1470b173564a64d0ba6fe415734b1bf210ddf1509b101cb99018fd5b79afdf00",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

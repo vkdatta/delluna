@@ -3690,6 +3690,120 @@
       ],
       "hash": "f404cf373506b25fefab4c5ad43feb5f55a0e8bd913d0d1c3a64bd515029b54d",
       "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "tab": {
+      "id": "dl_14d06d46e34044a0a46d",
+      "name": "tab",
+      "title": "Tab",
+      "file": "icons/updated-separated-svg-files/tab.svg",
+      "path": "updated-separated-svg-files/tab.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "tab"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f660c2b2b39e005f934e157f02459df17e758b523e866432e13217e31dabb2db",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "track": {
+      "id": "dl_3d11649ae6974ebc9749",
+      "name": "track",
+      "title": "Track",
+      "file": "icons/updated-separated-svg-files/track.svg",
+      "path": "updated-separated-svg-files/track.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "track"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "6bb2f4b1bc1fe47e691cb89b3df30d6b946dd6fbca9dcd53d84ddbcf9fdf7bfb",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "tray": {
+      "id": "dl_9f4c93c710d2433194dc",
+      "name": "tray",
+      "title": "Tray",
+      "file": "icons/updated-separated-svg-files/tray.svg",
+      "path": "updated-separated-svg-files/tray.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "tray"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3f53c6a8a8f5fd528c095b0ac0ab66d65d352d710d9ba48d9e855e6995591560",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

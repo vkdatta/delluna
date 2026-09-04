@@ -486,44 +486,6 @@
       "hash": "e117d77a4973157ebb6c62b12d833e97ffcec0103103ee82a7663b0fa3905f01",
       "updatedAt": "2026-09-01T20:51:48.146Z"
     },
-    "capsule": {
-      "id": "dl_c276af4491d54969b79c",
-      "name": "capsule",
-      "title": "Capsule",
-      "file": "icons/updated-separated-svg-files/capsule.svg",
-      "path": "updated-separated-svg-files/capsule.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "capsule"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "885d8891a3c0a324aab022b75ab2e9b7a583b417ad61bf0b55f1d8b4af895f90",
-      "updatedAt": "2026-09-04T10:02:28.528Z"
-    },
     "capsule_nav": {
       "id": "dl_b9e9f80916cd41f89578",
       "name": "capsule_nav",
@@ -561,6 +523,44 @@
         "draw"
       ],
       "hash": "087b4820e0d8356747e27706a3e10e257ad53c9a6ef013856feadfc9c654a85c",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "capsule": {
+      "id": "dl_c276af4491d54969b79c",
+      "name": "capsule",
+      "title": "Capsule",
+      "file": "icons/updated-separated-svg-files/capsule.svg",
+      "path": "updated-separated-svg-files/capsule.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "capsule"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "885d8891a3c0a324aab022b75ab2e9b7a583b417ad61bf0b55f1d8b4af895f90",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
     "checkmark": {

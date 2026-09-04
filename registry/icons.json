@@ -36,7 +36,7 @@
     "singleton",
     "updated-separated-svg-files"
   ],
-  "generatedAt": "2026-09-04T10:02:28.528Z",
+  "generatedAt": "2026-09-04T10:02:59.711Z",
   "icons": {
     "acorn-bold": {
       "id": "dl_be4fc717b866449fbcfd",
@@ -124067,370 +124067,6 @@
       "hash": "c43ef6491ea7d1dd5570696deaed4c219fce7bd58cbb9d14b27924918b56588a",
       "updatedAt": "2026-08-31T18:44:46.209Z"
     },
-    "updated-separated-svg-files-target": {
-      "id": "dl_09728341e10748039908",
-      "name": "updated-separated-svg-files-target",
-      "title": "Updated Separated Svg Files Target",
-      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-target.svg",
-      "path": "updated-separated-svg-files/updated-separated-svg-files-target.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "target"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "0023eace1c7e1cd8ef124ea103642a6fec1e3f228d5495158dad640d9f8b8360",
-      "updatedAt": "2026-09-02T18:49:58.857Z"
-    },
-    "updated-separated-svg-files-terminal": {
-      "id": "dl_8e1aed98f87a4c00b81c",
-      "name": "updated-separated-svg-files-terminal",
-      "title": "Updated Separated Svg Files Terminal",
-      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-terminal.svg",
-      "path": "updated-separated-svg-files/updated-separated-svg-files-terminal.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "terminal"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "b847e8197b602e608a1875fed40b2be0d5ecf5f3a0c857158dc0b4e510169665",
-      "updatedAt": "2026-09-02T18:49:58.857Z"
-    },
-    "updated-separated-svg-files-ticket": {
-      "id": "dl_b0d891950555494989d4",
-      "name": "updated-separated-svg-files-ticket",
-      "title": "Updated Separated Svg Files Ticket",
-      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-ticket.svg",
-      "path": "updated-separated-svg-files/updated-separated-svg-files-ticket.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "ticket"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "fe35d98f24fe4ed01184f4d0e773389910f3265186f40985aca0a5657275d706",
-      "updatedAt": "2026-09-02T18:49:58.857Z"
-    },
-    "updated-separated-svg-files-upload": {
-      "id": "dl_6698002408934c3eaa08",
-      "name": "updated-separated-svg-files-upload",
-      "title": "Updated Separated Svg Files Upload",
-      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-upload.svg",
-      "path": "updated-separated-svg-files/updated-separated-svg-files-upload.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "upload"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "21643633319e57beed9a219384c68e5735400b5cc86d56f250f8ad08f1ba43fd",
-      "updatedAt": "2026-09-02T18:49:58.857Z"
-    },
-    "updated-separated-svg-files-variable": {
-      "id": "dl_e2eb6a5caf104450b65d",
-      "name": "updated-separated-svg-files-variable",
-      "title": "Updated Separated Svg Files Variable",
-      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-variable.svg",
-      "path": "updated-separated-svg-files/updated-separated-svg-files-variable.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "variable"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "2cbaf916d5bedc655df79646a9105497bfc73bf70617e0513d9295e82e1648d1",
-      "updatedAt": "2026-09-02T18:49:58.857Z"
-    },
-    "upload_file": {
-      "id": "dl_87dd90aaf50e9c3049f7",
-      "name": "upload_file",
-      "title": "Upload File",
-      "file": "icons/upload_file.svg",
-      "path": "upload_file.svg",
-      "tags": [
-        "upload",
-        "file"
-      ],
-      "categories": [
-        "general"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "a95370cd9f8090e8002500c780becc8096b8ca73517b7e1e473f97eb0316ca7a",
-      "updatedAt": "2026-08-31T18:44:46.209Z"
-    },
-    "uppercase": {
-      "id": "dl_e6709b38f36451af6b79",
-      "name": "uppercase",
-      "title": "Uppercase",
-      "file": "icons/uppercase.svg",
-      "path": "uppercase.svg",
-      "tags": [
-        "uppercase"
-      ],
-      "categories": [
-        "general"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "2ff615b298f41de1dc38bf1120afd4322716270da1caa62d8e31acf3948d78df",
-      "updatedAt": "2026-08-31T18:44:46.209Z"
-    },
-    "view_cozy": {
-      "id": "dl_26dfa6f0c9b1d2845c64",
-      "name": "view_cozy",
-      "title": "View Cozy",
-      "file": "icons/view_cozy.svg",
-      "path": "view_cozy.svg",
-      "tags": [
-        "view",
-        "cozy"
-      ],
-      "categories": [
-        "general"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "056520ac9439bb4ed626784ee4d6e925d77cd0f541be3b70c573f119bb72c67a",
-      "updatedAt": "2026-08-31T18:44:46.209Z"
-    },
-    "view_object_track": {
-      "id": "dl_e1f596ff246765393693",
-      "name": "view_object_track",
-      "title": "View Object Track",
-      "file": "icons/view_object_track.svg",
-      "path": "view_object_track.svg",
-      "tags": [
-        "view",
-        "object",
-        "track"
-      ],
-      "categories": [
-        "general"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "bb9d22dfee446cc902b2df7b2b114f9337f769388bad7919993ab0a8556a2e6b",
-      "updatedAt": "2026-08-31T18:44:46.209Z"
-    },
-    "x": {
-      "id": "dl_b381d6b75a2d10470864",
-      "name": "x",
-      "title": "X",
-      "file": "icons/x.svg",
-      "path": "x.svg",
-      "tags": [
-        "x"
-      ],
-      "categories": [
-        "general"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "07bde35a9c0a90ea24cef38d5c95d3184cc3b28bebfdadec5db11a79d8109394",
-      "updatedAt": "2026-08-31T18:44:46.209Z"
-    },
     "arrow_heads": {
       "id": "dl_2f9959b689bb425280a1",
       "name": "arrow_heads",
@@ -124661,44 +124297,6 @@
       "hash": "13382062ef0975eb579b491c9f082f2c13c5053f2e8c589db2f05d1ecbec5b89",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
-    "capsule": {
-      "id": "dl_c276af4491d54969b79c",
-      "name": "capsule",
-      "title": "Capsule",
-      "file": "icons/updated-separated-svg-files/capsule.svg",
-      "path": "updated-separated-svg-files/capsule.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "capsule"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "885d8891a3c0a324aab022b75ab2e9b7a583b417ad61bf0b55f1d8b4af895f90",
-      "updatedAt": "2026-09-04T10:02:28.528Z"
-    },
     "capsule_nav": {
       "id": "dl_b9e9f80916cd41f89578",
       "name": "capsule_nav",
@@ -124736,6 +124334,44 @@
         "draw"
       ],
       "hash": "087b4820e0d8356747e27706a3e10e257ad53c9a6ef013856feadfc9c654a85c",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "capsule": {
+      "id": "dl_c276af4491d54969b79c",
+      "name": "capsule",
+      "title": "Capsule",
+      "file": "icons/updated-separated-svg-files/capsule.svg",
+      "path": "updated-separated-svg-files/capsule.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "capsule"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "885d8891a3c0a324aab022b75ab2e9b7a583b417ad61bf0b55f1d8b4af895f90",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
     "checkmark": {
@@ -125196,44 +124832,6 @@
       "hash": "abc5b1c1ce14700ea7a9f1407b0c49d1cfe8acdcfff5fa31358ab511bc27e003",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
-    "function": {
-      "id": "dl_a61959f1cf4c4dae89c0",
-      "name": "function",
-      "title": "Function",
-      "file": "icons/updated-separated-svg-files/function.svg",
-      "path": "updated-separated-svg-files/function.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "function"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "8a08b74796c5a801c2f6a224c16c18d72741a04e160dcef42bf824eee2565a54",
-      "updatedAt": "2026-09-04T10:02:28.528Z"
-    },
     "function_arrow": {
       "id": "dl_4ef508e8b149469785a9",
       "name": "function_arrow",
@@ -125310,6 +124908,44 @@
         "draw"
       ],
       "hash": "c705c5d65ff345d749db93b139c5bd1f9655e953c8a3a602717afbcdffb9a7d2",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "function": {
+      "id": "dl_a61959f1cf4c4dae89c0",
+      "name": "function",
+      "title": "Function",
+      "file": "icons/updated-separated-svg-files/function.svg",
+      "path": "updated-separated-svg-files/function.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "function"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8a08b74796c5a801c2f6a224c16c18d72741a04e160dcef42bf824eee2565a54",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
     "gable": {
@@ -125769,44 +125405,6 @@
       "hash": "8117fd3c620856cb46ebbed8657e6eb2ce60f763c9e77e1a84b561d07316c39d",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
-    "nested": {
-      "id": "dl_9f91ba49691444e4ac7d",
-      "name": "nested",
-      "title": "Nested",
-      "file": "icons/updated-separated-svg-files/nested.svg",
-      "path": "updated-separated-svg-files/nested.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "nested"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "59ba211c61b2cadc85b1629b793b1756f48264a963756143ef968470ede4d4eb",
-      "updatedAt": "2026-09-04T10:02:28.528Z"
-    },
     "nested_function": {
       "id": "dl_1a42c857f33b4b59ba87",
       "name": "nested_function",
@@ -125844,6 +125442,44 @@
         "draw"
       ],
       "hash": "eb008442a7432d51c67753c5afd9e354ccb7f1c57176c9d6327202423bd09b79",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "nested": {
+      "id": "dl_9f91ba49691444e4ac7d",
+      "name": "nested",
+      "title": "Nested",
+      "file": "icons/updated-separated-svg-files/nested.svg",
+      "path": "updated-separated-svg-files/nested.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "nested"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "59ba211c61b2cadc85b1629b793b1756f48264a963756143ef968470ede4d4eb",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
     "node": {
@@ -125922,44 +125558,6 @@
       "hash": "b22b2e3fb8247e20b6bda568dbd82c211ab145e119e259d23ede182e8be9cd50",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
-    "offset": {
-      "id": "dl_559420d9b80942c4aa91",
-      "name": "offset",
-      "title": "Offset",
-      "file": "icons/updated-separated-svg-files/offset.svg",
-      "path": "updated-separated-svg-files/offset.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "offset"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "1beb7f455d941714bcc3201177528327d3d7a97dbbf3a8354ef03e70aec1e457",
-      "updatedAt": "2026-09-04T10:02:28.528Z"
-    },
     "offset_lines": {
       "id": "dl_ceda1c7b8dd24d2ab211",
       "name": "offset_lines",
@@ -125997,6 +125595,44 @@
         "draw"
       ],
       "hash": "ab89c8184014dd674dcdac3c79424d2178ebbf24feb2a5cc1304940d59df556c",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "offset": {
+      "id": "dl_559420d9b80942c4aa91",
+      "name": "offset",
+      "title": "Offset",
+      "file": "icons/updated-separated-svg-files/offset.svg",
+      "path": "updated-separated-svg-files/offset.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "offset"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1beb7f455d941714bcc3201177528327d3d7a97dbbf3a8354ef03e70aec1e457",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
     "panel": {
@@ -127028,6 +126664,196 @@
       "hash": "3f53c6a8a8f5fd528c095b0ac0ab66d65d352d710d9ba48d9e855e6995591560",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
+    "updated-separated-svg-files-target": {
+      "id": "dl_09728341e10748039908",
+      "name": "updated-separated-svg-files-target",
+      "title": "Updated Separated Svg Files Target",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-target.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-target.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "target"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0023eace1c7e1cd8ef124ea103642a6fec1e3f228d5495158dad640d9f8b8360",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-terminal": {
+      "id": "dl_8e1aed98f87a4c00b81c",
+      "name": "updated-separated-svg-files-terminal",
+      "title": "Updated Separated Svg Files Terminal",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-terminal.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-terminal.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "terminal"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b847e8197b602e608a1875fed40b2be0d5ecf5f3a0c857158dc0b4e510169665",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-ticket": {
+      "id": "dl_b0d891950555494989d4",
+      "name": "updated-separated-svg-files-ticket",
+      "title": "Updated Separated Svg Files Ticket",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-ticket.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-ticket.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "ticket"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fe35d98f24fe4ed01184f4d0e773389910f3265186f40985aca0a5657275d706",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-upload": {
+      "id": "dl_6698002408934c3eaa08",
+      "name": "updated-separated-svg-files-upload",
+      "title": "Updated Separated Svg Files Upload",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-upload.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-upload.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "upload"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "21643633319e57beed9a219384c68e5735400b5cc86d56f250f8ad08f1ba43fd",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
+    "updated-separated-svg-files-variable": {
+      "id": "dl_e2eb6a5caf104450b65d",
+      "name": "updated-separated-svg-files-variable",
+      "title": "Updated Separated Svg Files Variable",
+      "file": "icons/updated-separated-svg-files/updated-separated-svg-files-variable.svg",
+      "path": "updated-separated-svg-files/updated-separated-svg-files-variable.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "variable"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2cbaf916d5bedc655df79646a9105497bfc73bf70617e0513d9295e82e1648d1",
+      "updatedAt": "2026-09-02T18:49:58.857Z"
+    },
     "vertical_swap": {
       "id": "dl_21d1d3f2eb79425f89de",
       "name": "vertical_swap",
@@ -127180,6 +127006,180 @@
       ],
       "hash": "686a61f005311159c957188eea2b4a9d4d6b64baa23fd0e2b72fec2518475c3c",
       "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "upload_file": {
+      "id": "dl_87dd90aaf50e9c3049f7",
+      "name": "upload_file",
+      "title": "Upload File",
+      "file": "icons/upload_file.svg",
+      "path": "upload_file.svg",
+      "tags": [
+        "upload",
+        "file"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a95370cd9f8090e8002500c780becc8096b8ca73517b7e1e473f97eb0316ca7a",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "uppercase": {
+      "id": "dl_e6709b38f36451af6b79",
+      "name": "uppercase",
+      "title": "Uppercase",
+      "file": "icons/uppercase.svg",
+      "path": "uppercase.svg",
+      "tags": [
+        "uppercase"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2ff615b298f41de1dc38bf1120afd4322716270da1caa62d8e31acf3948d78df",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "view_cozy": {
+      "id": "dl_26dfa6f0c9b1d2845c64",
+      "name": "view_cozy",
+      "title": "View Cozy",
+      "file": "icons/view_cozy.svg",
+      "path": "view_cozy.svg",
+      "tags": [
+        "view",
+        "cozy"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "056520ac9439bb4ed626784ee4d6e925d77cd0f541be3b70c573f119bb72c67a",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "view_object_track": {
+      "id": "dl_e1f596ff246765393693",
+      "name": "view_object_track",
+      "title": "View Object Track",
+      "file": "icons/view_object_track.svg",
+      "path": "view_object_track.svg",
+      "tags": [
+        "view",
+        "object",
+        "track"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "bb9d22dfee446cc902b2df7b2b114f9337f769388bad7919993ab0a8556a2e6b",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
+    },
+    "x": {
+      "id": "dl_b381d6b75a2d10470864",
+      "name": "x",
+      "title": "X",
+      "file": "icons/x.svg",
+      "path": "x.svg",
+      "tags": [
+        "x"
+      ],
+      "categories": [
+        "general"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "07bde35a9c0a90ea24cef38d5c95d3184cc3b28bebfdadec5db11a79d8109394",
+      "updatedAt": "2026-08-31T18:44:46.209Z"
     }
   },
   "aliases": {}

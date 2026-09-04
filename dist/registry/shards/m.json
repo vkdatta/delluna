@@ -70,6 +70,82 @@
       ],
       "hash": "ee17823c7f10ab6211adecc3df5c7360df77d5571f58f815aba902be6c0c24c0",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "mapping": {
+      "id": "dl_d604c30bd0b54572ba74",
+      "name": "mapping",
+      "title": "Mapping",
+      "file": "icons/updated-separated-svg-files/mapping.svg",
+      "path": "updated-separated-svg-files/mapping.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "mapping"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ab6f2c98d29e02535cb8cc62308c9bf135c761d4860b3a2d99e676d07788d8be",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "method": {
+      "id": "dl_d323435fddc44231a43b",
+      "name": "method",
+      "title": "Method",
+      "file": "icons/updated-separated-svg-files/method.svg",
+      "path": "updated-separated-svg-files/method.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "method"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7a469928d012da4fa951df96362f6039213c41237751c4c7a9419240b7356638",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

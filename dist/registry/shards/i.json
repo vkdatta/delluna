@@ -104,6 +104,82 @@
       ],
       "hash": "3edb6a467b94a1b21d6b592c7b671dbd7863f3d34e64316793df49107ca75d62",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "infinity": {
+      "id": "dl_24cb7c57dc7a48e9a6d5",
+      "name": "infinity",
+      "title": "Infinity",
+      "file": "icons/updated-separated-svg-files/infinity.svg",
+      "path": "updated-separated-svg-files/infinity.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "infinity"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9db83e8700b9326601896e8e886bbaa0fedc8870e6f002728af7ea5da90c48d6",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "integral": {
+      "id": "dl_49ea990f4bb048bab2af",
+      "name": "integral",
+      "title": "Integral",
+      "file": "icons/updated-separated-svg-files/integral.svg",
+      "path": "updated-separated-svg-files/integral.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "integral"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1f4bd426625c8240c57a73700a76a338203aa69d78ab78bb9a1af8bb8f7e7c44",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

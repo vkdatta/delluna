@@ -76,44 +76,6 @@
       "hash": "b22b2e3fb8247e20b6bda568dbd82c211ab145e119e259d23ede182e8be9cd50",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     },
-    "offset": {
-      "id": "dl_559420d9b80942c4aa91",
-      "name": "offset",
-      "title": "Offset",
-      "file": "icons/updated-separated-svg-files/offset.svg",
-      "path": "updated-separated-svg-files/offset.svg",
-      "tags": [
-        "updated",
-        "separated",
-        "svg",
-        "files",
-        "offset"
-      ],
-      "categories": [
-        "updated-separated-svg-files"
-      ],
-      "aliases": [],
-      "styles": [
-        "single",
-        "outline",
-        "fill",
-        "solid",
-        "duotone",
-        "duocolor"
-      ],
-      "motions": [
-        "none",
-        "pulse",
-        "spin",
-        "bounce",
-        "shake",
-        "wiggle",
-        "float",
-        "draw"
-      ],
-      "hash": "1beb7f455d941714bcc3201177528327d3d7a97dbbf3a8354ef03e70aec1e457",
-      "updatedAt": "2026-09-04T10:02:28.528Z"
-    },
     "offset_lines": {
       "id": "dl_ceda1c7b8dd24d2ab211",
       "name": "offset_lines",
@@ -151,6 +113,44 @@
         "draw"
       ],
       "hash": "ab89c8184014dd674dcdac3c79424d2178ebbf24feb2a5cc1304940d59df556c",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "offset": {
+      "id": "dl_559420d9b80942c4aa91",
+      "name": "offset",
+      "title": "Offset",
+      "file": "icons/updated-separated-svg-files/offset.svg",
+      "path": "updated-separated-svg-files/offset.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "offset"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1beb7f455d941714bcc3201177528327d3d7a97dbbf3a8354ef03e70aec1e457",
       "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
