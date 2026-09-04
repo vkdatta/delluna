@@ -138,6 +138,44 @@
       ],
       "hash": "4250c421be0cc6003e981e6213864f0b72f2f852cbf1b55caccc1df18204c90c",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "ribbon": {
+      "id": "dl_ae3ce9bf4c4e45e79b5d",
+      "name": "ribbon",
+      "title": "Ribbon",
+      "file": "icons/updated-separated-svg-files/ribbon.svg",
+      "path": "updated-separated-svg-files/ribbon.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "ribbon"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "eb82c20c2ca252ec40ad841f149c64b3c19ec53742006a4125a5485d838d783a",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

@@ -54656,6 +54656,82 @@
       ],
       "hash": "b50b40bd5a94f94b72527c5b4b2d9b82957a44d861e917892a2be061f1309bd3",
       "updatedAt": "2026-09-03T17:51:16.080Z"
+    },
+    "lambda": {
+      "id": "dl_fd255b583b2245198901",
+      "name": "lambda",
+      "title": "Lambda",
+      "file": "icons/updated-separated-svg-files/lambda.svg",
+      "path": "updated-separated-svg-files/lambda.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "lambda"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "3ae3d3528fb6eb99adb27b3f63f745d239fe5636a52f0cbf852dfb64e485b1f7",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "logic": {
+      "id": "dl_5126c9a196244508b412",
+      "name": "logic",
+      "title": "Logic",
+      "file": "icons/updated-separated-svg-files/logic.svg",
+      "path": "updated-separated-svg-files/logic.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "logic"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ddd27b2e4d342e89e0a5837caf7efefd2f3a5f4e285903fa44e16f37584e7441",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

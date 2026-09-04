@@ -209,6 +209,197 @@
       ],
       "hash": "91d13cbdc432ef459c3c9653cd6af6c125845a1fcbc7573ac7daf11801d78f1f",
       "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "delta": {
+      "id": "dl_0ebf73629b3043d58041",
+      "name": "delta",
+      "title": "Delta",
+      "file": "icons/updated-separated-svg-files/delta.svg",
+      "path": "updated-separated-svg-files/delta.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "delta"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2957737517a0ab28ea9302ecf833553faa218e99ae8edae48c911842e7940585",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "derivative": {
+      "id": "dl_05742197d65b4747beca",
+      "name": "derivative",
+      "title": "Derivative",
+      "file": "icons/updated-separated-svg-files/derivative.svg",
+      "path": "updated-separated-svg-files/derivative.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "derivative"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "02168d8382518b945a561bc2128b405b1abd0e4f3ffbc59cfa21f234ce511dad",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "document": {
+      "id": "dl_80b8940475aa49eeb5f2",
+      "name": "document",
+      "title": "Document",
+      "file": "icons/updated-separated-svg-files/document.svg",
+      "path": "updated-separated-svg-files/document.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "document"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7ea3fe181fc542fc3f14ce59ad0331faae6dd28d2d546ad2d7e10150659c74b8",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "dot_chevron": {
+      "id": "dl_2303184041d24c3aae14",
+      "name": "dot_chevron",
+      "title": "Dot Chevron",
+      "file": "icons/updated-separated-svg-files/dot_chevron.svg",
+      "path": "updated-separated-svg-files/dot_chevron.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "dot",
+        "chevron"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f9fc8c8060183de8581a308d1b16ee940c67ae38da4fd222f4185b684084856e",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "dotted": {
+      "id": "dl_ca899a68e9ff4818a432",
+      "name": "dotted",
+      "title": "Dotted",
+      "file": "icons/updated-separated-svg-files/dotted.svg",
+      "path": "updated-separated-svg-files/dotted.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "dotted"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "65ce79b39f18a02fabad464ebc3f9fa738273f09dafafe95ed84c4e2caa153c3",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

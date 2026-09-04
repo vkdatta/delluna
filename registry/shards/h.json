@@ -105,6 +105,83 @@
       ],
       "hash": "787983b7fbd346d1edbc2f7a436307fa9fb94b2f9844d1f68b60a0215e11a17d",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "home": {
+      "id": "dl_70da741ebf0d46489309",
+      "name": "home",
+      "title": "Home",
+      "file": "icons/updated-separated-svg-files/home.svg",
+      "path": "updated-separated-svg-files/home.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "home"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d910f686fb7741aa4994a0bf93dee352005d952d9b7e134c23485cacfe072034",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "horizontal_swap": {
+      "id": "dl_98fed5edd9ad41279fcd",
+      "name": "horizontal_swap",
+      "title": "Horizontal Swap",
+      "file": "icons/updated-separated-svg-files/horizontal_swap.svg",
+      "path": "updated-separated-svg-files/horizontal_swap.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "horizontal",
+        "swap"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "af70a30d0d80cf75e52a09913476a6855dd556bd9220666b7132eee1229e0b4a",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

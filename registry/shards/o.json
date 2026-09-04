@@ -37,6 +37,121 @@
       ],
       "hash": "3629e6e77290ef4d8c53e8b2646c4ede4a90875219130baeb1ff42c1fed0ba78",
       "updatedAt": "2026-08-31T18:44:46.208Z"
+    },
+    "octagon": {
+      "id": "dl_34b6d5c65b2d473caf27",
+      "name": "octagon",
+      "title": "Octagon",
+      "file": "icons/updated-separated-svg-files/octagon.svg",
+      "path": "updated-separated-svg-files/octagon.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "octagon"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b22b2e3fb8247e20b6bda568dbd82c211ab145e119e259d23ede182e8be9cd50",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "offset": {
+      "id": "dl_559420d9b80942c4aa91",
+      "name": "offset",
+      "title": "Offset",
+      "file": "icons/updated-separated-svg-files/offset.svg",
+      "path": "updated-separated-svg-files/offset.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "offset"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1beb7f455d941714bcc3201177528327d3d7a97dbbf3a8354ef03e70aec1e457",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "offset_lines": {
+      "id": "dl_ceda1c7b8dd24d2ab211",
+      "name": "offset_lines",
+      "title": "Offset Lines",
+      "file": "icons/updated-separated-svg-files/offset_lines.svg",
+      "path": "updated-separated-svg-files/offset_lines.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "offset",
+        "lines"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ab89c8184014dd674dcdac3c79424d2178ebbf24feb2a5cc1304940d59df556c",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}

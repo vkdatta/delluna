@@ -22865,6 +22865,158 @@
       ],
       "hash": "9907533e3cfa280a66d033ded381f9b995f794ac10e360666e1d19373e0c17c2",
       "updatedAt": "2026-08-31T18:44:46.206Z"
+    },
+    "badge": {
+      "id": "dl_725f1434f65348e99731",
+      "name": "badge",
+      "title": "Badge",
+      "file": "icons/updated-separated-svg-files/badge.svg",
+      "path": "updated-separated-svg-files/badge.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "badge"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5db9df7cdc910f13d80f5037fbeeaec517ebf9ff92ed57e062ed4b802831566b",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "board": {
+      "id": "dl_4c3ef9a728d24757883e",
+      "name": "board",
+      "title": "Board",
+      "file": "icons/updated-separated-svg-files/board.svg",
+      "path": "updated-separated-svg-files/board.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "board"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b9e7b8630d66672d9ce30cf8392e20277fc482537a3629d3c3ea98053147a47b",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "box": {
+      "id": "dl_64e7878c0f9347a1bd77",
+      "name": "box",
+      "title": "Box",
+      "file": "icons/updated-separated-svg-files/box.svg",
+      "path": "updated-separated-svg-files/box.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "box"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5104ebb402b7365cf9811b9b408983d715b2c7f301d757acc7c962c2610b36ed",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
+    },
+    "braces": {
+      "id": "dl_9a861cbba889420b9daa",
+      "name": "braces",
+      "title": "Braces",
+      "file": "icons/updated-separated-svg-files/braces.svg",
+      "path": "updated-separated-svg-files/braces.svg",
+      "tags": [
+        "updated",
+        "separated",
+        "svg",
+        "files",
+        "braces"
+      ],
+      "categories": [
+        "updated-separated-svg-files"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "13382062ef0975eb579b491c9f082f2c13c5053f2e8c589db2f05d1ecbec5b89",
+      "updatedAt": "2026-09-04T10:02:28.528Z"
     }
   },
   "aliases": {}
