@@ -3185,6 +3185,255 @@
       "hash": "925ebb5ae1ef446f155564b7dbf7b8356ade8c0c89cf4569c370fe5792cdb344",
       "updatedAt": "2026-09-03T21:56:24.635Z"
     },
+    "seal-question": {
+      "id": "dl_687216557ef1e1fd3549",
+      "name": "seal-question",
+      "title": "Seal Question",
+      "file": "icons/S/seal-question.svg",
+      "path": "S/seal-question.svg",
+      "tags": [
+        "seal",
+        "question"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "92029ed1ead3259621e751982cd6c54857b09dc64c927f224cc84076b63b6e68",
+      "updatedAt": "2026-09-06T18:11:52.722Z"
+    },
+    "selection-bold": {
+      "id": "dl_8dd58003a44e5f7be6a5",
+      "name": "selection-bold",
+      "title": "Selection Bold",
+      "file": "icons/S/selection-bold.svg",
+      "path": "S/selection-bold.svg",
+      "tags": [
+        "selection",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "bca7ab4688ca03ed591ba3cfba90bda277b25596b649898388c51aebc7742fb3",
+      "updatedAt": "2026-09-06T18:11:52.723Z"
+    },
+    "shapes-thin": {
+      "id": "dl_bb5a2d6c5c5849f22dd7",
+      "name": "shapes-thin",
+      "title": "Shapes Thin",
+      "file": "icons/S/shapes-thin.svg",
+      "path": "S/shapes-thin.svg",
+      "tags": [
+        "shapes",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fdea82577950ae47e0e2dac53bd7a3e5c23164f474e434ed1e109abc32cdb55c",
+      "updatedAt": "2026-09-06T18:11:52.723Z"
+    },
+    "shield-slash-thin": {
+      "id": "dl_6c74afa41ca286a2510d",
+      "name": "shield-slash-thin",
+      "title": "Shield Slash Thin",
+      "file": "icons/S/shield-slash-thin.svg",
+      "path": "S/shield-slash-thin.svg",
+      "tags": [
+        "shield",
+        "slash",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2637ba13d31416767fddfac8b25ed25657b8e568a4ce5620cc7c75088e296b48",
+      "updatedAt": "2026-09-06T18:11:52.723Z"
+    },
+    "shipping-container-bold": {
+      "id": "dl_8fce652772e10ab66e2a",
+      "name": "shipping-container-bold",
+      "title": "Shipping Container Bold",
+      "file": "icons/S/shipping-container-bold.svg",
+      "path": "S/shipping-container-bold.svg",
+      "tags": [
+        "shipping",
+        "container",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2d2f23aba16487d2d7113a4c0c5cb722be1525e5af5be5e44c4bb5eb53b5f343",
+      "updatedAt": "2026-09-06T18:11:52.723Z"
+    },
+    "shipping-container-light": {
+      "id": "dl_a4f424bd271d8f5ef9f5",
+      "name": "shipping-container-light",
+      "title": "Shipping Container Light",
+      "file": "icons/S/shipping-container-light.svg",
+      "path": "S/shipping-container-light.svg",
+      "tags": [
+        "shipping",
+        "container",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "03b03949437e73fdcf9a61b5b62d7e08e88880d09734b0f5f272a9ed32545dce",
+      "updatedAt": "2026-09-06T18:11:52.724Z"
+    },
+    "sketch-logo-thin": {
+      "id": "dl_cbe63731ae291086883c",
+      "name": "sketch-logo-thin",
+      "title": "Sketch Logo Thin",
+      "file": "icons/S/sketch-logo-thin.svg",
+      "path": "S/sketch-logo-thin.svg",
+      "tags": [
+        "sketch",
+        "logo",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "683b0ffde140b33688f86a94b4f9be208628816a117c7496d6ed991a7e401b2a",
+      "updatedAt": "2026-09-06T18:11:52.724Z"
+    },
     "save": {
       "id": "dl_115d8191922db15e7c2d",
       "name": "save",
