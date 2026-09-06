@@ -3434,6 +3434,42 @@
       "hash": "03b03949437e73fdcf9a61b5b62d7e08e88880d09734b0f5f272a9ed32545dce",
       "updatedAt": "2026-09-06T18:11:52.724Z"
     },
+    "shooting-star-fill": {
+      "id": "dl_499d016aac1aa56de3d4",
+      "name": "shooting-star-fill",
+      "title": "Shooting Star Fill",
+      "file": "icons/S/shooting-star-fill.svg",
+      "path": "S/shooting-star-fill.svg",
+      "tags": [
+        "shooting",
+        "star",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "57455947016a999c86dd27ace601b320831853778dedbe0a5000a5fd23fbbe27",
+      "updatedAt": "2026-09-06T18:16:09.155Z"
+    },
     "shopping-bag-duotone": {
       "id": "dl_074e3024c63ead7f1de6",
       "name": "shopping-bag-duotone",
@@ -3469,6 +3505,43 @@
       ],
       "hash": "7c8666c1b779180724ed0536b926b8358e8cec579a91670fc8c3718b25e86776",
       "updatedAt": "2026-09-06T18:14:49.182Z"
+    },
+    "shopping-bag-open-light": {
+      "id": "dl_4afde6bd3018a8d77fd8",
+      "name": "shopping-bag-open-light",
+      "title": "Shopping Bag Open Light",
+      "file": "icons/S/shopping-bag-open-light.svg",
+      "path": "S/shopping-bag-open-light.svg",
+      "tags": [
+        "shopping",
+        "bag",
+        "open",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "9cee69ee3f2db453abe11b5d353abc63f5c3d1ffd0c7c23de199499dcf5c216b",
+      "updatedAt": "2026-09-06T18:16:09.155Z"
     },
     "shopping-cart-thin": {
       "id": "dl_6863b30f2203f4dce008",
@@ -3719,6 +3792,41 @@
       "hash": "d6f57a9ba11d4f5e73d924504dc390e69bc69509c43f1045ee6f12af071fba2e",
       "updatedAt": "2026-09-06T18:14:49.184Z"
     },
+    "sidebar-simple": {
+      "id": "dl_b7393500327d5349b0b0",
+      "name": "sidebar-simple",
+      "title": "Sidebar Simple",
+      "file": "icons/S/sidebar-simple.svg",
+      "path": "S/sidebar-simple.svg",
+      "tags": [
+        "sidebar",
+        "simple"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "36818e1212cb24f5e1aa7e10480b0f4dc399d2c61d9b9b53c062d799dde162a3",
+      "updatedAt": "2026-09-06T18:16:09.157Z"
+    },
     "sign-in-bold": {
       "id": "dl_cf2cb3246955fc96f7e1",
       "name": "sign-in-bold",
@@ -3895,6 +4003,41 @@
       ],
       "hash": "97ac840ed2d0b96c93bfcdf1ad802cf7bb46a8b9863fbc7eb0524646ed79cffb",
       "updatedAt": "2026-09-06T18:13:16.501Z"
+    },
+    "siren-fill": {
+      "id": "dl_5d2ab4e2b0eb30434a95",
+      "name": "siren-fill",
+      "title": "Siren Fill",
+      "file": "icons/S/siren-fill.svg",
+      "path": "S/siren-fill.svg",
+      "tags": [
+        "siren",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "141edae5ae78e2121e17cfbbc4d6bb968f21f263a9cd92c021585bbfb82bc692",
+      "updatedAt": "2026-09-06T18:16:09.158Z"
     },
     "siren-light": {
       "id": "dl_58cd1a36eff042c04a62",
@@ -4258,6 +4401,41 @@
       "hash": "e94963d13d90528f0ada43d1ba008a871752964dbe3d02192442d87742557b02",
       "updatedAt": "2026-09-06T18:14:49.188Z"
     },
+    "sliders-bold": {
+      "id": "dl_cfffa50d7b7d9d596c47",
+      "name": "sliders-bold",
+      "title": "Sliders Bold",
+      "file": "icons/S/sliders-bold.svg",
+      "path": "S/sliders-bold.svg",
+      "tags": [
+        "sliders",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "007cbacb2c8cdc44951edc8af5ae77b535933c6372ed4c52dbfd5171a90a3910",
+      "updatedAt": "2026-09-06T18:16:09.161Z"
+    },
     "sliders-duotone": {
       "id": "dl_9d1934490107804b04a5",
       "name": "sliders-duotone",
@@ -4538,6 +4716,42 @@
       "hash": "9b3820ce19323b4c9ae91c8c1675ae0300985cfa17c125745c69739b629b14ae",
       "updatedAt": "2026-09-06T18:13:16.504Z"
     },
+    "smiley-nervous-thin": {
+      "id": "dl_1d6c5953c9fe31e19cd0",
+      "name": "smiley-nervous-thin",
+      "title": "Smiley Nervous Thin",
+      "file": "icons/S/smiley-nervous-thin.svg",
+      "path": "S/smiley-nervous-thin.svg",
+      "tags": [
+        "smiley",
+        "nervous",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fb826842a8806a911edda979aea78fc5e2a03d251c472c69ca902677fbf1cc3b",
+      "updatedAt": "2026-09-06T18:16:09.163Z"
+    },
     "smiley-sad-bold": {
       "id": "dl_12a92eb28f9847e8bcea",
       "name": "smiley-sad-bold",
@@ -4718,6 +4932,43 @@
       "hash": "6018a5a4485c8df3f4a3e5741c8b6d85544f09e4ae5220d522a351a24c6caeb9",
       "updatedAt": "2026-09-06T18:13:16.504Z"
     },
+    "smiley-x-eyes-duotone": {
+      "id": "dl_cc01b94f1afb50c4f656",
+      "name": "smiley-x-eyes-duotone",
+      "title": "Smiley X Eyes Duotone",
+      "file": "icons/S/smiley-x-eyes-duotone.svg",
+      "path": "S/smiley-x-eyes-duotone.svg",
+      "tags": [
+        "smiley",
+        "x",
+        "eyes",
+        "duotone"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f0f341f41526a7dcc063eecbb26d62395e78e18c69d1d9febcf01b41edb3187c",
+      "updatedAt": "2026-09-06T18:16:09.164Z"
+    },
     "snapchat-logo": {
       "id": "dl_d2d50d6b925444e4bb84",
       "name": "snapchat-logo",
@@ -4788,6 +5039,42 @@
       "hash": "1afb7e190ccc570b399748e3536810da2c9a98d3e15c5dae72f9dfbf854d1e49",
       "updatedAt": "2026-09-06T18:13:16.504Z"
     },
+    "sneaker-move-light": {
+      "id": "dl_88544557df45817302c4",
+      "name": "sneaker-move-light",
+      "title": "Sneaker Move Light",
+      "file": "icons/S/sneaker-move-light.svg",
+      "path": "S/sneaker-move-light.svg",
+      "tags": [
+        "sneaker",
+        "move",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "44becfd2a52a17d98971a6f5d2eb81c9eda1348a862384ffbaf2dd2c0ff67c07",
+      "updatedAt": "2026-09-06T18:16:09.165Z"
+    },
     "snowflake-bold": {
       "id": "dl_43e49716c614db822774",
       "name": "snowflake-bold",
@@ -4822,6 +5109,41 @@
       ],
       "hash": "b2229107887b4fd89cdbc27fc1019003738f5fbdf30524f4001f540b1c149a0c",
       "updatedAt": "2026-09-06T18:14:49.192Z"
+    },
+    "snowflake-fill": {
+      "id": "dl_6850277daaf88a6eca33",
+      "name": "snowflake-fill",
+      "title": "Snowflake Fill",
+      "file": "icons/S/snowflake-fill.svg",
+      "path": "S/snowflake-fill.svg",
+      "tags": [
+        "snowflake",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d24670222e7adfeb1f6d3c1de655a00e01d5095975043566b95a2981ff695f60",
+      "updatedAt": "2026-09-06T18:16:09.166Z"
     },
     "soccer-ball-light": {
       "id": "dl_48e4cb4e8634658fbee5",
@@ -5144,6 +5466,41 @@
       "hash": "ad04fa6d972a5e5627d6074bef32a799034fb21ef40c3ba41766a112666ac690",
       "updatedAt": "2026-09-06T18:13:16.506Z"
     },
+    "soundcloud-logo": {
+      "id": "dl_7886f35f65790454a11f",
+      "name": "soundcloud-logo",
+      "title": "Soundcloud Logo",
+      "file": "icons/S/soundcloud-logo.svg",
+      "path": "S/soundcloud-logo.svg",
+      "tags": [
+        "soundcloud",
+        "logo"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "78c6a9f4c8fe2bbb832513c71eaddd0d6b064b8d1d19e579b8fd8bf7f0bfeb86",
+      "updatedAt": "2026-09-06T18:16:09.168Z"
+    },
     "spade-duotone": {
       "id": "dl_3f89bab31e646f9ed41a",
       "name": "spade-duotone",
@@ -5319,6 +5676,41 @@
       ],
       "hash": "fb4956e09f9e66e62e10949fe59c8163c28eb43644cfb6e945ca0628fcd41b5a",
       "updatedAt": "2026-09-06T18:14:49.195Z"
+    },
+    "speaker-low": {
+      "id": "dl_8e89f389e712c015ee15",
+      "name": "speaker-low",
+      "title": "Speaker Low",
+      "file": "icons/S/speaker-low.svg",
+      "path": "S/speaker-low.svg",
+      "tags": [
+        "speaker",
+        "low"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e8f30ca16e03c397ead5c26416ab3064bdcef0d64762f9255e24e629a5eaa4f6",
+      "updatedAt": "2026-09-06T18:16:09.170Z"
     },
     "speaker-none-bold": {
       "id": "dl_1898eed2b5af9dc0f7ae",
@@ -5504,6 +5896,42 @@
       "hash": "cb20f85581bf88fd506cf414baab33b86a40ee1b3da152047b9b4a2e358ba56f",
       "updatedAt": "2026-09-06T18:13:16.507Z"
     },
+    "speaker-simple-x": {
+      "id": "dl_0bdc65359fac0b275a14",
+      "name": "speaker-simple-x",
+      "title": "Speaker Simple X",
+      "file": "icons/S/speaker-simple-x.svg",
+      "path": "S/speaker-simple-x.svg",
+      "tags": [
+        "speaker",
+        "simple",
+        "x"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d11532556504b30a24ca1089e898021a0d142745179b8d06968763a582a86ecb",
+      "updatedAt": "2026-09-06T18:16:09.171Z"
+    },
     "speaker-slash-thin": {
       "id": "dl_68df0be6b9f3bee1311a",
       "name": "speaker-slash-thin",
@@ -5575,6 +6003,42 @@
       ],
       "hash": "09d2bd42cfd2b52b5a178a298a3be2bf037a4f77947aa06d7133cc06a0f5245d",
       "updatedAt": "2026-09-06T18:13:16.508Z"
+    },
+    "speaker-x-thin": {
+      "id": "dl_34620d88a63bba40cf5d",
+      "name": "speaker-x-thin",
+      "title": "Speaker X Thin",
+      "file": "icons/S/speaker-x-thin.svg",
+      "path": "S/speaker-x-thin.svg",
+      "tags": [
+        "speaker",
+        "x",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "938745a3fd84e0e4d569ed01a5249757959b77822f507407261f3413a13c7d28",
+      "updatedAt": "2026-09-06T18:16:09.172Z"
     },
     "speedometer-duotone": {
       "id": "dl_2249163e36f4dbac509a",
@@ -5679,6 +6143,40 @@
       ],
       "hash": "c91f5b43104c0245ab8feb2425c4152f00c5904c0e1547a8208dc2ca84684f4a",
       "updatedAt": "2026-09-06T18:13:16.508Z"
+    },
+    "sphere": {
+      "id": "dl_fc0886e2e63b955824a7",
+      "name": "sphere",
+      "title": "Sphere",
+      "file": "icons/S/sphere.svg",
+      "path": "S/sphere.svg",
+      "tags": [
+        "sphere"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "47af715a961c29d22a0b3b9a750e48726cc9771fcf2a1504f433cd194f5c08d2",
+      "updatedAt": "2026-09-06T18:16:09.173Z"
     },
     "spinner-ball-fill": {
       "id": "dl_e7aca7f7c6c786ab68e9",
@@ -5929,6 +6427,77 @@
       "hash": "754039b5452f502b6888a1eb08ca3982ea86388347c428593da61eb36c62c2f0",
       "updatedAt": "2026-09-06T18:14:49.199Z"
     },
+    "square-fill": {
+      "id": "dl_8356bec362f343fc104f",
+      "name": "square-fill",
+      "title": "Square Fill",
+      "file": "icons/S/square-fill.svg",
+      "path": "S/square-fill.svg",
+      "tags": [
+        "square",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2b79576bc5936252752ed288dfeb9ca8204eb4acbcf60002f0effafc760f2ed0",
+      "updatedAt": "2026-09-06T18:16:09.175Z"
+    },
+    "square-half-bold": {
+      "id": "dl_02e46a5dcd7c4ccbc315",
+      "name": "square-half-bold",
+      "title": "Square Half Bold",
+      "file": "icons/S/square-half-bold.svg",
+      "path": "S/square-half-bold.svg",
+      "tags": [
+        "square",
+        "half",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "2f8165874291b521ab54da329ffeb2628a0ba7cb20a38e4e81eaa23f6815c230",
+      "updatedAt": "2026-09-06T18:16:09.175Z"
+    },
     "square-half-bottom-bold": {
       "id": "dl_a5a93b132fd5943619ee",
       "name": "square-half-bottom-bold",
@@ -5965,6 +6534,43 @@
       ],
       "hash": "15837933551699d2bf3a5b287b65ac25502c890bc0aed0d2e0b44290ab601a3f",
       "updatedAt": "2026-09-06T18:14:49.199Z"
+    },
+    "square-half-bottom-thin": {
+      "id": "dl_4bf64cb5b5a677d70dd3",
+      "name": "square-half-bottom-thin",
+      "title": "Square Half Bottom Thin",
+      "file": "icons/S/square-half-bottom-thin.svg",
+      "path": "S/square-half-bottom-thin.svg",
+      "tags": [
+        "square",
+        "half",
+        "bottom",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "08c4f7d37462353d23241291ba908de72e1bd2747884f226d459bd125f0c6862",
+      "updatedAt": "2026-09-06T18:16:09.175Z"
     },
     "square-half-bottom": {
       "id": "dl_7fc296e0b5c4cce40209",
@@ -6073,6 +6679,80 @@
       ],
       "hash": "8771ac907b1fb3b191d095acdc24756beacbcab1a62c2df86a8ba328e687a881",
       "updatedAt": "2026-09-06T18:14:49.200Z"
+    },
+    "square-split-horizontal-bold": {
+      "id": "dl_5db225b55f07c6188f6b",
+      "name": "square-split-horizontal-bold",
+      "title": "Square Split Horizontal Bold",
+      "file": "icons/S/square-split-horizontal-bold.svg",
+      "path": "S/square-split-horizontal-bold.svg",
+      "tags": [
+        "square",
+        "split",
+        "horizontal",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "5ed5b554154f007fb01ac44f80e62150c9d30d179ebc105417dfe7589d141eb9",
+      "updatedAt": "2026-09-06T18:16:09.176Z"
+    },
+    "square-split-horizontal-light": {
+      "id": "dl_3fa6717e0a1865d22ef5",
+      "name": "square-split-horizontal-light",
+      "title": "Square Split Horizontal Light",
+      "file": "icons/S/square-split-horizontal-light.svg",
+      "path": "S/square-split-horizontal-light.svg",
+      "tags": [
+        "square",
+        "split",
+        "horizontal",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f301f1db4c9e923178e90ac69d8b0e1cbb845ef0337d78f82f939eabdeb2c480",
+      "updatedAt": "2026-09-06T18:16:09.176Z"
     },
     "squares-four-bold": {
       "id": "dl_4cd859d7f12010738cc7",
@@ -6323,6 +7003,42 @@
       ],
       "hash": "2b1a46b83e1a3c9217d1544ecce8dd92f9f63dfa0782f62fc833d8508d8f4437",
       "updatedAt": "2026-09-06T18:13:16.511Z"
+    },
+    "standard-definition-thin": {
+      "id": "dl_9b495faa6752c947cb11",
+      "name": "standard-definition-thin",
+      "title": "Standard Definition Thin",
+      "file": "icons/S/standard-definition-thin.svg",
+      "path": "S/standard-definition-thin.svg",
+      "tags": [
+        "standard",
+        "definition",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b13114a08fe8a03955ea187c5da2555aa678172c045a33598a5b84f115aedf41",
+      "updatedAt": "2026-09-06T18:16:09.178Z"
     },
     "star-and-crescent-light": {
       "id": "dl_3e5e547bde277901b11e",
@@ -6575,6 +7291,42 @@
       "hash": "48a7d4ce3d351ed9d02951797e5c88acd961e97aca3def7107f928a3510ced4c",
       "updatedAt": "2026-09-06T18:14:49.203Z"
     },
+    "steering-wheel-bold": {
+      "id": "dl_243af9dbdbda2f32860f",
+      "name": "steering-wheel-bold",
+      "title": "Steering Wheel Bold",
+      "file": "icons/S/steering-wheel-bold.svg",
+      "path": "S/steering-wheel-bold.svg",
+      "tags": [
+        "steering",
+        "wheel",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1ac49ec1db6eafd6d4caf1c5e814aa5c093e5966ce0262ba062949d155c8ebef",
+      "updatedAt": "2026-09-06T18:16:09.180Z"
+    },
     "steering-wheel-fill": {
       "id": "dl_2adccf0f10631ac1bb86",
       "name": "steering-wheel-fill",
@@ -6716,6 +7468,41 @@
       "hash": "bb56d85eea0ddd49e7c79c3e9a450748492c95e2ba9b208f3e455cd88f5bdd0e",
       "updatedAt": "2026-09-06T18:13:16.513Z"
     },
+    "stethoscope-fill": {
+      "id": "dl_fd52e4899b2a07859eb1",
+      "name": "stethoscope-fill",
+      "title": "Stethoscope Fill",
+      "file": "icons/S/stethoscope-fill.svg",
+      "path": "S/stethoscope-fill.svg",
+      "tags": [
+        "stethoscope",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0b5629785371bd9d0b702f24c2b9fa0555f1c6d0176077a54fed64bda9a4bd88",
+      "updatedAt": "2026-09-06T18:16:09.181Z"
+    },
     "sticker-bold": {
       "id": "dl_0899c107fab9651c87e7",
       "name": "sticker-bold",
@@ -6786,6 +7573,42 @@
       "hash": "32c1c6282510f6df88073e2336ed6e8249262041c832e8adcc16923f124d9528",
       "updatedAt": "2026-09-06T18:14:49.204Z"
     },
+    "stop-circle-bold": {
+      "id": "dl_84547a2aa34690b40eea",
+      "name": "stop-circle-bold",
+      "title": "Stop Circle Bold",
+      "file": "icons/S/stop-circle-bold.svg",
+      "path": "S/stop-circle-bold.svg",
+      "tags": [
+        "stop",
+        "circle",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "371b18cbe91ebe15d8ea24e031c11335d68f49eeb9debe6626e40c11e2b30507",
+      "updatedAt": "2026-09-06T18:16:09.182Z"
+    },
     "stop-circle-light": {
       "id": "dl_56834c09a6744a415221",
       "name": "stop-circle-light",
@@ -6821,6 +7644,40 @@
       ],
       "hash": "234f31b60a1ca7e91f52db2ec74e53de003a9cf9ac77de43753e51fad6396f67",
       "updatedAt": "2026-09-06T18:14:49.204Z"
+    },
+    "stop": {
+      "id": "dl_ab6a20b726325213cfb4",
+      "name": "stop",
+      "title": "Stop",
+      "file": "icons/S/stop.svg",
+      "path": "S/stop.svg",
+      "tags": [
+        "stop"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "90c8296c46c18d913784d0c3d6c66bbbfcf536b161a0387659d65dc2548ba623",
+      "updatedAt": "2026-09-06T18:16:09.182Z"
     },
     "storefront-bold": {
       "id": "dl_906fa8fc8f57998764d2",
