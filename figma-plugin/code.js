@@ -15,23 +15,15 @@ function variantSvg(raw,variant){
   return raw;
 }
 
-function styleSvg(raw,style,secondary='#7c818a'){
-  const m=String(raw).trim().match(/^<svg\b([^>]*)>([\s\S]*)<\/svg>\s*$/i); if(!m)return raw;
-  const vb=(m[1].match(/\bviewBox=["']([^"']+)["']/i)||[])[1]||'0 0 24 24';
-  const clean=m[2].replace(/\s*fill=["'](?:none|#[0-9a-f]{3,8}|rgba?\([^)]*\)|[a-z]+)["']/gi,'').replace(/\s*stroke=["'](?:none|#[0-9a-f]{3,8}|rgba?\([^)]*\)|[a-z]+)["']/gi,'');
-  const wrap=b=>`<svg viewBox="${vb}">${b}</svg>`;
-  if(style==='single')return wrap(clean); if(style==='outline')return wrap(m[2]); if(style==='fill')return wrap(clean.replace(/<([a-z][\w:-]*)([^>]*)>/gi,(x,t,a)=>{const self=/\/\s*$/.test(a);const attrs=a.replace(/\/\s*$/,'');return `<${t}${attrs} fill="currentColor" stroke="none"${self?'/':''}>`;})); if(style==='solid')return wrap(clean.replace(/stroke-width=["']([\d.]+)["']/gi,(_,v)=>`stroke-width="${(Number(v)*1.65).toFixed(2)}"`).replace(/<([a-z][\w:-]*)([^>]*)>/gi,(x,t,a)=>{const self=/\/\s*$/.test(a);const attrs=a.replace(/\/\s*$/,'');return `<${t}${attrs} fill="currentColor"${self?'/':''}>`;})); if(style==='duotone')return wrap(`<g opacity=".18">${clean}</g><g>${clean}</g>`); if(style==='duocolor')return wrap(`<g opacity=".45" style="color:${secondary}">${clean}</g><g>${clean}</g>`); return wrap(m[2]);
-}
 figma.ui.onmessage=async msg=>{
   try{
     if(msg.type==='close'){figma.closePlugin();return}
     if(msg.type==='import'){
       const base=safeBase(msg.base), p=String(msg.path||'').replace(/^\/+/, '').split('/').map(encodeURIComponent).join('/');
-      const url=`${base}/${msg.style&&msg.style!=='single'?`styles/${encodeURIComponent(msg.style)}/`:''}icons/${p}${msg.hash?`?v=${encodeURIComponent(msg.hash)}`:''}`;
+      const url=`${base}/icons/${p}${msg.hash?`?v=${encodeURIComponent(msg.hash)}`:''}`;
       let svg=await fetchText(url);
       svg=variantSvg(svg,msg.variant||'og');
-      if(msg.style==='single')svg=styleSvg(svg,'single');
-      const node=figma.createNodeFromSvg(svg); node.name=msg.name||'Delluna Icon'; node.setPluginData('delluna.icon',msg.name||''); node.setPluginData('delluna.style',msg.style||'single'); node.setPluginData('delluna.variant',msg.variant||'og'); figma.currentPage.appendChild(node); node.x=figma.viewport.center.x-node.width/2; node.y=figma.viewport.center.y-node.height/2; figma.currentPage.selection=[node]; figma.viewport.scrollAndZoomIntoView([node]); figma.notify(`Added ${msg.name}`); return;
+      const node=figma.createNodeFromSvg(svg); node.name=msg.name||'Delluna Icon'; node.setPluginData('delluna.icon',msg.name||''); node.setPluginData('delluna.variant',msg.variant||'og'); figma.currentPage.appendChild(node); node.x=figma.viewport.center.x-node.width/2; node.y=figma.viewport.center.y-node.height/2; figma.currentPage.selection=[node]; figma.viewport.scrollAndZoomIntoView([node]); figma.notify(`Added ${msg.name}`); return;
     }
   }catch(e){figma.notify(e.message||'Delluna import failed',{error:true})}
 };

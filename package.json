@@ -1,6 +1,6 @@
 {
-  "name": "delluna",
-  "version": "9.0.0",
+  "name": "@vkdatta/delluna",
+  "version": "1.0.0",
   "private": false,
   "type": "commonjs",
   "scripts": {
@@ -9,13 +9,13 @@
     "dev": "node tooling/dev.js",
     "stop": "node tooling/stop.js",
     "validate": "node tooling/validate.js",
-    "test": "node tooling/test.js"
+    "test": "node tooling/test.js",
+    "bootstrap-metadata": "node tooling/bootstrap-metadata.js"
   },
   "exports": {
     ".": "./dist/delluna.js",
     "./full": "./dist/delluna-full.js",
-    "./icons/*": "./dist/esm/*.js",
-    "./styles/*": "./dist/styles/*"
+    "./icons/*": "./dist/esm/*.mjs"
   },
   "files": [
     "dist",
@@ -23,6 +23,7 @@
     "registry",
     "runtime",
     "tooling",
+    "figma-plugin",
     "README.md",
     "LICENSE"
   ]

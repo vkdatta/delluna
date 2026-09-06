@@ -1,59 +1,245 @@
-# Delluna Icons V9
+# Delluna Icons V10
 
-Delluna V6 is a source-first SVG icon library with immutable icon IDs, a registry, a JIT browser runtime, generated distribution files, and a production-oriented administrative publishing workflow.
+Delluna V10 is a source-first SVG icon library with immutable icon IDs, generated registry shards, a lazy browser runtime, flat public per-icon ESM entry points, runtime visual variants, and an Admin Action Engine that changes only canonical source files.
 
-## Source of truth
+## 1. Canonical source
 
-`src/icons/` contains the SVG artwork and is authoritative. The builder never rewrites source files. `registry/manifest.json` and `registry/shards/` are the scalable registry index used by the public runtime and Admin fallback. `registry/icons.json` plus the root/dist `registry.json` files are generated compatibility copies while the legacy registry remains below the 80 MB compatibility threshold; above that threshold the shard registry is authoritative. `dist/` is the public distribution consumed by the catalog and CDN.
+Only these locations are authoritative:
 
-## Add an icon
+```text
+src/
+├── icons/
+│   ├── weather/umbrella.svg
+│   └── math/f.svg
+└── metadata/
+    ├── umbrella.json
+    └── f.json
+```
 
-Put an SVG anywhere under `src/icons/`. You do not need to assign an ID manually. The builder generates one for a new source file; existing embedded IDs are preserved. If two source files have the same public name, validation stops instead of silently replacing one.
+`src/icons/**/*.svg` is the artwork source. `src/metadata/<name>.json` is the human-maintained metadata for that icon.
 
-## Build and validate
+The public icon name is **only the SVG filename without `.svg`**. Folders are internal organization and are never part of the public icon name. Therefore `src/icons/weather/umbrella.svg` is requested as `umbrella`, not `weather/umbrella`.
+
+Duplicate basenames are forbidden anywhere under `src/icons/`. A build fails rather than silently choosing one.
+
+### Metadata format
+
+Metadata is deliberately small:
+
+```json
+{
+  "id": "dl_a83f92c1...",
+  "tags": ["weather", "rain", "protection"]
+}
+```
+
+Do not duplicate `name`, `path`, `file`, `extension`, `hash`, or folder/category information in metadata. Those values are derived from the source tree.
+
+`id` is the immutable Delluna identity. `tags` are human-maintained search terms. The builder generates the searchable tag index from them.
+
+The repository contains a small set of metadata examples under `src/metadata/`. Existing libraries can bootstrap metadata for all icons with:
+
+```bash
+npm run bootstrap-metadata -- --registry=/path/to/old/registry/icons.json
+```
+
+That migration utility preserves IDs and existing tags from a legacy registry when available. It never modifies SVG artwork.
+
+## 2. Generated state
+
+These directories are generated and are not canonical source:
+
+```text
+registry/
+dist/
+```
+
+The builder recreates them from `src/icons` and `src/metadata`. They may be absent from a source-only checkout and are produced by the build/Action workflow.
+
+The generated registry is intentionally not one giant catalog:
+
+```text
+registry/
+├── manifest.json
+├── index.json
+├── tags.json
+└── shards/
+    ├── 0.json
+    ├── a.json
+    ├── b.json
+    └── ...
+```
+
+- `manifest.json` describes the generated registry.
+- `index.json` is a compact searchable icon index.
+- `tags.json` maps human-maintained tags to public icon names.
+- `shards/*.json` contain the metadata required to resolve individual icons without downloading the complete catalog.
+
+There is deliberately no generated `registry/icons.json`, root `registry.json`, or `dist/registry.json` compatibility copy in V10.
+
+## 3. Build
 
 ```bash
 npm install
-npm run validate
+npm test
 npm run build
+npm run validate
 ```
 
-`npm run test` exercises the Worker/builder hashing contract, nested-folder ESM generation, registry integrity, full-bundle coverage, and upload safety policy. `npm run validate` is read-only. `npm run build` regenerates `dist/`, the registry copies, ESM icon modules, duplicate report, and both runtime distributions. The full bundle is generated from the current `src/icons/` set rather than copied as a stale snapshot.
+The build:
 
-## Browser usage
+1. scans `src/icons/**/*.svg`;
+2. validates SVG safety and canonical paths;
+3. enforces filename-only public-name uniqueness;
+4. reads per-icon metadata;
+5. preserves metadata IDs;
+6. generates registry shards, compact index, and tag index;
+7. copies source artwork to `dist/icons/` with its immutable ID injected for distribution;
+8. generates one flat ESM (`.mjs`) entry per public icon name under `dist/esm/`;
+9. generates the full runtime bundle from the current source set;
+10. copies the runtime and CSS distribution files.
+
+The build does **not** generate style folders.
+
+## 4. Public ESM imports
+
+Because filenames are unique public names, consumers can import an icon without knowing its source folder:
+
+```js
+import umbrella from '@vkdatta/delluna/icons/umbrella';
+import f from '@vkdatta/delluna/icons/f';
+```
+
+The generated module exposes:
+
+```js
+icon.name
+icon.id
+icon.url
+await icon.svg()
+```
+
+and is also the default export.
+
+The generated ESM files are flat even when source artwork is nested. The actual CDN artwork can remain internally organized by folder.
+
+## 5. Browser runtime
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/YOUR_GITHUB_OWNER/YOUR_GITHUB_REPO@main/dist/delluna.js"></script>
-<delluna-icon name="home"></delluna-icon>
-<delluna-icon name="math/plus"></delluna-icon>
+<script src="https://cdn.jsdelivr.net/gh/vkdatta/delluna@main/dist/delluna.js"></script>
+<delluna-icon name="umbrella"></delluna-icon>
 ```
 
-The runtime loads only the small registry shard needed for a requested icon and fetches only the requested SVG; shard requests are cached. Variants `og`, `hud`, `orbit`, `circuit`, and `plasma` remain supported.
+Or:
 
-## Admin publishing
+```html
+<i data-icon="umbrella"></i>
+```
 
-The Admin Portal provides persistent browser-backed upload batches, local analysis with live progress, SVG previews, conflict resolution, existing-icon rename/push, delete/push, favorites, collections, GitHub workflow status, responsive mobile navigation, folder creation/rename/delete/move/copy operations, editable upload destinations, persistent conflict review, and production-friendly error/success states.
+The runtime loads only the registry shard needed for the requested icon and then fetches only that icon's SVG. Registry shards are cached and concurrent requests for the same shard are coalesced.
 
-The publishing path is:
+Runtime variants remain:
 
-`Admin → Cloudflare Worker → GitHub commit → GitHub Actions validation/build → dist → CDN`
+```text
+og
+hud
+orbit
+circuit
+plasma
+```
 
-The Worker creates a normal Git commit from the current branch head and updates the branch without a force push, so concurrent admin publishes cannot silently overwrite each other. Admin publishing creates the source commit with the manifest/shards as the scalable registry authority, and keeps `registry.json` / `registry/icons.json` as integrity-checked compatibility copies while they remain below the legacy size threshold. The UI tracks the source commit separately from the later Actions/CDN build state; a successful source commit is not presented as a completed public build until Actions succeeds.
+Motion remains a runtime presentation layer:
 
+```text
+none
+pulse
+spin
+bounce
+shake
+wiggle
+float
+draw
+```
 
-## Publish/build lifecycle
+The old generated style families (`single`, `outline`, `fill`, `solid`, `duotone`, `duocolor`) are removed in V10. There is no `dist/styles/` output and no `./styles/*` package export.
 
-Admin publishing creates a source commit containing the SVGs and the registry manifest/shards, plus legacy registry compatibility copies while they remain below the compatibility threshold. The `Delluna Build` workflow regenerates the registry and distribution with `npm run build`, then validates the generated result; the build is the only workflow that regenerates `dist/`. The Worker and builder use the same SVG normalization before hashing, including newline and inter-tag whitespace normalization. Uploads are limited to safe SVG content, valid `.svg` destinations, 512 KB per file, up to 10,000 files per batch, and 50 MB of total SVG payload per request to keep large publishes bounded and responsive. The full bundle is regenerated from source on every build. Nested ESM modules are emitted with matching directory structure and content-hash query URLs so replacements do not remain stuck behind immutable CDN caches. Auto-tagging receives the exact generated distribution commit SHA, so a tag cannot silently point at a newer unbuilt branch head. Pull requests run the same test/validate/build checks before merge.
+## 6. Admin architecture
 
-The generated distribution commit uses `[skip ci]`, preventing the generated commit from starting a second build/tag cycle. `Universal Auto Tag` runs only after a successful build workflow and creates the next SemVer patch tag.
+The Admin Portal is the UI. It should not know about registry internals, generated distribution files, Git tree construction, or Cloudflare implementation details.
 
+The backend Action Engine owns operations such as:
 
-## V9 Icon System
+```text
+add icon
+rename icon
+move icon
+delete icon
+update metadata
+set/add/remove tags
+bulk rename
+```
 
-The canonical source remains one SVG per icon. Delluna derives style distributions at build time rather than requiring separate source artwork for every style. The supported rendering styles are `single`, `outline`, `fill`, `solid`, `duotone`, and `duocolor`; motion is a runtime presentation layer (`none`, `pulse`, `spin`, `bounce`, `shake`, `wiggle`, `float`, `draw`).
+An operation is validated and planned before it is applied. The resulting source mutation is committed atomically. For example, renaming `umbrella` to `rain` means renaming both the artwork and its metadata while preserving the immutable ID and tags.
 
-This distinction is intentional: generated style treatments are **reference/rendering variants**, not a substitute for professionally redrawn art direction. As the library grows, an icon may override its `styles` and `motions` metadata when a treatment is not semantically appropriate.
+The important boundary is:
 
-### Figma
+```text
+Admin Portal
+    ↓
+Action Engine
+    ↓
+src/icons + src/metadata
+    ↓
+one Git commit
+    ↓
+GitHub Actions
+    ↓
+registry + dist
+```
 
-The `figma-plugin/` directory contains the V9 Figma plugin source. Point the plugin's CDN base at the deployed Delluna distribution and import any registry icon as a native Figma vector. Motion is a web/runtime behavior and is intentionally not embedded in the Figma vector.
+The Admin UI does not need to expose or persist a YAML DSL. Its internal request can be a normal typed action object.
+
+## 7. GitHub Actions
+
+The workflow is intentionally simple:
+
+```text
+source push
+   ↓
+npm test
+   ↓
+npm run build
+   ↓
+npm run validate
+   ↓
+commit generated registry/dist
+```
+
+GitHub Actions is a build/validation layer, not the Delluna business-logic layer. It does not decide how rename, move, delete, or conflict resolution works.
+
+Generated commits use `[skip ci]` so a generated-artifact commit cannot create an endless build cycle.
+
+## 8. Migration from V9
+
+The V10 source tree can be bootstrapped from an existing V9 checkout without retaining the V9 registry as canonical source.
+
+Recommended sequence:
+
+```bash
+# Copy the existing SVG source tree into V10:
+#   src/icons/
+
+# Preserve existing IDs/tags from the old generated registry:
+npm run bootstrap-metadata -- --registry=/path/to/old/registry/icons.json
+
+# Then verify the new generated state:
+npm test
+npm run build
+npm run validate
+```
+
+After migration, `src/icons/` and `src/metadata/` are the only source of truth. The old registry is no longer required for normal builds.
+
+## 9. Figma
+
+`figma-plugin/` imports the normal generated icon artwork and applies the five runtime variants locally. It no longer depends on generated style distributions or `registry.json`.

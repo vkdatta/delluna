@@ -20,7 +20,6 @@ const AUTO_BASE=(()=>{
 const DEFAULTS={
     base:'',
     variant:'og',
-    style:'single',
     motion:'none',
     color:'currentColor',
     secondary:'currentColor',
@@ -120,14 +119,6 @@ async function resolveItem(name){
     if(!item&&aliasTarget) {
         const targetShard=await registryShard(aliasTarget);
         item=targetShard.icons&&targetShard.icons[aliasTarget]?targetShard.icons[aliasTarget]:null;
-    }
-    if(item) return item;
-    // Backward compatibility for deployments that have not built shards yet.
-    const legacy=await fetch(requireBase()+'/registry.json',{cache:'force-cache'}).then(r=>r.ok?r.json():null).catch(()=>null);
-    if(legacy&&legacy.icons){
-        item=legacy.icons[key]||null;
-        if(item&&item.aliasOf) item=legacy.icons[item.aliasOf]||null;
-        if(!item&&legacy.aliases&&legacy.aliases[key]) item=legacy.icons[legacy.aliases[key]]||null;
     }
     return item||null;
 }
@@ -635,21 +626,6 @@ function stylePlasma(p,c){
 </svg>`;
 }
 
-function applyStyle(p, c){
-    const style=String(c.style||'single').toLowerCase();
-    const attrs=p.attrs||'';
-    const inner=p.inner||'';
-    const wrap=(body,extra='')=>`<svg viewBox="0 0 ${p.w} ${p.h}" ${extra}>${body}</svg>`;
-    const clean=inner.replace(/\s*fill=["'](?:none|#[0-9a-f]{3,8}|rgba?\([^)]*\)|[a-z]+)["']/gi,'').replace(/\s*stroke=["'](?:none|#[0-9a-f]{3,8}|rgba?\([^)]*\)|[a-z]+)["']/gi,'').replace(/\s*style=["'][^"']*["']/gi,'');
-    if(style==='outline') return wrap(inner,'fill="none" stroke="currentColor"');
-    if(style==='single') return wrap(clean,'color="currentColor"');
-    if(style==='fill') return wrap(clean.replace(/<([a-z][\w:-]*)([^>]*)>/gi,(m,t,a)=>{const self=/\/\s*$/.test(a);const attrs=a.replace(/\/\s*$/,'');return `<${t}${attrs} fill="currentColor" stroke="none"${self?'/':''}>`;}));
-    if(style==='solid') return wrap(clean.replace(/stroke-width=["']([\d.]+)["']/gi,(_,v)=>`stroke-width="${(Number(v)*1.65).toFixed(2)}"`).replace(/<([a-z][\w:-]*)([^>]*)>/gi,(m,t,a)=>{const self=/\/\s*$/.test(a);const attrs=a.replace(/\/\s*$/,'');return `<${t}${attrs} fill="currentColor"${self?'/':''}>`;}));
-    if(style==='duotone') return wrap(`<g opacity="0.18">${clean}</g><g>${clean}</g>`);
-    if(style==='duocolor') return wrap(`<g style="color:${String(c.secondary||'currentColor').replace(/["<>]/g,'')}">${clean}</g><g opacity="0.95">${clean}</g>`);
-    return wrap(inner,attrs);
-}
-
 function applyMotion(svg, motion){
     const m=String(motion||'none').toLowerCase();
     const allowed=new Set(['none','pulse','spin','bounce','shake','wiggle','float','draw']);
@@ -807,10 +783,6 @@ async function render(name,extra){
             ),
             c
         );
-    if(c.style && c.style !== 'single') {
-        const styled=parseSvg(svg);
-        if(styled) svg=applyStyle(styled,c);
-    }
     svg=applyMotion(svg,c.motion);
 
     const safeColor=
@@ -851,7 +823,6 @@ function collectAttributes(el){
     const variant=
         el.getAttribute('variant');
 
-    const style=el.getAttribute('style');
     const motion=el.getAttribute('motion');
     const secondary=el.getAttribute('secondary');
 
@@ -876,7 +847,6 @@ function collectAttributes(el){
     if(variant!==null){
         result.variant=variant;
     }
-    if(style!==null){ result.style=style; }
     if(motion!==null){ result.motion=motion; }
     if(secondary!==null){ result.secondary=secondary; }
 
@@ -1033,11 +1003,9 @@ class DellunaIcon extends HTMLElement{
         return[
             'name',
             'variant',
-            'style',
             'motion',
             'secondary',
             'color',
-            'style',
             'motion',
             'secondary',
             'fill',
@@ -1076,6 +1044,12 @@ function repaint(){
             'delluna-icon,[data-icon]'
         )
         .forEach(paint);
+}
+
+async function registry(){
+    const response=await fetch(requireBase()+'/registry/manifest.json',{cache:'no-store'});
+    if(!response.ok) throw new Error('Delluna registry manifest unavailable: HTTP '+response.status);
+    return response.json();
 }
 
 const Delluna={
@@ -1124,7 +1098,6 @@ const Delluna={
         }
 
         [
-            'style',
             'motion',
             'secondary',
             'fill',
@@ -1216,7 +1189,6 @@ const Delluna={
     variants:Object.keys(
         families
     ),
-    styles:['single','outline','fill','solid','duotone','duocolor'],
     motions:['none','pulse','spin','bounce','shake','wiggle','float','draw'],
 
     iconUrl:url,

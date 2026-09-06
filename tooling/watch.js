@@ -3,6 +3,9 @@ const root=path.resolve(__dirname,'..');
 let timer=null;
 function build(){cp.spawnSync(process.execPath,[path.join(__dirname,'build.js')],{stdio:'inherit'});}
 build();
-for(const dir of [path.join(root,'src/icons'),path.join(root,'runtime')])fs.watch(dir,{recursive:true},()=>{clearTimeout(timer);timer=setTimeout(build,120);});
+for(const dir of [path.join(root,'src/icons'),path.join(root,'src/metadata'),path.join(root,'runtime')]){
+  if(!fs.existsSync(dir)) continue;
+  fs.watch(dir,{recursive:true},()=>{clearTimeout(timer);timer=setTimeout(build,120);});
+}
 console.log('Delluna watcher running.');
 setInterval(()=>{},1<<30);
