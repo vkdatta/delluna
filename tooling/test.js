@@ -60,6 +60,21 @@ try {
   assert(!runtime.includes('applyStyle('), 'Runtime still applies removed style transformations');
   assert(runtime.includes('async function registry()'), 'Runtime registry() API is missing');
 
+  // Runtime CDN layout: delluna.js lives in /dist while the generated registry
+  // lives at the package root in /registry. The runtime must therefore derive
+  // the package root from ../, not use the /dist directory as the base.
+  assert(runtime.includes("new URL('../',RUNTIME_SCRIPT.src)"), 'Runtime still derives its base URL from /dist');
+  assert(!runtime.includes("new URL('./',RUNTIME_SCRIPT.src)"), 'Runtime still uses the old /dist base URL calculation');
+
+  // Regression: the custom element must not be defined before the Delluna API
+  // exists. Defining it too early can upgrade an existing <delluna-icon> and
+  // invoke connectedCallback() while const Delluna is still in its TDZ.
+  const dellunaDeclaration = runtime.indexOf('const Delluna={');
+  const customElementDefinition = runtime.indexOf("customElements.define(");
+  assert(dellunaDeclaration >= 0, 'Delluna API declaration is missing');
+  assert(customElementDefinition > dellunaDeclaration, 'Custom element is registered before Delluna initialization');
+  assert(runtime.indexOf('window.Delluna=') > dellunaDeclaration, 'Delluna is not exported after initialization');
+
   // Figma plugin must consume the normal icon path rather than style distributions.
   const figma = fs.readFileSync(path.join(root, 'figma-plugin/code.js'), 'utf8');
   const figmaUi = fs.readFileSync(path.join(root, 'figma-plugin/ui.html'), 'utf8');

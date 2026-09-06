@@ -9,7 +9,10 @@ const AUTO_BASE=(()=>{
     }
 
     try{
-        return new URL('./',RUNTIME_SCRIPT.src).href.replace(/\/+$/,'');
+        // delluna.js is generated into /dist, while the generated registry is
+        // kept at the package/repository root in /registry. Move one level up
+        // from the runtime script directory so CDN and npm layouts agree.
+        return new URL('../',RUNTIME_SCRIPT.src).href.replace(/\/+$/,'');
     }catch(e){
         return String(RUNTIME_SCRIPT.src)
             .replace(/\/delluna(?:\.min)?\.js(?:\?.*)?$/i,'')
@@ -1027,17 +1030,6 @@ class DellunaIcon extends HTMLElement{
     }
 }
 
-if(
-    !customElements.get(
-        'delluna-icon'
-    )
-){
-    customElements.define(
-        'delluna-icon',
-        DellunaIcon
-    );
-}
-
 function repaint(){
     document
         .querySelectorAll(
@@ -1241,6 +1233,21 @@ function autoConfigure(){
 
 installStyles();
 autoConfigure();
+
+// Register the custom element only after the Delluna API has been fully
+// initialized. Defining it earlier can synchronously upgrade an existing
+// <delluna-icon> and call connectedCallback(), which reaches getBase() while
+// `const Delluna` is still in its temporal dead zone.
+if(
+    !customElements.get(
+        'delluna-icon'
+    )
+){
+    customElements.define(
+        'delluna-icon',
+        DellunaIcon
+    );
+}
 
 const observer=
     new MutationObserver(
