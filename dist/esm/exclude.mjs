@@ -1,0 +1,6 @@
+export const name="exclude";
+export const id="dl_7ecfda7192c549a6b064";
+export const url=new URL("../icons/exclude.svg?v=5de3e3051fc77088d76ba6ae127ce6a9b696b4b44d220c6d0a68202255457edc",import.meta.url).href;
+export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
+const icon={name,id,url,svg};
+export default icon;

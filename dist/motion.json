@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "motions": [
+    "none",
+    "pulse",
+    "spin",
+    "bounce",
+    "shake",
+    "wiggle",
+    "float",
+    "draw"
+  ]
+}
