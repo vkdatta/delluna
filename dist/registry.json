@@ -53,7 +53,7 @@
     "singleton",
     "updated-separated-svg-files"
   ],
-  "generatedAt": "2026-09-06T18:13:14.528Z",
+  "generatedAt": "2026-09-06T18:14:47.219Z",
   "icons": {
     "acorn-bold": {
       "id": "dl_be4fc717b866449fbcfd",
@@ -316558,6 +316558,42 @@
       "hash": "bca7ab4688ca03ed591ba3cfba90bda277b25596b649898388c51aebc7742fb3",
       "updatedAt": "2026-09-06T18:11:52.723Z"
     },
+    "selection-slash-thin": {
+      "id": "dl_dc49ee750296ad23e304",
+      "name": "selection-slash-thin",
+      "title": "Selection Slash Thin",
+      "file": "icons/S/selection-slash-thin.svg",
+      "path": "S/selection-slash-thin.svg",
+      "tags": [
+        "selection",
+        "slash",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a8df1cf387688b2e8a8ca121aa1be124e00245ceef2021c28d96571ea8fc899e",
+      "updatedAt": "2026-09-06T18:14:49.181Z"
+    },
     "shapes-thin": {
       "id": "dl_bb5a2d6c5c5849f22dd7",
       "name": "shapes-thin",
@@ -316701,6 +316737,291 @@
       "hash": "03b03949437e73fdcf9a61b5b62d7e08e88880d09734b0f5f272a9ed32545dce",
       "updatedAt": "2026-09-06T18:11:52.724Z"
     },
+    "shopping-bag-duotone": {
+      "id": "dl_074e3024c63ead7f1de6",
+      "name": "shopping-bag-duotone",
+      "title": "Shopping Bag Duotone",
+      "file": "icons/S/shopping-bag-duotone.svg",
+      "path": "S/shopping-bag-duotone.svg",
+      "tags": [
+        "shopping",
+        "bag",
+        "duotone"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7c8666c1b779180724ed0536b926b8358e8cec579a91670fc8c3718b25e86776",
+      "updatedAt": "2026-09-06T18:14:49.182Z"
+    },
+    "shopping-cart-thin": {
+      "id": "dl_6863b30f2203f4dce008",
+      "name": "shopping-cart-thin",
+      "title": "Shopping Cart Thin",
+      "file": "icons/S/shopping-cart-thin.svg",
+      "path": "S/shopping-cart-thin.svg",
+      "tags": [
+        "shopping",
+        "cart",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "89613503c2d27999da64daf6236f1e866dcfe6c476af99f62e8e299b47d63978",
+      "updatedAt": "2026-09-06T18:14:49.183Z"
+    },
+    "shovel-duotone": {
+      "id": "dl_e3e595fe92c4a4da79ba",
+      "name": "shovel-duotone",
+      "title": "Shovel Duotone",
+      "file": "icons/S/shovel-duotone.svg",
+      "path": "S/shovel-duotone.svg",
+      "tags": [
+        "shovel",
+        "duotone"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "dc679035bd42e1c5e67249379b1bf00f7a37f1b1fc4e472c25a368638a7ebbe4",
+      "updatedAt": "2026-09-06T18:14:49.183Z"
+    },
+    "shovel-thin": {
+      "id": "dl_043fd4e41ad346d4aac0",
+      "name": "shovel-thin",
+      "title": "Shovel Thin",
+      "file": "icons/S/shovel-thin.svg",
+      "path": "S/shovel-thin.svg",
+      "tags": [
+        "shovel",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4370a7a69bb9feee37a098b13169e2db4b2f811796c3a347779f812ccf41fa8c",
+      "updatedAt": "2026-09-06T18:14:49.183Z"
+    },
+    "shrimp-fill": {
+      "id": "dl_ca00680bd86e8737db1c",
+      "name": "shrimp-fill",
+      "title": "Shrimp Fill",
+      "file": "icons/S/shrimp-fill.svg",
+      "path": "S/shrimp-fill.svg",
+      "tags": [
+        "shrimp",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8e03a72c5e581ace0c0f9a46d53a6d3f675f94aef49eb67612aa786933e2c03d",
+      "updatedAt": "2026-09-06T18:14:49.184Z"
+    },
+    "shuffle-angular-thin": {
+      "id": "dl_46731dc31bb909a4b426",
+      "name": "shuffle-angular-thin",
+      "title": "Shuffle Angular Thin",
+      "file": "icons/S/shuffle-angular-thin.svg",
+      "path": "S/shuffle-angular-thin.svg",
+      "tags": [
+        "shuffle",
+        "angular",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ae1033baf7ae41d847bee000503cd42025954edaeb3af9a3f469dfac082ea7b8",
+      "updatedAt": "2026-09-06T18:14:49.184Z"
+    },
+    "sidebar-simple-light": {
+      "id": "dl_ffe276158c54bd305888",
+      "name": "sidebar-simple-light",
+      "title": "Sidebar Simple Light",
+      "file": "icons/S/sidebar-simple-light.svg",
+      "path": "S/sidebar-simple-light.svg",
+      "tags": [
+        "sidebar",
+        "simple",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "eb4694ef6ab380723715d77e54958003efd10974ad765989b8ffdf899d03fbcd",
+      "updatedAt": "2026-09-06T18:14:49.184Z"
+    },
+    "sidebar-simple-thin": {
+      "id": "dl_3c8c6371feeb70cf6150",
+      "name": "sidebar-simple-thin",
+      "title": "Sidebar Simple Thin",
+      "file": "icons/S/sidebar-simple-thin.svg",
+      "path": "S/sidebar-simple-thin.svg",
+      "tags": [
+        "sidebar",
+        "simple",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d6f57a9ba11d4f5e73d924504dc390e69bc69509c43f1045ee6f12af071fba2e",
+      "updatedAt": "2026-09-06T18:14:49.184Z"
+    },
     "sign-in-bold": {
       "id": "dl_cf2cb3246955fc96f7e1",
       "name": "sign-in-bold",
@@ -316736,6 +317057,41 @@
       ],
       "hash": "daf2e688394a27ea4a69bb247072516e8b5a0f2cad2369c089398db3551f6756",
       "updatedAt": "2026-09-06T18:13:16.500Z"
+    },
+    "signature-bold": {
+      "id": "dl_7ec9e7e3ba2f10d14c54",
+      "name": "signature-bold",
+      "title": "Signature Bold",
+      "file": "icons/S/signature-bold.svg",
+      "path": "S/signature-bold.svg",
+      "tags": [
+        "signature",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f340759209d280bc02e4de0dbdb91952e1a610e91efb14beb7126212dbf0d742",
+      "updatedAt": "2026-09-06T18:14:49.185Z"
     },
     "signpost-fill": {
       "id": "dl_261d921089fb355c2fae",
@@ -316877,6 +317233,42 @@
       ],
       "hash": "157a69c7901e3caee79d9a368a6537f4bee02636ade531c3e14350144ed4ceef",
       "updatedAt": "2026-09-06T18:13:16.501Z"
+    },
+    "sketch-logo-duotone": {
+      "id": "dl_9ca63f063999c67a38f7",
+      "name": "sketch-logo-duotone",
+      "title": "Sketch Logo Duotone",
+      "file": "icons/S/sketch-logo-duotone.svg",
+      "path": "S/sketch-logo-duotone.svg",
+      "tags": [
+        "sketch",
+        "logo",
+        "duotone"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e12ed80226d81142255185d60be0784979b00f48eb2d087c9bacdcc6addaad1d",
+      "updatedAt": "2026-09-06T18:14:49.186Z"
     },
     "sketch-logo-thin": {
       "id": "dl_cbe63731ae291086883c",
@@ -317024,6 +317416,79 @@
       "hash": "a01916dc97cc9e0f3b408af36090c24011815c1f682c9986aa559ceb267b204b",
       "updatedAt": "2026-09-06T18:13:16.502Z"
     },
+    "skip-forward-circle-thin": {
+      "id": "dl_91ccd08f54157343b6a8",
+      "name": "skip-forward-circle-thin",
+      "title": "Skip Forward Circle Thin",
+      "file": "icons/S/skip-forward-circle-thin.svg",
+      "path": "S/skip-forward-circle-thin.svg",
+      "tags": [
+        "skip",
+        "forward",
+        "circle",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b52fae088122610e554d0b009f3359bc91979fc060b245afc8ab89efb317be59",
+      "updatedAt": "2026-09-06T18:14:49.187Z"
+    },
+    "skype-logo-fill": {
+      "id": "dl_d723ad228ebb1250025e",
+      "name": "skype-logo-fill",
+      "title": "Skype Logo Fill",
+      "file": "icons/S/skype-logo-fill.svg",
+      "path": "S/skype-logo-fill.svg",
+      "tags": [
+        "skype",
+        "logo",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "bd264055d7317fb0cfe3a39ae17028d2a5447dc3a204a999c5e5fbebed423e28",
+      "updatedAt": "2026-09-06T18:14:49.187Z"
+    },
     "skype-logo-light": {
       "id": "dl_0d868b07829b9f63ae0f",
       "name": "skype-logo-light",
@@ -317059,6 +317524,42 @@
       ],
       "hash": "c7500435dc3b8762707f62d1cf37df46fcece9b9b92fcda4f97683e9ea82ddc5",
       "updatedAt": "2026-09-06T18:13:16.502Z"
+    },
+    "slack-logo-fill": {
+      "id": "dl_57e43137d87f3c441fe3",
+      "name": "slack-logo-fill",
+      "title": "Slack Logo Fill",
+      "file": "icons/S/slack-logo-fill.svg",
+      "path": "S/slack-logo-fill.svg",
+      "tags": [
+        "slack",
+        "logo",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e94963d13d90528f0ada43d1ba008a871752964dbe3d02192442d87742557b02",
+      "updatedAt": "2026-09-06T18:14:49.188Z"
     },
     "sliders-duotone": {
       "id": "dl_9d1934490107804b04a5",
@@ -317131,6 +317632,41 @@
       "hash": "76260b62780cba20278d8c45eb9107801090414b0fbb8a6b67c97860664d7237",
       "updatedAt": "2026-09-06T18:13:16.503Z"
     },
+    "sliders-thin": {
+      "id": "dl_02a43b70c10cff25ac0a",
+      "name": "sliders-thin",
+      "title": "Sliders Thin",
+      "file": "icons/S/sliders-thin.svg",
+      "path": "S/sliders-thin.svg",
+      "tags": [
+        "sliders",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "dd93b36c52e8731e86046d1d90cb49435e6496ff931ba9714a207af8fadf5883",
+      "updatedAt": "2026-09-06T18:14:49.189Z"
+    },
     "sliders": {
       "id": "dl_73ceb365680f864c21d8",
       "name": "sliders",
@@ -317198,6 +317734,77 @@
       ],
       "hash": "dd2061f31a9acfcdbda9f51f53fdf6490884a1156f6f2859d41eab8ac2d37e74",
       "updatedAt": "2026-09-06T18:13:16.503Z"
+    },
+    "smiley-angry-light": {
+      "id": "dl_ec6a86eb9dd212de73a5",
+      "name": "smiley-angry-light",
+      "title": "Smiley Angry Light",
+      "file": "icons/S/smiley-angry-light.svg",
+      "path": "S/smiley-angry-light.svg",
+      "tags": [
+        "smiley",
+        "angry",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "ee5667bca1a68c7708541dd2ce4c2fda3d8798e2024d9c68aceded7a4da56a81",
+      "updatedAt": "2026-09-06T18:14:49.189Z"
+    },
+    "smiley-angry": {
+      "id": "dl_b38eb5dce612cf0153a3",
+      "name": "smiley-angry",
+      "title": "Smiley Angry",
+      "file": "icons/S/smiley-angry.svg",
+      "path": "S/smiley-angry.svg",
+      "tags": [
+        "smiley",
+        "angry"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "7f2c6786423d9b5fe6f9f3f97b7a50064d5ca0ce78ef21d0d43ca1d28111dd0c",
+      "updatedAt": "2026-09-06T18:14:49.190Z"
     },
     "smiley-blank": {
       "id": "dl_d13cf7e6c323441fbfef",
@@ -317270,6 +317877,114 @@
       "hash": "86ca156bef5f21574c1de0ed2339354b719568a24567c019fddfe8d60c1cbff9",
       "updatedAt": "2026-09-06T18:13:16.504Z"
     },
+    "smiley-sticker-bold": {
+      "id": "dl_45e705543e5bdaa14d87",
+      "name": "smiley-sticker-bold",
+      "title": "Smiley Sticker Bold",
+      "file": "icons/S/smiley-sticker-bold.svg",
+      "path": "S/smiley-sticker-bold.svg",
+      "tags": [
+        "smiley",
+        "sticker",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "e247fc272a7fa53c6fb4afaa7ff9c29a1a228d911e0a9f3d6a38c2c44aa18cea",
+      "updatedAt": "2026-09-06T18:14:49.190Z"
+    },
+    "smiley-wink-fill": {
+      "id": "dl_5a2ec47c124480a0463e",
+      "name": "smiley-wink-fill",
+      "title": "Smiley Wink Fill",
+      "file": "icons/S/smiley-wink-fill.svg",
+      "path": "S/smiley-wink-fill.svg",
+      "tags": [
+        "smiley",
+        "wink",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fe39123c930a66c4b97ab507f631bb0e4424fa6a049921f6f201ca1135f404ca",
+      "updatedAt": "2026-09-06T18:14:49.191Z"
+    },
+    "smiley-wink-light": {
+      "id": "dl_290a8ce85dae7028caeb",
+      "name": "smiley-wink-light",
+      "title": "Smiley Wink Light",
+      "file": "icons/S/smiley-wink-light.svg",
+      "path": "S/smiley-wink-light.svg",
+      "tags": [
+        "smiley",
+        "wink",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "f4f419ee3849e201af40f677cfb008308f6e5fba652f4b818dc6c226d99f4c65",
+      "updatedAt": "2026-09-06T18:14:49.191Z"
+    },
     "smiley-wink-thin": {
       "id": "dl_823f63058d837f8762ce",
       "name": "smiley-wink-thin",
@@ -317306,6 +318021,41 @@
       "hash": "6018a5a4485c8df3f4a3e5741c8b6d85544f09e4ae5220d522a351a24c6caeb9",
       "updatedAt": "2026-09-06T18:13:16.504Z"
     },
+    "snapchat-logo": {
+      "id": "dl_d2d50d6b925444e4bb84",
+      "name": "snapchat-logo",
+      "title": "Snapchat Logo",
+      "file": "icons/S/snapchat-logo.svg",
+      "path": "S/snapchat-logo.svg",
+      "tags": [
+        "snapchat",
+        "logo"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "32d081802e0170f97eb28c1bafbeccdbe2c6953fc64f9d6d95e6d521312cdf95",
+      "updatedAt": "2026-09-06T18:14:49.191Z"
+    },
     "sneaker-bold": {
       "id": "dl_98cdd9211a40158dd468",
       "name": "sneaker-bold",
@@ -317340,6 +318090,77 @@
       ],
       "hash": "1afb7e190ccc570b399748e3536810da2c9a98d3e15c5dae72f9dfbf854d1e49",
       "updatedAt": "2026-09-06T18:13:16.504Z"
+    },
+    "snowflake-bold": {
+      "id": "dl_43e49716c614db822774",
+      "name": "snowflake-bold",
+      "title": "Snowflake Bold",
+      "file": "icons/S/snowflake-bold.svg",
+      "path": "S/snowflake-bold.svg",
+      "tags": [
+        "snowflake",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b2229107887b4fd89cdbc27fc1019003738f5fbdf30524f4001f540b1c149a0c",
+      "updatedAt": "2026-09-06T18:14:49.192Z"
+    },
+    "soccer-ball-light": {
+      "id": "dl_48e4cb4e8634658fbee5",
+      "name": "soccer-ball-light",
+      "title": "Soccer Ball Light",
+      "file": "icons/S/soccer-ball-light.svg",
+      "path": "S/soccer-ball-light.svg",
+      "tags": [
+        "soccer",
+        "ball",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "4664523bfcb02f079651d1bb1634c43e3d33409dd8723566c51a5759dfdf42f1",
+      "updatedAt": "2026-09-06T18:14:49.192Z"
     },
     "sock-fill": {
       "id": "dl_043863cf3c315c1048f9",
@@ -317410,6 +318231,77 @@
       ],
       "hash": "26f2b15daa74e51af3833d17046fe37a4ffbf01f0a3ee693e92c6bc93b598cc0",
       "updatedAt": "2026-09-06T18:13:16.505Z"
+    },
+    "solar-panel": {
+      "id": "dl_af1e87633a858a8e825c",
+      "name": "solar-panel",
+      "title": "Solar Panel",
+      "file": "icons/S/solar-panel.svg",
+      "path": "S/solar-panel.svg",
+      "tags": [
+        "solar",
+        "panel"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "087d7a1dd2a06b117fb9f449252f5404a3e35daa63e38e542fe728cd6ca28088",
+      "updatedAt": "2026-09-06T18:14:49.193Z"
+    },
+    "solar-roof-fill": {
+      "id": "dl_19510776b6ca5d5db636",
+      "name": "solar-roof-fill",
+      "title": "Solar Roof Fill",
+      "file": "icons/S/solar-roof-fill.svg",
+      "path": "S/solar-roof-fill.svg",
+      "tags": [
+        "solar",
+        "roof",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "1afa1525a4087db245682ddf85144ba04fa7f6956b856f49463b086774e1da70",
+      "updatedAt": "2026-09-06T18:14:49.193Z"
     },
     "solar-roof-light": {
       "id": "dl_2a16711cfd51a3df1181",
@@ -317483,6 +318375,42 @@
       "hash": "ae63df66e8f18393b8f8e1ee96047888451ee9afeeff3df951b850e8dfaff070",
       "updatedAt": "2026-09-06T18:13:16.506Z"
     },
+    "sort-descending-light": {
+      "id": "dl_d85dc3aae16b40fbbde0",
+      "name": "sort-descending-light",
+      "title": "Sort Descending Light",
+      "file": "icons/S/sort-descending-light.svg",
+      "path": "S/sort-descending-light.svg",
+      "tags": [
+        "sort",
+        "descending",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "d60bda29812762925578914f83a51a5d88070784c4ba59827083c5e4d16f06f8",
+      "updatedAt": "2026-09-06T18:14:49.194Z"
+    },
     "soundcloud-logo-light": {
       "id": "dl_dc5bcbfbc5f9c255bc34",
       "name": "soundcloud-logo-light",
@@ -317518,6 +318446,41 @@
       ],
       "hash": "ad04fa6d972a5e5627d6074bef32a799034fb21ef40c3ba41766a112666ac690",
       "updatedAt": "2026-09-06T18:13:16.506Z"
+    },
+    "spade-duotone": {
+      "id": "dl_3f89bab31e646f9ed41a",
+      "name": "spade-duotone",
+      "title": "Spade Duotone",
+      "file": "icons/S/spade-duotone.svg",
+      "path": "S/spade-duotone.svg",
+      "tags": [
+        "spade",
+        "duotone"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0e8099db8b308fdddcbe34df37fa1d2c664be1040db5e0f4f2f018fb7684c4f0",
+      "updatedAt": "2026-09-06T18:14:49.194Z"
     },
     "spade": {
       "id": "dl_a2fcd764e586ff53b8a9",
@@ -317588,6 +318551,78 @@
       "hash": "9872a9255717f4ecc0f01b028b9436042e0f49391e4ce7a57f61aa466684fad1",
       "updatedAt": "2026-09-06T18:13:16.506Z"
     },
+    "speaker-hifi-bold": {
+      "id": "dl_e3997893b808520e8fbf",
+      "name": "speaker-hifi-bold",
+      "title": "Speaker Hifi Bold",
+      "file": "icons/S/speaker-hifi-bold.svg",
+      "path": "S/speaker-hifi-bold.svg",
+      "tags": [
+        "speaker",
+        "hifi",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "a548cb06871077652a366454da045206c3664c5342682015ad9f502d7d20329f",
+      "updatedAt": "2026-09-06T18:14:49.195Z"
+    },
+    "speaker-high-light": {
+      "id": "dl_d46127f852e389e72ef9",
+      "name": "speaker-high-light",
+      "title": "Speaker High Light",
+      "file": "icons/S/speaker-high-light.svg",
+      "path": "S/speaker-high-light.svg",
+      "tags": [
+        "speaker",
+        "high",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "fb4956e09f9e66e62e10949fe59c8163c28eb43644cfb6e945ca0628fcd41b5a",
+      "updatedAt": "2026-09-06T18:14:49.195Z"
+    },
     "speaker-none-bold": {
       "id": "dl_1898eed2b5af9dc0f7ae",
       "name": "speaker-none-bold",
@@ -317623,6 +318658,43 @@
       ],
       "hash": "c3796ed2b02ffdb34d9aedcc0d8b402ecb93249715823af71dcfb8b57a5051a5",
       "updatedAt": "2026-09-06T18:13:16.507Z"
+    },
+    "speaker-simple-high-fill": {
+      "id": "dl_5eb587c84ceef211c372",
+      "name": "speaker-simple-high-fill",
+      "title": "Speaker Simple High Fill",
+      "file": "icons/S/speaker-simple-high-fill.svg",
+      "path": "S/speaker-simple-high-fill.svg",
+      "tags": [
+        "speaker",
+        "simple",
+        "high",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8cc6d5c8b6fb481cb5b2b2d1530df6e16f5433c285fb0a01cc7780ee9d738652",
+      "updatedAt": "2026-09-06T18:14:49.195Z"
     },
     "speaker-simple-none-light": {
       "id": "dl_42183ea6af8f4291773a",
@@ -317660,6 +318732,43 @@
       ],
       "hash": "26c29ad947faf2905163814f926bf9972d3e32a3605ed2e5e794ba30c87fede4",
       "updatedAt": "2026-09-06T18:13:16.507Z"
+    },
+    "speaker-simple-x-fill": {
+      "id": "dl_c80400a2c0fb2e68a645",
+      "name": "speaker-simple-x-fill",
+      "title": "Speaker Simple X Fill",
+      "file": "icons/S/speaker-simple-x-fill.svg",
+      "path": "S/speaker-simple-x-fill.svg",
+      "tags": [
+        "speaker",
+        "simple",
+        "x",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "b069a6036f49d7129daf045f9edcdd2e82a37bb960f08121f05d38a5ef2369e2",
+      "updatedAt": "2026-09-06T18:14:49.196Z"
     },
     "speaker-simple-x-thin": {
       "id": "dl_b36e6be721b217569e0c",
@@ -317769,6 +318878,41 @@
       ],
       "hash": "09d2bd42cfd2b52b5a178a298a3be2bf037a4f77947aa06d7133cc06a0f5245d",
       "updatedAt": "2026-09-06T18:13:16.508Z"
+    },
+    "speedometer-duotone": {
+      "id": "dl_2249163e36f4dbac509a",
+      "name": "speedometer-duotone",
+      "title": "Speedometer Duotone",
+      "file": "icons/S/speedometer-duotone.svg",
+      "path": "S/speedometer-duotone.svg",
+      "tags": [
+        "speedometer",
+        "duotone"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "12e69024eb6f04232833da4c7764401c0076bf94d56603a62d743238f5212373",
+      "updatedAt": "2026-09-06T18:14:49.197Z"
     },
     "speedometer": {
       "id": "dl_e12011a293fc0692a0d0",
@@ -317946,6 +319090,41 @@
       "hash": "93c7cc4bae5469a06ac818ada2d700a0ab1d7486f66017a2d8c4e92c336b8bc4",
       "updatedAt": "2026-09-06T18:13:16.509Z"
     },
+    "spiral-bold": {
+      "id": "dl_67a2069db16bfa9d95eb",
+      "name": "spiral-bold",
+      "title": "Spiral Bold",
+      "file": "icons/S/spiral-bold.svg",
+      "path": "S/spiral-bold.svg",
+      "tags": [
+        "spiral",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0d765136d13585683183484c4db197375eb3765585ab35a075a50c5ae76026dc",
+      "updatedAt": "2026-09-06T18:14:49.198Z"
+    },
     "split-vertical-bold": {
       "id": "dl_e3f860cb655a9a34041e",
       "name": "split-vertical-bold",
@@ -318017,6 +319196,78 @@
       ],
       "hash": "97f6cec4910de51368357286d8121bb569972c125a011a887b5ffd0233655a71",
       "updatedAt": "2026-09-06T18:13:16.509Z"
+    },
+    "square-bold": {
+      "id": "dl_1304f173ddd786682c61",
+      "name": "square-bold",
+      "title": "Square Bold",
+      "file": "icons/S/square-bold.svg",
+      "path": "S/square-bold.svg",
+      "tags": [
+        "square",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "754039b5452f502b6888a1eb08ca3982ea86388347c428593da61eb36c62c2f0",
+      "updatedAt": "2026-09-06T18:14:49.199Z"
+    },
+    "square-half-bottom-bold": {
+      "id": "dl_a5a93b132fd5943619ee",
+      "name": "square-half-bottom-bold",
+      "title": "Square Half Bottom Bold",
+      "file": "icons/S/square-half-bottom-bold.svg",
+      "path": "S/square-half-bottom-bold.svg",
+      "tags": [
+        "square",
+        "half",
+        "bottom",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "15837933551699d2bf3a5b287b65ac25502c890bc0aed0d2e0b44290ab601a3f",
+      "updatedAt": "2026-09-06T18:14:49.199Z"
     },
     "square-half-bottom": {
       "id": "dl_7fc296e0b5c4cce40209",
@@ -318090,6 +319341,42 @@
       "hash": "7dd8b51e62c7ee5efea367e79fd4887d0cc701187b0676a383fbba88668e5ef7",
       "updatedAt": "2026-09-06T18:13:16.510Z"
     },
+    "square-logo-thin": {
+      "id": "dl_507fd0baf10ea3bfff6e",
+      "name": "square-logo-thin",
+      "title": "Square Logo Thin",
+      "file": "icons/S/square-logo-thin.svg",
+      "path": "S/square-logo-thin.svg",
+      "tags": [
+        "square",
+        "logo",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "8771ac907b1fb3b191d095acdc24756beacbcab1a62c2df86a8ba328e687a881",
+      "updatedAt": "2026-09-06T18:14:49.200Z"
+    },
     "squares-four-bold": {
       "id": "dl_4cd859d7f12010738cc7",
       "name": "squares-four-bold",
@@ -318125,6 +319412,42 @@
       ],
       "hash": "db99890c7157c19dce8f9db2c9ef812c50e7ae31e3cd8fa112004eb191c8b952",
       "updatedAt": "2026-09-06T18:13:16.510Z"
+    },
+    "squares-four-duotone": {
+      "id": "dl_057db7affb163fc3b218",
+      "name": "squares-four-duotone",
+      "title": "Squares Four Duotone",
+      "file": "icons/S/squares-four-duotone.svg",
+      "path": "S/squares-four-duotone.svg",
+      "tags": [
+        "squares",
+        "four",
+        "duotone"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "08872949367b6a6f2f0578ff77364f6c8ebb407942629a28b322194512927381",
+      "updatedAt": "2026-09-06T18:14:49.200Z"
     },
     "squares-four-thin": {
       "id": "dl_82b843953c2bf2eb686f",
@@ -318231,6 +319554,42 @@
       ],
       "hash": "4f82b4eaf8bab57663aa4a4aa4f4b67b0317602108388129c909f80c9b637f69",
       "updatedAt": "2026-09-06T18:13:16.511Z"
+    },
+    "standard-definition-bold": {
+      "id": "dl_8e340838f5437ab707bb",
+      "name": "standard-definition-bold",
+      "title": "Standard Definition Bold",
+      "file": "icons/S/standard-definition-bold.svg",
+      "path": "S/standard-definition-bold.svg",
+      "tags": [
+        "standard",
+        "definition",
+        "bold"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "413bd4d2e3bf61644b7450b526a18ebc8198c2377ccbfe02c82cc0968c931467",
+      "updatedAt": "2026-09-06T18:14:49.201Z"
     },
     "standard-definition-light": {
       "id": "dl_d2b440c99eefe6a712a6",
@@ -318375,6 +319734,42 @@
       "hash": "42451b34121b695bdaab88fdcf3eacec9cda9ac36d222349609426dcb9f04b48",
       "updatedAt": "2026-09-06T18:13:16.512Z"
     },
+    "star-half-duotone": {
+      "id": "dl_5222698aa49699ad8b9f",
+      "name": "star-half-duotone",
+      "title": "Star Half Duotone",
+      "file": "icons/S/star-half-duotone.svg",
+      "path": "S/star-half-duotone.svg",
+      "tags": [
+        "star",
+        "half",
+        "duotone"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "13b37ca8805571db874b894e74c2b16c8c35b606be57531d727e0bb84c49bcf5",
+      "updatedAt": "2026-09-06T18:14:49.202Z"
+    },
     "star-of-david": {
       "id": "dl_e9e2041b77640e6a2b72",
       "name": "star-of-david",
@@ -318447,6 +319842,42 @@
       "hash": "1715fdfe47e32c6cbff76fd80dcb47c1e5a704b2067412dd64dff20b8d802a11",
       "updatedAt": "2026-09-06T18:13:16.512Z"
     },
+    "steam-logo-thin": {
+      "id": "dl_3386791d61527e225931",
+      "name": "steam-logo-thin",
+      "title": "Steam Logo Thin",
+      "file": "icons/S/steam-logo-thin.svg",
+      "path": "S/steam-logo-thin.svg",
+      "tags": [
+        "steam",
+        "logo",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "48a7d4ce3d351ed9d02951797e5c88acd961e97aca3def7107f928a3510ced4c",
+      "updatedAt": "2026-09-06T18:14:49.203Z"
+    },
     "steering-wheel-fill": {
       "id": "dl_2adccf0f10631ac1bb86",
       "name": "steering-wheel-fill",
@@ -318482,6 +319913,41 @@
       ],
       "hash": "2971651312dac31e1c738020200c044790a8e5e70fa7d5e61956756f298c1ffc",
       "updatedAt": "2026-09-06T18:13:16.513Z"
+    },
+    "steering-wheel": {
+      "id": "dl_e38f88e8d858511e4557",
+      "name": "steering-wheel",
+      "title": "Steering Wheel",
+      "file": "icons/S/steering-wheel.svg",
+      "path": "S/steering-wheel.svg",
+      "tags": [
+        "steering",
+        "wheel"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "64b540806a248ba3906210cfb9348655cab32345a847fccff8715c2761915cb4",
+      "updatedAt": "2026-09-06T18:14:49.203Z"
     },
     "steps-bold": {
       "id": "dl_c0b371fc1e96698b2878",
@@ -318587,6 +320053,77 @@
       ],
       "hash": "0c13e1ff9f0c9e1b48a62f3e43eba348bdfdeffd0265c869fad6548cac07db96",
       "updatedAt": "2026-09-06T18:13:16.513Z"
+    },
+    "stool-thin": {
+      "id": "dl_7ecfa4226a53f02d0abd",
+      "name": "stool-thin",
+      "title": "Stool Thin",
+      "file": "icons/S/stool-thin.svg",
+      "path": "S/stool-thin.svg",
+      "tags": [
+        "stool",
+        "thin"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "32c1c6282510f6df88073e2336ed6e8249262041c832e8adcc16923f124d9528",
+      "updatedAt": "2026-09-06T18:14:49.204Z"
+    },
+    "stop-circle-light": {
+      "id": "dl_56834c09a6744a415221",
+      "name": "stop-circle-light",
+      "title": "Stop Circle Light",
+      "file": "icons/S/stop-circle-light.svg",
+      "path": "S/stop-circle-light.svg",
+      "tags": [
+        "stop",
+        "circle",
+        "light"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "234f31b60a1ca7e91f52db2ec74e53de003a9cf9ac77de43753e51fad6396f67",
+      "updatedAt": "2026-09-06T18:14:49.204Z"
     },
     "storefront-bold": {
       "id": "dl_906fa8fc8f57998764d2",
@@ -318834,6 +320371,41 @@
       ],
       "hash": "0ee35f5029e6d1a81b7fe27571b5d190fe8da302be8bed0e67ef9f4a3d3a4ef4",
       "updatedAt": "2026-09-06T18:13:16.515Z"
+    },
+    "subtitles-fill": {
+      "id": "dl_6a39138a67f9d0c19265",
+      "name": "subtitles-fill",
+      "title": "Subtitles Fill",
+      "file": "icons/S/subtitles-fill.svg",
+      "path": "S/subtitles-fill.svg",
+      "tags": [
+        "subtitles",
+        "fill"
+      ],
+      "categories": [
+        "S"
+      ],
+      "aliases": [],
+      "styles": [
+        "single",
+        "outline",
+        "fill",
+        "solid",
+        "duotone",
+        "duocolor"
+      ],
+      "motions": [
+        "none",
+        "pulse",
+        "spin",
+        "bounce",
+        "shake",
+        "wiggle",
+        "float",
+        "draw"
+      ],
+      "hash": "0227edea72f7fa0bbcaa938a5bb6e6b803abe2b27d3bb6eda364354b806cdb86",
+      "updatedAt": "2026-09-06T18:14:49.206Z"
     },
     "subtitles-slash-fill": {
       "id": "dl_b8e95bd064c1742b77e8",
