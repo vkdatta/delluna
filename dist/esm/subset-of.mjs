@@ -1,0 +1,6 @@
+export const name="subset-of";
+export const id="dl_85ab788867b94749a3c5";
+export const url=new URL("../icons/S/subset-of.svg?v=0ee35f5029e6d1a81b7fe27571b5d190fe8da302be8bed0e67ef9f4a3d3a4ef4",import.meta.url).href;
+export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
+const icon={name,id,url,svg};
+export default icon;
