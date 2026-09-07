@@ -9,10 +9,13 @@ const AUTO_BASE=(()=>{
     }
 
     try{
-        // delluna.js is generated into /dist, while the generated registry is
-        // kept at the package/repository root in /registry. Move one level up
-        // from the runtime script directory so CDN and npm layouts agree.
-        return new URL('../',RUNTIME_SCRIPT.src).href.replace(/\/+$/,'');
+        const scriptUrl=new URL(RUNTIME_SCRIPT.src);
+        // delluna.js is published under /dist/, while the generated registry
+        // lives at the package root. Resolve the package root, not /dist/.
+        scriptUrl.pathname=scriptUrl.pathname.replace(/\/dist\/(?:delluna(?:\.min)?\.js)?$/i,'/');
+        scriptUrl.search='';
+        scriptUrl.hash='';
+        return scriptUrl.href.replace(/\/+$/,'');
     }catch(e){
         return String(RUNTIME_SCRIPT.src)
             .replace(/\/delluna(?:\.min)?\.js(?:\?.*)?$/i,'')
@@ -60,10 +63,8 @@ function normalizeBase(value){
 }
 
 function getBase(){
-    if(Delluna.baseUrl){
-        return normalizeBase(Delluna.baseUrl);
-    }
-
+    // Do not reference the Delluna const here: custom elements can paint while
+    // the script is still initializing, which would trigger a TDZ ReferenceError.
     if(config.global.base){
         return normalizeBase(config.global.base);
     }
@@ -144,10 +145,12 @@ function iconFile(item,name){
 
 function normalizeIconPath(file){
     return String(file||'')
-        .replace(/^\/+/,'')
+        .replace(/^\/+/, '')
+        .replace(/^dist\/icons\//i,'')
         .replace(/^dist\//i,'')
-        .replace(/^src\/icons\//i,'icons/')
-        .replace(/^src\/dist\//i,'');
+        .replace(/^src\/icons\//i,'')
+        .replace(/^src\/dist\//i,'')
+        .replace(/^icons\//i,'');
 }
 
 async function url(name){
@@ -169,7 +172,7 @@ async function url(name){
         );
 
     const result=
-        base+'/'+
+        base+'/dist/icons/'+
         file
             .split('/')
             .filter(Boolean)
@@ -1030,6 +1033,17 @@ class DellunaIcon extends HTMLElement{
     }
 }
 
+if(
+    !customElements.get(
+        'delluna-icon'
+    )
+){
+    customElements.define(
+        'delluna-icon',
+        DellunaIcon
+    );
+}
+
 function repaint(){
     document
         .querySelectorAll(
@@ -1233,21 +1247,6 @@ function autoConfigure(){
 
 installStyles();
 autoConfigure();
-
-// Register the custom element only after the Delluna API has been fully
-// initialized. Defining it earlier can synchronously upgrade an existing
-// <delluna-icon> and call connectedCallback(), which reaches getBase() while
-// `const Delluna` is still in its temporal dead zone.
-if(
-    !customElements.get(
-        'delluna-icon'
-    )
-){
-    customElements.define(
-        'delluna-icon',
-        DellunaIcon
-    );
-}
 
 const observer=
     new MutationObserver(
