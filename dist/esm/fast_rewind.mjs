@@ -1,6 +1,6 @@
 export const name="fast_rewind";
 export const id="dl_cf5a4451c8d0cdbda18a";
-export const url=new URL("../icons/fast_rewind.svg?v=6f788bae3de5bb3f8118d740e584a909765e458c4a786ada4749586a12d9e1c1",import.meta.url).href;
+export const url=new URL("../icons/F/fast_rewind.svg?v=0f87be6532b5283bb1f8bf3f8e45c6aa7831c5d1f56a615c07bc4a1662d59045",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
