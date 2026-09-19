@@ -169,23 +169,22 @@ function generateFullRuntime(files) {
 }
 
 /*
- * Defensive build-time rewrite of the shipped runtime.
+ * Build-time guard for the shipped runtime.
  *
- * Source files runtime/delluna.js and runtime/delluna-full.js are already
- * correct: shard fetches use cache:'default' and parseSvg captures the
- * viewBox origin. This function exists so that if a future bot regeneration
- * reverts either fix, the shipped dist/ files are still correct. It detects
- * "already fixed" and passes through, otherwise re-applies. If a fix is
- * needed and the source shape no longer matches the anchor, the build fails
- * loudly — never silently ships the regression.
+ * Source runtime files are expected to already contain both fixes:
+ *   1. shard fetch uses cache:'default' (not 'force-cache')
+ *   2. parseSvg captures viewBox minX/minY and wraps content in a translate
+ *      so Material Symbols (viewBox="0 -960 960 960") land in-frame.
+ *
+ * This function normalizes (1) if it ever regresses, and hard-fails on (2)
+ * if it's missing — rather than trying to inject code through regex, which
+ * is fragile. A regression surfaces as a failing build, not as broken icons.
  */
 function transformRuntime(source, label) {
   let out = String(source);
   const log = [];
 
-  // (1) Shard cache policy: force-cache never revalidates and freezes a
-  //     shard in the browser on first sight. default defers to HTTP cache
-  //     headers, which is correct for immutable tag-pinned assets.
+  // (1) Cache policy: force-cache never revalidates; default defers to HTTP.
   const cachePattern = /cache\s*:\s*['"]force-cache['"]/g;
   const cacheMatches = out.match(cachePattern);
   if (cacheMatches) {
@@ -195,52 +194,16 @@ function transformRuntime(source, label) {
     log.push('cache: clean');
   }
 
-  // (2) parseSvg viewBox origin: Material Symbols use viewBox="0 -960 960 960".
-  //     Without capturing minX/minY, painters that assume "0 0 w h" push the
-  //     content off-screen.
-  const ALREADY_FIXED = /Number\.isFinite\(parts\[0\]\)|isFinite\(parts\[0\]\)/;
-  if (ALREADY_FIXED.test(out)) {
-    log.push('parseSvg: already fixed');
-  } else {
-    // Full runtime (delluna-full.js) uses var syntax; strip-minifier style
-    // (delluna.js) uses const/let. Handle both by matching the shape.
-    const isFull = /function\s+parseSvg\s*\(str\)\s*\{\s*var\s+m\s*=/.test(out);
-    if (isFull) {
-      const anchor = /(function\s+parseSvg\s*\(str\)\s*\{[\s\S]*?var\s+parts\s*=\s*vb\.trim\(\)\.split\(\/\\s\+\/\)\.map\(Number\);\s*)/;
-      if (!anchor.test(out)) {
-        throw new Error(
-          `[${label}] parseSvg transform: could not anchor on delluna-full.js var-style parser. ` +
-          `Update transformRuntime() in tooling/build.js or fix runtime/delluna-full.js directly.`
-        );
-      }
-      const inject =
-        "var __x = isFinite(parts[0]) ? parts[0] : 0;\n" +
-        "    var __y = isFinite(parts[1]) ? parts[1] : 0;\n" +
-        "    var __inner = m[2];\n" +
-        "    if (__x !== 0 || __y !== 0) { __inner = '<g transform=\"translate(' + (-__x) + ' ' + (-__y) + ')\">' + __inner + '</g>'; }\n    ";
-      out = out.replace(anchor, `$1${inject}`);
-      // Swap `inner: m[2]` for `inner: __inner` in the return.
-      out = out.replace(/return\s*\{\s*attrs:\s*attrs,\s*inner:\s*m\[2\],\s*w:\s*parts\[2\],\s*h:\s*parts\[3\]\s*\}/,
-        'return { attrs: attrs, inner: __inner, w: parts[2], h: parts[3] }');
-      log.push('parseSvg: applied (full runtime)');
-    } else {
-      // Main runtime (delluna.js) uses let inner=match[2] and Number.isFinite.
-      const editInner = /(function\s+parseSvg\s*\([^)]*\)\s*\{[\s\S]*?)const\s+inner\s*=\s*match\[2\]/;
-      const editWrap = /(const\s+h\s*=\s*Number\.isFinite\(parts\[3\]\)\s*&&\s*parts\[3\]\s*>\s*0\s*\?\s*parts\[3\]\s*:\s*24\s*;\s*)(attrs\s*=)/;
-      if (!editInner.test(out) || !editWrap.test(out)) {
-        throw new Error(
-          `[${label}] parseSvg transform: could not anchor on const-style parser. ` +
-          `Update transformRuntime() in tooling/build.js or fix runtime/delluna.js directly.`
-        );
-      }
-      out = out.replace(editInner, '$1let inner=match[2]');
-      const wrap =
-        "if(Number.isFinite(parts[0])&&Number.isFinite(parts[1])&&(parts[0]!==0||parts[1]!==0))" +
-        "{inner='<g transform=\"translate('+(-parts[0])+' '+(-parts[1])+')">'+inner+'</g>';}\n\n    ";
-      out = out.replace(editWrap, `$1${wrap}$2`);
-      log.push('parseSvg: applied (main runtime)');
-    }
+  // (2) parseSvg viewBox origin — verify only, do not inject.
+  const originRegex = /Number\.isFinite\(parts\[0\]\)|isFinite\(parts\[0\]\)/;
+  if (!originRegex.test(out)) {
+    throw new Error(
+      `[${label}] runtime is missing the parseSvg viewBox-origin fix. ` +
+      `Material Symbols (viewBox="0 -960 960 960") would render off-screen. ` +
+      `Add the fix to the runtime source directly.`
+    );
   }
+  log.push('parseSvg: origin fix present');
 
   console.log(`[build] runtime transform (${label}): ${log.join('; ')}`);
   return out;
