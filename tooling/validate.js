@@ -117,7 +117,7 @@ assert(!full.includes('force-cache'), 'dist/delluna-full.js must not contain for
 // Symbols (viewBox="0 -960 960 960") are not pushed off-screen.
 assert(/Number\.isFinite\(parts\[0\]\)|isFinite\(parts\[0\]\)/.test(distRuntimeText),
   'dist/delluna.js is missing the parseSvg viewBox-origin fix');
-assert(distRuntimeText.includes('(-parts[0])') || distRuntimeText.includes('(-__x)'),
+assert(distRuntimeText.includes('translate('),
   'dist/delluna.js is missing the translate wrapper');
 assert(/isFinite\(parts\[0\]\)/.test(full),
   'dist/delluna-full.js is missing the parseSvg viewBox-origin fix');

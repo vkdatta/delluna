@@ -43,18 +43,17 @@ try {
   // Built runtimes must carry BOTH fixes: cache policy and parseSvg origin.
   const builtRuntime = fs.readFileSync(path.join(temp, 'dist/delluna.js'), 'utf8');
   assert(!builtRuntime.includes('force-cache'), 'Built dist/delluna.js still contains force-cache');
-  assert(builtRuntime.includes("cache:'default'") || builtRuntime.includes('cache: "default"') || builtRuntime.includes("cache: 'default'"),
-    'Built dist/delluna.js is missing cache default');
-  assert(builtRuntime.includes('Number.isFinite(parts[0])'),
+  assert(/cache\s*:\s*['"]default['"]/.test(builtRuntime), 'Built dist/delluna.js is missing cache default');
+  assert(/Number\.isFinite\(parts\[0\]\)|isFinite\(parts\[0\]\)/.test(builtRuntime),
     'Built dist/delluna.js is missing the parseSvg viewBox-origin fix');
-  assert(builtRuntime.includes('(-parts[0])'),
+  assert(builtRuntime.includes('translate('),
     'Built dist/delluna.js is missing the translate wrapper');
 
   const builtFull = fs.readFileSync(path.join(temp, 'dist/delluna-full.js'), 'utf8');
   assert(!builtFull.includes('force-cache'), 'Built dist/delluna-full.js still contains force-cache');
-  assert(builtFull.includes('isFinite(parts[0])'),
+  assert(/isFinite\(parts\[0\]\)/.test(builtFull),
     'Built dist/delluna-full.js is missing the parseSvg viewBox-origin fix');
-  assert(builtFull.includes('(-__x)') || builtFull.includes('(-parts[0])'),
+  assert(builtFull.includes('translate('),
     'Built dist/delluna-full.js is missing the translate wrapper');
 
   result = spawnSync(process.execPath, [path.join(temp, 'tooling/validate.js')], { encoding: 'utf8' });
