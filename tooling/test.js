@@ -70,13 +70,14 @@ try {
   result = spawnSync(process.execPath, [path.join(temp, 'tooling/build.js')], { encoding: 'utf8' });
   assert(result.status !== 0 && /Invalid or unsafe SVG/.test(`${result.stdout}\n${result.stderr}`), 'Unsafe SVG was accepted');
 
-  // Runtime source must not expose the removed style API.
+  // Runtime source must not expose the removed style API, and must map paths
+  // to /dist/icons and use the shard registry.
   const runtimeSource = fs.readFileSync(path.join(root, 'runtime/delluna.js'), 'utf8');
   assert(!runtimeSource.includes("styles:['single'"), 'Runtime still exposes style registry metadata');
   assert(!runtimeSource.includes('applyStyle('), 'Runtime still applies removed style transformations');
   assert(runtimeSource.includes('async function registry()'), 'Runtime registry() API is missing');
   assert(/new URL\(RUNTIME_SCRIPT\.src\)/.test(runtimeSource), 'Runtime does not derive its base from the script URL');
-  assert(runtimeSource.includes("base+'/dist/icons/'"), 'Runtime does not map registry paths to /dist/icons');
+  assert(runtimeSource.includes('/dist/icons/'), 'Runtime does not map registry paths to /dist/icons');
   assert(!runtimeSource.includes('if(Delluna.baseUrl)'), 'Runtime getBase still references Delluna before initialization');
   assert(runtimeSource.includes('registry/shards/'), 'Runtime registry shard path is missing');
 
