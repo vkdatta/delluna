@@ -105,4 +105,21 @@ assert(start >= 0 && end >= 0, 'Full bundle marker is malformed');
 const embedded = JSON.parse(full.slice(start + marker.length, end));
 assert(Object.keys(embedded).length === files.length, `Full bundle count ${Object.keys(embedded).length} != source count ${files.length}`);
 
-console.log(`Delluna validation passed: ${files.length} SVGs, ${seenIds.size} unique IDs, generated registry/dist are internally consistent.`);
+// Shipped runtimes must not carry the never-revalidating cache policy.
+const distRuntime = path.join(root, 'dist/delluna.js');
+assert(fs.existsSync(distRuntime), 'Missing dist/delluna.js');
+const distRuntimeText = fs.readFileSync(distRuntime, 'utf8');
+assert(!distRuntimeText.includes('force-cache'), 'dist/delluna.js must not contain force-cache');
+assert(/cache\s*:\s*['"]default['"]/.test(distRuntimeText), 'dist/delluna.js must declare cache default');
+assert(!full.includes('force-cache'), 'dist/delluna-full.js must not contain force-cache');
+
+// Shipped runtimes must carry the parseSvg viewBox-origin fix so Material
+// Symbols (viewBox="0 -960 960 960") are not pushed off-screen.
+assert(/Number\.isFinite\(parts\[0\]\)|isFinite\(parts\[0\]\)/.test(distRuntimeText),
+  'dist/delluna.js is missing the parseSvg viewBox-origin fix');
+assert(distRuntimeText.includes('(-parts[0])') || distRuntimeText.includes('(-__x)'),
+  'dist/delluna.js is missing the translate wrapper');
+assert(/isFinite\(parts\[0\]\)/.test(full),
+  'dist/delluna-full.js is missing the parseSvg viewBox-origin fix');
+
+console.log(`Delluna validation passed: ${files.length} SVGs, ${seenIds.size} unique IDs, generated registry/dist are internally consistent, runtimes normalized (cache policy + parseSvg viewBox origin).`);

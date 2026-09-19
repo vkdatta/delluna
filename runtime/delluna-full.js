@@ -26,11 +26,20 @@ if (!window.IC) {
     var m = str.match(/^<svg([^>]*)>([\s\S]*)<\/svg>$/);
     if (!m) return null;
     var attrs = m[1];
+    var inner = m[2];
     var vbm = attrs.match(/viewBox="([^"]+)"/);
     var vb = vbm ? vbm[1] : '0 0 24 24';
     var parts = vb.trim().split(/\s+/).map(Number);
+    var x = isFinite(parts[0]) ? parts[0] : 0;
+    var y = isFinite(parts[1]) ? parts[1] : 0;
+    // Material Symbols ship viewBox="0 -960 960 960". Shift the content
+    // to a 0,0 origin so variant painters that assume "0 0 W H" place
+    // the artwork in-frame instead of off-screen.
+    if (x !== 0 || y !== 0) {
+      inner = '<g transform="translate(' + (-x) + ' ' + (-y) + ')">' + inner + '</g>';
+    }
     attrs = attrs.replace(/\s*viewBox="[^"]*"/, '').trim();
-    return { attrs: attrs, inner: m[2], w: parts[2], h: parts[3] };
+    return { attrs: attrs, inner: inner, w: parts[2], h: parts[3] };
   }
 
   // Shared "rounded, minimal straight lines" base every variant builds on:

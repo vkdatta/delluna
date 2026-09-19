@@ -40,6 +40,23 @@ try {
   assert(!fs.existsSync(path.join(temp, 'registry.json')), 'Legacy root registry was generated');
   assert(!fs.existsSync(path.join(temp, 'dist/registry.json')), 'Legacy dist registry was generated');
 
+  // Built runtimes must carry BOTH fixes: cache policy and parseSvg origin.
+  const builtRuntime = fs.readFileSync(path.join(temp, 'dist/delluna.js'), 'utf8');
+  assert(!builtRuntime.includes('force-cache'), 'Built dist/delluna.js still contains force-cache');
+  assert(builtRuntime.includes("cache:'default'") || builtRuntime.includes('cache: "default"') || builtRuntime.includes("cache: 'default'"),
+    'Built dist/delluna.js is missing cache default');
+  assert(builtRuntime.includes('Number.isFinite(parts[0])'),
+    'Built dist/delluna.js is missing the parseSvg viewBox-origin fix');
+  assert(builtRuntime.includes('(-parts[0])'),
+    'Built dist/delluna.js is missing the translate wrapper');
+
+  const builtFull = fs.readFileSync(path.join(temp, 'dist/delluna-full.js'), 'utf8');
+  assert(!builtFull.includes('force-cache'), 'Built dist/delluna-full.js still contains force-cache');
+  assert(builtFull.includes('isFinite(parts[0])'),
+    'Built dist/delluna-full.js is missing the parseSvg viewBox-origin fix');
+  assert(builtFull.includes('(-__x)') || builtFull.includes('(-parts[0])'),
+    'Built dist/delluna-full.js is missing the translate wrapper');
+
   result = spawnSync(process.execPath, [path.join(temp, 'tooling/validate.js')], { encoding: 'utf8' });
   assert(result.status === 0, `Validation failed:\n${result.stdout}\n${result.stderr}`);
 
@@ -54,16 +71,15 @@ try {
   result = spawnSync(process.execPath, [path.join(temp, 'tooling/build.js')], { encoding: 'utf8' });
   assert(result.status !== 0 && /Invalid or unsafe SVG/.test(`${result.stdout}\n${result.stderr}`), 'Unsafe SVG was accepted');
 
-  // Runtime must not expose the removed style API.
-  const runtime = fs.readFileSync(path.join(root, 'runtime/delluna.js'), 'utf8');
-  assert(!runtime.includes("styles:['single'"), 'Runtime still exposes style registry metadata');
-  assert(!runtime.includes('applyStyle('), 'Runtime still applies removed style transformations');
-  assert(runtime.includes('async function registry()'), 'Runtime registry() API is missing');
-
-  assert(/new URL\(RUNTIME_SCRIPT\.src\)/.test(runtime), 'Runtime does not derive its base from the script URL');
-  assert(runtime.includes("base+'/dist/icons/'+"), 'Runtime does not map registry paths to /dist/icons');
-  assert(!runtime.includes('if(Delluna.baseUrl)'), 'Runtime getBase still references Delluna before initialization');
-  assert(runtime.includes('registry/shards/'), 'Runtime registry shard path is missing');
+  // Runtime source must not expose the removed style API.
+  const runtimeSource = fs.readFileSync(path.join(root, 'runtime/delluna.js'), 'utf8');
+  assert(!runtimeSource.includes("styles:['single'"), 'Runtime still exposes style registry metadata');
+  assert(!runtimeSource.includes('applyStyle('), 'Runtime still applies removed style transformations');
+  assert(runtimeSource.includes('async function registry()'), 'Runtime registry() API is missing');
+  assert(/new URL\(RUNTIME_SCRIPT\.src\)/.test(runtimeSource), 'Runtime does not derive its base from the script URL');
+  assert(runtimeSource.includes("base+'/dist/icons/'"), 'Runtime does not map registry paths to /dist/icons');
+  assert(!runtimeSource.includes('if(Delluna.baseUrl)'), 'Runtime getBase still references Delluna before initialization');
+  assert(runtimeSource.includes('registry/shards/'), 'Runtime registry shard path is missing');
 
   // Figma plugin must consume the normal icon path rather than style distributions.
   const figma = fs.readFileSync(path.join(root, 'figma-plugin/code.js'), 'utf8');
@@ -75,4 +91,4 @@ try {
   fs.rmSync(temp, { recursive: true, force: true });
 }
 
-console.log('Delluna V10 tests passed: source-first metadata, filename-only public names, generated shard/tag registry, flat ESM entries, runtime variants, style removal, SVG safety, and duplicate-name protection.');
+console.log('Delluna V10 tests passed: source-first metadata, filename-only public names, generated shard/tag registry, flat ESM entries, runtime variants, style removal, SVG safety, duplicate-name protection, runtime cache normalization, and parseSvg viewBox-origin handling for Material Symbols.');
