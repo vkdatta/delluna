@@ -1,5 +1,5 @@
 export const name="signature-duotone";
-export const id="dl_09bd0fe59d22443ea25a";
+export const id="dl_185dbbadd70a40fc23a7";
 export const url=new URL("../icons/signature-duotone.svg?v=9efc4aa07c7fd82de1cc53da781264802db09e31920938217c788c2768629dbb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
