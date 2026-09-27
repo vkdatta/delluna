@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "local bar",
-    "local_bar",
-    "local",
-    "bar",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["bar","chart","graph","line icon","local","local bar","local icon","local symbol","local-bar","local_bar","outline"],"categories":["Symbols","UI"]}

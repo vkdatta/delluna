@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "prohibit fill",
-    "prohibit-fill",
-    "prohibit",
-    "fill",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["filled","filled icon","filled version","prohibit","prohibit fill","prohibit icon","prohibit symbol","prohibit-fill","solid fill","prohibit fill variant 0"],"categories":["Icons","UI"]}

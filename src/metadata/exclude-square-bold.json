@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "exclude square bold",
-    "exclude-square-bold",
-    "exclude",
-    "square",
-    "bold",
-    "exclude square",
-    "icon",
-    "symbol",
-    "svg",
-    "vector"
-  ],
-  "categories": [
-    "typography",
-    "interface"
-  ]
-}
+{"tags":["bold","exclude","exclude icon","exclude square","exclude square bold","exclude symbol","exclude-square","exclude-square-bold","exclude_square","heavy weight","square","square icon","square symbol","thick"],"categories":["Geometry","Shapes"]}

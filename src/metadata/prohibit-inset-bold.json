@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "prohibit inset bold",
-    "prohibit-inset-bold",
-    "prohibit",
-    "inset",
-    "bold",
-    "prohibit inset",
-    "icon",
-    "symbol",
-    "svg",
-    "vector"
-  ],
-  "categories": [
-    "typography",
-    "interface"
-  ]
-}
+{"tags":["bold","heavy weight","inset","inset icon","inset symbol","prohibit","prohibit icon","prohibit inset","prohibit inset bold","prohibit symbol","prohibit-inset","prohibit-inset-bold","prohibit_inset","thick"],"categories":["Icons","UI"]}

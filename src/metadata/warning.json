@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "warning",
-    "alert",
-    "caution",
-    "notice",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "status",
-    "interface"
-  ]
-}
+{"tags":["alert","attention","caution","danger","line icon","outline","warning","warning icon","warning symbol","warning variant 0"],"categories":["Alerts","UI"]}

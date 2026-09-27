@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "exclude bold",
-    "exclude-bold",
-    "exclude",
-    "bold",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "typography",
-    "interface"
-  ]
-}
+{"tags":["bold","exclude","exclude bold","exclude icon","exclude symbol","exclude-bold","heavy weight","thick","exclude bold variant 0","exclude bold variant 1"],"categories":["Icons","UI"]}

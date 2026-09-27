@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "prohibit bold",
-    "prohibit-bold",
-    "prohibit",
-    "bold",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "typography",
-    "interface"
-  ]
-}
+{"tags":["bold","heavy weight","prohibit","prohibit bold","prohibit icon","prohibit symbol","prohibit-bold","thick","prohibit bold variant 0","prohibit bold variant 1"],"categories":["Icons","UI"]}

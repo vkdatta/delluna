@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "prohibit thin",
-    "prohibit-thin",
-    "prohibit",
-    "thin",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["hairline","prohibit","prohibit icon","prohibit symbol","prohibit thin","prohibit-thin","skinny","thin","prohibit thin variant 0","prohibit thin variant 1"],"categories":["Icons","UI"]}

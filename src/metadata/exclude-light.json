@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "exclude light",
-    "exclude-light",
-    "exclude",
-    "light",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["exclude","exclude icon","exclude light","exclude symbol","exclude-light","light","light weight","thin weight","exclude light variant 0","exclude light variant 1"],"categories":["Icons","UI"]}

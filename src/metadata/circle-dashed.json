@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "circle dashed",
-    "circle-dashed",
-    "circle",
-    "dashed",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["circle","circle dashed","circle icon","circle symbol","circle-dashed","circle_dashed","dashed","dashed icon","dashed symbol","line icon","outline"],"categories":["Geometry","Shapes"]}

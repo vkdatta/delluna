@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "exclude square light",
-    "exclude-square-light",
-    "exclude",
-    "square",
-    "light",
-    "exclude square",
-    "icon",
-    "symbol",
-    "svg",
-    "vector"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["exclude","exclude icon","exclude square","exclude square light","exclude symbol","exclude-square","exclude-square-light","exclude_square","light","light weight","square","square icon","square symbol","thin weight"],"categories":["Geometry","Shapes"]}

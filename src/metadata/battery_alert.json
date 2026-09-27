@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "battery alert",
-    "battery_alert",
-    "battery",
-    "alert",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["alert","alert icon","alert symbol","battery","battery alert","battery icon","battery symbol","battery-alert","battery_alert","charge","energy","level","line icon","outline","power"],"categories":["Devices","Notifications","Power","UI"]}

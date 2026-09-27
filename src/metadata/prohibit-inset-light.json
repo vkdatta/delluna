@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "prohibit inset light",
-    "prohibit-inset-light",
-    "prohibit",
-    "inset",
-    "light",
-    "prohibit inset",
-    "icon",
-    "symbol",
-    "svg",
-    "vector"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["inset","inset icon","inset symbol","light","light weight","prohibit","prohibit icon","prohibit inset","prohibit inset light","prohibit symbol","prohibit-inset","prohibit-inset-light","prohibit_inset","thin weight"],"categories":["Icons","UI"]}

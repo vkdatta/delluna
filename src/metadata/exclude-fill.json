@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "exclude fill",
-    "exclude-fill",
-    "exclude",
-    "fill",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["exclude","exclude fill","exclude icon","exclude symbol","exclude-fill","filled","filled icon","filled version","solid fill","exclude fill variant 0"],"categories":["Icons","UI"]}

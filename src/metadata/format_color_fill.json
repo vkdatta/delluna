@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "format color fill",
-    "format_color_fill",
-    "format",
-    "color",
-    "fill",
-    "format color",
-    "icon",
-    "symbol",
-    "svg",
-    "vector"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["color","color icon","color symbol","filled","filled icon","filled version","format","format color","format color fill","format icon","format symbol","format-color","format-color-fill","format_color","format_color_fill","solid fill"],"categories":["Icons","UI"]}

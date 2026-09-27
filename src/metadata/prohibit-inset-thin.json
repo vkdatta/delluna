@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "prohibit inset thin",
-    "prohibit-inset-thin",
-    "prohibit",
-    "inset",
-    "thin",
-    "prohibit inset",
-    "icon",
-    "symbol",
-    "svg",
-    "vector"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["hairline","inset","inset icon","inset symbol","prohibit","prohibit icon","prohibit inset","prohibit inset thin","prohibit symbol","prohibit-inset","prohibit-inset-thin","prohibit_inset","skinny","thin"],"categories":["Icons","UI"]}

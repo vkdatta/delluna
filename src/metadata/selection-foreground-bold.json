@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "selection foreground bold",
-    "selection-foreground-bold",
-    "selection",
-    "foreground",
-    "bold",
-    "selection foreground",
-    "icon",
-    "symbol",
-    "svg",
-    "vector"
-  ],
-  "categories": [
-    "typography",
-    "interface"
-  ]
-}
+{"tags":["bold","foreground","foreground icon","foreground symbol","heavy weight","selection","selection foreground","selection foreground bold","selection icon","selection symbol","selection-foreground","selection-foreground-bold","selection_foreground","thick"],"categories":["Icons","UI"]}

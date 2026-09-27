@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "exclude square thin",
-    "exclude-square-thin",
-    "exclude",
-    "square",
-    "thin",
-    "exclude square",
-    "icon",
-    "symbol",
-    "svg",
-    "vector"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["exclude","exclude icon","exclude square","exclude square thin","exclude symbol","exclude-square","exclude-square-thin","exclude_square","hairline","skinny","square","square icon","square symbol","thin"],"categories":["Geometry","Shapes"]}

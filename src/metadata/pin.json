@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "pin",
-    "location",
-    "marker",
-    "map",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "navigation",
-    "interface"
-  ]
-}
+{"tags":["line icon","outline","pin","pin variant 0","pin variant 1","pin variant 2","pin variant 3","pin variant 4","pin variant 5","pin variant 6"],"categories":["Navigation","Transport"]}

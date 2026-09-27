@@ -1,18 +1,1 @@
-{
-  "tags": [
-    "prohibit inset",
-    "prohibit-inset",
-    "prohibit",
-    "inset",
-    "icon",
-    "symbol",
-    "svg",
-    "vector",
-    "graphic",
-    "ui"
-  ],
-  "categories": [
-    "interface",
-    "utility"
-  ]
-}
+{"tags":["inset","inset icon","inset symbol","line icon","outline","prohibit","prohibit icon","prohibit inset","prohibit symbol","prohibit-inset","prohibit_inset"],"categories":["Symbols","UI"]}
