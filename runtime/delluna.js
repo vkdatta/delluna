@@ -661,7 +661,9 @@ L${x} ${y1}`;
                 return;
             }
 
-            el.innerHTML = svg;
+            const doc = new DOMParser().parseFromString(svg, 'image/svg+xml');
+            const svgEl = doc.documentElement;
+            el.replaceChildren(svgEl);
             el.setAttribute('data-icon-painted', name);
 
             debug('Painted:', name);
