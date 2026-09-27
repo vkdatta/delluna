@@ -1,1 +1,19 @@
-{"id":"dl_000048a32d914eddab0c","tags":["offline pin","offline_pin","offline","pin","location","marker","map","icon","symbol","svg","vector"],"categories":["navigation","interface"]}
+{
+  "tags": [
+    "offline pin",
+    "offline_pin",
+    "offline",
+    "pin",
+    "location",
+    "marker",
+    "map",
+    "icon",
+    "symbol",
+    "svg",
+    "vector"
+  ],
+  "categories": [
+    "navigation",
+    "interface"
+  ]
+}
