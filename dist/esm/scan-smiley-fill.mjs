@@ -1,6 +1,6 @@
 export const name="scan-smiley-fill";
-export const id="dl_47cdfcf418f24dd5bb5a";
-export const url=new URL("../icons/scan-smiley-fill.svg?v=a22fd3cb5c2e7b15a0be70424b7b9844bc749af4669cf9a5677d4c0581863c48",import.meta.url).href;
+export const id="dl_b6758f63dcdae8360e24";
+export const url=new URL("../icons/scan-smiley-fill.svg?v=87234118eec34eaad031f71febaad038719f03f2169873ab4978eced0eddad4d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

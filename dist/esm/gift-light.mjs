@@ -1,6 +1,6 @@
 export const name="gift-light";
 export const id="dl_fe17e3214f89478f81bb";
-export const url=new URL("../icons/gift-light.svg?v=c0758d51733acbe07efd2bcc6d4817fd5410a241b0bb92e1b02910021f641360",import.meta.url).href;
+export const url=new URL("../icons/gift-light.svg?v=cb749f1771502b8ab5fe1440134578fc92f2fcf2715c37ad5c5a94012d5e2dd8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

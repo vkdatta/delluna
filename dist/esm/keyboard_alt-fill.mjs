@@ -1,6 +1,6 @@
 export const name="keyboard_alt-fill";
-export const id="dl_ab15f1016c6d45fb9c86";
-export const url=new URL("../icons/keyboard_alt-fill.svg?v=f85b2a130aefe32231ded77f74c5454db363733d2a01c49cf026196cba117e25",import.meta.url).href;
+export const id="dl_7705e506d43582b41401";
+export const url=new URL("../icons/keyboard_alt-fill.svg?v=55eba657b7dbfe430d9d6b69c26417649b6a2cda093a51a93cd5be9f9c99f15e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

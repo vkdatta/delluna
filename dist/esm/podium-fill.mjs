@@ -1,6 +1,6 @@
 export const name="podium-fill";
-export const id="dl_d5445490cea647c1832b";
-export const url=new URL("../icons/podium-fill.svg?v=b60185881b07f9b9a6a101be68c9969a863c49d160bebf5b359497c99d65218f",import.meta.url).href;
+export const id="dl_f9852b26911cfa517d0b";
+export const url=new URL("../icons/podium-fill.svg?v=28c234f8b299a62bcec695a1b5a61a9053442cb7e96faec8860cd46ca41e55ae",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

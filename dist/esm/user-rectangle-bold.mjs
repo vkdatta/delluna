@@ -1,6 +1,6 @@
 export const name="user-rectangle-bold";
-export const id="dl_05e7bac668df462da341";
-export const url=new URL("../icons/user-rectangle-bold.svg?v=51ea11f69a0b363839f2da3706b232e4bc6b3be2ed23dc8954fad6b33cf526d9",import.meta.url).href;
+export const id="dl_46b28f8f5e4a8255efde";
+export const url=new URL("../icons/user-rectangle-bold.svg?v=b73c2b797fdc35846e6aff816cb377709020da985a11f5f680b00292a079e94d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

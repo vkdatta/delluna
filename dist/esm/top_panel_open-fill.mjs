@@ -1,6 +1,6 @@
 export const name="top_panel_open-fill";
-export const id="dl_4097f64f992a4f4fb28f";
-export const url=new URL("../icons/top_panel_open-fill.svg?v=a4367031cb3e7a7596a70661758280d2d02f7a3e60b982ede235b149de0dd399",import.meta.url).href;
+export const id="dl_aa17fe038b7747e58d78";
+export const url=new URL("../icons/top_panel_open-fill.svg?v=061bf1d088bdafd69ef0812ddc9e11d705ddb44a07a8874c34807f74e6abfc05",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

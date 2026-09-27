@@ -1,6 +1,6 @@
 export const name="align_vertical_alt";
-export const id="dl_de4f75e4ce8040afb03b";
-export const url=new URL("../icons/align_vertical_alt.svg?v=eec2d43c26f32a0eb4d20b1738bd0909c1bc561b7ec776205c36aa7dd941c133",import.meta.url).href;
+export const id="dl_df305b2c40e2ad065439";
+export const url=new URL("../icons/align_vertical_alt.svg?v=467419a3a3f2f6950f3cf0d25d2ca38971dec8b9fb6b2c82a4d9a036de5e9484",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

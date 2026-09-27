@@ -1,6 +1,6 @@
 export const name="moon-thin";
 export const id="dl_e6787f0c2b694753bafb";
-export const url=new URL("../icons/moon-thin.svg?v=6ed4c01ef43a6343f814010106085d53883fe484bd406adc09074f2ff8a4fb7c",import.meta.url).href;
+export const url=new URL("../icons/moon-thin.svg?v=54d4bdf7f18450a715f18bc2526d32de598ae8db7a28dc53c9d3ce8e5af0b31e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

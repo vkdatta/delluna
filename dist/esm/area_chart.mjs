@@ -1,6 +1,6 @@
 export const name="area_chart";
-export const id="dl_bbec730508a745548def";
-export const url=new URL("../icons/area_chart.svg?v=31ecc2b4ffd1967f3def4ba9dc1fa1d73ed4fb1f8465b11db2046c1b13155385",import.meta.url).href;
+export const id="dl_b961ea80f700f461496e";
+export const url=new URL("../icons/area_chart.svg?v=8a64226f0422ac4833c0fbe5a42af1bfd8990d04118e875ca7726af1dd332c65",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

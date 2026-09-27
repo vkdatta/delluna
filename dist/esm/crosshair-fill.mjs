@@ -1,6 +1,6 @@
 export const name="crosshair-fill";
 export const id="dl_540fc7fa8e2941ae9a2b";
-export const url=new URL("../icons/crosshair-fill.svg?v=27084169d0c34bc4d1365e2867a76112062f5164fd58378ff39006212eabe8a6",import.meta.url).href;
+export const url=new URL("../icons/crosshair-fill.svg?v=afca9e2fdae8d0bb2f661d347098736ea9fa1bdfd19b8c23bd706ac8b4cd80a1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

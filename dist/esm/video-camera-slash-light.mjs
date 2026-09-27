@@ -1,6 +1,6 @@
 export const name="video-camera-slash-light";
-export const id="dl_1288485edb6642629870";
-export const url=new URL("../icons/video-camera-slash-light.svg?v=bed781bc6616cf39d8b7e53075244dd4db94cb9092fc6962270031caac7ac288",import.meta.url).href;
+export const id="dl_d4425f050a69e9c39a30";
+export const url=new URL("../icons/video-camera-slash-light.svg?v=e0eb40f897459793239d9cc6bd424353d72569e84484b2506e9a74a14e2f96a2",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

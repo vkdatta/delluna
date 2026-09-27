@@ -1,6 +1,6 @@
 export const name="skip-forward-light";
-export const id="dl_c582e5839aef460aa45a";
-export const url=new URL("../icons/skip-forward-light.svg?v=6b01a0e1d0e48396a688b1b05d376cb0628c500dbb8f52594d2d16fd4b562da7",import.meta.url).href;
+export const id="dl_befb0981ce1a502c5425";
+export const url=new URL("../icons/skip-forward-light.svg?v=0daef7b247305ac8387620569061d96d7beff78c567e29bdc9572da0b9857e91",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

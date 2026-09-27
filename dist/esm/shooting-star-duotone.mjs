@@ -1,6 +1,6 @@
 export const name="shooting-star-duotone";
-export const id="dl_b2a144a39f25440286cd";
-export const url=new URL("../icons/shooting-star-duotone.svg?v=08f0c1d054f8d2c5c6ea84d2c2b011f9b1e000fd06a8cf602f1d6fd75cb5e576",import.meta.url).href;
+export const id="dl_e81c0848c23440705fbb";
+export const url=new URL("../icons/shooting-star-duotone.svg?v=33b8e89a8c3d4769fceb9759f4336c9b7187d89e272dece1f7be3b7c05cfb8dc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

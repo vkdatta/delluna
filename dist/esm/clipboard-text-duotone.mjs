@@ -1,6 +1,6 @@
 export const name="clipboard-text-duotone";
 export const id="dl_aa74eaa4848645b4bf3f";
-export const url=new URL("../icons/clipboard-text-duotone.svg?v=d1e13568193ac0b89bef7b92cf351d9253f850480ccc1a52faf9061114bc8aac",import.meta.url).href;
+export const url=new URL("../icons/clipboard-text-duotone.svg?v=f076283f2bf6b92d6164976090c0bcc2d1ac2ecdbd1bea1a02482ac05d56ef20",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="video_chat-fill";
-export const id="dl_4f1fbfa200824f4aa843";
-export const url=new URL("../icons/video_chat-fill.svg?v=611e2671cde9c6dbc1ea1955bca1a014ef938763b1f717610d3e6e3529691c35",import.meta.url).href;
+export const id="dl_b92f9aab029131e67c3a";
+export const url=new URL("../icons/video_chat-fill.svg?v=0a20110488503c3b72acfe5dfb31a4cd897c63b5d6fab387e8004a2d42f12b57",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

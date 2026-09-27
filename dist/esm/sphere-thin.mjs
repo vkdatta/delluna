@@ -1,6 +1,6 @@
 export const name="sphere-thin";
-export const id="dl_e448cd263cce47cabb10";
-export const url=new URL("../icons/sphere-thin.svg?v=8f26fa48fcfc1e58f1cec03fbb8a21b921116e69fc97796e80df60933f31a212",import.meta.url).href;
+export const id="dl_9459d7a7aae2661ae43d";
+export const url=new URL("../icons/sphere-thin.svg?v=fb1f9b8e24ee31dec8bceca7443953f05dfe9683bbcfdf5f33e8427f1f3e5a5d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

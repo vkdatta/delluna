@@ -1,6 +1,6 @@
 export const name="mark_unread_chat_alt-fill";
-export const id="dl_3fb8734a97b340d299b9";
-export const url=new URL("../icons/mark_unread_chat_alt-fill.svg?v=5d9ecf28b0fd089363b04486ee91524ae8a509e8125934ed3f795f97badd5ed0",import.meta.url).href;
+export const id="dl_24bc1a09532cf51e42d1";
+export const url=new URL("../icons/mark_unread_chat_alt-fill.svg?v=41cd7d562035d26d11fad04f73bdd35826e471bd2e2a4eb98190e64a0c0b9ffa",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

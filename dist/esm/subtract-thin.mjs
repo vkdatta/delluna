@@ -1,6 +1,6 @@
 export const name="subtract-thin";
-export const id="dl_6e43a7c735fa4758addf";
-export const url=new URL("../icons/subtract-thin.svg?v=bbbb80323383a01e591d4580b087681e5c42b46cb7d455ea28cb5774a9c869a5",import.meta.url).href;
+export const id="dl_8accde9399b010742cf2";
+export const url=new URL("../icons/subtract-thin.svg?v=14cf7d333d9f913254fa7f5f19234567cbeeb36b9815c19a37cf1b3c9ed5021b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

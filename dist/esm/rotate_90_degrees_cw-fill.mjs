@@ -1,6 +1,6 @@
 export const name="rotate_90_degrees_cw-fill";
-export const id="dl_49e5e53225584d7c82fd";
-export const url=new URL("../icons/rotate_90_degrees_cw-fill.svg?v=d2341e8fd22bc5be3bd8720ba85ac684a6eda9af783a47fbf76ccb57fec5f53d",import.meta.url).href;
+export const id="dl_f8d7244821015fd95e3f";
+export const url=new URL("../icons/rotate_90_degrees_cw-fill.svg?v=a6397298fb778c01dff3141b1e2faff536151cedc79d6d1ae19f87e2894616b0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

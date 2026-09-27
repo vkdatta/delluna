@@ -1,6 +1,6 @@
 export const name="skype-logo-duotone";
-export const id="dl_5fd9a7c4401f4d139abd";
-export const url=new URL("../icons/skype-logo-duotone.svg?v=3e1d9f5d2bd9be85e5872349ffc4e7e4ae031db0536e79f9a27723180a0fdb8d",import.meta.url).href;
+export const id="dl_bfab6f6fbce9d5682b5d";
+export const url=new URL("../icons/skype-logo-duotone.svg?v=b439ba75c55be590ed4289df55735059e7d8265c0ae50ee195226990df7b8e0d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

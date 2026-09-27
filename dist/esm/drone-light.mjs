@@ -1,6 +1,6 @@
 export const name="drone-light";
 export const id="dl_ddf234f8ad8e49c1bf5f";
-export const url=new URL("../icons/drone-light.svg?v=fb63c2f7e1a3de1e5de300fed796e3340872cb9c9a8398693d2b7b5d8eac4c80",import.meta.url).href;
+export const url=new URL("../icons/drone-light.svg?v=5e7cce89599b9c6416751d3fe97cdef17ff9405870a124e550e73b510d85663e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="timer-light";
-export const id="dl_280691f1e1a443a68b42";
-export const url=new URL("../icons/timer-light.svg?v=91b9cba11ee931d7892ca284557ea1ef6f18ac2b9f950fc613c4026d2f1d93a5",import.meta.url).href;
+export const id="dl_b65a28a4c0717a617589";
+export const url=new URL("../icons/timer-light.svg?v=854b87c8a21d45f6e1d427a76ceffe1d6b9279adfdd644bf77889fbfe8b7d3a8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

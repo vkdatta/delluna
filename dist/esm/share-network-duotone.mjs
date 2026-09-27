@@ -1,6 +1,6 @@
 export const name="share-network-duotone";
-export const id="dl_e1c1398783524f1999f5";
-export const url=new URL("../icons/share-network-duotone.svg?v=0bf3d364f143754ea8b654ecef67d26c84750e6487ccb0ce86aa59ad662c4f89",import.meta.url).href;
+export const id="dl_2016e5772c0112f5da74";
+export const url=new URL("../icons/share-network-duotone.svg?v=e806dab4688632943b0b0fe5b60059dfca02c78015aa173feeb306bbeca012ed",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

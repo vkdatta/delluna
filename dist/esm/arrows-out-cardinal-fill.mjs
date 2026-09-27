@@ -1,6 +1,6 @@
 export const name="arrows-out-cardinal-fill";
 export const id="dl_0b6f2e8d5bd44ba39064";
-export const url=new URL("../icons/arrows-out-cardinal-fill.svg?v=8dc9c31303e3710b7799859a5e174f094b56524f51ebc2f64a5ed9d2c1b53d54",import.meta.url).href;
+export const url=new URL("../icons/arrows-out-cardinal-fill.svg?v=c2700c7854951e006d7e9c03e9e28a78fb1f800e426ae1832830d9e93bfc1232",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

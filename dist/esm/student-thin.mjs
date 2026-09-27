@@ -1,6 +1,6 @@
 export const name="student-thin";
-export const id="dl_e6876693cd0649c3871a";
-export const url=new URL("../icons/student-thin.svg?v=b7cd6b828cbf2a90f802a23c2bacd620510ffd6b7897e501ccd2a6b55f6a655d",import.meta.url).href;
+export const id="dl_7d25922f2ba154939a34";
+export const url=new URL("../icons/student-thin.svg?v=7ec9a42fe32fc5c5698db7f97ad4c4ea2c231928147e54c8ebaacd7967004988",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

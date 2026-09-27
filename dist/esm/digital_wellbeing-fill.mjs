@@ -1,6 +1,6 @@
 export const name="digital_wellbeing-fill";
-export const id="dl_2faac03bb6774028853d";
-export const url=new URL("../icons/digital_wellbeing-fill.svg?v=b69dfa405c5fc7f3d981892685bd360a0a9cb1de85ec17558cf53ea800860711",import.meta.url).href;
+export const id="dl_9a92d9af99a057c9beee";
+export const url=new URL("../icons/digital_wellbeing-fill.svg?v=f037487108f2c5ef5386fd8fa51c99bee2dfafdc8a8761ac5d96adcd133ca6c0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

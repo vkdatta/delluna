@@ -1,6 +1,6 @@
 export const name="snowflake-duotone";
-export const id="dl_cc0274e32e034a58baa6";
-export const url=new URL("../icons/snowflake-duotone.svg?v=dc38b26c8a6f932a3f0bf9337e0f36678e052d8c757e051c92405d6819370985",import.meta.url).href;
+export const id="dl_45edf410f011a0860328";
+export const url=new URL("../icons/snowflake-duotone.svg?v=dee0f79e4bc443d92f046201f41109543d2bed8bb4255c1cdfbbfe691fa6258d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

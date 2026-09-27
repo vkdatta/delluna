@@ -1,6 +1,6 @@
 export const name="shopping-cart-fill";
-export const id="dl_4accd602de8840cdbda8";
-export const url=new URL("../icons/shopping-cart-fill.svg?v=32193c360cbdce38028355bb0b20143e19c351c2ca5c8d7256e42cbe2643c59b",import.meta.url).href;
+export const id="dl_8c18b3a0850233de91b6";
+export const url=new URL("../icons/shopping-cart-fill.svg?v=ae1b3d159b32644072cdcb085fde351ac94013050c83a44c16bff18545820c78",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

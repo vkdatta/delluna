@@ -1,6 +1,6 @@
 export const name="mountain_steam-fill";
-export const id="dl_5dadb22de08a4d2abd13";
-export const url=new URL("../icons/mountain_steam-fill.svg?v=0e4f36b5b0103ddd31cf7e5cb5294589ffeef074696e07e105688cfad2ea1738",import.meta.url).href;
+export const id="dl_e611c33f82db9247a144";
+export const url=new URL("../icons/mountain_steam-fill.svg?v=8116c862557f8636af135750ef5d7020b4e65af507e2bda2f48a6912deaa9114",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

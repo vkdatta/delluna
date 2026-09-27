@@ -1,6 +1,6 @@
 export const name="japanese_flag-fill";
-export const id="dl_662c82615fd148a19c96";
-export const url=new URL("../icons/japanese_flag-fill.svg?v=4bc769786b81a6e19beceb136cd3730f658e9b2767e9f5afe6680f8ca6d01a31",import.meta.url).href;
+export const id="dl_652ea6ddbbc62f6683d5";
+export const url=new URL("../icons/japanese_flag-fill.svg?v=69f4228a4fcd798b292556851429af6fa3bf21091a5e302d5e0ea18fd57f7153",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

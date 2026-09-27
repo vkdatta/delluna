@@ -1,6 +1,6 @@
 export const name="three-d-thin";
-export const id="dl_d0c81a22de2041a98f9b";
-export const url=new URL("../icons/three-d-thin.svg?v=34809d972916bd4be9493c4173e2739b5f90b7976496befcae4992cfb91b41ba",import.meta.url).href;
+export const id="dl_80b8da7f9bd38a4271d7";
+export const url=new URL("../icons/three-d-thin.svg?v=98c2929bda0402c695a40092ae49aa1e106f8b4dc66ecca1f7f5a06ef4df92bd",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

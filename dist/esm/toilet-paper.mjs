@@ -1,6 +1,6 @@
 export const name="toilet-paper";
-export const id="dl_0d4fda44317f4ef39d4b";
-export const url=new URL("../icons/toilet-paper.svg?v=420720b4c6d8a1ce468b0ad92f310706bb78968677de635b0e3bea339c2516b1",import.meta.url).href;
+export const id="dl_7fbe76526d9905bed1e7";
+export const url=new URL("../icons/toilet-paper.svg?v=68dd5bc023122a10f04e1e178b76bf97f8fb7a8040aa1c5ef276859f95bb22cf",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

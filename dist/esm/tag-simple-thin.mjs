@@ -1,6 +1,6 @@
 export const name="tag-simple-thin";
-export const id="dl_dbb7c3c00ae541fd9a2d";
-export const url=new URL("../icons/tag-simple-thin.svg?v=62c9632a8f719e3580d54bfec533dc7b86d3f961675c356eb6467a99db190764",import.meta.url).href;
+export const id="dl_fddf0786f139fce28ae1";
+export const url=new URL("../icons/tag-simple-thin.svg?v=edaf9195a5a035e2c37651454014c52c4d664546b0f9051ee87cbb43349e65cf",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

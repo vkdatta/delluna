@@ -1,6 +1,6 @@
 export const name="stack-simple-light";
-export const id="dl_711ae7f2cb204ddc86a2";
-export const url=new URL("../icons/stack-simple-light.svg?v=98e7a6d2173f249748c850370c8105bea16412f4a254f82840cf81c45fc476cd",import.meta.url).href;
+export const id="dl_3bcbf33d75f070275cdc";
+export const url=new URL("../icons/stack-simple-light.svg?v=3f66f2b87fc4e07f1412d81e1172659d1545a696bf45a4f1e1a0b2e1e895bb5b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

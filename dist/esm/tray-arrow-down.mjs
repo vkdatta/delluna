@@ -1,6 +1,6 @@
 export const name="tray-arrow-down";
-export const id="dl_b5e157d4ac2942889a22";
-export const url=new URL("../icons/tray-arrow-down.svg?v=5636f01085ff8972bab12eb36730e55e12b7d26cfca27d426fdc83a922e1eb03",import.meta.url).href;
+export const id="dl_002e76bfaf1e11f9e70f";
+export const url=new URL("../icons/tray-arrow-down.svg?v=bd2f01d736526e50eb7069d6c61b5d42f5f1be263e65ac98da82621286e9a3b6",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

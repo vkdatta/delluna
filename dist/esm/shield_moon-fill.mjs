@@ -1,6 +1,6 @@
 export const name="shield_moon-fill";
-export const id="dl_df9e4d462daf442dab5e";
-export const url=new URL("../icons/shield_moon-fill.svg?v=bb480c11bc68c097d07bca243bd40ba272af343eb7480550fff72e39ee26285e",import.meta.url).href;
+export const id="dl_4bb9bbf436dee297ab7a";
+export const url=new URL("../icons/shield_moon-fill.svg?v=5a41764b19b73e3a606d04434185a31dc8f7addb7e6fa6fa69932d4ca7334f1c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

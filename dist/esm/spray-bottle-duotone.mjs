@@ -1,6 +1,6 @@
 export const name="spray-bottle-duotone";
-export const id="dl_235fbea52644479c9262";
-export const url=new URL("../icons/spray-bottle-duotone.svg?v=9171288ca5284b12e13fc89ced9a05d27cc80ba3131d3ee6b81fe4dcec416098",import.meta.url).href;
+export const id="dl_0b8adceed129e7c17331";
+export const url=new URL("../icons/spray-bottle-duotone.svg?v=3e834ef5c01d22ae631a39515cfb7e9c60993c60f73a43cbbcff89fc62e27dab",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="scales-fill";
-export const id="dl_4a3a9b5826c24d20a32e";
-export const url=new URL("../icons/scales-fill.svg?v=819cda55e5eba2727fe2026b28ef693b9a3c949f7df0908636f62dea9d699592",import.meta.url).href;
+export const id="dl_46dd753adbb2705f72c7";
+export const url=new URL("../icons/scales-fill.svg?v=f637f741a1ecf9aad9891cf8ea9f4166e0bdffa5b7ef09a251116a3b4163835b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="smiley-melting-light";
-export const id="dl_e737da760bbb4645be8e";
-export const url=new URL("../icons/smiley-melting-light.svg?v=c99a8d78d30c871f9ea73ab7746a6f8153187e9689cd14cf4060ac6e397b25b3",import.meta.url).href;
+export const id="dl_46205771540cf5a0fc69";
+export const url=new URL("../icons/smiley-melting-light.svg?v=ba5a1681dc65abf20b51d1fa71dcf08e7ec16fc133c8196a3e016efa92456a9a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

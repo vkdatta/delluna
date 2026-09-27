@@ -1,6 +1,6 @@
 export const name="radar-fill";
-export const id="dl_5357ba956f64414dbefc";
-export const url=new URL("../icons/radar-fill.svg?v=289f84fbbf52a2acf067725a66f7f5c1cbabd99a3fa0820681fbe622b1fc0f0a",import.meta.url).href;
+export const id="dl_bfedb9de8399155882a9";
+export const url=new URL("../icons/radar-fill.svg?v=362488548056177c9d2b569930d580ed0c5ae43c39662c2aab1c01864f6f0890",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

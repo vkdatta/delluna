@@ -1,6 +1,6 @@
 export const name="home_and_garden-fill";
-export const id="dl_46a4eff1e57e4576bee1";
-export const url=new URL("../icons/home_and_garden-fill.svg?v=a2af46be2d1a3e5e1cabf022820e06a90ba1b3cbae0ce0e60751bb36d2fd71bd",import.meta.url).href;
+export const id="dl_020fbfa1d8cc922c2f06";
+export const url=new URL("../icons/home_and_garden-fill.svg?v=a82aa0cf9d99067e2f82ab245eb15623d05fcf8a964435e0433dac4f9522483c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

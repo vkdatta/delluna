@@ -1,6 +1,6 @@
 export const name="healing";
-export const id="dl_1bca0ebd43f6410aa740";
-export const url=new URL("../icons/healing.svg?v=0c6065d48d0ca4e5ba4fb219675e22afe3e24adf062610dc130c6c6bf58f47a9",import.meta.url).href;
+export const id="dl_bd35fc114d1d7cab6270";
+export const url=new URL("../icons/healing.svg?v=a4ecd31d6bf8f948f10976597a2b99d2a070472bebb0c24178f81b3596d74d8a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

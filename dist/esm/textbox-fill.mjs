@@ -1,6 +1,6 @@
 export const name="textbox-fill";
-export const id="dl_d4e912971ece445cbe68";
-export const url=new URL("../icons/textbox-fill.svg?v=aecf99dd2b20db023c0d06118414f30881a6261d2a687f0829296f4c0d9c613b",import.meta.url).href;
+export const id="dl_c19738d31510d67793c8";
+export const url=new URL("../icons/textbox-fill.svg?v=38aeba35ba3d8f43811c0e598c3aafda63ec204602bf5d0e3af555d1e7274522",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

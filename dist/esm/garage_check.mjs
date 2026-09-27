@@ -1,6 +1,6 @@
 export const name="garage_check";
-export const id="dl_9f0efbfdae9c4ba6a421";
-export const url=new URL("../icons/garage_check.svg?v=ddf232381cc5085618717db0af80e0ae1d2d03e07fcb0eb574c4cc09271ac17f",import.meta.url).href;
+export const id="dl_81ee8a550377f56373bf";
+export const url=new URL("../icons/garage_check.svg?v=b43a722bb1ad75281d39741f4be3fa493fe2fffa8fff8477166ced22d78ff79a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

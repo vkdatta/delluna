@@ -1,6 +1,6 @@
 export const name="stadium";
-export const id="dl_7d20a3ac0fca402b9926";
-export const url=new URL("../icons/stadium.svg?v=b84554851245e64b41e7a800b2914aee2851da56982079005977fce51cfe7c4b",import.meta.url).href;
+export const id="dl_ffdc3fbdd385c7fc7ce7";
+export const url=new URL("../icons/stadium.svg?v=4db4a7ee27ee8325707a8fbd741dfa72939ad9ddc909d7a8fc217b8bc3ae9ec2",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

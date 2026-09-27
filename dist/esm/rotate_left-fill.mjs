@@ -1,6 +1,6 @@
 export const name="rotate_left-fill";
-export const id="dl_c4fa0a27715e4c098bb6";
-export const url=new URL("../icons/rotate_left-fill.svg?v=4d6f9650edca64aa7bb8acc887156a0132f5bd4cbc3e2700f1a5546fcdd0f2ca",import.meta.url).href;
+export const id="dl_e58512ed57d560a6ba0d";
+export const url=new URL("../icons/rotate_left-fill.svg?v=d841aa50b526c628990d427a4fed51b7aae9b1ff83cb2e8a59456892423f5abf",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

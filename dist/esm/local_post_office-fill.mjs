@@ -1,6 +1,6 @@
 export const name="local_post_office-fill";
-export const id="dl_4b18cc0fd8e5468093fc";
-export const url=new URL("../icons/local_post_office-fill.svg?v=e452c0f109c0ddc783a5fcb45d81405286cf3e24fd4d428dbd557be8d82870e5",import.meta.url).href;
+export const id="dl_e16b8c82a4353ee54fad";
+export const url=new URL("../icons/local_post_office-fill.svg?v=e3177f3064cfb7e50bbc6d0cd1bd817976e344dcd52d4a4a9ba66e6f38557f40",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

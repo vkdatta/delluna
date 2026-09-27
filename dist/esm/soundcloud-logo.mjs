@@ -1,6 +1,6 @@
 export const name="soundcloud-logo";
-export const id="dl_dde51fc19ab34ee79e4d";
-export const url=new URL("../icons/soundcloud-logo.svg?v=78c6a9f4c8fe2bbb832513c71eaddd0d6b064b8d1d19e579b8fd8bf7f0bfeb86",import.meta.url).href;
+export const id="dl_ab405c8659989081b83b";
+export const url=new URL("../icons/soundcloud-logo.svg?v=0e9f12e83dfc8bba1a4538c9e99d4cc555048a8a507a6fd71d86127a465317fd",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="hourglass_arrow_up";
-export const id="dl_c4c14b51755b4326a25f";
-export const url=new URL("../icons/hourglass_arrow_up.svg?v=aa23252e6c85fc6e1c0e48a511fb30b6e6778985b4a05507fb9645e60c38c8bf",import.meta.url).href;
+export const id="dl_15389e041f519707a074";
+export const url=new URL("../icons/hourglass_arrow_up.svg?v=d7481caccf3d3a7cadd7f25030b35229bf5a5c5e16844006570be210cdc42a13",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

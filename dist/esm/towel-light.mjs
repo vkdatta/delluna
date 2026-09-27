@@ -1,6 +1,6 @@
 export const name="towel-light";
-export const id="dl_fade6b4ba04e4431bda4";
-export const url=new URL("../icons/towel-light.svg?v=f39399a2c764893421f56eceae49368feacf8e309ec0dab41a44c61c6ed47fcf",import.meta.url).href;
+export const id="dl_f9d276e49ae4d9806e2d";
+export const url=new URL("../icons/towel-light.svg?v=2e724705be93dc8e76964afb8d78e0b8a94b7d6d609bc441a895464a2fbe7ffb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

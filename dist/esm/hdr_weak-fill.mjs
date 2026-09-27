@@ -1,6 +1,6 @@
 export const name="hdr_weak-fill";
-export const id="dl_48f6deff61974a3ab054";
-export const url=new URL("../icons/hdr_weak-fill.svg?v=e785feccc89aeaff958d599cb442c6bf42495019a7c06083a0096f0b2a60a41b",import.meta.url).href;
+export const id="dl_9960494d5b78ba9ff08f";
+export const url=new URL("../icons/hdr_weak-fill.svg?v=1c2e25a3ed7794a0b889d8475463a88a32a303de6dedbdbc36df9f5d847cd60b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

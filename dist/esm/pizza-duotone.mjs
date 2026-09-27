@@ -1,6 +1,6 @@
 export const name="pizza-duotone";
 export const id="dl_9d2e94f5eca14fdd8fe4";
-export const url=new URL("../icons/pizza-duotone.svg?v=7c797b60091ed8d06909765e51517c086c134c9ec08a982cf6508f6d7ec13783",import.meta.url).href;
+export const url=new URL("../icons/pizza-duotone.svg?v=a38d32f8cb2d9ca1c28da32bd3c6b40ed6920a824f471db5179be77bfcaa666f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

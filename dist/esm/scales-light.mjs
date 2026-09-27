@@ -1,6 +1,6 @@
 export const name="scales-light";
-export const id="dl_d986a5b68aa04bdc9dcf";
-export const url=new URL("../icons/scales-light.svg?v=ef1d2a21d677e1885bf58c2e05d5d60f8523f8533e301d5b8d447750ada2a309",import.meta.url).href;
+export const id="dl_20eea36698edfd91727f";
+export const url=new URL("../icons/scales-light.svg?v=6eb024d075c76d6b6224d0ecaaba714e56c800a7be69faac6c015a36e731fead",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

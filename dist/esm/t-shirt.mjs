@@ -1,6 +1,6 @@
 export const name="t-shirt";
-export const id="dl_2c8177ef193f445eb6f8";
-export const url=new URL("../icons/t-shirt.svg?v=e3ce5f31b4e34d922e67ee55ec7394093be85cfc8d56bf312cc72cdb738c33b3",import.meta.url).href;
+export const id="dl_b66609b3ad382d6f1a6e";
+export const url=new URL("../icons/t-shirt.svg?v=c73d5b201384f1b45678013fd2950cd0a783990c74444aff6782fb1129240e36",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

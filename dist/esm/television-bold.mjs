@@ -1,6 +1,6 @@
 export const name="television-bold";
-export const id="dl_c01ee11e24ee4af09713";
-export const url=new URL("../icons/television-bold.svg?v=4d7e50cf5736b205c2989218c3e17735faeb84800f1a00b111797dce75ce3828",import.meta.url).href;
+export const id="dl_6bf5696007e5cf4fb83d";
+export const url=new URL("../icons/television-bold.svg?v=52c9d7184f9ed3a6afa1524e174438b2b99bc12b74cd81d5df1e5f05ce01f311",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

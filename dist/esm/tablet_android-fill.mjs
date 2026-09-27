@@ -1,6 +1,6 @@
 export const name="tablet_android-fill";
-export const id="dl_91bf8991dce242559d36";
-export const url=new URL("../icons/tablet_android-fill.svg?v=c8fd6e7dc1de778f6b5df832e1687b229555838230d1d2bc5aaddcfd8e806710",import.meta.url).href;
+export const id="dl_06e1d17a0dfb30eb6a0b";
+export const url=new URL("../icons/tablet_android-fill.svg?v=f5140d61a6b2d58a9f3de3e7ab71c2a9234766ded25cc12de3dbc19e92108ef6",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

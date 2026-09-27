@@ -1,6 +1,6 @@
 export const name="deceased-fill";
-export const id="dl_074581e112104dce8e5f";
-export const url=new URL("../icons/deceased-fill.svg?v=77b55d91b661c4818a3c5cb2943bf4cd7bcef389be24d601a392c43f927efd4f",import.meta.url).href;
+export const id="dl_2296160790f20fbe93c6";
+export const url=new URL("../icons/deceased-fill.svg?v=74d3113f126a1d06d145755dbca3c75bb8bc18d80c8a177e570d69a39bc8fd11",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

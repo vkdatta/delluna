@@ -1,6 +1,6 @@
 export const name="crib-fill";
-export const id="dl_ac3d832d6a2a46f19d42";
-export const url=new URL("../icons/crib-fill.svg?v=99a21ae102e3b2fe10c469e421b5118fd4098dbddea04f52e54d1a8b38a62b6a",import.meta.url).href;
+export const id="dl_3092b2f5e4a1b85cfbba";
+export const url=new URL("../icons/crib-fill.svg?v=c3543c461927e0b268ba51ddeb88c153be07cd71748b992093f845f76afdde60",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

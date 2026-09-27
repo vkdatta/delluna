@@ -1,6 +1,6 @@
 export const name="traffic-signal-duotone";
-export const id="dl_d373d7b2cf2241a1b14f";
-export const url=new URL("../icons/traffic-signal-duotone.svg?v=ff40802dcd2581a8965c2fb60043b234dd31e3daf7a326302f71d9cc3d9a04b4",import.meta.url).href;
+export const id="dl_c527e387ad69b70ef340";
+export const url=new URL("../icons/traffic-signal-duotone.svg?v=9e6d6b1773ca65bc99daeb96ff88542e1a7483a98b9404b60938557a6f4c1416",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

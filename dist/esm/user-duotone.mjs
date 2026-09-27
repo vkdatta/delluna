@@ -1,6 +1,6 @@
 export const name="user-duotone";
-export const id="dl_dbb47d9a9cd8484486e1";
-export const url=new URL("../icons/user-duotone.svg?v=58708fccb6ecc622a23f9fcd4aae24912c660d8f3d502185693ba562bef85674",import.meta.url).href;
+export const id="dl_3fc9fb39051f61407084";
+export const url=new URL("../icons/user-duotone.svg?v=0a0c966e9fbe7630a75a9a41bcd48cd61052edf5cd2dbd7974b03140254a291a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="margin";
-export const id="dl_82092f2380994e33894c";
-export const url=new URL("../icons/margin.svg?v=bf7b3e53e384fb4587c5f6375df1a27ef5ee43ec07b0a8c1f1a26d5d78cc0c94",import.meta.url).href;
+export const id="dl_22e4889fa3669143ee2b";
+export const url=new URL("../icons/margin.svg?v=efa0b0d3bde9a5a568411de5199a9847993673ab9657665d89b0e6f49d4ee99e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

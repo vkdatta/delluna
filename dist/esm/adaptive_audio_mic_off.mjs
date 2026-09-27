@@ -1,6 +1,6 @@
 export const name="adaptive_audio_mic_off";
-export const id="dl_51ff6fd5870d43fea7cf";
-export const url=new URL("../icons/adaptive_audio_mic_off.svg?v=27d598046806cd86af759769b267f9653bb0df2041da36bd36190368e89dd78d",import.meta.url).href;
+export const id="dl_c200a07cbe9198c5ede1";
+export const url=new URL("../icons/adaptive_audio_mic_off.svg?v=d42cae5e46f11be9d548fe471597b5ac5d42efcd9c050a0c0e3aa152ba7d7dfa",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

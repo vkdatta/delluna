@@ -1,6 +1,6 @@
 export const name="smart_display-fill";
-export const id="dl_2800811acac8426bb56a";
-export const url=new URL("../icons/smart_display-fill.svg?v=dd784326b342fba32a2443704419e9ee30186cc487f21fecd77cc652761ab382",import.meta.url).href;
+export const id="dl_7ccbb1cfba1c347d3fa7";
+export const url=new URL("../icons/smart_display-fill.svg?v=07039025bceb715923a28201664e0e00f21e47cf62ced9fd7de6f034b3e31d81",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

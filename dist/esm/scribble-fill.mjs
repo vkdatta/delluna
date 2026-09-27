@@ -1,6 +1,6 @@
 export const name="scribble-fill";
-export const id="dl_88ed3b47cbef4622b336";
-export const url=new URL("../icons/scribble-fill.svg?v=0c543149523e083f28b5b034abcd4201f3b35b8b644c675efde7c28844696236",import.meta.url).href;
+export const id="dl_eb9a502d6cb12f6e72bb";
+export const url=new URL("../icons/scribble-fill.svg?v=b1b537992ffb47d0b8fe792cb4852d2a27061ff5e72c62c3d70ff16e14cd68b5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

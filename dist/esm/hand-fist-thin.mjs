@@ -1,6 +1,6 @@
 export const name="hand-fist-thin";
 export const id="dl_4e8969c5dca344e7b456";
-export const url=new URL("../icons/hand-fist-thin.svg?v=90e1cfff7ddab5330c5b22a6b27f695e62dfa2ae1c5e06c9fa33cf39149eb4fd",import.meta.url).href;
+export const url=new URL("../icons/hand-fist-thin.svg?v=73cb95bfbebdac4e6d6381e9413007bd51d6e5f32b5bf0d25e5ea86ce242feda",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

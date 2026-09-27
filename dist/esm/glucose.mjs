@@ -1,6 +1,6 @@
 export const name="glucose";
-export const id="dl_b2ff53c52e3f41d7901b";
-export const url=new URL("../icons/glucose.svg?v=5cc65c306114edf5d2315db1e37394f61a3468301bc266c28876a46752ec36b2",import.meta.url).href;
+export const id="dl_ca7999c4311786a17010";
+export const url=new URL("../icons/glucose.svg?v=6467c666e7af99f283f3c4042dd1ae690bd58e898c53e9b7d1c39194abd6f108",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

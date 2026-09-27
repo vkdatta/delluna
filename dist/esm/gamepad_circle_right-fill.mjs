@@ -1,6 +1,6 @@
 export const name="gamepad_circle_right-fill";
-export const id="dl_14a173b6462541209b3f";
-export const url=new URL("../icons/gamepad_circle_right-fill.svg?v=35975792c884f3655802ea5dcc1bd7e2076f87aad0a7b9dccb82d69e206c8404",import.meta.url).href;
+export const id="dl_7ac397b38381430acb72";
+export const url=new URL("../icons/gamepad_circle_right-fill.svg?v=de6b93606f883f223a9351d5ea4916c9c3df00ea8c714f5e5f16ebc13f9c4467",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

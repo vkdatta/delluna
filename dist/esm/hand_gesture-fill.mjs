@@ -1,6 +1,6 @@
 export const name="hand_gesture-fill";
-export const id="dl_4bae7089b0614fe995ba";
-export const url=new URL("../icons/hand_gesture-fill.svg?v=0c28fc9d99c8e579eca6ea945b6a01d9901b5b31c001801c2e7c7ef65e29dfba",import.meta.url).href;
+export const id="dl_e2eacc603f70ed4ea231";
+export const url=new URL("../icons/hand_gesture-fill.svg?v=53851831ea1f2c289bba3cdde9fcb6e4ae6f77fa8a07c6d9289abc65c7c75299",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

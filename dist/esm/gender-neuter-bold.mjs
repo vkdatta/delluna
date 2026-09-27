@@ -1,6 +1,6 @@
 export const name="gender-neuter-bold";
 export const id="dl_4151caa82f1e4647902f";
-export const url=new URL("../icons/gender-neuter-bold.svg?v=f75d5eff7584f182eed51fe3cf8938348a2b13ae05d0d0e1f0751fd8c62f6d4e",import.meta.url).href;
+export const url=new URL("../icons/gender-neuter-bold.svg?v=883545b26dfb9fd840eda1d4a4b25e143e3dd4406a9c2e08f0fa7e86dfd25440",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

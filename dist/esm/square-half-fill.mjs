@@ -1,6 +1,6 @@
 export const name="square-half-fill";
-export const id="dl_020bca975a4944b29b6d";
-export const url=new URL("../icons/square-half-fill.svg?v=b7de8273c0735917754a13552d4a1d84f5e4cbe40c8c1458e84ca1c4d0644628",import.meta.url).href;
+export const id="dl_def6fa1ae99f5fcc8b46";
+export const url=new URL("../icons/square-half-fill.svg?v=70c8281c4f89af3b47233df7f79b1b504b8437899e4c927a3473852ef3f2e905",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

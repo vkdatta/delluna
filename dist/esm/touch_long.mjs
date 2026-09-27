@@ -1,6 +1,6 @@
 export const name="touch_long";
-export const id="dl_c1de48e32ecc4db59c34";
-export const url=new URL("../icons/touch_long.svg?v=ffccdfc6481eb73caa9911c18f24bb8c5ed1d536f0f8246a88b6d9d4013935d4",import.meta.url).href;
+export const id="dl_e286784cae0f8110dad6";
+export const url=new URL("../icons/touch_long.svg?v=94bf816adb3c49feb02ebce810d692ba62519464767a1252a8db0f5806039896",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

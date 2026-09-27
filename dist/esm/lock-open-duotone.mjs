@@ -1,6 +1,6 @@
 export const name="lock-open-duotone";
 export const id="dl_ce473e8948ec4a9cbf94";
-export const url=new URL("../icons/lock-open-duotone.svg?v=18fbc1c7c45b4f3a67df52c94f1ae757141d60ff4abee37b3763afba391950d6",import.meta.url).href;
+export const url=new URL("../icons/lock-open-duotone.svg?v=cf7f2824254742e648afff89a5eb7fb72c9a674f61a855cd72499300ffffb9fc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

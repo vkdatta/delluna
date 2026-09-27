@@ -1,6 +1,6 @@
 export const name="lucid_3-panel-left-close";
 export const id="dl_12ae4e6bff64423aa239";
-export const url=new URL("../icons/lucid_3-panel-left-close.svg?v=5b06957e60d8fdf6d3c3153d4acf37a249c1b5d60f528d7dd318366ca71e657f",import.meta.url).href;
+export const url=new URL("../icons/lucid_3-panel-left-close.svg?v=66be755c1e3e99b10d9b134df2b008c5d1632a7ae71ee8bdfbd744d8f2b2fb9c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="sign-in-thin";
-export const id="dl_7a722f26f8e2449c98a4";
-export const url=new URL("../icons/sign-in-thin.svg?v=d0e600c2e97615d0c2cd7c3c17e7c257315a8954c2328d00c0aeb37b40903a12",import.meta.url).href;
+export const id="dl_6b90a4c568257f5e4de3";
+export const url=new URL("../icons/sign-in-thin.svg?v=2f79fda9a249152f6ade52299859e9cd1e8b4ae3509249f6b639cc9b1cfe44de",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

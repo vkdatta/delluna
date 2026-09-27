@@ -1,6 +1,6 @@
 export const name="pacemaker";
-export const id="dl_69eb1bd030d14b6193f1";
-export const url=new URL("../icons/pacemaker.svg?v=ed727d2bc12730da0e963562a32f8517ae3fd0377863ebb892a5c380dd8c93f8",import.meta.url).href;
+export const id="dl_ff37a6b59cb347e7a3be";
+export const url=new URL("../icons/pacemaker.svg?v=a694fb110c8e71fcf0b721a1ef82e28b03d1b11d66c8fcc4ff851c8d0781d460",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

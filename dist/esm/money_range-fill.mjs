@@ -1,6 +1,6 @@
 export const name="money_range-fill";
-export const id="dl_67960cc1339e4e28b528";
-export const url=new URL("../icons/money_range-fill.svg?v=f02e3bbf965a1adcf8608bfa3e486cbda3cb9c3ec36760bcf5eff8aa293e89e6",import.meta.url).href;
+export const id="dl_43a06a40c47bdfcf7415";
+export const url=new URL("../icons/money_range-fill.svg?v=933389fad6c0fffe957fefde6baca5582c2971f6ef560f67e621534ebce0604f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

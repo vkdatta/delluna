@@ -1,6 +1,6 @@
 export const name="casino-fill";
-export const id="dl_082fcd8e50694eac8ac9";
-export const url=new URL("../icons/casino-fill.svg?v=ba7300d08cc2c25bbb7c4284fbba2431754d06e926a8922f72d1d672374f94db",import.meta.url).href;
+export const id="dl_b3763970ef2e5a1522bd";
+export const url=new URL("../icons/casino-fill.svg?v=b5846b83429b7f9a32146bf7f973de8e7c4c261aa3e2e41ec2398e8e05441402",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="mobile_lock_landscape-fill";
-export const id="dl_fd39723fa87b40dfb038";
-export const url=new URL("../icons/mobile_lock_landscape-fill.svg?v=9b9512750d48b3685b0c21c0b388d6e81dd9a4271a2218ec3b484f0a21d51476",import.meta.url).href;
+export const id="dl_db3edebcd816020dd307";
+export const url=new URL("../icons/mobile_lock_landscape-fill.svg?v=65c71de90c4558b483c0e8484e7cbbefa2c9e52c3120ad959057364d8d4f6d0e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

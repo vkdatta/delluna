@@ -1,6 +1,6 @@
 export const name="ballot";
-export const id="dl_5d9a9940b30446dfaf9a";
-export const url=new URL("../icons/ballot.svg?v=24ca57bcb72da3dde93ff867321e2c7f726fb6bf6aa8e64bac43d5168a9eddf0",import.meta.url).href;
+export const id="dl_e78b728f011cd7855fdb";
+export const url=new URL("../icons/ballot.svg?v=1617908b617c1cd3bbc3e6d7f378534ef0bd5782990f1a1a6037f293290d99f3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

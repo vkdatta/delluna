@@ -1,6 +1,6 @@
 export const name="mood_bad-fill";
-export const id="dl_84fe6d1abc9c420bacfe";
-export const url=new URL("../icons/mood_bad-fill.svg?v=ad9dc5f6304d54b3f5d4a692db33b205f885c0ccf50086f8f2ce3488530f5799",import.meta.url).href;
+export const id="dl_9a742789bd134d6fc15a";
+export const url=new URL("../icons/mood_bad-fill.svg?v=78b38d573cc281482825d52be54db176eb38f2ac260a76264cd656a978ab25c3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

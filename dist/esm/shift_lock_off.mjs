@@ -1,6 +1,6 @@
 export const name="shift_lock_off";
-export const id="dl_c74bd577ff1244a6b9fd";
-export const url=new URL("../icons/shift_lock_off.svg?v=92467edf19d00d794305579131dd6fe4920e26165412e36ced9abfc9b7b25342",import.meta.url).href;
+export const id="dl_54dab86e19387084d479";
+export const url=new URL("../icons/shift_lock_off.svg?v=241e81d0c9859a1fc4f67415c3eecbbb0f1ac66f74a2e1eaf816aa9b373f742f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

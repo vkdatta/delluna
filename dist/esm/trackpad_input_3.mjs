@@ -1,6 +1,6 @@
 export const name="trackpad_input_3";
-export const id="dl_e6f6d7df73624f108f60";
-export const url=new URL("../icons/trackpad_input_3.svg?v=80bdbf55691b4c87f95d7ca6d2934934543f4fc1b8b125db593fd5273bd3d791",import.meta.url).href;
+export const id="dl_b157984c73acf0c86215";
+export const url=new URL("../icons/trackpad_input_3.svg?v=71ad953c450b73f5c231d412695c96a9a2c0f8c2de63246212bdbfb71a8a7f26",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

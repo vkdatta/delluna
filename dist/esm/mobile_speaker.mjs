@@ -1,6 +1,6 @@
 export const name="mobile_speaker";
-export const id="dl_d76d2393a78b4ed78ce9";
-export const url=new URL("../icons/mobile_speaker.svg?v=5122132b803f49cc230a6b00f38d22dd0ca1d32b93bebfe59e13909f96689a55",import.meta.url).href;
+export const id="dl_de93edcda463e2249e73";
+export const url=new URL("../icons/mobile_speaker.svg?v=d865079ef7575464f3f7aac3c18a019e073124e62e7303b5362ee12f1c75fbfc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="mobile_dots";
-export const id="dl_3e3d1f35bd434f2e9886";
-export const url=new URL("../icons/mobile_dots.svg?v=d00e1f00b5d1a6d4cd9c863cc8c71ee1b84ba273afd75054b41e68731d124bac",import.meta.url).href;
+export const id="dl_c4c3fd1f9952a86b442c";
+export const url=new URL("../icons/mobile_dots.svg?v=174401b026693f0c3eeddd2f6cd9594731bcff266696c621340ac9ecfa519123",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

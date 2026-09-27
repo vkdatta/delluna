@@ -1,6 +1,6 @@
 export const name="wifi_calling";
-export const id="dl_567bd479ef3f435d8f2d";
-export const url=new URL("../icons/wifi_calling.svg?v=48d684da68144744eed327b3d60a8f1fbfbefd5cc7b9cb525c075e652cc11ed4",import.meta.url).href;
+export const id="dl_eebf8980571fd1e00f36";
+export const url=new URL("../icons/wifi_calling.svg?v=d7ab196804fe6c5d0a7201c3e8e21c095b159bc1e5b288f1d2ff87ab8e63c04b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

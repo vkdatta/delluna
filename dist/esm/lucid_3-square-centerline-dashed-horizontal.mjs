@@ -1,6 +1,6 @@
 export const name="lucid_3-square-centerline-dashed-horizontal";
 export const id="dl_31bf86d656234bc38f80";
-export const url=new URL("../icons/lucid_3-square-centerline-dashed-horizontal.svg?v=067dfc3808d1f94b1988284663f805e2bff5032be9f3b7bbc7dade8bda146a3f",import.meta.url).href;
+export const url=new URL("../icons/lucid_3-square-centerline-dashed-horizontal.svg?v=10c70fb1ec0e820ae5c0b68562c71e49a38d7c402920d4179234d3754493f310",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="ring_volume";
-export const id="dl_4dc1a314e93348259869";
-export const url=new URL("../icons/ring_volume.svg?v=4d73b8341473b13654b85d31d278bc693692bd82385658ca8cae7e7d4e1158ec",import.meta.url).href;
+export const id="dl_8f2f7db14381f406127f";
+export const url=new URL("../icons/ring_volume.svg?v=1d6eedb689b7894c8d1087deedadf6895e32991fa73433185f4a3a107bfff996",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

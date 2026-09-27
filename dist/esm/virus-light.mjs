@@ -1,6 +1,6 @@
 export const name="virus-light";
-export const id="dl_6c260c4f892b45dba1e7";
-export const url=new URL("../icons/virus-light.svg?v=0482c038002a75d29edcd747f4820146d6223bfca0914c1a6e78e7cf961b9581",import.meta.url).href;
+export const id="dl_4473cf2492ccf34e17c7";
+export const url=new URL("../icons/virus-light.svg?v=97286cc54ff694f3f495672c509d6f06f38d60fac4ce6f8b7a09a0911cb66cc8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="splitscreen_left";
-export const id="dl_b6153fa06c114161af15";
-export const url=new URL("../icons/splitscreen_left.svg?v=f66dc7520ca54a28ee25f2e6801583cd9380017272b73016ac2cfd6628f21a6c",import.meta.url).href;
+export const id="dl_681bbc9f059a69fe0361";
+export const url=new URL("../icons/splitscreen_left.svg?v=b1597767657ead39467f3048d29ca5b43a91d979b7791b7a1bcf23b75df1e196",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

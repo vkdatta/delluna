@@ -1,6 +1,6 @@
 export const name="spotify-logo";
-export const id="dl_eb456ea7799f4101b536";
-export const url=new URL("../icons/spotify-logo.svg?v=200956e4a7bd825533313d81e6fd09e246e76967c4136d9e5e7fbce9eedb9e79",import.meta.url).href;
+export const id="dl_e85eb77d9fe80c626bd1";
+export const url=new URL("../icons/spotify-logo.svg?v=c7c60ba98797baeb47e8d91728e9480b7c26c75bdcb7d8ce83d49d36a08f7254",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

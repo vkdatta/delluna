@@ -1,6 +1,6 @@
 export const name="videocam-fill";
-export const id="dl_3fbd65adc3214cb089e2";
-export const url=new URL("../icons/videocam-fill.svg?v=2161227d9afeb058aee7fe65bcf0ab302bb6c6f13e11ada7155a2db2f71c5513",import.meta.url).href;
+export const id="dl_fcb03df90909c8f45ae6";
+export const url=new URL("../icons/videocam-fill.svg?v=f9cdae5ac9870a25db4b6b40f99b412fc17453c3dd916d7c209a433f82cbd618",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

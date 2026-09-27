@@ -1,6 +1,6 @@
 export const name="communication";
-export const id="dl_ec1ceacedbd1422cb428";
-export const url=new URL("../icons/communication.svg?v=b39493ad366283aa2cb72198c54ad570ce24e0348be3e9ed67d19468762eab2f",import.meta.url).href;
+export const id="dl_a18161e67178d01ecbf8";
+export const url=new URL("../icons/communication.svg?v=b1c7f3c1c1199a6c53d020feba22d8a069b6455d3dea8b0a197f962fbf6d5af9",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="letter-circle-p-light";
 export const id="dl_5b223545de244b04ada5";
-export const url=new URL("../icons/letter-circle-p-light.svg?v=fb1e82e4ac1d342d46c65ab871160f2c2da9f60819eb534408d1e544ed8738a8",import.meta.url).href;
+export const url=new URL("../icons/letter-circle-p-light.svg?v=9bea790a6693239e8aa3d5d06daf4bfee0d83e4de78a182574ba5c3e150a5ddc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

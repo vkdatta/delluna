@@ -1,6 +1,6 @@
 export const name="tractor-duotone";
-export const id="dl_4b3a96eb029342e58c6a";
-export const url=new URL("../icons/tractor-duotone.svg?v=bf02e1c85a7bbc593317b3ed0757583e602d8cca6e3c8fda997a5a79ce3eb694",import.meta.url).href;
+export const id="dl_57604aebdbc6625d272e";
+export const url=new URL("../icons/tractor-duotone.svg?v=d3d49788fa8ab6de15652f978893b631c65ea97fff0aecd703ddca694e5455ea",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

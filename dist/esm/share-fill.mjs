@@ -1,6 +1,6 @@
 export const name="share-fill";
-export const id="dl_2a810f9bc6ee4daaa0aa";
-export const url=new URL("../icons/share-fill.svg?v=078c1b35a52507f3a87e64d0735c2e2a5e59277101cbf6e12726225f44f59270",import.meta.url).href;
+export const id="dl_e28fb93e711545b91682";
+export const url=new URL("../icons/share-fill.svg?v=ec08d21800b3674b696a0226836572192dc2519351104e494a97a846c3558eb0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

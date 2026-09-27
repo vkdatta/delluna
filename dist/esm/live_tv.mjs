@@ -1,6 +1,6 @@
 export const name="live_tv";
-export const id="dl_ddd6493aaf344844b5f0";
-export const url=new URL("../icons/live_tv.svg?v=1c3435e2fdda9c28c5a3f9b18591ad0da883e1047a00eb87503e32d4193b7260",import.meta.url).href;
+export const id="dl_888d9485c79265731d34";
+export const url=new URL("../icons/live_tv.svg?v=891d487deff656cf50ba37f1cf703283594760d21f2b0476eb09947e9ab3f463",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

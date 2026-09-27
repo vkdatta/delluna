@@ -1,6 +1,6 @@
 export const name="ophthalmology";
-export const id="dl_1a2c617f532f4de49bfc";
-export const url=new URL("../icons/ophthalmology.svg?v=14ee75e29fcfe9b911eb1f4151e2c2a9809cd1713a6d4429cfb992a01d1a62d2",import.meta.url).href;
+export const id="dl_da0d02b5e34f32f92f7c";
+export const url=new URL("../icons/ophthalmology.svg?v=c1fff665107571e9ebbddd547c314c0adee33ea8130f9df99aad9f792dac0ea0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

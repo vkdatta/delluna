@@ -1,6 +1,6 @@
 export const name="format_paint";
-export const id="dl_e0637a59d63a489d941e";
-export const url=new URL("../icons/format_paint.svg?v=3f37667ee6c526a278612c57353d78f3a5a0f3d98d20e0083396e1f626020e84",import.meta.url).href;
+export const id="dl_b30793f824c700fd1984";
+export const url=new URL("../icons/format_paint.svg?v=b1cc4ef487c8ef2178a9e8e4b1e5d110f7fbdfd120eb8da56c2dbda2b5f0a98d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

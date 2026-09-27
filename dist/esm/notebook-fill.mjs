@@ -1,6 +1,6 @@
 export const name="notebook-fill";
 export const id="dl_a5cde38682d1474e8fbf";
-export const url=new URL("../icons/notebook-fill.svg?v=e58b383d37d18ce45302b0ad6c49d8ebca752e98ba40a75dfe0321583b8b8de0",import.meta.url).href;
+export const url=new URL("../icons/notebook-fill.svg?v=1d42cb3f20d4126a063eaa618459c307e51511ce47b350d94029ab323a13d142",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

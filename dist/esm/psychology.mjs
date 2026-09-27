@@ -1,6 +1,6 @@
 export const name="psychology";
-export const id="dl_598638e49f9144c49fd8";
-export const url=new URL("../icons/psychology.svg?v=a984c7c688924fa62e8436f1193ee70cb868b7a4180382c9e9bbda90b211d705",import.meta.url).href;
+export const id="dl_2d59c1e5868531e1acd7";
+export const url=new URL("../icons/psychology.svg?v=27eb197b6639e96a92c40dce88d674f1d54c362543b1fb69049516c73fe9ff33",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

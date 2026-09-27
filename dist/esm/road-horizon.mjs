@@ -1,6 +1,6 @@
 export const name="road-horizon";
 export const id="dl_b573c40c4fa645179076";
-export const url=new URL("../icons/road-horizon.svg?v=ccb5c1d0595d2131b4ae97690a4e980b3a562378fc400ac3b61995c8b8c53948",import.meta.url).href;
+export const url=new URL("../icons/road-horizon.svg?v=d218aecae828ffbc871a3cd278853621da8eb4105d3326206a0510b840fd9118",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

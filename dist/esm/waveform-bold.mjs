@@ -1,6 +1,6 @@
 export const name="waveform-bold";
-export const id="dl_702de7595f2c4fbeb1da";
-export const url=new URL("../icons/waveform-bold.svg?v=d9f45452d0caf9ef321d3b506dd56442216c042f3d8daab9ba760e2e94c7b09e",import.meta.url).href;
+export const id="dl_4a8942e7d5de0043630e";
+export const url=new URL("../icons/waveform-bold.svg?v=c7342077fe22ad0179541da8d46b990a7ce780dcd1e69f9612ade8d17d5e26dd",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

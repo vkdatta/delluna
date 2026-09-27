@@ -1,6 +1,6 @@
 export const name="arch-dismiss";
-export const id="dl_44732e6d6a6041a7b194";
-export const url=new URL("../icons/arch-dismiss.svg?v=6ee0684e9ad91ce7151ab82d70c321a091a7e7b89be2f8a4b086ef01972cf004",import.meta.url).href;
+export const id="dl_8f52e3dd65645e34adbf";
+export const url=new URL("../icons/arch-dismiss.svg?v=9355042f49a36e18347df7081bafb4d300bf3ad3349db6ff9d48751dbd17afd8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="align_horizontal_center";
-export const id="dl_9b21623b08cb401da1ff";
-export const url=new URL("../icons/align_horizontal_center.svg?v=2a6be502957399c5bfc6e558319d9bf7ada41c48dd76f6e9b0f50cfed5130dd1",import.meta.url).href;
+export const id="dl_ae6db1acd24056e6f61a";
+export const url=new URL("../icons/align_horizontal_center.svg?v=ee8f0305dd87c9666823b8bb1c518b396907351d68d28b72161a0b7a7ded5eff",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

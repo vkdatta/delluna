@@ -1,6 +1,6 @@
 export const name="tip-jar-duotone";
-export const id="dl_46dfcdc43734446ba0f7";
-export const url=new URL("../icons/tip-jar-duotone.svg?v=c53d38da7d9e66d180c7761c6a0e076d804ecf9c7d4659ae9155a97928f09b62",import.meta.url).href;
+export const id="dl_b3099bd142776119e8a3";
+export const url=new URL("../icons/tip-jar-duotone.svg?v=54f68e4f5afd79c006f6833fe90852682552e01c79db82b0c95e7dba1a1ae208",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

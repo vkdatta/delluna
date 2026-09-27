@@ -1,6 +1,6 @@
 export const name="mintmark-fill";
-export const id="dl_412e66f610d74354b813";
-export const url=new URL("../icons/mintmark-fill.svg?v=ffd5c1cf22f56bafd1350817d8177b3ad273cde742a37ebb6fbe1e3492ff85c4",import.meta.url).href;
+export const id="dl_fd4ab2d5f0a1852306ec";
+export const url=new URL("../icons/mintmark-fill.svg?v=b76f78caf3046aabccc885155a97a38f743d3ba31bd454ee8d7f010682e8e8c8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

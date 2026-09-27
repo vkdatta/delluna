@@ -1,6 +1,6 @@
 export const name="airplane-in-flight-duotone";
 export const id="dl_aa9c7562968c414bb497";
-export const url=new URL("../icons/airplane-in-flight-duotone.svg?v=65ac98f2f3957024e7fb8424330b0cdc0d504091acfebeeff941152cf8da4672",import.meta.url).href;
+export const url=new URL("../icons/airplane-in-flight-duotone.svg?v=8b4fee3f7ebe22b698a2d7946633c6efb88cdddd32620bc33ab72cdb347df703",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

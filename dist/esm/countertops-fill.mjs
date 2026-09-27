@@ -1,6 +1,6 @@
 export const name="countertops-fill";
-export const id="dl_7239a1f27ae2419a8f3a";
-export const url=new URL("../icons/countertops-fill.svg?v=cd297df8e43fe31aef1ce98ac8ad97a0fa7361ed8508b6a0163fb69a02497e82",import.meta.url).href;
+export const id="dl_8607cdf40b21e3b842a5";
+export const url=new URL("../icons/countertops-fill.svg?v=2ba22611e9a87e94c515248c77fb49623197a116a97588de35974b63c5b2ef6e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

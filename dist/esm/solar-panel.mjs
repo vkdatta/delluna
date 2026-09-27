@@ -1,6 +1,6 @@
 export const name="solar-panel";
-export const id="dl_7f05f75359df40309026";
-export const url=new URL("../icons/solar-panel.svg?v=087d7a1dd2a06b117fb9f449252f5404a3e35daa63e38e542fe728cd6ca28088",import.meta.url).href;
+export const id="dl_7faf3e872ff28082032d";
+export const url=new URL("../icons/solar-panel.svg?v=4d16bd65e75c875754d41ad4d5be7ca69afa8dea8aa4a18387a1f15a15ff05ab",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

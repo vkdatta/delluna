@@ -1,6 +1,6 @@
 export const name="medical_mask";
-export const id="dl_706e66adbf244bd48d70";
-export const url=new URL("../icons/medical_mask.svg?v=909fa1a339968db74a54e967028c7c7795b60463cb3bb6d326cfaede5fee814b",import.meta.url).href;
+export const id="dl_37212f015180b7deb1d6";
+export const url=new URL("../icons/medical_mask.svg?v=752b684850fc5dff81b07ffaf24ac1c1863f6db28d7ce814a26d6911af2bca75",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

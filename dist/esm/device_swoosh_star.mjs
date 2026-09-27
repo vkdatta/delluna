@@ -1,6 +1,6 @@
 export const name="device_swoosh_star";
-export const id="dl_9b509d93bc754b3bbccf";
-export const url=new URL("../icons/device_swoosh_star.svg?v=5b3f76d67e3ab158ad4c62329151a23dac0770d55ef47919f98795ec2e547b92",import.meta.url).href;
+export const id="dl_7bcc8370de3809b6adbe";
+export const url=new URL("../icons/device_swoosh_star.svg?v=9815d7867ca174294adce35c314aeacc98c1ba0a84192aa5fa865c5525a34ce4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

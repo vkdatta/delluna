@@ -1,6 +1,6 @@
 export const name="text-strikethrough";
-export const id="dl_8b94df9d80b149f1a334";
-export const url=new URL("../icons/text-strikethrough.svg?v=fc8021134eba2374f4b404b9d2a351ac04864d2441aef8da5142f27f8f82d7b9",import.meta.url).href;
+export const id="dl_01dbc3f2fb83372cf7d2";
+export const url=new URL("../icons/text-strikethrough.svg?v=98f9b1dd760db433006aedebab65b320b7a5ed0f215c1f144b241e5016c8da0f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

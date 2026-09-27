@@ -1,6 +1,6 @@
 export const name="account_balance";
-export const id="dl_4ae8ecfa906d48fbac03";
-export const url=new URL("../icons/account_balance.svg?v=fdc536f6f4c5d2b8dd4a5ee71d4316b011157bdd3144fcb1e2c2c7891119c35c",import.meta.url).href;
+export const id="dl_59491c006993c56f0cf9";
+export const url=new URL("../icons/account_balance.svg?v=765fd103a84fdbccc2c084d74d1e22824fdc963203ce8c1225b23ed3e4e9f67a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

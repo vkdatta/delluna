@@ -1,6 +1,6 @@
 export const name="south-fill";
-export const id="dl_c85b7157489747a7902a";
-export const url=new URL("../icons/south-fill.svg?v=9e6f9b9238618f8a24e759943b18a7c8006d16d13b7c8d202e10fe8ff44d783e",import.meta.url).href;
+export const id="dl_ac953be48b8535b62c46";
+export const url=new URL("../icons/south-fill.svg?v=9b9c57023448ba28924ee3d0fbc5298b9ed8413030e2b8dc8ba4a3f149baa955",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

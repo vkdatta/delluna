@@ -1,6 +1,6 @@
 export const name="toggle-left-light";
-export const id="dl_baaf973f01e44f8c8998";
-export const url=new URL("../icons/toggle-left-light.svg?v=b5c4bc4d654fe320677d3d8be83ea1395626a74e328389dcfe86256039c216b0",import.meta.url).href;
+export const id="dl_5d4e0452c75068de43a6";
+export const url=new URL("../icons/toggle-left-light.svg?v=4a21b736efe0601f2f3cb630e6373adceb9c28922f6212ef491831cd3d2dc3a3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

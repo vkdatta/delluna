@@ -1,6 +1,6 @@
 export const name="reset_brightness";
-export const id="dl_00c305956be44e01943e";
-export const url=new URL("../icons/reset_brightness.svg?v=fb429a098471cf4a998823f6e31759c300a2b65db21f6d13cb5f10743685fe24",import.meta.url).href;
+export const id="dl_3e10c04bceac86090085";
+export const url=new URL("../icons/reset_brightness.svg?v=01a604e42029baed749814890e5e1db346e49efce1602f5bc4ac9c6ef859b535",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

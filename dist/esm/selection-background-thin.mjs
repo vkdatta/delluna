@@ -1,6 +1,6 @@
 export const name="selection-background-thin";
-export const id="dl_6400b57a464241cdbe4a";
-export const url=new URL("../icons/selection-background-thin.svg?v=1ad25fb31121788b80569bbd706fbc0af48fb688371dc87e3eb9a306c4568817",import.meta.url).href;
+export const id="dl_257aa73648eb1b1d9d05";
+export const url=new URL("../icons/selection-background-thin.svg?v=19c17c76cef3502923b46d2984b3ffbc65da60580c5e4b478e5a17863fb49ecb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

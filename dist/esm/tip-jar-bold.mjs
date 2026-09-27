@@ -1,6 +1,6 @@
 export const name="tip-jar-bold";
-export const id="dl_60f21d453d7b4cb0ad52";
-export const url=new URL("../icons/tip-jar-bold.svg?v=d144aa9c24ef4e9cd3a452fa0e643795b4e52e0728d80feafdf0b46b71c008ea",import.meta.url).href;
+export const id="dl_593a64b628aed983379c";
+export const url=new URL("../icons/tip-jar-bold.svg?v=13442d837294d9aa19ff76566055b409a7cefd316ab58d5eb3eea5a3b4e77891",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="sun-dim-light";
-export const id="dl_c616e0f7300c45d3b1d6";
-export const url=new URL("../icons/sun-dim-light.svg?v=3f6771f27806d7c96257dc20b7ce9341f3d9abd71ba25ec9cc72803db1187abc",import.meta.url).href;
+export const id="dl_1f2d0a93d756a9f8e338";
+export const url=new URL("../icons/sun-dim-light.svg?v=49cbdc8fae6dcc4f283ef33a7f16f33a48825d2a8fbb291c5b4af9b87f7893dd",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

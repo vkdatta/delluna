@@ -1,6 +1,6 @@
 export const name="space_bar";
-export const id="dl_851e5dcb78de4c1d8c28";
-export const url=new URL("../icons/space_bar.svg?v=94d7089c57553f7610f3c6f4cca9b8ecb5eb3186e8c7ee662672d82a29642787",import.meta.url).href;
+export const id="dl_69cb03b5da52af452b32";
+export const url=new URL("../icons/space_bar.svg?v=0eba51e8b5b3a01c1c7436d040b214355a9c7f647c6f18bf74e835d88a35d5b7",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

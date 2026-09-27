@@ -1,6 +1,6 @@
 export const name="fluid";
-export const id="dl_a53a2d108d754507a2d4";
-export const url=new URL("../icons/fluid.svg?v=5870db255260cefb97dabb476f1ee1b2747d08d4954c6dc22b74e9dcf7abad72",import.meta.url).href;
+export const id="dl_fa47490b93f870495fad";
+export const url=new URL("../icons/fluid.svg?v=73d35963c9a625338690b776102b779d6a0d7a2f4721b8be327e9d345fd967d3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

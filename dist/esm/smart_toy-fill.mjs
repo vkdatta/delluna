@@ -1,6 +1,6 @@
 export const name="smart_toy-fill";
-export const id="dl_e62fe6b8e5b545859823";
-export const url=new URL("../icons/smart_toy-fill.svg?v=b8c9172ab0ba374920daa8630a8a935caccd57423b5dbe6f493e22d2e49f126a",import.meta.url).href;
+export const id="dl_56ae972dc67c2570536c";
+export const url=new URL("../icons/smart_toy-fill.svg?v=38cb5add2fd5442b5dd416c1c0204a1766eaf5ce6133890387e08089d40bd4b6",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

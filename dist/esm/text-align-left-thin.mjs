@@ -1,6 +1,6 @@
 export const name="text-align-left-thin";
-export const id="dl_b340d00670054ac29ea5";
-export const url=new URL("../icons/text-align-left-thin.svg?v=25a2c71d16db5c7017035f2afd79bffe78093d396e767c55964d5ed8f5cc5963",import.meta.url).href;
+export const id="dl_882c15528b8a507e2efb";
+export const url=new URL("../icons/text-align-left-thin.svg?v=d019067fc8c8b8b4c726d9f9dff3c2592d58e46d3749fad61becb8cc6344b6ae",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

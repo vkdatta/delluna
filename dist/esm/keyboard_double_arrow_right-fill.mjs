@@ -1,6 +1,6 @@
 export const name="keyboard_double_arrow_right-fill";
-export const id="dl_63e76ec79cc94ba99e01";
-export const url=new URL("../icons/keyboard_double_arrow_right-fill.svg?v=d5a7a5b060fce17f1c0da9870649487f2ba4490035a30a88a1e8f1981a15825a",import.meta.url).href;
+export const id="dl_e495bf54d4bfcae9523f";
+export const url=new URL("../icons/keyboard_double_arrow_right-fill.svg?v=8e360380f7f9a6f220fc31180cca61a9a50d53c5bd90d730c6cabb02d30e28f4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

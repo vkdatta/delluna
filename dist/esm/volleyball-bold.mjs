@@ -1,6 +1,6 @@
 export const name="volleyball-bold";
-export const id="dl_74efe770b1ba4b6a83ec";
-export const url=new URL("../icons/volleyball-bold.svg?v=7a8554861acb955202c90ecfe2d9d3f35e0f7e8cc20bab17a5f3dac5b15eac8b",import.meta.url).href;
+export const id="dl_43c28105ad405218a0c4";
+export const url=new URL("../icons/volleyball-bold.svg?v=4c081a1b330543d0db0e4b727878e9b668cee57d6a03eb36131bd0f4302ef90d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

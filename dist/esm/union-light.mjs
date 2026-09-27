@@ -1,6 +1,6 @@
 export const name="union-light";
-export const id="dl_0d927127a78e4eb4aaee";
-export const url=new URL("../icons/union-light.svg?v=89165ecbd3aca0a1bac7140a2d407a2be9d0b06d07c21b9f56fe971804f11f04",import.meta.url).href;
+export const id="dl_81760e4f3222a7afe8d1";
+export const url=new URL("../icons/union-light.svg?v=a3ba3382b848de9d736bc3263a5316388bcd033a812bc6a0b80c65dbcf3a3428",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

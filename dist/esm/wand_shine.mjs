@@ -1,6 +1,6 @@
 export const name="wand_shine";
-export const id="dl_ae7d0bb6372e4e0d8f06";
-export const url=new URL("../icons/wand_shine.svg?v=bf8b4276735a8e80ed3ab65b320d48392b83c9fec258f2ef64fac84f0ecf2975",import.meta.url).href;
+export const id="dl_56f1116544128be46d6e";
+export const url=new URL("../icons/wand_shine.svg?v=c7975db3908a34e915ad70a00d148bfa792d408b6ee49660dd773b7299980d21",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

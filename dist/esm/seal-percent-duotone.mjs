@@ -1,6 +1,6 @@
 export const name="seal-percent-duotone";
-export const id="dl_efd4f0ba472f43d5aa1b";
-export const url=new URL("../icons/seal-percent-duotone.svg?v=6f6caecb577af416bc28bf0aa2a69a763d626526f0ec05dfd4f56fb3b266ca13",import.meta.url).href;
+export const id="dl_f6884642994ac799d822";
+export const url=new URL("../icons/seal-percent-duotone.svg?v=a1a5ba1eb6b0b6c76c99aa5b5aa2c431da2a07fc96298faa4895c8eac103cac8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

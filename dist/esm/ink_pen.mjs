@@ -1,6 +1,6 @@
 export const name="ink_pen";
-export const id="dl_2af139b9dab84174b0db";
-export const url=new URL("../icons/ink_pen.svg?v=8d0f6e1089d49f18a02b0634cc48d6eb3a916f119351721a86397d7634ae19b0",import.meta.url).href;
+export const id="dl_b75cf0cd74c3aaac30bf";
+export const url=new URL("../icons/ink_pen.svg?v=5ce7836da2a76337c6b01c530f1d0171d062453a640ab425c910b2edfebe81fa",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

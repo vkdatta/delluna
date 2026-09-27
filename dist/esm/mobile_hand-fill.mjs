@@ -1,6 +1,6 @@
 export const name="mobile_hand-fill";
-export const id="dl_698f40be06ae44aead4e";
-export const url=new URL("../icons/mobile_hand-fill.svg?v=ab3584115e684e0bd6a378632266abd7641ac1732b6e803556721c635368ca1b",import.meta.url).href;
+export const id="dl_f8c03c1ab03f43068911";
+export const url=new URL("../icons/mobile_hand-fill.svg?v=6dd5421b4661c285381a097548f7429b0281719f5271a2c1b81e251d24ba0968",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

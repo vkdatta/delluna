@@ -1,6 +1,6 @@
 export const name="skip-forward-thin";
-export const id="dl_ff67382df5444adb9e38";
-export const url=new URL("../icons/skip-forward-thin.svg?v=c67ac480100e7afc7560b0ec1ee040ed33d9c57df43aed63d09bd95eafef5152",import.meta.url).href;
+export const id="dl_24d28f99df4e8431c1fe";
+export const url=new URL("../icons/skip-forward-thin.svg?v=d1ba46a9d15e95b6d7895e5247ddb0edec715573558262f0d215881dc6abe4ef",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

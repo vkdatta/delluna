@@ -1,6 +1,6 @@
 export const name="user-sound";
-export const id="dl_4da4091b27574d74978c";
-export const url=new URL("../icons/user-sound.svg?v=a5fd1047c37a8a8acba24f447d31ed7e5c67c83592e9078da8c92538c0c28eb4",import.meta.url).href;
+export const id="dl_57bfbc77d0404df1639a";
+export const url=new URL("../icons/user-sound.svg?v=5a4f1ab790152767e750570a748fdfca9b4b5c7d88651b404099c22923af78a2",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

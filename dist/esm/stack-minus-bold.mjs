@@ -1,6 +1,6 @@
 export const name="stack-minus-bold";
-export const id="dl_ce310d5b515a4056b57e";
-export const url=new URL("../icons/stack-minus-bold.svg?v=e7fbd3ffbecde6fe36a6b0add4f1a32664f0d4ea2245f63e491a1f6268468067",import.meta.url).href;
+export const id="dl_8f066ded79e7d413e5bb";
+export const url=new URL("../icons/stack-minus-bold.svg?v=e341f7e9991709cac26d6fd70a72174f5028f69cf57c202a4ffb1c371dd9b5f3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

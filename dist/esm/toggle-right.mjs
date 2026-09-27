@@ -1,6 +1,6 @@
 export const name="toggle-right";
-export const id="dl_cefb0ae0bad64c1685b6";
-export const url=new URL("../icons/toggle-right.svg?v=1ed23a1d9ba44f507bf809ed37e7ec634b612b863423a015fa603fe61f7061d6",import.meta.url).href;
+export const id="dl_55f70c244ec038efaa92";
+export const url=new URL("../icons/toggle-right.svg?v=7c643c33537f82a5dd1eb1f6e06683c92e4e7afec659ecaa91c3448438972cec",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

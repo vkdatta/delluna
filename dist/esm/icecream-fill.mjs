@@ -1,6 +1,6 @@
 export const name="icecream-fill";
-export const id="dl_a846f32803c843ca9834";
-export const url=new URL("../icons/icecream-fill.svg?v=bf4bbe1f0dd0e165557f783db96d2cbf5027dd84edb2cb0f54c038144b933410",import.meta.url).href;
+export const id="dl_9321fe3854290db46fec";
+export const url=new URL("../icons/icecream-fill.svg?v=f5f15e28a33722e15f92f4d1958e7484de07ec8b676d6253879a03077f21810a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

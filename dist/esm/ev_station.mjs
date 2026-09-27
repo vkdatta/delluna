@@ -1,6 +1,6 @@
 export const name="ev_station";
-export const id="dl_bc48acf456f24f878d85";
-export const url=new URL("../icons/ev_station.svg?v=320c2a297628666069350ba65de83526485cc1988fa950b244594fb21f0391e5",import.meta.url).href;
+export const id="dl_972b085191b1dd62f6f8";
+export const url=new URL("../icons/ev_station.svg?v=9ce26a773944af9a75a3f3e49f0e34ac08d145e14c2e3b399bf9c4584c022b69",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="arrow_shape_up_stack-fill";
-export const id="dl_90094277cda84dc9a168";
-export const url=new URL("../icons/arrow_shape_up_stack-fill.svg?v=191a0241f68ae323c75a8969b380e62f324486fb74ada1ddbff6293348685920",import.meta.url).href;
+export const id="dl_bb61ddfe9259af66ae5a";
+export const url=new URL("../icons/arrow_shape_up_stack-fill.svg?v=eb526d8d45a135ada26d8d1b49b73dc99e40bc4e0805e03bb1d25e1d7e6b56e5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

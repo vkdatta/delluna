@@ -1,6 +1,6 @@
 export const name="branding_watermark-fill";
-export const id="dl_527e55a54b2745048f58";
-export const url=new URL("../icons/branding_watermark-fill.svg?v=90e9944a5800fdbe0d381baa909e4e9c3da89c85c5831518eb0ca6d795818a82",import.meta.url).href;
+export const id="dl_9755a3365e5169ca9c9d";
+export const url=new URL("../icons/branding_watermark-fill.svg?v=69294360d80c54aee29d4130813006a0c390bf96371a9ec8c9315a248d117efa",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="towel-thin";
-export const id="dl_8235b89b479d4788878b";
-export const url=new URL("../icons/towel-thin.svg?v=d965c5c3bd47fd03673c5148d1c8dcc128ce05df5a843f5831152eec8d5f53b9",import.meta.url).href;
+export const id="dl_77fd6eef36b9c7093fce";
+export const url=new URL("../icons/towel-thin.svg?v=fc73c6fb9130ac7918a2c846184ae57e352229b8c4b69572c4205ce480d93f0d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
