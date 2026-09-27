@@ -1,6 +1,6 @@
 export const name="calculate";
-export const id="dl_3491b1eab40a4c8f9551";
-export const url=new URL("../icons/calculate.svg?v=8a1d30c493d8e8e3f8c3dffdc40bdbe259b4e2ed440fee634aa139fbddabe705",import.meta.url).href;
+export const id="dl_34188b30b22f206c952e";
+export const url=new URL("../icons/calculate.svg?v=e810eb5442488f10405c25ba1a4a591bff38d3f834a4e6dc8d9f502ecad97480",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

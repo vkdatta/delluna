@@ -1,6 +1,6 @@
 export const name="texture_add-fill";
-export const id="dl_0c93261e8ed44c12b137";
-export const url=new URL("../icons/texture_add-fill.svg?v=9ba8fc0cf2078255cef78f9e4fca2c8b3d7c366019dfa6c8f7266ac45613d6b7",import.meta.url).href;
+export const id="dl_ee53b70cb82e9cf4095e";
+export const url=new URL("../icons/texture_add-fill.svg?v=a69efa89cbc7f4f0fbc03a6f91acdfced1aa17ba3de0afdfe1822f3fdd0f2afc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

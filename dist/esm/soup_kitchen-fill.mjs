@@ -1,6 +1,6 @@
 export const name="soup_kitchen-fill";
-export const id="dl_fab527540bbe46ea8cf5";
-export const url=new URL("../icons/soup_kitchen-fill.svg?v=9caf8bb3a23e1e8d7b7c6cd520c649684ac588ef2f7a100996ab1daa295e89d3",import.meta.url).href;
+export const id="dl_7cb8e2f1a1def786f0bb";
+export const url=new URL("../icons/soup_kitchen-fill.svg?v=a1328ece412608bc960657bad688aac32135c9bc1d90185bcb583b944a002604",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="camera_indoor-fill";
-export const id="dl_cbb958b8683b4e73b471";
-export const url=new URL("../icons/camera_indoor-fill.svg?v=4a44da4334392fda5bc9444b9d41e7bc2069cbfcee5c1e4e068f58e9fc78d245",import.meta.url).href;
+export const id="dl_facde7e0ee6b666a893c";
+export const url=new URL("../icons/camera_indoor-fill.svg?v=b5a42ea72110b68cb94c56391cce821f2da4759b4949adf051ef8dc6bfbbe420",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

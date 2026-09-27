@@ -1,6 +1,6 @@
 export const name="fluorescent-fill";
-export const id="dl_01d195e762124a4eb199";
-export const url=new URL("../icons/fluorescent-fill.svg?v=7bee178fe6c78c86555fc20f038f1c0e47924d5e591b471380ae3201e3169afb",import.meta.url).href;
+export const id="dl_bb5603ad5616390e1942";
+export const url=new URL("../icons/fluorescent-fill.svg?v=45747c9c9477922442e1719221235f5c4f88512269dfdd69a32c607ba57beed5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

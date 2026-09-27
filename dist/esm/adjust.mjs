@@ -1,6 +1,6 @@
 export const name="adjust";
-export const id="dl_2a560173af8c46f8b9aa";
-export const url=new URL("../icons/adjust.svg?v=f0b5a61365411d8b2492132648742a3676ea18cb0ed3910ae782ef35c9099813",import.meta.url).href;
+export const id="dl_760b7060287e07652d49";
+export const url=new URL("../icons/adjust.svg?v=748c41993a21cb9735cd20ac572b998c70fe0f4f3743183782d5909c5039e103",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

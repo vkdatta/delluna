@@ -1,6 +1,6 @@
 export const name="fertile-fill";
-export const id="dl_f6fafbabf635495d9f2f";
-export const url=new URL("../icons/fertile-fill.svg?v=71c88a83882e8eae7327440989bd4904cb66c1c685f05eb4e2e0967576003df8",import.meta.url).href;
+export const id="dl_78daa0155f6cff0ee12e";
+export const url=new URL("../icons/fertile-fill.svg?v=af1badb67cfabdc22690122fe21eb0bcb0c1b80bf790bc9f0e6975b346a9a029",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

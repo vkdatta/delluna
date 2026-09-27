@@ -1,6 +1,6 @@
 export const name="upload_alt";
-export const id="dl_79e52ea43f63403898fa";
-export const url=new URL("../icons/upload_alt.svg?v=a58e3eb7dc6186cbe3006ead81a0e8f7dfeb6ed01502939d000a33679f459a07",import.meta.url).href;
+export const id="dl_30452aec0b4b526300fc";
+export const url=new URL("../icons/upload_alt.svg?v=3f149c48c8cb35dfb446999a16fd09b7a5378b46161369ba59debacbf4e84523",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

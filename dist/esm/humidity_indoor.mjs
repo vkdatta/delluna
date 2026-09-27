@@ -1,6 +1,6 @@
 export const name="humidity_indoor";
-export const id="dl_5728173156c34d219f06";
-export const url=new URL("../icons/humidity_indoor.svg?v=8f16799b85251791d074721b721fb531b1132b7a684f247daf28852cbccc06bf",import.meta.url).href;
+export const id="dl_c5aa101818a66db7ac57";
+export const url=new URL("../icons/humidity_indoor.svg?v=3816653d10f9cd8db102a855334b32ccc2f28eb6bec9197b4cd482cec4a039c3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

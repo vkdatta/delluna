@@ -1,6 +1,6 @@
 export const name="lucid_3-smartphone-nfc";
 export const id="dl_f5e5509a285148d18ad4";
-export const url=new URL("../icons/lucid_3-smartphone-nfc.svg?v=305f6b68b77f6920651d1752be48388ee04beeee0c4949a016a062fc6151b636",import.meta.url).href;
+export const url=new URL("../icons/lucid_3-smartphone-nfc.svg?v=5eea33036d17ea9701065fcff6472c7459a11a07bcce0baea84bb405d63c1a40",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

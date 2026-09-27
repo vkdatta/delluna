@@ -1,6 +1,6 @@
 export const name="game_stick_left-fill";
-export const id="dl_7d143cd680e5464fab85";
-export const url=new URL("../icons/game_stick_left-fill.svg?v=febde9d64a3721f4631b8518c9d364ba199fb13f408a2aa09ccea6dde7e02d1e",import.meta.url).href;
+export const id="dl_21dbf4d1a91ae27ca892";
+export const url=new URL("../icons/game_stick_left-fill.svg?v=0d58914923061b425b63df0a7a8eec1f2d4a8a15d811dcae5f0ce11d47da679d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="storm-fill";
-export const id="dl_019568b1e436429fa7c4";
-export const url=new URL("../icons/storm-fill.svg?v=d83100bf4069ac1efd57d1e12c12390b8b8b83c876c776f7fec6c93c46a614bf",import.meta.url).href;
+export const id="dl_8741e3b462a4fd178a2a";
+export const url=new URL("../icons/storm-fill.svg?v=1487e13e9fc41847f860f97d4ed48180b6ca12affda4379a0d0c16903441ad3c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

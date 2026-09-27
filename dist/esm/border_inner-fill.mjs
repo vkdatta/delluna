@@ -1,6 +1,6 @@
 export const name="border_inner-fill";
-export const id="dl_d5663733ddb54df0a693";
-export const url=new URL("../icons/border_inner-fill.svg?v=3806f9b1ead7fe5819e53f8adfda96facad9f1914cf862f36fbacf6a42532b96",import.meta.url).href;
+export const id="dl_29d948203e96d90317ea";
+export const url=new URL("../icons/border_inner-fill.svg?v=ba7e39ccb1104fb3bbcff84899b9b1634b2550bc9a26bc9bc2c702ffde81b3eb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="mode_fan-fill";
-export const id="dl_9ba291a9874a47ae9192";
-export const url=new URL("../icons/mode_fan-fill.svg?v=58f263b52d75317f4202c118eb995558cef4e53f4998a8593ac02cec09fa50ec",import.meta.url).href;
+export const id="dl_4c93b8c5e0450f3b74aa";
+export const url=new URL("../icons/mode_fan-fill.svg?v=75dd7871fc42638eb671cbd96c28791b6f6094f0bddfa0a6ecb96dd8b5d4ddc9",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

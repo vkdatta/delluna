@@ -1,6 +1,6 @@
 export const name="wysiwyg";
-export const id="dl_d6de7976730648449f27";
-export const url=new URL("../icons/wysiwyg.svg?v=3384b8740624ab3e8544a30b3d6043a52fa82c75540e862f159f0d3110e758a4",import.meta.url).href;
+export const id="dl_c05939299970d76a7a89";
+export const url=new URL("../icons/wysiwyg.svg?v=66d8224ab7f228b8806a5e9fc49ab6ddf418e9bc579bc4643b3cdb090aa0746d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

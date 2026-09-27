@@ -1,6 +1,6 @@
 export const name="gamepad";
-export const id="dl_d91e70b6943a4e1383c1";
-export const url=new URL("../icons/gamepad.svg?v=b3bd863005ebf2ab7ae4864abd2f5d210db3d200859737d66ffa9b00fc8a4681",import.meta.url).href;
+export const id="dl_f789e619ba8bd2ce36df";
+export const url=new URL("../icons/gamepad.svg?v=959960f60b20fda8825e5cc829207f4d3253688339efe8a9a39cd386163c87eb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

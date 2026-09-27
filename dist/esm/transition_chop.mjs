@@ -1,6 +1,6 @@
 export const name="transition_chop";
-export const id="dl_f984e2907c5048678b35";
-export const url=new URL("../icons/transition_chop.svg?v=b55c06a3c5b4f1020e16bd72f92af4babe2cab22bad0a588e075d2fbbf40d162",import.meta.url).href;
+export const id="dl_7cde9af859c82a69fdc7";
+export const url=new URL("../icons/transition_chop.svg?v=793a4cfd98387455f849403096e1ea52923e610dd636a0550f44ef5767c05f95",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

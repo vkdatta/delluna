@@ -1,6 +1,6 @@
 export const name="folder_zip";
-export const id="dl_3152658e14814595af5f";
-export const url=new URL("../icons/folder_zip.svg?v=5760b4e786e02aa32ff03a4316dda9ff6d602b7075a905cb932ef17385b82058",import.meta.url).href;
+export const id="dl_2e0b1549220c66a6f06a";
+export const url=new URL("../icons/folder_zip.svg?v=2e767a314df2dbf579b5573512e2313cfbb038e012cc875c58cc3a5c1c4d4701",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

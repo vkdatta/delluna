@@ -1,6 +1,6 @@
 export const name="cached-fill";
-export const id="dl_3426f97acc8448f6bf40";
-export const url=new URL("../icons/cached-fill.svg?v=058fae039581cf470429deb84c00dc9907bee202ef0c35775b3b573afd63c8b3",import.meta.url).href;
+export const id="dl_965279193b1c8983c7d5";
+export const url=new URL("../icons/cached-fill.svg?v=735403582ff1e027deb976e888348fcd2cf2de75ff1d90b667d8296c353b3802",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

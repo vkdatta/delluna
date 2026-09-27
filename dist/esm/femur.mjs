@@ -1,6 +1,6 @@
 export const name="femur";
-export const id="dl_0f2408843ff94096976c";
-export const url=new URL("../icons/femur.svg?v=9d8c982b2f245335aa4f76eb955ad5efc323782c6b5b7162a15a5580198a30f0",import.meta.url).href;
+export const id="dl_587b4febc1086eb85392";
+export const url=new URL("../icons/femur.svg?v=e29e355078f9611408a649800b52690a1038f9b800ee54061631432b7bbca9f1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

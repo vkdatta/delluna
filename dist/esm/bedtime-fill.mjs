@@ -1,6 +1,6 @@
 export const name="bedtime-fill";
-export const id="dl_a2ee2258f8354c89acea";
-export const url=new URL("../icons/bedtime-fill.svg?v=285da5aa37fd15593f0b8f6e1c1864626abde43023797444c70c20d4dd15fe31",import.meta.url).href;
+export const id="dl_6780b5232593a554f8bd";
+export const url=new URL("../icons/bedtime-fill.svg?v=a13b0a4d8bd891e55be302128a190517ee8bcc4b0d895c0e4e70bbedeae1019a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

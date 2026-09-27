@@ -1,6 +1,6 @@
 export const name="lucid_3-roller-coaster";
 export const id="dl_5295c19238154c1e9822";
-export const url=new URL("../icons/lucid_3-roller-coaster.svg?v=d39d1513174ecffacb27a30b2860376044b5939c78c3f6ea0f9205524ce0f8de",import.meta.url).href;
+export const url=new URL("../icons/lucid_3-roller-coaster.svg?v=b7abfd2de83896cc9d970e7f03725806d67e0d56dd79479aaffc4a4f49d2eb76",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

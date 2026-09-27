@@ -1,6 +1,6 @@
 export const name="currency_ruble-fill";
-export const id="dl_fc68ddb1b7014537a1d6";
-export const url=new URL("../icons/currency_ruble-fill.svg?v=483c93c7d5fd540eabf4ff42d2fe4d6aae1502b396886ea2e2c4a513d30a55f7",import.meta.url).href;
+export const id="dl_7b6d2e50cdf93cbc2ad0";
+export const url=new URL("../icons/currency_ruble-fill.svg?v=82b96fbb0ae3265296a5c9bad9f240f0ea522b4235fa718f9a7b89af8b06af1a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

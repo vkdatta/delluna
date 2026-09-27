@@ -1,6 +1,6 @@
 export const name="watch_screentime-fill";
-export const id="dl_c7a20e56e21e407d9f7d";
-export const url=new URL("../icons/watch_screentime-fill.svg?v=507532f223a058c88fd16ff1bb8fc63fc06862c90937c673b6d1f7efc72ce9d7",import.meta.url).href;
+export const id="dl_8bf5aff6fc59b7d0bd25";
+export const url=new URL("../icons/watch_screentime-fill.svg?v=499da0d21eb4652f0b0fecc331b2d842b24796f33a44c7c5ba0e8f86e5c3fb0a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

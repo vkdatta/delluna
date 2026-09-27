@@ -1,6 +1,6 @@
 export const name="japanese_curry-fill";
-export const id="dl_eb8c481bc71646968f82";
-export const url=new URL("../icons/japanese_curry-fill.svg?v=ec3e58769a6eeef2a736c0e125c26e38f312c88c574460d21052791629a159b6",import.meta.url).href;
+export const id="dl_f25baab996d252edad70";
+export const url=new URL("../icons/japanese_curry-fill.svg?v=f1de3af7b3dad0ceef2b6a2a6c48573d9ab8c322024fafc5c7ead2020efd8bd0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

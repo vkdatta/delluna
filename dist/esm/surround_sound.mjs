@@ -1,6 +1,6 @@
 export const name="surround_sound";
-export const id="dl_a2b2fc91ab2947e48cc1";
-export const url=new URL("../icons/surround_sound.svg?v=d43ce1cf018ae615013874b1063dee757c500eac4390a0c1f33c244fdab877e4",import.meta.url).href;
+export const id="dl_7158f4fcc458768bc0db";
+export const url=new URL("../icons/surround_sound.svg?v=78f89582eae0a88b1fad681737880b819d0c6187f6ad53fdb01230f14d1f2580",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

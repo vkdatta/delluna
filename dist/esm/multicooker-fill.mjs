@@ -1,6 +1,6 @@
 export const name="multicooker-fill";
-export const id="dl_8fba38cf9a594ac9b6a3";
-export const url=new URL("../icons/multicooker-fill.svg?v=ad11034f2d9b59da7931e8b19935dd21b81a73a0a3272be3d3228bba0c769802",import.meta.url).href;
+export const id="dl_79ce95fd31dd87db03e8";
+export const url=new URL("../icons/multicooker-fill.svg?v=7ff56623490681475c683e6021f44ea50bd6fdebbc652a12e9f26ac25a1ab219",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="shield_with_heart";
-export const id="dl_14899b4fb4b043fda5b1";
-export const url=new URL("../icons/shield_with_heart.svg?v=5eb464c16c161276fa1e45bfe80b9828a104d71618cb9ee558dfea16785323a7",import.meta.url).href;
+export const id="dl_6775cbb426a5799b287e";
+export const url=new URL("../icons/shield_with_heart.svg?v=fa58cadcb0fd0006cfdc2d26413433a217c0758ac042528c4b9fb38679e62fb4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

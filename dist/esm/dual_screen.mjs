@@ -1,6 +1,6 @@
 export const name="dual_screen";
-export const id="dl_b72b16867e324be79c9f";
-export const url=new URL("../icons/dual_screen.svg?v=6718b2a4974ab79a34b5e76a69937de600d4c49ccb742f0402181d8a4313140e",import.meta.url).href;
+export const id="dl_d8b87a9093082d57f595";
+export const url=new URL("../icons/dual_screen.svg?v=40033ba68f61586550d52c3f2a396ef1659baedc6397b222b6065deb54460198",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

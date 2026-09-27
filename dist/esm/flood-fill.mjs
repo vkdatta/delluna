@@ -1,6 +1,6 @@
 export const name="flood-fill";
-export const id="dl_88c8f3784eff4860ad64";
-export const url=new URL("../icons/flood-fill.svg?v=c54c96f5037c6168a9452260a9aaf9898908667198de9e36406d354922ceef3f",import.meta.url).href;
+export const id="dl_250e4ca3f9cb5f60576b";
+export const url=new URL("../icons/flood-fill.svg?v=64a6d0ff7cb10a3f7754e09fd6226e21c589ecb15e4129622b023e5d15afb37d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="nest_doorbell_visitor";
-export const id="dl_24fb711693584e78ab03";
-export const url=new URL("../icons/nest_doorbell_visitor.svg?v=d27081df6dc43723747b7e6dc16852c2af039597d53ac07498c5c84e7bc97551",import.meta.url).href;
+export const id="dl_61138a2f70cc7979a71a";
+export const url=new URL("../icons/nest_doorbell_visitor.svg?v=6b97e13ccfa168fd0b55b2202433c4692441048dc05dce9d4dd8429e1be39492",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

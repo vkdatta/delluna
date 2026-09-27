@@ -1,6 +1,6 @@
 export const name="kitesurfing";
-export const id="dl_7ce05663e3094e63af7a";
-export const url=new URL("../icons/kitesurfing.svg?v=22318164dd20074226825d3ee3ec0681b6684c34ca7193404fd753b9f6c0fdec",import.meta.url).href;
+export const id="dl_bd9ec5237bac2ccb72e6";
+export const url=new URL("../icons/kitesurfing.svg?v=f6dc595c85465ef15f0668dd89151b30369fde39ed86bf626a305823832f0c0a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

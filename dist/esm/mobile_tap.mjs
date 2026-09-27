@@ -1,6 +1,6 @@
 export const name="mobile_tap";
-export const id="dl_0de53f3ffab449d0b185";
-export const url=new URL("../icons/mobile_tap.svg?v=a2f95f8e74681fbfb9bc1d6344d938628c5c2193b66443092616b5d57aa31334",import.meta.url).href;
+export const id="dl_4d224fa068ec00c059a4";
+export const url=new URL("../icons/mobile_tap.svg?v=8983c7a37a0859e253b6c8eaac523f895113cb222c8b4c9dff44c50f37a27116",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

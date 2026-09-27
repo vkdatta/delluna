@@ -1,6 +1,6 @@
 export const name="phishing";
-export const id="dl_7c13d7bac6074a94869f";
-export const url=new URL("../icons/phishing.svg?v=fc89aee0636a406a8d0f7ffcc9191631b5a2a48feb348200f51b66f12c9324e3",import.meta.url).href;
+export const id="dl_a0a50b47924a053a5158";
+export const url=new URL("../icons/phishing.svg?v=5ddfd5af0634a5f04ce0f6cc4c722a86fae74eea07f1cda427134ca906cba876",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

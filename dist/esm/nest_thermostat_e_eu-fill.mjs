@@ -1,6 +1,6 @@
 export const name="nest_thermostat_e_eu-fill";
-export const id="dl_399297e4abae47d3a3c1";
-export const url=new URL("../icons/nest_thermostat_e_eu-fill.svg?v=3a2593c87d5a05e40218757eb05cc8c2bd5af8b4b4733789b900543ba92114a5",import.meta.url).href;
+export const id="dl_67c7ab11c98a6768187b";
+export const url=new URL("../icons/nest_thermostat_e_eu-fill.svg?v=0289ed0e265cfe54f845e93ac3a8cc7c750b38aa41d961a10ad41b85d1c3353b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

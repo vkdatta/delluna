@@ -1,6 +1,6 @@
 export const name="pinboard_unread-fill";
-export const id="dl_cca11c94ac7a464e8e57";
-export const url=new URL("../icons/pinboard_unread-fill.svg?v=0621cf00631be8e3f961dbeff348793137be7b75290f9c88b0d380e1d7ee0353",import.meta.url).href;
+export const id="dl_e72effad11bdc257f3a6";
+export const url=new URL("../icons/pinboard_unread-fill.svg?v=32c807df3e5053ced453c6108e3d9995713990bdd174f17f60a320f6fdf844d4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

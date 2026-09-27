@@ -1,6 +1,6 @@
 export const name="radio_button_partial-fill";
-export const id="dl_8b94f91af8fd45d58c92";
-export const url=new URL("../icons/radio_button_partial-fill.svg?v=2ef8febe1556a2e3aabc1d350158c4c01babd8855b5046f75f7e196c6a5ee5cb",import.meta.url).href;
+export const id="dl_a97ed2e803000c59d92f";
+export const url=new URL("../icons/radio_button_partial-fill.svg?v=f68840e8b37e3ced1e60f620d05c3d1d5725fc1de4dc3b12ee0455fcd89d6f11",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

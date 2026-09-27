@@ -1,6 +1,6 @@
 export const name="android_cell_dual_5_bar_alert-fill";
-export const id="dl_d9212a52cba440ffb097";
-export const url=new URL("../icons/android_cell_dual_5_bar_alert-fill.svg?v=cc4ee45a0028b3b1d640ca572d509bb6a48174d6b0039d7d1370b1a2f8d1744b",import.meta.url).href;
+export const id="dl_b6133a10e30410fac62e";
+export const url=new URL("../icons/android_cell_dual_5_bar_alert-fill.svg?v=65b61fc09b84e67cb1723d93323b60eb7162a47df8d5076792af549d67acbea8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

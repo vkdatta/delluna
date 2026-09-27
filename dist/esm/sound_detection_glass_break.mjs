@@ -1,6 +1,6 @@
 export const name="sound_detection_glass_break";
-export const id="dl_1d9ca7f569bc4fd5847b";
-export const url=new URL("../icons/sound_detection_glass_break.svg?v=93beee41d431d190237bbbaf55bb76aab54410f4f3dd44fe1e4e4bd9c9a468c6",import.meta.url).href;
+export const id="dl_a1ec3c702497d685be16";
+export const url=new URL("../icons/sound_detection_glass_break.svg?v=78ed00e0c5ac6b474df6d26257378ef975159f29a9a343be7af54f0c54776555",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="carpenter-fill";
-export const id="dl_75e9427637034a36a4cc";
-export const url=new URL("../icons/carpenter-fill.svg?v=c56fdbddea116f3aa5da65a8097f9385d2def0036bf6ccc93ae173ceb313bb5e",import.meta.url).href;
+export const id="dl_4d7c756b68454b981d1d";
+export const url=new URL("../icons/carpenter-fill.svg?v=04ed7dc847f9d6216056c9493ee76ea6c4b40f0e4315a2c3001c5f906712ce4e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

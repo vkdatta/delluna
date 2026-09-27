@@ -1,6 +1,6 @@
 export const name="top-direct-plus";
-export const id="dl_a77d9a4c461f4d929da2";
-export const url=new URL("../icons/top-direct-plus.svg?v=675278b56246ebb30c1a81d5d97bc9f3a787ebbfeb43a5c3eb4142afb75924f6",import.meta.url).href;
+export const id="dl_7cadf66e1dbe05153f82";
+export const url=new URL("../icons/top-direct-plus.svg?v=f15bbdcc2e52d88b9e97bef8e2910b823b0f78d14f0f56a1db3d71ff01cd980b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

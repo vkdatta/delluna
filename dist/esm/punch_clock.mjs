@@ -1,6 +1,6 @@
 export const name="punch_clock";
-export const id="dl_4fdc5676f1c943f7809e";
-export const url=new URL("../icons/punch_clock.svg?v=b6808612e59a2f95b3cff9dc0ef536217d162ae571abdab196c7fb14bed7c59b",import.meta.url).href;
+export const id="dl_a7e204e85840e3aa9325";
+export const url=new URL("../icons/punch_clock.svg?v=6d5a16215171462029f5cddac6561620d3eeec706ca398378151847ee99931b8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="mode_heat_off-fill";
-export const id="dl_8734ca827df94b15af60";
-export const url=new URL("../icons/mode_heat_off-fill.svg?v=2a2e5f1f707ec46a1330971ccc04e6340cf55dd10080f9b3fdac6ee26dbfd4ce",import.meta.url).href;
+export const id="dl_c538c72c8815e5f5c0b8";
+export const url=new URL("../icons/mode_heat_off-fill.svg?v=942a225491e9362454b4b4008153513482192dbb4d515395fe7e2140d15e14cf",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

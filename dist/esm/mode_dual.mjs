@@ -1,6 +1,6 @@
 export const name="mode_dual";
-export const id="dl_fad446f8fb184508b128";
-export const url=new URL("../icons/mode_dual.svg?v=a5af067cad72aa021802705395522f0cb10a5976c0e29b031aa7f97965256beb",import.meta.url).href;
+export const id="dl_03fcc86e59814a983c25";
+export const url=new URL("../icons/mode_dual.svg?v=13ae0fd79e52605b4d0ef3de2a8a88d7287781b21a388f882f570bef23c09ff5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

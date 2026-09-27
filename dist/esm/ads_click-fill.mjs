@@ -1,6 +1,6 @@
 export const name="ads_click-fill";
-export const id="dl_81f036d4797c40218333";
-export const url=new URL("../icons/ads_click-fill.svg?v=0528764517a9055f6a264e546a12a0a71a427c7debc0bfe7335acf276e23dd89",import.meta.url).href;
+export const id="dl_b4f546cbbe34638da248";
+export const url=new URL("../icons/ads_click-fill.svg?v=57656b636f0430ad1a57710bd941c7e06f1557db74b4b954097e4205db03a62e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

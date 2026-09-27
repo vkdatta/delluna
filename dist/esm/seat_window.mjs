@@ -1,6 +1,6 @@
 export const name="seat_window";
-export const id="dl_126cc5f928124053a863";
-export const url=new URL("../icons/seat_window.svg?v=890f47008062df8f6c6d2b69b6c5829958521439316d14fdf068543a48792a3e",import.meta.url).href;
+export const id="dl_caea17e42d9852253dbb";
+export const url=new URL("../icons/seat_window.svg?v=b2db02b323b50fd6ad8cd6b0ebb351720543fb98c3bc89abab7ac15dd478e365",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="process_chart-fill";
-export const id="dl_7034b645acd446e3b65b";
-export const url=new URL("../icons/process_chart-fill.svg?v=b7247091e2986c5228e5afb5f63fc5d47fbf0850c7d85ba5db29ab8a4dac0313",import.meta.url).href;
+export const id="dl_ca1cf12537a407e86a9e";
+export const url=new URL("../icons/process_chart-fill.svg?v=5124cf9f22bdd72a8518f36e703716f1e18f9d0c45097b75d0e21889e15241dc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

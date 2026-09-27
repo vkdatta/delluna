@@ -1,6 +1,6 @@
 export const name="tv_gen";
-export const id="dl_0365ef410de54c988fa7";
-export const url=new URL("../icons/tv_gen.svg?v=f66c088cab90d2db0e5bc23833e6a521054e5ff1ec511bebe166fa4ebb5a3288",import.meta.url).href;
+export const id="dl_5abb3cb56dee5b88c556";
+export const url=new URL("../icons/tv_gen.svg?v=a78720d34f0ae5cdb0d348e6704e9748c884e345fc68a7f7127ab9242354a8e3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="battery_android_share";
-export const id="dl_5bb02e291e3b4083a95f";
-export const url=new URL("../icons/battery_android_share.svg?v=96540dbf65cbe8a91d017a7fd27b8f3c752a4ef27b961f5f98940d3fd1af4a70",import.meta.url).href;
+export const id="dl_5a5f891f4ad571a8bf2d";
+export const url=new URL("../icons/battery_android_share.svg?v=6f3cc033702a291881b48516ae0f473b64cfbfa2e67219134e21a0a49ca30fb5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

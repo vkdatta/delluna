@@ -1,6 +1,6 @@
 export const name="lock_open-fill";
-export const id="dl_9ffd1e7cff344c50908a";
-export const url=new URL("../icons/lock_open-fill.svg?v=0ed2acf1a1463c78ac70f09622d27e21d56675e735ed5bd2b0d1e45dcb960afa",import.meta.url).href;
+export const id="dl_0bbb8a4890ede6ed9bb3";
+export const url=new URL("../icons/lock_open-fill.svg?v=05ec131517ac13d2b842b1202366d66e281f851be26787078c85b418c0b16ef8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

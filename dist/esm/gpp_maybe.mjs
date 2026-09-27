@@ -1,6 +1,6 @@
 export const name="gpp_maybe";
-export const id="dl_f44ab276e053419eb42c";
-export const url=new URL("../icons/gpp_maybe.svg?v=f7be53de5ee90e9a615e4a71a88041c0ab79d218ccdb7ce0cd77a84d4d24e060",import.meta.url).href;
+export const id="dl_f0d3faa011f099204d03";
+export const url=new URL("../icons/gpp_maybe.svg?v=eef2004864b7a5afeee74d3717696f6e91cdf584f5e3c32d57aa95a6d5b8691b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

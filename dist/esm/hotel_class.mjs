@@ -1,6 +1,6 @@
 export const name="hotel_class";
-export const id="dl_60fb7f22b92643759951";
-export const url=new URL("../icons/hotel_class.svg?v=6194ed1f111297bf29a11d3bb638a7aea38418dfa2fa21423bd10f5cc992e444",import.meta.url).href;
+export const id="dl_7d2d8f2375009194ccbd";
+export const url=new URL("../icons/hotel_class.svg?v=6a7b308b9716baaf99ed7987794e4c7be6c1fca06f4b6704a79d2bbe1ee1e4b0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

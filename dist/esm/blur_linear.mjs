@@ -1,6 +1,6 @@
 export const name="blur_linear";
-export const id="dl_7bd82b8f99b44ed996b5";
-export const url=new URL("../icons/blur_linear.svg?v=ba99623f59bf2a258f22c1ea6941ee8c45876eb7cde2efb53796cfa427edd773",import.meta.url).href;
+export const id="dl_44cba71e397bc85a621d";
+export const url=new URL("../icons/blur_linear.svg?v=f68a6d0d06af1d185178525f5dc9e5a965b8787670ff3b628fc9d491195c977e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

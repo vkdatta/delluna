@@ -1,6 +1,6 @@
 export const name="thermostat_arrow_down-fill";
-export const id="dl_8a1aa7b54a6d411dadea";
-export const url=new URL("../icons/thermostat_arrow_down-fill.svg?v=d2f67724e855e54d8a0d57dc9409fab97c65b41b23b90b977f4bce5e3db48df4",import.meta.url).href;
+export const id="dl_46dbfcc219d1a780585a";
+export const url=new URL("../icons/thermostat_arrow_down-fill.svg?v=f617c1b8a2e23414f21bce0af689ea45bbeb4d7c9604e3e85bda9958eb40ebb1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

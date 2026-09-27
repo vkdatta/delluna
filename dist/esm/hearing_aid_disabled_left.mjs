@@ -1,6 +1,6 @@
 export const name="hearing_aid_disabled_left";
-export const id="dl_7aa875b301e04cbfbb01";
-export const url=new URL("../icons/hearing_aid_disabled_left.svg?v=8760e13b4cf2dd12398548f7ce54806aec7fef2c61f5d5aad1d1b22556e8310b",import.meta.url).href;
+export const id="dl_af1afa506432ce8c042f";
+export const url=new URL("../icons/hearing_aid_disabled_left.svg?v=8dce31347b0238115c6758baa93fe762feef13a218b95d5b203e047a2cdf9f1b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

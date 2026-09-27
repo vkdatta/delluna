@@ -1,6 +1,6 @@
 export const name="weather_hail-fill";
-export const id="dl_6acbf6cec3a3402a995c";
-export const url=new URL("../icons/weather_hail-fill.svg?v=00b8612aa33d020531e5dbb5010bc55f91a143bea6169d1d882597808ccbd6f9",import.meta.url).href;
+export const id="dl_69982be54f79a7b20d2e";
+export const url=new URL("../icons/weather_hail-fill.svg?v=92584f8733daa763ec17e5f6e545649c95074d360c9c26d8967b46ca8f17b32f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

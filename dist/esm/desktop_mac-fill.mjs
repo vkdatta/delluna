@@ -1,6 +1,6 @@
 export const name="desktop_mac-fill";
-export const id="dl_e41f58f3dbb1491bb0b3";
-export const url=new URL("../icons/desktop_mac-fill.svg?v=961351ce057b14a6f93ffd72565be6995e85b8235cffdd21d9e2648247f84a2b",import.meta.url).href;
+export const id="dl_9b262ac2d5fa4edb8127";
+export const url=new URL("../icons/desktop_mac-fill.svg?v=3a99e7548cb9e381bac32a6fb82b6e34fb52bd6d7325dc9001d9c76f631a897b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

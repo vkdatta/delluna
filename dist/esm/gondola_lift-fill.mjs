@@ -1,6 +1,6 @@
 export const name="gondola_lift-fill";
-export const id="dl_ce6a5d3ca7c848d4be68";
-export const url=new URL("../icons/gondola_lift-fill.svg?v=182b9c46eb5af676daa3dbd54d045e7a85ec0b36eb4a9e8471735ce1a3f8d9cc",import.meta.url).href;
+export const id="dl_af575e54b6a3796592d5";
+export const url=new URL("../icons/gondola_lift-fill.svg?v=a73e9846539e88b57a7e78d57c2e7bb28f20cf7b0108d1c7fc6ce813b415efbb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

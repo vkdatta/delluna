@@ -1,6 +1,6 @@
 export const name="earbuds-fill";
-export const id="dl_fed5bc463c7d4137a488";
-export const url=new URL("../icons/earbuds-fill.svg?v=d67a51f80b8a8b9373254ef6ed339995b15e3e942e9bca25cddc97ee9b67b963",import.meta.url).href;
+export const id="dl_342c544335be2babc245";
+export const url=new URL("../icons/earbuds-fill.svg?v=db09a1ad9c5dc49e7a0473e309958ace7a8ac91af894a6a5996d4eabee47b5ef",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

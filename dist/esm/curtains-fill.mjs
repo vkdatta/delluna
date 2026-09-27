@@ -1,6 +1,6 @@
 export const name="curtains-fill";
-export const id="dl_7ba8edc8049646288359";
-export const url=new URL("../icons/curtains-fill.svg?v=8855922ade764cf321f5a0fbae4026d925ef18334b65501ed53e935046885f83",import.meta.url).href;
+export const id="dl_e376246374099182c9c7";
+export const url=new URL("../icons/curtains-fill.svg?v=68e8eade05aa7fc9f8c6171d6f62fdbe3358b0e036bff6700d8ed1b26091f564",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

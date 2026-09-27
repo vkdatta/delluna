@@ -1,6 +1,6 @@
 export const name="mediation-fill";
-export const id="dl_3dec37521bd9413189b5";
-export const url=new URL("../icons/mediation-fill.svg?v=aa90ba0f45f8497f2acbef237f0be623e894c995ff0678d91c10345404aa2c18",import.meta.url).href;
+export const id="dl_d741549d67994aaf5913";
+export const url=new URL("../icons/mediation-fill.svg?v=9ef8e362d80b7f0851abb16e2bad8153c59fa4d2fcc7c6cbb3386feb96f67258",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

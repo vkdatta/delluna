@@ -1,6 +1,6 @@
 export const name="swipe";
-export const id="dl_f002880604474f0f84ef";
-export const url=new URL("../icons/swipe.svg?v=b9a8789dfbc5e50837c2f71a62ded2050b02d65d4aa17c8bfec82da3b7cc84b1",import.meta.url).href;
+export const id="dl_457df47db0cd1795f43f";
+export const url=new URL("../icons/swipe.svg?v=2464f6ffbce65a07564168d538252fc4a1fe02fb60296fd7a0994ef7c1603cdc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

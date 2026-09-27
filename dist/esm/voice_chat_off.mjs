@@ -1,6 +1,6 @@
 export const name="voice_chat_off";
-export const id="dl_d64670ada36e4e4894e2";
-export const url=new URL("../icons/voice_chat_off.svg?v=32c14e3051c07d6c1e9ab2247ae19fd832eaf093b4186def1616ffa5d2d25522",import.meta.url).href;
+export const id="dl_bd8798240661f5185c26";
+export const url=new URL("../icons/voice_chat_off.svg?v=1936db4e55d8a764acd63dfce64ba21f011d0e51aa1d221e880b733b72dab175",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

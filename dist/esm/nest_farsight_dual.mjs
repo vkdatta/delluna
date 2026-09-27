@@ -1,6 +1,6 @@
 export const name="nest_farsight_dual";
-export const id="dl_8d1cc0523bb24e56ab57";
-export const url=new URL("../icons/nest_farsight_dual.svg?v=0670610e7f67c67d499a1e9bb01a1de6cf11cfb14c58b630e2d4e81c440eba8b",import.meta.url).href;
+export const id="dl_a9190eee4155593493bf";
+export const url=new URL("../icons/nest_farsight_dual.svg?v=b41215b1575599f7651d35ec465caf73f89465c85a09b4c3c20b3dca350214f4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="photo_camera_front-fill";
-export const id="dl_398e2b9e68234d7e8ed7";
-export const url=new URL("../icons/photo_camera_front-fill.svg?v=9b37f9aa094333d9516e9c7e81b82e4e0a0dd1c69cc68594a315ee98f4c41a47",import.meta.url).href;
+export const id="dl_748d9fb959f3f9f15038";
+export const url=new URL("../icons/photo_camera_front-fill.svg?v=3c6ec0aeecfcffb3b6ab7a9a670885935dd493935dd626fc52b9d7183223a8f0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

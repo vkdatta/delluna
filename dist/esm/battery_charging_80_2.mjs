@@ -1,6 +1,6 @@
 export const name="battery_charging_80_2";
-export const id="dl_b8d202ea00ba48578f91";
-export const url=new URL("../icons/battery_charging_80_2.svg?v=01bb33bdfce5c921539241b4999241c273c8b7e5992e195d6215e8aea45966cd",import.meta.url).href;
+export const id="dl_56a9415a1d222486d2f1";
+export const url=new URL("../icons/battery_charging_80_2.svg?v=6c745178bc2f60c734087418bc08e263dccb77cfc95da945d58dc47b57e4c927",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

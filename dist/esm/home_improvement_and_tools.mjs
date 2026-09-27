@@ -1,6 +1,6 @@
 export const name="home_improvement_and_tools";
-export const id="dl_6710cd14ff234d06bb08";
-export const url=new URL("../icons/home_improvement_and_tools.svg?v=2e7cf1c3d32c3e11fadfbfb7d27106be0e81eb696af7a5857dcc81f9bdc22426",import.meta.url).href;
+export const id="dl_4ff08683e92cdad3cb09";
+export const url=new URL("../icons/home_improvement_and_tools.svg?v=1122161d3d831ed358dcd781dabf6ae0d48a2a4aa4f3f19372ffafffbe012ef3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

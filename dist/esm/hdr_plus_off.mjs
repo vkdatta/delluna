@@ -1,6 +1,6 @@
 export const name="hdr_plus_off";
-export const id="dl_c99830da1e004d9b9ae9";
-export const url=new URL("../icons/hdr_plus_off.svg?v=86be3027d1c30c05f9c8a90a78d2ae1d6089c44c3730060ece88954c70fe5b70",import.meta.url).href;
+export const id="dl_f673c798e9d7a03f73e6";
+export const url=new URL("../icons/hdr_plus_off.svg?v=2d8e7d6e0e8a318cc678e1dcf5cd29396ac28d7ed916f184c6a2e664a9c17d6d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

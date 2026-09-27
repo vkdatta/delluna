@@ -1,6 +1,6 @@
 export const name="computer_cancel";
-export const id="dl_b2cfecaed16945edaae3";
-export const url=new URL("../icons/computer_cancel.svg?v=861d4d7be3e1c8bc5adc40527f4ec43d5534334d58ce34c68714b4b36cce9256",import.meta.url).href;
+export const id="dl_b0a351d22c79ee552498";
+export const url=new URL("../icons/computer_cancel.svg?v=cbb30b1fcf4db99a90b126b501b510408fb89237e6a8b69cd4164c0d46b08ee3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

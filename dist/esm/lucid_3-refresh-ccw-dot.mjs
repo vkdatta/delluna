@@ -1,6 +1,6 @@
 export const name="lucid_3-refresh-ccw-dot";
 export const id="dl_2b1dfe63e14842f48530";
-export const url=new URL("../icons/lucid_3-refresh-ccw-dot.svg?v=f75815e7cbec3e564a8c4d41edc362ab6295eb6ec03796850c351df5a6e97b3b",import.meta.url).href;
+export const url=new URL("../icons/lucid_3-refresh-ccw-dot.svg?v=5b3f495b59becc3a0553a29315f9c00f85b5ffc11e66df0dd6bf3c5fb9131f1a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

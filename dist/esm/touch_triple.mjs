@@ -1,6 +1,6 @@
 export const name="touch_triple";
-export const id="dl_aff3c62b00734fa48703";
-export const url=new URL("../icons/touch_triple.svg?v=9a40784db97a99c6c06f5a07c783e6a3dc3b7851b5ff7c34ab48370ebb15e7a9",import.meta.url).href;
+export const id="dl_d3a208cb6ddc67db289e";
+export const url=new URL("../icons/touch_triple.svg?v=1e462311799bf580a7269a9725fdbff56eb74fe8159de7ee59e6df14c7463854",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

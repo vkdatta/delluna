@@ -1,6 +1,6 @@
 export const name="text_select_move_down-fill";
-export const id="dl_b3adce36405e498f9508";
-export const url=new URL("../icons/text_select_move_down-fill.svg?v=0414db8f9e17f1e376519dc5ae9cd69feb36965a1c82e61fe948c5934cf9b934",import.meta.url).href;
+export const id="dl_ab3aedc9002b2547b164";
+export const url=new URL("../icons/text_select_move_down-fill.svg?v=088def08d1cfe42b2358aff8d254f57cf1e1500c0123e327afbc26724c8b36fc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
