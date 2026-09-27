@@ -208,9 +208,6 @@
             .replace(/\s*viewBox=["'][^"']*["']/i, '')
             .replace(/\s*(?<![\w-])width=["'][^"']*["']/gi, '')
             .replace(/\s*(?<![\w-])height=["'][^"']*["']/gi, '')
-            .replace(/\s*stroke-width=["'][^"']*["']/gi, '')
-            .replace(/\s*(?<![\w-])stroke=["'][^"']*["']/gi, '')
-            .replace(/\s*(?<![\w-])fill=["'][^"']*["']/gi, '')
             .trim();
 
         return { attrs, inner, w, h };
