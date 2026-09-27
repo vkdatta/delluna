@@ -1,5 +1,5 @@
 export const name="highlight_keyboard_focus-fill";
-export const id="dl_b2474a2d64fe428c8c5d";
+export const id="dl_7afa53a3af8cb2b80d66";
 export const url=new URL("../icons/highlight_keyboard_focus-fill.svg?v=09b1b08e1e912d549dc612541778250c4f1683e7a1de6780945370b30d324386",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
