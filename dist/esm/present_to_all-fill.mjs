@@ -1,5 +1,5 @@
 export const name="present_to_all-fill";
-export const id="dl_4657119267ec48959f53";
+export const id="dl_053ec953621f07ad8726";
 export const url=new URL("../icons/present_to_all-fill.svg?v=e45e3fbeb6258865108bf2fee2fac568093948270751c4f2a332b4dc92649104",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};

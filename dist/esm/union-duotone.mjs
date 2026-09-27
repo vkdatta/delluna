@@ -1,5 +1,5 @@
 export const name="union-duotone";
-export const id="dl_db4c88dab1644f259349";
+export const id="dl_e91525764b7ed8f315e5";
 export const url=new URL("../icons/union-duotone.svg?v=e2f0dea0e3be8f678f423f9363707220442eca83f1b2995b10a5c83bd47e5522",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
