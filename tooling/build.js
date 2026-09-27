@@ -127,12 +127,16 @@ function readMetadata(name) {
   if (value.tags !== undefined && (!Array.isArray(value.tags) || value.tags.some(x => typeof x !== 'string' || !x.trim()))) {
     throw new Error(`Metadata tags for ${name} must be an array of non-empty strings`);
   }
-  const allowed = new Set(['id', 'tags']);
+  if (value.categories !== undefined && (!Array.isArray(value.categories) || value.categories.some(x => typeof x !== 'string' || !x.trim()))) {
+    throw new Error(`Metadata categories for ${name} must be an array of non-empty strings`);
+  }
+  const allowed = new Set(['id', 'tags', 'categories']);
   for (const key of Object.keys(value)) if (!allowed.has(key)) throw new Error(`Unsupported metadata field "${key}" in src/metadata/${name}.json`);
   return {
     exists: true,
     id: value.id ? String(value.id) : null,
-    tags: [...new Set((value.tags || []).map(x => x.trim()).filter(Boolean))]
+    tags: [...new Set((value.tags || []).map(x => x.trim()).filter(Boolean))],
+    categories: [...new Set((value.categories || []).map(x => x.trim()).filter(Boolean))]
   };
 }
 
@@ -214,6 +218,7 @@ const seenNames = new Map();
 const seenIds = new Set();
 const icons = {};
 const tagIndex = new Map();
+const categoryIndex = new Map();
 const folders = new Set();
 const duplicates = [];
 const warnings = [];
@@ -251,11 +256,19 @@ for (const file of files) {
     tagIndex.get(key).push(name);
   }
 
+  const categories = metadata.categories;
+  for (const cat of categories) {
+    const key = cat.toLowerCase();
+    if (!categoryIndex.has(key)) categoryIndex.set(key, []);
+    categoryIndex.get(key).push(name);
+  }
+
   icons[name] = {
     id,
     path: rel,
     hash: h,
-    tags
+    tags,
+    categories
   };
 }
 
@@ -263,7 +276,7 @@ const index = {
   version: VERSION,
   schemaVersion: 1,
   iconCount: files.length,
-  icons: Object.keys(icons).sort().map(name => ({ name, id: icons[name].id, tags: icons[name].tags, path: icons[name].path, hash: icons[name].hash }))
+  icons: Object.keys(icons).sort().map(name => ({ name, id: icons[name].id, tags: icons[name].tags, categories: icons[name].categories, path: icons[name].path, hash: icons[name].hash }))
 };
 
 const shards = new Map();
@@ -275,6 +288,9 @@ for (const [name, item] of Object.entries(icons)) {
 
 const tagIndexObject = {};
 for (const [tag, names] of [...tagIndex.entries()].sort((a, b) => a[0].localeCompare(b[0]))) tagIndexObject[tag] = [...new Set(names)].sort();
+
+const categoryIndexObject = {};
+for (const [cat, names] of [...categoryIndex.entries()].sort((a, b) => a[0].localeCompare(b[0]))) categoryIndexObject[cat] = [...new Set(names)].sort();
 
 const manifest = {
   version: VERSION,
@@ -289,6 +305,7 @@ const manifest = {
   files: {
     index: 'registry/index.json',
     tags: 'registry/tags.json',
+    categories: 'registry/categories.json',
     shards: 'registry/shards/{first-normalized-char}.json'
   }
 };
@@ -312,6 +329,11 @@ writeJSON(path.join(registryDir, 'tags.json'), {
   version: VERSION,
   schemaVersion: 1,
   tags: tagIndexObject
+});
+writeJSON(path.join(registryDir, 'categories.json'), {
+  version: VERSION,
+  schemaVersion: 1,
+  categories: categoryIndexObject
 });
 writeJSON(path.join(registryDir, 'manifest.json'), {
   ...manifest
@@ -367,4 +389,4 @@ if (process.argv.includes('--check')) {
   console.log(`Validated ${files.length} source SVGs without modifying source files.`);
   process.exit(0);
 }
-console.log(`Delluna V10: ${files.length} source icons, ${seenIds.size} unique IDs, ${Object.keys(tagIndexObject).length} tags.`);
+console.log(`Delluna V10: ${files.length} source icons, ${seenIds.size} unique IDs, ${Object.keys(tagIndexObject).length} tags, ${Object.keys(categoryIndexObject).length} categories.`);
