@@ -207,12 +207,17 @@
         attrs = attrs
             .replace(/\s*viewBox=["'][^"']*["']/i, '')
             .replace(/\s*(?:width|height)=["'][^"']*["']/gi, '')
+            .replace(/\s*stroke-width=["'][^"']*["']/gi, '')
+            .replace(/\s*stroke=["'][^"']*["']/gi, '')
+            .replace(/\s*fill=["'][^"']*["']/gi, '')
             .trim();
 
         return { attrs, inner, w, h };
     }
 
     function roundify(p) {
+        // Strip any existing cap/join from attrs (source files may include them)
+        // then re-assert round on the <g> that styleOg and other variants emit.
         let attrs = p.attrs
             .replace(/\s*stroke-linecap=["'][^"']*["']/gi, '')
             .replace(/\s*stroke-linejoin=["'][^"']*["']/gi, '');
@@ -254,23 +259,21 @@
             return p;
         }
 
-        const scale = value =>
-            value.replace(/stroke-width=["']([\d.]+)["']/gi, (a, v) => `stroke-width="${(+v * m).toFixed(2)}"`);
+        // parseSvg strips stroke-width from root <svg> attrs, so only inner
+        // elements carry stroke-width values — scale those only.
+        const scaleInner = str =>
+            str.replace(/stroke-width=["']([\d.]+)["']/gi, (a, v) => `stroke-width="${(+v * m).toFixed(2)}"`);
 
         return {
-            attrs: scale(p.attrs),
-            inner: scale(p.inner),
+            attrs: p.attrs,
+            inner: scaleInner(p.inner),
             w: p.w,
             h: p.h
         };
     }
 
     function styleOg(p) {
-        return `
-<svg
-    viewBox="0 0 ${p.w} ${p.h}"
-    ${p.attrs}
->${p.inner}</svg>`;
+        return `<svg viewBox="0 0 ${p.w} ${p.h}"><g ${p.attrs}>${p.inner}</g></svg>`;
     }
 
     function styleHud(p) {
