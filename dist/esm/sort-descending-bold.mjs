@@ -1,5 +1,5 @@
 export const name="sort-descending-bold";
-export const id="dl_6b5c98ae95c5469cafa2";
+export const id="dl_485919f6d4b11e16a100";
 export const url=new URL("../icons/sort-descending-bold.svg?v=5eb2c43bbbcc68edd92fcdde8581683d7b17c71394a45cbc17b60d616653dbe5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
