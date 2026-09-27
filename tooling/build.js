@@ -114,7 +114,7 @@ function fallbackTags(name) {
 function readMetadata(name) {
   const file = path.join(srcMetadata, `${name}.json`);
   if (!fs.existsSync(file)) {
-    return { exists: false, id: null, tags: fallbackTags(name) };
+    return { exists: false, id: null, tags: fallbackTags(name), categories: [] };
   }
   let value;
   try {
