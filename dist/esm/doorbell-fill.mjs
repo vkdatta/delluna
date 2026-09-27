@@ -1,5 +1,5 @@
 export const name="doorbell-fill";
-export const id="dl_a3bb157014f7455498fb";
+export const id="dl_c5a399d3bf683a2dae05";
 export const url=new URL("../icons/doorbell-fill.svg?v=d29641d81b0dbe5f2d94a20e879daf29a919c8831f8fe2d715bad2d43473b98c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};

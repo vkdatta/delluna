@@ -1,5 +1,5 @@
 export const name="superset-of-bold";
-export const id="dl_47f200f29a214c22b805";
+export const id="dl_b51b232f492432d7628d";
 export const url=new URL("../icons/superset-of-bold.svg?v=6cc963384f4eadfa6fc87d3cb7ee2d37084d225ff65021b0522d2de18b49c8a1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
