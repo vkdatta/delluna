@@ -206,10 +206,11 @@
 
         attrs = attrs
             .replace(/\s*viewBox=["'][^"']*["']/i, '')
-            .replace(/\s*(?:width|height)=["'][^"']*["']/gi, '')
-            .replace(/\s*stroke-width=["'][^"']*["']/gi, '')
-            .replace(/\s*stroke=["'][^"']*["']/gi, '')
-            .replace(/\s*fill=["'][^"']*["']/gi, '')
+            .replace(/\s*\bwidth=["'][^"']*["']/gi, '')
+            .replace(/\s*\bheight=["'][^"']*["']/gi, '')
+            .replace(/\s*\bstroke-width=["'][^"']*["']/gi, '')
+            .replace(/\s*\bstroke=["'][^"']*["']/gi, '')
+            .replace(/\s*\bfill=["'][^"']*["']/gi, '')
             .trim();
 
         return { attrs, inner, w, h };
