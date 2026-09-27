@@ -1,5 +1,5 @@
 export const name="speaker-simple-high-fill";
-export const id="dl_58d9651e9f7d4b8e8f95";
+export const id="dl_ca3e0883999f9d9bf9ee";
 export const url=new URL("../icons/speaker-simple-high-fill.svg?v=8cc6d5c8b6fb481cb5b2b2d1530df6e16f5433c285fb0a01cc7780ee9d738652",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
