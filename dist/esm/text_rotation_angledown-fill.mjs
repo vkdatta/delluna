@@ -1,6 +1,6 @@
 export const name="text_rotation_angledown-fill";
-export const id="dl_363ab4c0279c4ad69bc6";
-export const url=new URL("../icons/text_rotation_angledown-fill.svg?v=4327c82b5e9e46277126838e87d9fb9cf4c77db2946167c7275d87093da6f453",import.meta.url).href;
+export const id="dl_475781e2aeda38360fc7";
+export const url=new URL("../icons/text_rotation_angledown-fill.svg?v=03d141ba3c2e0efc1215b2f9c60bf49f9cd290407ecad93b7724ded3e13c9d6c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

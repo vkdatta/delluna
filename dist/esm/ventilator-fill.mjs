@@ -1,6 +1,6 @@
 export const name="ventilator-fill";
-export const id="dl_65dc1feac06c4eb19a4c";
-export const url=new URL("../icons/ventilator-fill.svg?v=f1b0c39668b301266a63e011d4c73198f6f1d4606cacc370afae5e5fd4433680",import.meta.url).href;
+export const id="dl_9c755c868855a28330e7";
+export const url=new URL("../icons/ventilator-fill.svg?v=f7a292886ca651a33f494fabee375b726fba7dd6680d9c8659aa4e363f636426",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

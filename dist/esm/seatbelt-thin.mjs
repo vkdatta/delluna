@@ -1,6 +1,6 @@
 export const name="seatbelt-thin";
-export const id="dl_19d43f09d9384aa1b6ec";
-export const url=new URL("../icons/seatbelt-thin.svg?v=ab8b677be1f64c764d163d068a1e1114757eb11da01976e6632b0d03bc45bb99",import.meta.url).href;
+export const id="dl_b22d8b9f1d87be294914";
+export const url=new URL("../icons/seatbelt-thin.svg?v=15a2ed8233c71589120146aeaaac3966072fe8e722186dbd0ab55bd1c1932c7a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

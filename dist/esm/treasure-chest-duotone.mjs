@@ -1,6 +1,6 @@
 export const name="treasure-chest-duotone";
-export const id="dl_a8b45e8df900441b85bb";
-export const url=new URL("../icons/treasure-chest-duotone.svg?v=63f9097a206e06586e2c81b7e432e472b8337a958530248c6cc9163888096166",import.meta.url).href;
+export const id="dl_91c90e68fd91d2025a9c";
+export const url=new URL("../icons/treasure-chest-duotone.svg?v=72fa9d7aae7b9f7f4a6bd50e177bc40e0a119c6f037923404b70e9808ae0332d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

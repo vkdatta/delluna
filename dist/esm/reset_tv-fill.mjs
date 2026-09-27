@@ -1,6 +1,6 @@
 export const name="reset_tv-fill";
-export const id="dl_d84eab6460f44e67b1b7";
-export const url=new URL("../icons/reset_tv-fill.svg?v=ac8e06f82b059d94895d2bff9db5c23afb8c627bfc28aaa466fbadab4c147786",import.meta.url).href;
+export const id="dl_768c71b86d5fc94328ff";
+export const url=new URL("../icons/reset_tv-fill.svg?v=9f2ffbfba19e2433bf677743b36d61712da39b770878458e0885f7b1f9ec47d8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

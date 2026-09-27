@@ -1,6 +1,6 @@
 export const name="steering-wheel";
-export const id="dl_eba76c7108d146918ece";
-export const url=new URL("../icons/steering-wheel.svg?v=64b540806a248ba3906210cfb9348655cab32345a847fccff8715c2761915cb4",import.meta.url).href;
+export const id="dl_29f714d202e63814bd5a";
+export const url=new URL("../icons/steering-wheel.svg?v=c200d5339a11e46c3350e92a9000e0818a37c1ee7708b26e75698e80a72d6a22",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

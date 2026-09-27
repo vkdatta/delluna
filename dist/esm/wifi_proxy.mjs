@@ -1,6 +1,6 @@
 export const name="wifi_proxy";
-export const id="dl_2a278e031133448dbb16";
-export const url=new URL("../icons/wifi_proxy.svg?v=8f3c0d705ff2c8f8a2b7b5dbd6df9b4c364d582809eee4298718ab6c671f76ed",import.meta.url).href;
+export const id="dl_b909cf9b1a0574280ee1";
+export const url=new URL("../icons/wifi_proxy.svg?v=684ce1622fe50203f2422ddf67124d4dcfd20f6d7afca4fa8f62ceeebcf6651d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

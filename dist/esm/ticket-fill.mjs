@@ -1,6 +1,6 @@
 export const name="ticket-fill";
-export const id="dl_a1c3f4e8fbe442648ec4";
-export const url=new URL("../icons/ticket-fill.svg?v=05d5f1f92438ec68001c936f5c6c9bd6a95aa2719b6ad61e499be4733960353d",import.meta.url).href;
+export const id="dl_ba932c0080624fb220e9";
+export const url=new URL("../icons/ticket-fill.svg?v=382bcb6bc5e81e6ea704088d22433fd62b17daebbed746e4195af76fe8b5eb45",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="pencil-simple-slash-bold";
 export const id="dl_1940dd3a90c94c4d941c";
-export const url=new URL("../icons/pencil-simple-slash-bold.svg?v=8a3e686ebb909db32d0240e710aa800c99f4329e3c9206c37c7b905c6c53965a",import.meta.url).href;
+export const url=new URL("../icons/pencil-simple-slash-bold.svg?v=3d3b2a0ee93715927d6dd94d21d8b6da62e840f14d0297c2bdad2107937feeac",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="award_meal-fill";
-export const id="dl_c44025fd338b40a5a6fd";
-export const url=new URL("../icons/award_meal-fill.svg?v=f80f41b84bd31957005fdf79ab9e011601e7941edd3412503c23e335a9c62673",import.meta.url).href;
+export const id="dl_aef173bbfb59835f5c9a";
+export const url=new URL("../icons/award_meal-fill.svg?v=a52ec2b3d4bd6db3dc4d31d30d62b34bb3ed0d69d9320bf0aa2a9c065277551c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

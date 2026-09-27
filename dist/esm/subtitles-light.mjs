@@ -1,6 +1,6 @@
 export const name="subtitles-light";
-export const id="dl_39e659ed1cba44b78527";
-export const url=new URL("../icons/subtitles-light.svg?v=ffe7599b8584a5242a8bc074dac4082ecfb7d4dcec6791287470d5bc7afa169a",import.meta.url).href;
+export const id="dl_46f54d793cd2d243fb03";
+export const url=new URL("../icons/subtitles-light.svg?v=357f95978e1e1e9d8a1fa69755c88a9ebbffbb25a0e6870271655c25a5b39232",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

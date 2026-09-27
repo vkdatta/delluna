@@ -1,6 +1,6 @@
 export const name="jamboard_kiosk";
-export const id="dl_46525e25ee2e4fd3af1e";
-export const url=new URL("../icons/jamboard_kiosk.svg?v=b9aed8ceead0a71f4b55720af0cf1cd915fb8eaace3442769f47f11bb926d6bb",import.meta.url).href;
+export const id="dl_71fc3974ef54d987fdee";
+export const url=new URL("../icons/jamboard_kiosk.svg?v=440adaa73534500a646797755a19dbf0c890a8b4ec60d703ba88da004e439578",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

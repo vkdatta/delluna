@@ -1,6 +1,6 @@
 export const name="seal-warning-bold";
-export const id="dl_c41b0b54a1e64510a08a";
-export const url=new URL("../icons/seal-warning-bold.svg?v=4b118f38abc22df7d5af68e0bb496e7b95cded0bb91ad939375155f41626d48d",import.meta.url).href;
+export const id="dl_20b7086e3383752fe4c7";
+export const url=new URL("../icons/seal-warning-bold.svg?v=ea858b8a831f32b4282766ba519626a4499e2f4b07cd16522bb0f726b40234cc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

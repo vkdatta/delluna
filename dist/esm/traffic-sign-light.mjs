@@ -1,6 +1,6 @@
 export const name="traffic-sign-light";
-export const id="dl_f42de138b59f4f96aad8";
-export const url=new URL("../icons/traffic-sign-light.svg?v=ca97b7fb93f3f3c9b9003fb5b7c7b238c004183d603422404c467d81e17846a6",import.meta.url).href;
+export const id="dl_9cb53c753c44970dcea7";
+export const url=new URL("../icons/traffic-sign-light.svg?v=4eec76dcd2b4d42aaee7c1c1ceaea1727b8e8b44f14484ce6a04447983235ec7",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

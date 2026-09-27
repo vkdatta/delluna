@@ -1,6 +1,6 @@
 export const name="fire";
 export const id="dl_2e5924bb77b845c9a6d7";
-export const url=new URL("../icons/fire.svg?v=1b51020c2c8bc045e707453553753daeda2afc754375f93344d97898774a0234",import.meta.url).href;
+export const url=new URL("../icons/fire.svg?v=b706de9df6844663bc17091bf93337bcb795a563f7addb69424403eae0244a2f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

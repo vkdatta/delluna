@@ -1,6 +1,6 @@
 export const name="tsunami";
-export const id="dl_7a0016ab89c04fc7958d";
-export const url=new URL("../icons/tsunami.svg?v=d5ff3cc782d332b14f11f0c0af812bbf8106566c6694f8de85a72a162c5efcfd",import.meta.url).href;
+export const id="dl_9bda663549d5ef468011";
+export const url=new URL("../icons/tsunami.svg?v=c13c60809e3355f939757ab8a6300699244bb0613d9eeb6e382eaf9672aff760",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="nest_multi_room-fill";
-export const id="dl_2ca7fc12ccd44e6fa844";
-export const url=new URL("../icons/nest_multi_room-fill.svg?v=f9504dc198caa0d3efa93b84425c5f232cd292391d5556036ac60f7dbb9b6832",import.meta.url).href;
+export const id="dl_55519d74053fb75b6efa";
+export const url=new URL("../icons/nest_multi_room-fill.svg?v=0600f02b991ffd504eebf225b9c5cd1b73ef48a6989f3316172e01d3d1f9866f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

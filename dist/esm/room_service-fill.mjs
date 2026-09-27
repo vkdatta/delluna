@@ -1,6 +1,6 @@
 export const name="room_service-fill";
-export const id="dl_277cb543cfee484fa95c";
-export const url=new URL("../icons/room_service-fill.svg?v=88f4f864c072670b52864f0ba10ac87421bd1418b85261671eb7b2162d918e71",import.meta.url).href;
+export const id="dl_a5d24912f7e5a84f5d54";
+export const url=new URL("../icons/room_service-fill.svg?v=e4322d3bf5f98d2594bba585189671ae936143c205a2603fd20c7306e32355a3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

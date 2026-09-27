@@ -1,6 +1,6 @@
 export const name="desktop-thin";
 export const id="dl_b013a2bd1406482787ad";
-export const url=new URL("../icons/desktop-thin.svg?v=01c2977e3f72ab3a61bb51ae92796671c87eb1140516183fcabe1a2356a2ac14",import.meta.url).href;
+export const url=new URL("../icons/desktop-thin.svg?v=2af8a766985e143114559df72c7944c6f6e6845e87063a708e8c4e302c8a44cb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="toc-fill";
-export const id="dl_027e93a04f804c828f91";
-export const url=new URL("../icons/toc-fill.svg?v=067e4f3c6dd2e65f716210b25523ebce30bf407cf9b4c0ffe65c42910a7c8fc9",import.meta.url).href;
+export const id="dl_43491418b5a4ba94392b";
+export const url=new URL("../icons/toc-fill.svg?v=04c90345d25719af6a53c15b3d1f6b8fde3806d3b893f192bee1f93d7801341e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

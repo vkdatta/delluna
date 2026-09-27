@@ -1,6 +1,6 @@
 export const name="assignment_late-fill";
-export const id="dl_6c982c7b619a4c58b328";
-export const url=new URL("../icons/assignment_late-fill.svg?v=25a81d1aa232cb5b800f4fa77991ddbdf33888bf6c78bf179886871978dcf7a9",import.meta.url).href;
+export const id="dl_7dc420dc63635ff9299f";
+export const url=new URL("../icons/assignment_late-fill.svg?v=29fbce8d09aa857b11521bfd24082a9cb17d9ea6fd0b3a100486f4fce2b3ff2b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

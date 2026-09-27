@@ -1,6 +1,6 @@
 export const name="share_windows-fill";
-export const id="dl_9cfe2f777ea448d7b938";
-export const url=new URL("../icons/share_windows-fill.svg?v=086a8f1eac13786971a20bbd6f9d682d5aba89844c32671ff1d8aa44f69a42f9",import.meta.url).href;
+export const id="dl_8bbf9a162bb7cff8aa98";
+export const url=new URL("../icons/share_windows-fill.svg?v=ded50815907d8cb6da8ddf3a0feed556ff85bf2d347d80d626147df306a5e502",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

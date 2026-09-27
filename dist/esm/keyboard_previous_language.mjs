@@ -1,6 +1,6 @@
 export const name="keyboard_previous_language";
-export const id="dl_9959f865f31c4ff0a1d8";
-export const url=new URL("../icons/keyboard_previous_language.svg?v=96a1561ac9aee4a97fa256eac822f478f4e91dbf9f6ebaa4e66baca63595cebc",import.meta.url).href;
+export const id="dl_7208a373e5dd0d21618e";
+export const url=new URL("../icons/keyboard_previous_language.svg?v=be9ff1f07ad73ef594dfba69886e6cf9445623ddcb953a5ad4cc7452267c97e8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="subset-proper-of-fill";
-export const id="dl_2b7b34eac4f246e0aa29";
-export const url=new URL("../icons/subset-proper-of-fill.svg?v=6096bf05d9cc8e2c56e70d2916b5eaa81793f888778c9b824af2e0a5db63854d",import.meta.url).href;
+export const id="dl_fffa2245afe57d90c8b3";
+export const url=new URL("../icons/subset-proper-of-fill.svg?v=58c2fb97cc7acf3cedda8e74a2fdb81c29c951c6a73a134802d181606c8583a8",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

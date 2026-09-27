@@ -1,6 +1,6 @@
 export const name="screwdriver-light";
-export const id="dl_b0ff9a929e4446d5aa96";
-export const url=new URL("../icons/screwdriver-light.svg?v=d570816d418378b72d06c0d0cf206cca44a03e2f05d29f24398c732fac53c1bb",import.meta.url).href;
+export const id="dl_f2234b60e87f713ee03f";
+export const url=new URL("../icons/screwdriver-light.svg?v=b3b31d9ff2883dda21ea448122d70a972dbea753667fc5acd85e2c916270384d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="chair_umbrella";
-export const id="dl_a2e74d7ad3ea4a478d9e";
-export const url=new URL("../icons/chair_umbrella.svg?v=288f98bd40a2867f09a666168359f88b06697e9fe35188efe51742800cb4cfa7",import.meta.url).href;
+export const id="dl_7cfb5bcab8832796eca6";
+export const url=new URL("../icons/chair_umbrella.svg?v=8be977294bfc26f7cb660df9226b9e20c9c07d0c7a4485e57ae86bdfea999b1c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

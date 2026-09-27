@@ -1,6 +1,6 @@
 export const name="speaker-simple-none-duotone";
-export const id="dl_8f1843ced1324b96a570";
-export const url=new URL("../icons/speaker-simple-none-duotone.svg?v=f643e88565fb34a86d5904a780c7b5235903a161d612c524b897ac3f626985d3",import.meta.url).href;
+export const id="dl_04ab9833d68e13e909a1";
+export const url=new URL("../icons/speaker-simple-none-duotone.svg?v=c747c7e29ab68020df00cf8312972a4a6dadc6e5fa44fa7ff5076b223a3689d9",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

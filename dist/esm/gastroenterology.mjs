@@ -1,6 +1,6 @@
 export const name="gastroenterology";
-export const id="dl_a0a9a0b6abf84de3b54d";
-export const url=new URL("../icons/gastroenterology.svg?v=efd84fdc1d8864857944c0ddd07857db4c7a377e57bed073f316e39067488b4d",import.meta.url).href;
+export const id="dl_31792e7aedb5f6066bb6";
+export const url=new URL("../icons/gastroenterology.svg?v=b782db7616467b8ec0b2e8c8de45a2fc60a59e47429764c80e2d8d50cf324441",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

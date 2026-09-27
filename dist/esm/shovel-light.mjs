@@ -1,6 +1,6 @@
 export const name="shovel-light";
-export const id="dl_48cb4ed7808c4e42b9d7";
-export const url=new URL("../icons/shovel-light.svg?v=a18680752431af1e6c5fd855dac0e89aae8f086ed0366cd613ee3f2c85a6b213",import.meta.url).href;
+export const id="dl_551b5f694fe3db830f2d";
+export const url=new URL("../icons/shovel-light.svg?v=0df327051d8ea13a0930cbdaf6057ae11b99577ec6d882359724565fac14b6de",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

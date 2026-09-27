@@ -1,6 +1,6 @@
 export const name="sneaker-move-duotone";
-export const id="dl_210b0d0a84e840ee9ec4";
-export const url=new URL("../icons/sneaker-move-duotone.svg?v=ac0fda6e4f12d9902b1a438d4efc6e83a5f8bc313939e5402231a38bfd2ebc96",import.meta.url).href;
+export const id="dl_f928f496e339c9c9fd55";
+export const url=new URL("../icons/sneaker-move-duotone.svg?v=03d5230199b29eb24abfe04d76cb90b87a1ac4d8eaefa7929248f44bdb09fa13",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

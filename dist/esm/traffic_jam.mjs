@@ -1,6 +1,6 @@
 export const name="traffic_jam";
-export const id="dl_555134f3e12645eaa098";
-export const url=new URL("../icons/traffic_jam.svg?v=e06a00fb408c2e79d07ecc32e54413938c2392f0fc7ca3a3d5ff82bd075c2df1",import.meta.url).href;
+export const id="dl_0fe9593cdc9afde94a4b";
+export const url=new URL("../icons/traffic_jam.svg?v=746dc60b5bf13e672b78e166078ef6f4dfdbd99fb9feb5d28a2f291009e8a3e6",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

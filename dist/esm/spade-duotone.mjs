@@ -1,6 +1,6 @@
 export const name="spade-duotone";
-export const id="dl_03384b9b7d0a468a9544";
-export const url=new URL("../icons/spade-duotone.svg?v=0e8099db8b308fdddcbe34df37fa1d2c664be1040db5e0f4f2f018fb7684c4f0",import.meta.url).href;
+export const id="dl_93a62281d8851680d71a";
+export const url=new URL("../icons/spade-duotone.svg?v=c76a8e71b536770fef0682fe79e18d7d634b8a555572cf32ba95122ffbd1490e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

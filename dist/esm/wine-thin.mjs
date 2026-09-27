@@ -1,6 +1,6 @@
 export const name="wine-thin";
-export const id="dl_7d29328e3c74481b94f5";
-export const url=new URL("../icons/wine-thin.svg?v=e4664c7a9f2fce896090285799355a5cc566fda40f2e3eea7495cb88cf483777",import.meta.url).href;
+export const id="dl_f2adb96cc96f09b1e2d8";
+export const url=new URL("../icons/wine-thin.svg?v=90040760abab4bd001185d6a19667d5e46166a8458f0b6268f9bc2a32100ef60",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

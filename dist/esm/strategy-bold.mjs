@@ -1,6 +1,6 @@
 export const name="strategy-bold";
-export const id="dl_b49d815d9d8b41fbb8d3";
-export const url=new URL("../icons/strategy-bold.svg?v=a3d4b374501b75c44592daad2d4d967c4b0a82fb7b01278fb930e1e31cbc3104",import.meta.url).href;
+export const id="dl_e1e10d71de2c795ca340";
+export const url=new URL("../icons/strategy-bold.svg?v=322b3516ef0671cdb12b0ba1aa2be8642150e08c7c9fb9688563693cb67d660b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

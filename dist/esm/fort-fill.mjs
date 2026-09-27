@@ -1,6 +1,6 @@
 export const name="fort-fill";
-export const id="dl_8b488b58b31f45c09d04";
-export const url=new URL("../icons/fort-fill.svg?v=59c287eb8ff4e3e1660f825fd2dd6d386bd9565e7d2bb62992b23859dea2cf19",import.meta.url).href;
+export const id="dl_2085e66e4c22710c809f";
+export const url=new URL("../icons/fort-fill.svg?v=55df0b52440f45d27c50c71886c4de755e70f180483b28d2c1dedccb65e5aee1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

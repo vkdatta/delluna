@@ -1,6 +1,6 @@
 export const name="tea-bag-light";
-export const id="dl_544fd6304f3247819cad";
-export const url=new URL("../icons/tea-bag-light.svg?v=b3eb43967edcdad00e3f079d48cf340ac91acedce6f6f8e8a95d457c188c14c0",import.meta.url).href;
+export const id="dl_b389626843822bc45fb0";
+export const url=new URL("../icons/tea-bag-light.svg?v=d1bccdf15575fe7ce2c03ff21fb6ff12564d8d0ac2e4cb2e81a69f1feb1dc615",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

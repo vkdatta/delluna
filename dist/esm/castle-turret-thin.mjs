@@ -1,6 +1,6 @@
 export const name="castle-turret-thin";
 export const id="dl_4c2e757646da410bafba";
-export const url=new URL("../icons/castle-turret-thin.svg?v=f04250a27c16013fc7b7d01c67ded670e063d678cecc28a7c84c01fee49992c0",import.meta.url).href;
+export const url=new URL("../icons/castle-turret-thin.svg?v=07e0395c92c06b2d6edd451011db0e8b15795c4e3ab5ee126241ecafa569c87c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

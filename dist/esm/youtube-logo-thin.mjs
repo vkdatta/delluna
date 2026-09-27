@@ -1,6 +1,6 @@
 export const name="youtube-logo-thin";
-export const id="dl_4506088385074933af21";
-export const url=new URL("../icons/youtube-logo-thin.svg?v=4bd4f4711ea9189a72a839da090516102dc486dfc22a24358fa0bff849809aad",import.meta.url).href;
+export const id="dl_58f7ce318e7e23fd827c";
+export const url=new URL("../icons/youtube-logo-thin.svg?v=665eb794d1ff52ae23e12b5197c795c569b9bf1bdf4c10c90d8760761741f868",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="language_chinese_wubi-fill";
-export const id="dl_40849f4974db4b98ac14";
-export const url=new URL("../icons/language_chinese_wubi-fill.svg?v=e1f17ff0327eeb3fa5acc63d2e533410607ba78fdd198ab4c95b81a75c51368f",import.meta.url).href;
+export const id="dl_5908dae6c319ca71846c";
+export const url=new URL("../icons/language_chinese_wubi-fill.svg?v=f82ae9c3503dc461671b6e5eaf8fdb79ff73a939f11884125b08cafca3c74935",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

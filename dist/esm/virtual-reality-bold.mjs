@@ -1,6 +1,6 @@
 export const name="virtual-reality-bold";
-export const id="dl_e34b167b49bd4cf48984";
-export const url=new URL("../icons/virtual-reality-bold.svg?v=4d210085a711c80e06f0d34c05eb03ef56b28dde8a290f5d2e80d14b1469ad3c",import.meta.url).href;
+export const id="dl_1c72824d5a49291aacc7";
+export const url=new URL("../icons/virtual-reality-bold.svg?v=a4709765b5511d86e03a96ff470ba680ef0e267cd08dc035a0619f872bb25792",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

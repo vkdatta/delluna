@@ -1,6 +1,6 @@
 export const name="floor-fill";
-export const id="dl_06b2f0f756e54998a639";
-export const url=new URL("../icons/floor-fill.svg?v=abc21a87670cd148ddcb1df0ca0f5d01f76290cc13c9961b6dbcdb07ed3eeaea",import.meta.url).href;
+export const id="dl_d717dcde7f1bef471c63";
+export const url=new URL("../icons/floor-fill.svg?v=8af3908aeeb99110640f528e1edfd1a6fcc767b4b8f1d5cca746d38137c6d2c1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

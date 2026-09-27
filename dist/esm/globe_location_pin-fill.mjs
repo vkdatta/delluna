@@ -1,6 +1,6 @@
 export const name="globe_location_pin-fill";
-export const id="dl_4bdc2d140ac24f188cc2";
-export const url=new URL("../icons/globe_location_pin-fill.svg?v=0028ea05e306f2234f173d3fff97b4229690280b070c58b50ed1ae49ada09ff3",import.meta.url).href;
+export const id="dl_7096982931177a990edc";
+export const url=new URL("../icons/globe_location_pin-fill.svg?v=f43d9cab3860f39c38ccc28399c4d0fbae5abf0112e0699d1e43b1dee2030281",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

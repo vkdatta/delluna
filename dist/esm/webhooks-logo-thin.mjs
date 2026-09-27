@@ -1,6 +1,6 @@
 export const name="webhooks-logo-thin";
-export const id="dl_684ee9a0f08247a0a178";
-export const url=new URL("../icons/webhooks-logo-thin.svg?v=2173faa22de5d20e20d98393d21039257c2c785cae27e27dc16ba449af75032e",import.meta.url).href;
+export const id="dl_7a8dc72a98ff4d350d4d";
+export const url=new URL("../icons/webhooks-logo-thin.svg?v=382529b92b0226a1c8225797ebc8529fd52fc2ea26d58e5dfb16d8214b380a99",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

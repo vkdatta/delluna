@@ -1,6 +1,6 @@
 export const name="pepper-fill";
 export const id="dl_0a633c96d3eb459bb328";
-export const url=new URL("../icons/pepper-fill.svg?v=07d2af32ccef8029607f12192463ed59b43947514a6c2a1e85b7146e35073e44",import.meta.url).href;
+export const url=new URL("../icons/pepper-fill.svg?v=d16910c466cc6daf779ef42c228fcd488cb98a47bb0974b184a878c3ccd440c0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

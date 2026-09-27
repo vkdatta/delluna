@@ -1,6 +1,6 @@
 export const name="video-conference-light";
-export const id="dl_3126c39027504756b4cf";
-export const url=new URL("../icons/video-conference-light.svg?v=38aae32ae0a01c0ab06c4144cb0e9acc2e8581a4907da156e82c045e1e117a6c",import.meta.url).href;
+export const id="dl_75549bf9d1759d65e1e0";
+export const url=new URL("../icons/video-conference-light.svg?v=28b692e7f6b580474fb14131f14d2345a5d65dfc06231d97348aa5c85b04f788",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

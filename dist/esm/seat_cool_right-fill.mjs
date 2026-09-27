@@ -1,6 +1,6 @@
 export const name="seat_cool_right-fill";
-export const id="dl_942720cc10524dcfaa2c";
-export const url=new URL("../icons/seat_cool_right-fill.svg?v=151b0cde6f7712ec0734f92a14864b41dfa0c71235168d910bd300460a4c7461",import.meta.url).href;
+export const id="dl_9a58cff413a0f2b62935";
+export const url=new URL("../icons/seat_cool_right-fill.svg?v=a24a6a0773fadf25681c47e07d2bd04c8baf55d99fc546e11e556abb3b9f072b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

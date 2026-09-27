@@ -1,6 +1,6 @@
 export const name="train-regional-thin";
-export const id="dl_f49b5491b1fa4a7b8cd3";
-export const url=new URL("../icons/train-regional-thin.svg?v=e562e2a76fbed48eb74a7a72bfe053b92666783d3e31e4c86a4a897e5a87dcd6",import.meta.url).href;
+export const id="dl_bb8d2ddcc7554d2c10b1";
+export const url=new URL("../icons/train-regional-thin.svg?v=9211487bbf63214beb35cc8fedabd6db8e5bc55321962b211000394d4e8a8042",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

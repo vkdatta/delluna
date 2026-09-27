@@ -1,6 +1,6 @@
 export const name="two_pager";
-export const id="dl_55a15a5030a349ee9e13";
-export const url=new URL("../icons/two_pager.svg?v=4849a4c26953fa1040dc7ed19d32e23fdb5d8a5316c5bde514e22e18ee1917ed",import.meta.url).href;
+export const id="dl_004cff17614c5025fb6f";
+export const url=new URL("../icons/two_pager.svg?v=ce829bb4ec77c7c89ff0471162096930784d081896206f713cf923c4b0ff6826",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

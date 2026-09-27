@@ -1,6 +1,6 @@
 export const name="24fps_select";
-export const id="dl_8845b00415524eeba56b";
-export const url=new URL("../icons/24fps_select.svg?v=d99a3377de109a65246e3e7532612fa2f77174a9e7ca844839462c4c8c7042ee",import.meta.url).href;
+export const id="dl_272d822e74204a85c07c";
+export const url=new URL("../icons/24fps_select.svg?v=1392d5093a5f28ae3ab4a3d6416d7c38531e1d04318d12708e09a7a32adacd80",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

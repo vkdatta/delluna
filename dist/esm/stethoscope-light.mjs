@@ -1,6 +1,6 @@
 export const name="stethoscope-light";
-export const id="dl_04ae609ae6a349258ac2";
-export const url=new URL("../icons/stethoscope-light.svg?v=6e8de5f0f61fea6a55057d98586866f7532087b887d026782aaeda5e88ae112f",import.meta.url).href;
+export const id="dl_f12cb4cca2e30a0a870c";
+export const url=new URL("../icons/stethoscope-light.svg?v=dd587b6efb6aa40b42a798cdd212456450f135da126487dccaf9973b3565ce7d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

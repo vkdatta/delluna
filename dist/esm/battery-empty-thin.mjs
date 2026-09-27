@@ -1,6 +1,6 @@
 export const name="battery-empty-thin";
 export const id="dl_e03401de3a0a4eb1ae64";
-export const url=new URL("../icons/battery-empty-thin.svg?v=e7f2cd70e39c3f633499f3ab3729a8a8da954864b53e38a343085d0e0e822a9a",import.meta.url).href;
+export const url=new URL("../icons/battery-empty-thin.svg?v=8a0ea4fd0cfc76b90d45b1bb8f87f91cf86154aedbebabac006ec1a8c421f7e9",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

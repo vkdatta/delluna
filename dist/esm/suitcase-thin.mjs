@@ -1,6 +1,6 @@
 export const name="suitcase-thin";
-export const id="dl_1b7263bed8e44d9283fc";
-export const url=new URL("../icons/suitcase-thin.svg?v=764cb83db3bb24a3882b75b77e95e389ab5e7d851283d2ff6fdc4f1361fc75ea",import.meta.url).href;
+export const id="dl_00a3cdf72c54fbef39c7";
+export const url=new URL("../icons/suitcase-thin.svg?v=3f67d47eb95e5e59d3a7e455407377586008d10da8ed63b13813fb969aefb4eb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

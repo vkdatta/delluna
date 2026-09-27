@@ -1,6 +1,6 @@
 export const name="yarn-light";
-export const id="dl_9a061621a1654644b607";
-export const url=new URL("../icons/yarn-light.svg?v=0a68db9c7a99312e49dac094cd074c236d5569bd8851bb562f798d7346a57a30",import.meta.url).href;
+export const id="dl_9f0de8c6f159177841ee";
+export const url=new URL("../icons/yarn-light.svg?v=b825cfe1bb251c7693a840fe961b78a4f042ae4c2b5af3ff3b8443e303ec4966",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

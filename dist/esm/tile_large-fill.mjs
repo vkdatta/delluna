@@ -1,6 +1,6 @@
 export const name="tile_large-fill";
-export const id="dl_d169b85d77544b0f8bd7";
-export const url=new URL("../icons/tile_large-fill.svg?v=e1692d857fe84d4cbb767284278cb902975f4bdaee4a3f9fb0fdad438395ad5e",import.meta.url).href;
+export const id="dl_3daa15f6799f00872e0c";
+export const url=new URL("../icons/tile_large-fill.svg?v=288371d91635545bd5bb5bead0a466c8028c875d219eeb3c031795f13768de51",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

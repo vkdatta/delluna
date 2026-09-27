@@ -1,6 +1,6 @@
 export const name="lucid_2-library";
 export const id="dl_3fceab05bf5744fba7d8";
-export const url=new URL("../icons/lucid_2-library.svg?v=743ff3e53e8befc6fed3082813ad7f2670005bf5bcfb73d0b18bccf71d580058",import.meta.url).href;
+export const url=new URL("../icons/lucid_2-library.svg?v=810a2a9091bef5b2614e985713f35ad9771e0629c99ade6b28ea8d315e43ada0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="electric_bike";
-export const id="dl_884e6b7d5e164c80bb48";
-export const url=new URL("../icons/electric_bike.svg?v=6694773d87cedd82cdae53e59548b7867724709179fe08871100dde68a95ac1a",import.meta.url).href;
+export const id="dl_cf1c9a694dee8399b102";
+export const url=new URL("../icons/electric_bike.svg?v=cba40d51f62f2fd50e6f2d44dc047115b9e737c199c19dbb97b22a6a4b16e975",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

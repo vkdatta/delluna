@@ -1,6 +1,6 @@
 export const name="nest_true_radiant-fill";
-export const id="dl_4135fd80808244c6b8ce";
-export const url=new URL("../icons/nest_true_radiant-fill.svg?v=02f962735f2a062374c67c12359642c2ce342e75446a4952929e55257653e33d",import.meta.url).href;
+export const id="dl_c8009ac62a09abedb061";
+export const url=new URL("../icons/nest_true_radiant-fill.svg?v=040cbe293fc5f6373904277462f6e7a5b56a07dc6b2a3ca2a7928850d5506843",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

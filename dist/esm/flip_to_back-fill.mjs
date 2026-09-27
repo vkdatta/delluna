@@ -1,6 +1,6 @@
 export const name="flip_to_back-fill";
-export const id="dl_a91a875edc9a475bbd13";
-export const url=new URL("../icons/flip_to_back-fill.svg?v=171172d52ab1409d763b1b32e6c931acac43f78d13d2830d5bbc15f8eabff840",import.meta.url).href;
+export const id="dl_f8e9edaa59db4562a63e";
+export const url=new URL("../icons/flip_to_back-fill.svg?v=cf47b7dc46c83288f295bacd713cc2a0dc2c5b27df7f28e6d05e02c3e4993be3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

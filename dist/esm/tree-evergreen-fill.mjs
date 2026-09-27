@@ -1,6 +1,6 @@
 export const name="tree-evergreen-fill";
-export const id="dl_43d9968c62874782abe8";
-export const url=new URL("../icons/tree-evergreen-fill.svg?v=7b266525b4a903718b1f3f016b89f6f38bde3c65eb4e26690be2f81862564514",import.meta.url).href;
+export const id="dl_2c586c00c2add146abb9";
+export const url=new URL("../icons/tree-evergreen-fill.svg?v=2fcba7de52d64b270fd85b11dc8771c548315e2b93a467d36958a4bffde74a64",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

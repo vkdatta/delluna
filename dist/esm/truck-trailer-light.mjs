@@ -1,6 +1,6 @@
 export const name="truck-trailer-light";
-export const id="dl_104de56f8b014daca295";
-export const url=new URL("../icons/truck-trailer-light.svg?v=5a7245ce71d9b8f4294aa634f283b72529c2198ebe4695013297a239aeff2d21",import.meta.url).href;
+export const id="dl_ec550745ea451afb3571";
+export const url=new URL("../icons/truck-trailer-light.svg?v=8b9518e3f20dcfbfe1fb67e00b86481de9a07cc099d0bc761ce3f00272800b63",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

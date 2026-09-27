@@ -1,6 +1,6 @@
 export const name="format_letter_spacing_2";
-export const id="dl_108995f78af344c8ab9b";
-export const url=new URL("../icons/format_letter_spacing_2.svg?v=d36316a3f69778b33a60631bbb9122980ed8175a9ed65a825df6ff49545652dd",import.meta.url).href;
+export const id="dl_0f40b568cec25d4d6ccf";
+export const url=new URL("../icons/format_letter_spacing_2.svg?v=902a06dc45da007d2b370d9be605cb4f6334286364a9482d1056949706f8ce18",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

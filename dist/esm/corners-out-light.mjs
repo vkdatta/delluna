@@ -1,6 +1,6 @@
 export const name="corners-out-light";
 export const id="dl_3bc9b2b9ed334428a629";
-export const url=new URL("../icons/corners-out-light.svg?v=38c92e281ff340a4c8460f15e198ff6403d7fb38616a5b8d7e89d3bb69691cb8",import.meta.url).href;
+export const url=new URL("../icons/corners-out-light.svg?v=9b176e224d9858b870db72ccd32153df5e75e6cf5bfefeccbd6e7df354231b22",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

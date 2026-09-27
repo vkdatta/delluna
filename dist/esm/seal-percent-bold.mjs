@@ -1,6 +1,6 @@
 export const name="seal-percent-bold";
-export const id="dl_b9ace2f0cdd543c5b973";
-export const url=new URL("../icons/seal-percent-bold.svg?v=0b54a0a59e9fe945e2d223e7b9d8b1e4889de021c1feecfa1b77773d5e20aee1",import.meta.url).href;
+export const id="dl_b3e2ec8f382a524614a0";
+export const url=new URL("../icons/seal-percent-bold.svg?v=dc759dff8f78a08394c51d0750cc4c4757dfd37f4c709d2bc5ede669d35bd32d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

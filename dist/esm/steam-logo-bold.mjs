@@ -1,6 +1,6 @@
 export const name="steam-logo-bold";
-export const id="dl_587679b796664a9a9394";
-export const url=new URL("../icons/steam-logo-bold.svg?v=67bdf5bc3850d10477a0a602195afb7bf969442b145d73928146ad482446ad0c",import.meta.url).href;
+export const id="dl_fe5cc44e09e0cddd5251";
+export const url=new URL("../icons/steam-logo-bold.svg?v=238557700318c4afad1645c029f2bc2f8e0d378c3feb922179a9b98b5ca56fdb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

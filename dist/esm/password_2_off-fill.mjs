@@ -1,6 +1,6 @@
 export const name="password_2_off-fill";
-export const id="dl_ff564203dd08481ead98";
-export const url=new URL("../icons/password_2_off-fill.svg?v=c5d97150b794e634ff185a931a779a85438d912bd62f8c0324e4085ced85f869",import.meta.url).href;
+export const id="dl_32d78f045d89e22a68ce";
+export const url=new URL("../icons/password_2_off-fill.svg?v=d1b7d5121a0317e48882b583ed9a6536067cf4c5be2d6492f8f68f706b4b9eeb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

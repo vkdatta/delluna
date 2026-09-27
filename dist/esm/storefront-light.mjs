@@ -1,6 +1,6 @@
 export const name="storefront-light";
-export const id="dl_d8567b54cd9f422580a0";
-export const url=new URL("../icons/storefront-light.svg?v=e0e2902ec9affef55867b2fb0a473554771fe27371cfe4495d3e56a764d1bf32",import.meta.url).href;
+export const id="dl_92db104006476001712f";
+export const url=new URL("../icons/storefront-light.svg?v=664a10405c3d38c57c09a90d4e0c68af65522bfb7d601dd4a8c5c160cb91c0a7",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

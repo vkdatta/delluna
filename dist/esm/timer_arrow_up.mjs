@@ -1,6 +1,6 @@
 export const name="timer_arrow_up";
-export const id="dl_8190dcae5cfc4e1aba5b";
-export const url=new URL("../icons/timer_arrow_up.svg?v=f963493a97fdf8e04a9ef169988ba698f1dfd71ab1bc9803cab037016f5f062e",import.meta.url).href;
+export const id="dl_10c00041c1869b924ba6";
+export const url=new URL("../icons/timer_arrow_up.svg?v=ab55b5768f99bed25231d3ef249a4edd63cd8c556fbacadeab456add7bfadbac",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

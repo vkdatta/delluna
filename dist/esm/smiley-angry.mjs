@@ -1,6 +1,6 @@
 export const name="smiley-angry";
-export const id="dl_a13f3e94e19546629bbc";
-export const url=new URL("../icons/smiley-angry.svg?v=7f2c6786423d9b5fe6f9f3f97b7a50064d5ca0ce78ef21d0d43ca1d28111dd0c",import.meta.url).href;
+export const id="dl_8902266b0184a451c133";
+export const url=new URL("../icons/smiley-angry.svg?v=4acf1fd59615220ee443262c10a9c6a542c94212bbd684cc25666afe986db2bf",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="tent-thin";
-export const id="dl_9415d4a6cb804d778b35";
-export const url=new URL("../icons/tent-thin.svg?v=3d1b653c922ee14a5a4f541e113d9d30f33ece1020a6d3980a51641938c01204",import.meta.url).href;
+export const id="dl_0661da1a47eb063c5cc8";
+export const url=new URL("../icons/tent-thin.svg?v=6df18a0f9046dae43a15a56c903c75894ee35ce2e056b889b96d5cebf630098e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

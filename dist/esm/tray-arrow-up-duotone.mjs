@@ -1,6 +1,6 @@
 export const name="tray-arrow-up-duotone";
-export const id="dl_da3a66c198c544f79e82";
-export const url=new URL("../icons/tray-arrow-up-duotone.svg?v=5adbfa22ab1720eb192bd4d73acb0bb503b73dbebac6b4a56ce9bad4412f26d0",import.meta.url).href;
+export const id="dl_8bb1a3cbeb1832bc5d2f";
+export const url=new URL("../icons/tray-arrow-up-duotone.svg?v=f3240c1985feabd608992c3454d4d8cdf3c1362ae0b7520a92f206f249c2dc09",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="spinner-gap-duotone";
-export const id="dl_c1bbab061dcb468cbe4c";
-export const url=new URL("../icons/spinner-gap-duotone.svg?v=1e55c9e017694948fd916cce862e1dc06f35e02f362dc6d36cd07e1c78f4682e",import.meta.url).href;
+export const id="dl_02a7c3003c65e5fe175f";
+export const url=new URL("../icons/spinner-gap-duotone.svg?v=91dd4784c2d3b81529bd26f9e7a199d82f9f90575d9b412c757794fbd376b6fd",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

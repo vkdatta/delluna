@@ -1,6 +1,6 @@
 export const name="washing-machine-bold";
-export const id="dl_d90952aa54db4b6f8082";
-export const url=new URL("../icons/washing-machine-bold.svg?v=899c4f6c9bf05f1e7a4d16874b1bba29946487cf5d01ff7bc419837ee0df03bc",import.meta.url).href;
+export const id="dl_4a3c5e0902ea98541c92";
+export const url=new URL("../icons/washing-machine-bold.svg?v=61ceddeed98a562c55646a19dca0d23868b767ca5cb90b0cc87fc1b83cfdb4d1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

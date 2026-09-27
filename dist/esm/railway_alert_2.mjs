@@ -1,6 +1,6 @@
 export const name="railway_alert_2";
-export const id="dl_0d964fc3f2674158aafe";
-export const url=new URL("../icons/railway_alert_2.svg?v=20420d51c5a32ace03ad70e526ae3082575bd5e825f2c9e06dab808f46ce972b",import.meta.url).href;
+export const id="dl_f9eec2b112b4097deb63";
+export const url=new URL("../icons/railway_alert_2.svg?v=e26b62fb2ec899222b8f64c80190774c550b54d3b6c971f0d0743af03b746f63",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

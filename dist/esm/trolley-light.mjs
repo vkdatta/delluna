@@ -1,6 +1,6 @@
 export const name="trolley-light";
-export const id="dl_e330cda412ac4bcd8526";
-export const url=new URL("../icons/trolley-light.svg?v=690e3af914cb7fbd04b09a15990f83e5c0310f0fe50394cbceab86c0c150df09",import.meta.url).href;
+export const id="dl_9f7e26f738e2f996e56d";
+export const url=new URL("../icons/trolley-light.svg?v=2f8147c2555a80f98bc05e34250714d5ac376857780e9803733159183cc9c86e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

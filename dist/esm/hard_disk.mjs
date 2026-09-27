@@ -1,6 +1,6 @@
 export const name="hard_disk";
-export const id="dl_f4a89bddeddc43ceaaf7";
-export const url=new URL("../icons/hard_disk.svg?v=f37d1c8ea0566369094a82db80b8e95f4f38602136027b80afcec210f7ee4463",import.meta.url).href;
+export const id="dl_a3af65023927bfeb1ed0";
+export const url=new URL("../icons/hard_disk.svg?v=6bd018e650d5bdef3aed5f33b5477c4e1bc269057a9fde633eb26a5217b5d2d5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

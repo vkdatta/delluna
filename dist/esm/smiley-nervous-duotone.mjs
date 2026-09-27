@@ -1,6 +1,6 @@
 export const name="smiley-nervous-duotone";
-export const id="dl_036c9bc400dc42918f4d";
-export const url=new URL("../icons/smiley-nervous-duotone.svg?v=ae54ae3748e453dad8b33e4544df5899f56f97651901c8d1ee4fc88271d61e7b",import.meta.url).href;
+export const id="dl_a42dad57afe37d1df176";
+export const url=new URL("../icons/smiley-nervous-duotone.svg?v=07eb6c2c928080098a2e922ea16a2d49ded3dd09315fa56c77488e23bef44f04",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

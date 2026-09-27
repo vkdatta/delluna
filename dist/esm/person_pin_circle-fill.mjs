@@ -1,6 +1,6 @@
 export const name="person_pin_circle-fill";
-export const id="dl_629cdcc986234d8ebc8a";
-export const url=new URL("../icons/person_pin_circle-fill.svg?v=55ff5cc3b4c23459a5346555663353f3df676b5e5b66b8566acf95e72312ec6d",import.meta.url).href;
+export const id="dl_e879d23f2cd3073dd32f";
+export const url=new URL("../icons/person_pin_circle-fill.svg?v=c5420d3a3530eabb7f5150fe6011f321dfc03d33b10c753441e4412df2019146",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

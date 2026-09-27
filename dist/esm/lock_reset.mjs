@@ -1,6 +1,6 @@
 export const name="lock_reset";
-export const id="dl_7a958ad403654533a3a3";
-export const url=new URL("../icons/lock_reset.svg?v=d0aacd21cdc8add0a9c179c5bfd8bb2f25536d539c2990d929fc68b3993a6210",import.meta.url).href;
+export const id="dl_0b1ea5f296e6ddc6ceb2";
+export const url=new URL("../icons/lock_reset.svg?v=16cd4675be9acae8c88292858867d8fc6e2535eefef258aeeff57f02fd8d7df5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

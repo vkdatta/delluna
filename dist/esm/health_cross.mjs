@@ -1,6 +1,6 @@
 export const name="health_cross";
-export const id="dl_90a2e92d54324f25a8a0";
-export const url=new URL("../icons/health_cross.svg?v=0cce7cf6e9e98fa968603dfe098e911aa0dd8fdeae6d076e192ae0579a2e2f1d",import.meta.url).href;
+export const id="dl_24dbc03b6bc30c0e91a2";
+export const url=new URL("../icons/health_cross.svg?v=06fa1f25b0f588c008fb9c3ea96c31e4e836619fae4fb729845a1d3783f71abe",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

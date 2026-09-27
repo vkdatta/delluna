@@ -1,6 +1,6 @@
 export const name="psychiatry-fill";
-export const id="dl_c6f1cadaf9ee46f095a7";
-export const url=new URL("../icons/psychiatry-fill.svg?v=cc10e45eaef1c72adb6a49ba1eb4c5fbf6484eb2c010e55e894d6f0550abcf05",import.meta.url).href;
+export const id="dl_18594e72a552828e23af";
+export const url=new URL("../icons/psychiatry-fill.svg?v=50886f0b184d57351241a81ba0a96d44ccdfb082cecd9335511844f8bb996dba",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

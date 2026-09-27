@@ -1,6 +1,6 @@
 export const name="view_day-fill";
-export const id="dl_0ae807cdb1c644c3b326";
-export const url=new URL("../icons/view_day-fill.svg?v=c0e45cae424e81ff6d14f44e9586a9fa414a9a54cdefce9f5c5dd4d00b0cbc45",import.meta.url).href;
+export const id="dl_22052890a96fd34a5964";
+export const url=new URL("../icons/view_day-fill.svg?v=42a05b7cfb16b1ecbfdc94bf2445884de5485fa11c089df0e6d645c9ccb8b969",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

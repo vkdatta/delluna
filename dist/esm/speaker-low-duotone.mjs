@@ -1,6 +1,6 @@
 export const name="speaker-low-duotone";
-export const id="dl_63ad97b659d444abb493";
-export const url=new URL("../icons/speaker-low-duotone.svg?v=a936dc1d3bdbe2e5271315d9374847a8870abf44f74bc0b6f1baca05ebd0a98e",import.meta.url).href;
+export const id="dl_be4547c80fcdbb9263fa";
+export const url=new URL("../icons/speaker-low-duotone.svg?v=de74f2065dfe5504d5fa9395b95933ae591ebca7a12105cd7adb2c5181d38a28",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

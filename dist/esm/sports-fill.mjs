@@ -1,6 +1,6 @@
 export const name="sports-fill";
-export const id="dl_843ad22fe9bb470a97a2";
-export const url=new URL("../icons/sports-fill.svg?v=4cf27908859877baf316280b648452c3904504ad061ecfe8c6826564eaa7c625",import.meta.url).href;
+export const id="dl_c06efe2f88972b92c24d";
+export const url=new URL("../icons/sports-fill.svg?v=74b9ba9450682741cb9168aef07793f93af2e5e444b37bc7857bbc9e66b761db",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

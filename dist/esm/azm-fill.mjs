@@ -1,6 +1,6 @@
 export const name="azm-fill";
-export const id="dl_25487ac1f7db47da9614";
-export const url=new URL("../icons/azm-fill.svg?v=651ddadf1231eafe111bce82cd273a9a729a62fc190ac0bdaaea085e2281b6df",import.meta.url).href;
+export const id="dl_a70e576fef9f02cf2724";
+export const url=new URL("../icons/azm-fill.svg?v=2c857487168285ee181d3bdc60b2c18a51ee0ab8fb3c1515f095fa1cd94e6254",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

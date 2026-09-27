@@ -1,6 +1,6 @@
 export const name="thermometer-cold-duotone";
-export const id="dl_8217b84fcebf43779e83";
-export const url=new URL("../icons/thermometer-cold-duotone.svg?v=63e698dd603992bb807d69cb769060ebec6137c54d200df21fc8b558adb23b8f",import.meta.url).href;
+export const id="dl_9c49e4fcc8207fd777a4";
+export const url=new URL("../icons/thermometer-cold-duotone.svg?v=b838bed8c12382501749737e87f777e8bace99e95fdb594ed903abf88f2edb22",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

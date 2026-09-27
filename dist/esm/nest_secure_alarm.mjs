@@ -1,6 +1,6 @@
 export const name="nest_secure_alarm";
-export const id="dl_fdb9d9656b7c459889df";
-export const url=new URL("../icons/nest_secure_alarm.svg?v=23e954d18ec993532f097ac2734d91d627bea8283ebd88de4a50b02c378cbd8f",import.meta.url).href;
+export const id="dl_942b7ce730e0c4c106c2";
+export const url=new URL("../icons/nest_secure_alarm.svg?v=5b130ee7d3e2ef9a53527556cf40adc8119bfc4002a813a51433a98eb93645d7",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

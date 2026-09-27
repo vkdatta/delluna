@@ -1,6 +1,6 @@
 export const name="qr_code-fill";
-export const id="dl_f6d4441b07744cb5aeaa";
-export const url=new URL("../icons/qr_code-fill.svg?v=886b6306a1e5893a6996e75a7371ee9cfbd4d97adc19bf37e90fcaccb9d74727",import.meta.url).href;
+export const id="dl_b6a74ababae8dda9a66a";
+export const url=new URL("../icons/qr_code-fill.svg?v=e67fd98c0000f421fcd18a84dc24b1920777a9c29cd68cdf3d66730e07c06f90",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

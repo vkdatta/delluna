@@ -1,6 +1,6 @@
 export const name="seal-check";
-export const id="dl_68acf96f8cfa45ef88da";
-export const url=new URL("../icons/seal-check.svg?v=462ca0e3c6be8be9b834e3c5a3eff2b4600ccaa9341dab9a13caf71ce6190788",import.meta.url).href;
+export const id="dl_bf203d5fa9dde306607c";
+export const url=new URL("../icons/seal-check.svg?v=914a684ce9020cc19eb48367523069a84f795e69e28a21283adb8b8641eb693d",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

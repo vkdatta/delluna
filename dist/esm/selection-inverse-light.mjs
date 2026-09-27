@@ -1,6 +1,6 @@
 export const name="selection-inverse-light";
-export const id="dl_3adc3bcee0434fdd82bf";
-export const url=new URL("../icons/selection-inverse-light.svg?v=4392e461e4b4c3739c63273577e16f241822fc4dbae94cd02ec30d2b1369ba4e",import.meta.url).href;
+export const id="dl_37c52e987c5d9dab040f";
+export const url=new URL("../icons/selection-inverse-light.svg?v=310ba94c2418c351bd2cb60226cf6792a8764477dd1a3fea8bb2a409f340dde0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

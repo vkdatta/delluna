@@ -1,6 +1,6 @@
 export const name="smiley-blank-bold";
-export const id="dl_22ed25088b434649a116";
-export const url=new URL("../icons/smiley-blank-bold.svg?v=3f53b3be5fc9b770978a2a13b2705e1b1b0c54e6aeee8751d2ce7632d4f6a7ee",import.meta.url).href;
+export const id="dl_e51f041a592a69a48a4a";
+export const url=new URL("../icons/smiley-blank-bold.svg?v=39db5da3f4a4763b1f4f18af9143a4ee0a066eefb763a47888ebe2aafe1a8ec4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

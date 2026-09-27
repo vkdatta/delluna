@@ -1,6 +1,6 @@
 export const name="shield-thin";
-export const id="dl_b591d701c16a486a9d9f";
-export const url=new URL("../icons/shield-thin.svg?v=16086eac2c16beff4155e2859e4409331e1682d8b6d6fe38c296ad1f3e027484",import.meta.url).href;
+export const id="dl_50f47fa8ad341ba82db2";
+export const url=new URL("../icons/shield-thin.svg?v=3a61bab2c78ccf4bf00ea2254a14d4713c0664212db68891802ee239d32d28ff",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

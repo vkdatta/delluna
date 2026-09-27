@@ -1,6 +1,6 @@
 export const name="bike_dock-fill";
-export const id="dl_c2b52d9db7f241cb90d7";
-export const url=new URL("../icons/bike_dock-fill.svg?v=1429e217ac5a30ff094d50b2a38fd62d4f380af44495ed914cb11e456643929f",import.meta.url).href;
+export const id="dl_5e3823a5e35659b8c23a";
+export const url=new URL("../icons/bike_dock-fill.svg?v=2269e67fd12a06a38465b6d05f5a8f7ac8a3da202278bf5cf8840a40b086d2f4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

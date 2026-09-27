@@ -1,6 +1,6 @@
 export const name="road-fill";
-export const id="dl_658f8f9615f344b08277";
-export const url=new URL("../icons/road-fill.svg?v=6b4723e524a830d0dd8844973f13b840823c8200197563fcfedbd7b5955f3ea6",import.meta.url).href;
+export const id="dl_cda61495ad8712ecdc73";
+export const url=new URL("../icons/road-fill.svg?v=cb9be09516f78cb31eada37641f411e527fe367f408cc814e65a3ea702f7eafb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

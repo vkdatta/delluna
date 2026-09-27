@@ -1,6 +1,6 @@
 export const name="do_not_disturb_on_total_silence";
-export const id="dl_e17a2319c0894383b726";
-export const url=new URL("../icons/do_not_disturb_on_total_silence.svg?v=0c243f63b9495433a794282c35d9bb174436d1f2412816b19d823ac188666f6b",import.meta.url).href;
+export const id="dl_bac50a33ab14dccd6869";
+export const url=new URL("../icons/do_not_disturb_on_total_silence.svg?v=c226326efa06eba8f914e75092b56f1a473076ea084a8bb657394f323e432daf",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

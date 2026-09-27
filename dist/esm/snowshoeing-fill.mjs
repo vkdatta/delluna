@@ -1,6 +1,6 @@
 export const name="snowshoeing-fill";
-export const id="dl_7ac1f8c194bb42e7b21a";
-export const url=new URL("../icons/snowshoeing-fill.svg?v=1955d5b2f63c8270e73142058d2285e04497b49f31327dddfff170d1299ebc46",import.meta.url).href;
+export const id="dl_78fb6157eacd95116cbe";
+export const url=new URL("../icons/snowshoeing-fill.svg?v=a3300ea7d8f6ab41fcee616bda2bc9b6b9acee8d00dd20107cde575c377125b4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

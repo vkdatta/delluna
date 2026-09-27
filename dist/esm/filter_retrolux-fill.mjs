@@ -1,6 +1,6 @@
 export const name="filter_retrolux-fill";
-export const id="dl_e75942653f884c7aa624";
-export const url=new URL("../icons/filter_retrolux-fill.svg?v=666fb600a5ce9bd68240827c42313e1b8906de9b97d03a78810bff0f394cee49",import.meta.url).href;
+export const id="dl_bcea9f3e3a54bca6fc88";
+export const url=new URL("../icons/filter_retrolux-fill.svg?v=ca93bb73c8441c88943496aecf2e270a817d7479326a2e437cbf72dd38e00238",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

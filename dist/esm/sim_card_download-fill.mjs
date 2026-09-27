@@ -1,6 +1,6 @@
 export const name="sim_card_download-fill";
-export const id="dl_203c3811ec3c4e8b91a6";
-export const url=new URL("../icons/sim_card_download-fill.svg?v=08317e0bcc32eb02da7efc92168bf831bdf05c596d61e5c41cdc141a8464b3e7",import.meta.url).href;
+export const id="dl_6b68caf2291fe2a21498";
+export const url=new URL("../icons/sim_card_download-fill.svg?v=38cd8494415187aeea47d8001732de60683a1845c1f26f96cc72a24499c18722",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

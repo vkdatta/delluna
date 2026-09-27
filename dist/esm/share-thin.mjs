@@ -1,6 +1,6 @@
 export const name="share-thin";
-export const id="dl_d3304d65a6274b099bb6";
-export const url=new URL("../icons/share-thin.svg?v=73203e7cc8f4e51e91693ed43a5d7c6240db02a485f77331b961e48ac902eb44",import.meta.url).href;
+export const id="dl_ddea9404bb89422ddffd";
+export const url=new URL("../icons/share-thin.svg?v=eb914d68ca5d0d7926e39552e0964722874bdf3e3e82413bcfe7689a77159e81",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

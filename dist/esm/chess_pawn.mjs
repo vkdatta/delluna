@@ -1,6 +1,6 @@
 export const name="chess_pawn";
-export const id="dl_da57175ec9e14c3087b2";
-export const url=new URL("../icons/chess_pawn.svg?v=8faa6e53d6c31c98bed2474389e94c3db579b0455d8e78ba9a9546823e0d9bf0",import.meta.url).href;
+export const id="dl_0c2e8c07a0cadc65a745";
+export const url=new URL("../icons/chess_pawn.svg?v=9657483797bac95dffe2f608f0896f5906ce0e67fa86ec922934f95eab0f6763",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

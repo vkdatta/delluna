@@ -1,6 +1,6 @@
 export const name="compass_calibration";
-export const id="dl_fd6c3dfa22c94cf4aca4";
-export const url=new URL("../icons/compass_calibration.svg?v=373c9098b4fda5e7bfc3dc02a1f8c2ee8daa17f48e8765eecd67146f2687c895",import.meta.url).href;
+export const id="dl_8f164363c02f2d4277bd";
+export const url=new URL("../icons/compass_calibration.svg?v=6a3cdff6f7ec42edb1729fb15bc779b8c643ae15bb51fe074ea36d599d8c5725",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

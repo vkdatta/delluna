@@ -1,6 +1,6 @@
 export const name="chat-centered-text-light";
 export const id="dl_fa2d59e097684bb9a29f";
-export const url=new URL("../icons/chat-centered-text-light.svg?v=2a542e87c881375bc40b67e4decfe80ced01502f20995d1a913e0226b14d1a6b",import.meta.url).href;
+export const url=new URL("../icons/chat-centered-text-light.svg?v=06f2c68830054b70a9215be9e641e0f3f905e1aabf08e1b85a20e620a166a2cf",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

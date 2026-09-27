@@ -1,6 +1,6 @@
 export const name="washoku-fill";
-export const id="dl_a314c47b8b5640e9b275";
-export const url=new URL("../icons/washoku-fill.svg?v=5cb65aed290d7021ac548e6d0f5b0a6da1f6679ff41def8ddc352cfb2ca62998",import.meta.url).href;
+export const id="dl_b8d200e6ff9c657114ab";
+export const url=new URL("../icons/washoku-fill.svg?v=5c0449303f20a488cffecd74eb4947c30aa97b8095785888278fb1377f86fa43",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

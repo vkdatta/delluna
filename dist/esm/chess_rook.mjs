@@ -1,6 +1,6 @@
 export const name="chess_rook";
-export const id="dl_9c3e738ad2b44045a9f4";
-export const url=new URL("../icons/chess_rook.svg?v=3e72743a25e45df9f2f52decd853bcac265df9e6bb9440d475d37b2582147a41",import.meta.url).href;
+export const id="dl_4a5df21ef23a954f3567";
+export const url=new URL("../icons/chess_rook.svg?v=568c6fe9f8ba4495a2b3f1ed6a283b713d8b740de9a8132db424f69ddb017ff7",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

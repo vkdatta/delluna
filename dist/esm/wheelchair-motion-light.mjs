@@ -1,6 +1,6 @@
 export const name="wheelchair-motion-light";
-export const id="dl_9400ef0b971f413a8dba";
-export const url=new URL("../icons/wheelchair-motion-light.svg?v=181e6a85dae534f7ccf86cd7adb0b5d7f8d06f4512a4e0ff83ffb2eebf135be1",import.meta.url).href;
+export const id="dl_0e358e5e36c7cfa5c25f";
+export const url=new URL("../icons/wheelchair-motion-light.svg?v=de54e84d9b02536d9391e1d236aae6e56d1f7e383fd848d37fc35d0417ee3b56",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

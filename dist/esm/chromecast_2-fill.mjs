@@ -1,6 +1,6 @@
 export const name="chromecast_2-fill";
-export const id="dl_412f66cd842045cb93dd";
-export const url=new URL("../icons/chromecast_2-fill.svg?v=7f246958bd8e108e6d25252747c874a6afe383eb68aaa2e3f8b243125e7aa745",import.meta.url).href;
+export const id="dl_4610484c738874aecb34";
+export const url=new URL("../icons/chromecast_2-fill.svg?v=f501224454e1b47d03d02fdcfd29f19e72c8d56f46730faa1475e30d03eab34e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

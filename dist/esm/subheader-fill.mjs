@@ -1,6 +1,6 @@
 export const name="subheader-fill";
-export const id="dl_e5f6b62e4f564703bb8d";
-export const url=new URL("../icons/subheader-fill.svg?v=b63bb42740938c6d0dcc5a835c88a4a0d3b97ec683fcfea93bc3879b984387aa",import.meta.url).href;
+export const id="dl_9e71dbb8d784d9e1db41";
+export const url=new URL("../icons/subheader-fill.svg?v=bbcfc8c760fe87b2d3cdfb55796a9b8e2b6762b6854265ea5161214d327f0e8f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

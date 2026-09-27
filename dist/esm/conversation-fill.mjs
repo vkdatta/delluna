@@ -1,6 +1,6 @@
 export const name="conversation-fill";
-export const id="dl_de8c3eb151154fc5ae7f";
-export const url=new URL("../icons/conversation-fill.svg?v=acb079b833b80cf84d2a7cee503033d596b86a8eb471a23e48c00557911d2154",import.meta.url).href;
+export const id="dl_acd1deb073c7c8fb234b";
+export const url=new URL("../icons/conversation-fill.svg?v=e34edf3551fc7eeaab38a42cd020cb6e1469c4a212648eec4defbf6795e8825b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

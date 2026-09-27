@@ -1,6 +1,6 @@
 export const name="sun-horizon-fill";
-export const id="dl_90fabe46561c45a88b01";
-export const url=new URL("../icons/sun-horizon-fill.svg?v=cd5dc44308e68be0a9e13dc3f08ab84a7d020799599595c7d98c131432535d57",import.meta.url).href;
+export const id="dl_1ef482f00d620ec41bf3";
+export const url=new URL("../icons/sun-horizon-fill.svg?v=efad1ca3dec4235e18371208fc695596e5db4b65aac8f5796a95d6d0f7ffedf1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

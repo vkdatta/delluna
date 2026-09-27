@@ -1,6 +1,6 @@
 export const name="sock-thin";
-export const id="dl_fde608c2c7e945648688";
-export const url=new URL("../icons/sock-thin.svg?v=26f2b15daa74e51af3833d17046fe37a4ffbf01f0a3ee693e92c6bc93b598cc0",import.meta.url).href;
+export const id="dl_bfc3b06864139efd5c8f";
+export const url=new URL("../icons/sock-thin.svg?v=6711fa859309663bba18918ce721e7b966a6066ae21c472d6d2e4338ebab37cb",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

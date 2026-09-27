@@ -1,6 +1,6 @@
 export const name="local_hospital";
-export const id="dl_51a7d9cc1f3b43e9b658";
-export const url=new URL("../icons/local_hospital.svg?v=a70d68803d28181d150c9ece52ebb8dabe8bced2ab9d27390bbe6cf5f0b23aae",import.meta.url).href;
+export const id="dl_de7007b9f6eebfe64174";
+export const url=new URL("../icons/local_hospital.svg?v=e41bbed87d21deb6772678f41e8225a80e12f15052467997988dc6117aa5effe",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

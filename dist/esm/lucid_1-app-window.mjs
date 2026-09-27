@@ -1,6 +1,6 @@
 export const name="lucid_1-app-window";
 export const id="dl_71ded04ce09a49d0bd2a";
-export const url=new URL("../icons/lucid_1-app-window.svg?v=2078581c2c6aa18cf7aa7a8b65e7745a5c066d62462c3f725bff1215e0525fe5",import.meta.url).href;
+export const url=new URL("../icons/lucid_1-app-window.svg?v=ff990c3648646339f9ca2801a91f11f10d4712491a795ad9f8d02ac7e9b1b08e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

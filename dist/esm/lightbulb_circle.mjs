@@ -1,6 +1,6 @@
 export const name="lightbulb_circle";
-export const id="dl_e343adb67be6492bb0b3";
-export const url=new URL("../icons/lightbulb_circle.svg?v=e4070fab7299f96a380ce7c8b238b0b5c79558b1966fbf167732b96e9b043d1b",import.meta.url).href;
+export const id="dl_d314a6290cd3c58a969c";
+export const url=new URL("../icons/lightbulb_circle.svg?v=4d5f8782fe9e6e0e94b9139e59312f29e99896dfd13f7c64a3eec60358d10d99",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

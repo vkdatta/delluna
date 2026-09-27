@@ -1,6 +1,6 @@
 export const name="link-simple-horizontal-break-duotone";
 export const id="dl_36ce79b810664478b486";
-export const url=new URL("../icons/link-simple-horizontal-break-duotone.svg?v=b6ca770a2d5794e95d673d222ccd11666ed6ce8160a3177c5e502a44ca0b1e4d",import.meta.url).href;
+export const url=new URL("../icons/link-simple-horizontal-break-duotone.svg?v=d0b0d73ddfc8274a905d0d0fde97094d99607e9dbd350510c37b9d6bc551b440",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

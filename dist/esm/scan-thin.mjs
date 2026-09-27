@@ -1,6 +1,6 @@
 export const name="scan-thin";
-export const id="dl_ec532885ae5f4cfc95ce";
-export const url=new URL("../icons/scan-thin.svg?v=bfd320ebc857482dcf6f17c1f7682f71bbff70aa7fa260ce255c54582a3e58d9",import.meta.url).href;
+export const id="dl_d26966b7be16347a4d0d";
+export const url=new URL("../icons/scan-thin.svg?v=f2e9ff0e518a40ae46789678cf5467c04dff9338363a7914ba382a4e4614bbb3",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

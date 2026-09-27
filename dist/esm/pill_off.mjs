@@ -1,6 +1,6 @@
 export const name="pill_off";
-export const id="dl_58a854e398d241d0b0d4";
-export const url=new URL("../icons/pill_off.svg?v=13a088e0104af08e864736538dd0aff8456dcc80c301694b71b768990a2a7fbe",import.meta.url).href;
+export const id="dl_cddf0ca4a2bc4f7f0a4a";
+export const url=new URL("../icons/pill_off.svg?v=1c086c522c6b602b288b53b2178e895bd7cee0064e7cf6b8dc773dc5ca8643ed",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

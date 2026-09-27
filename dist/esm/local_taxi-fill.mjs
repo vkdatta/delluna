@@ -1,6 +1,6 @@
 export const name="local_taxi-fill";
-export const id="dl_4a4107bd2acf4ab6bcd4";
-export const url=new URL("../icons/local_taxi-fill.svg?v=44289e1bbf4b09d50f99b07886e7113fe37066a63852e9b47daf807d532136db",import.meta.url).href;
+export const id="dl_5d434a1326ea5ab9d565";
+export const url=new URL("../icons/local_taxi-fill.svg?v=25a8e1c1d9573273cb5498debdf95776550fa6ffd6e7fb6c287221909bbd2f0b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

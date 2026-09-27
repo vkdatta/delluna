@@ -1,6 +1,6 @@
 export const name="triangle-dashed-fill";
-export const id="dl_4c4a3cfcf68b43fabda0";
-export const url=new URL("../icons/triangle-dashed-fill.svg?v=352d2c5ed71ed68132680bcb36a187d2e65592a3474daa7b78e4466a5c4e8851",import.meta.url).href;
+export const id="dl_fce16bb8c40698a8320a";
+export const url=new URL("../icons/triangle-dashed-fill.svg?v=80f8f8a62789596fbca2ed546cc47d5d0a9e87ff2e9f7551762c995625dcda79",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

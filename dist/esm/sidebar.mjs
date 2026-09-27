@@ -1,6 +1,6 @@
 export const name="sidebar";
-export const id="dl_41dfe34349004a24a5e0";
-export const url=new URL("../icons/sidebar.svg?v=d919f2b3fcfeae9a4ef61fba45f54e7d343ada48628585e38c5675782c6247ff",import.meta.url).href;
+export const id="dl_3a7a1285b755a7d98f13";
+export const url=new URL("../icons/sidebar.svg?v=34d2d1919dfcb47bd4405fe7e30160267270dc3f4e5cc25ed76be76c7927a0ad",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

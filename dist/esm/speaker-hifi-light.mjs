@@ -1,6 +1,6 @@
 export const name="speaker-hifi-light";
-export const id="dl_a3d332b2a2c746f4b583";
-export const url=new URL("../icons/speaker-hifi-light.svg?v=757655b4cc3d23607fa41fa6df6dd48ac4682e1743c31ba0a7511822dbf76604",import.meta.url).href;
+export const id="dl_dc557d778eca8c972c5c";
+export const url=new URL("../icons/speaker-hifi-light.svg?v=220ca128bd36deec735416792b30b3911e36ef1fb2340372cb704082cace7d77",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="martini-duotone";
 export const id="dl_fd38008875824722abba";
-export const url=new URL("../icons/martini-duotone.svg?v=174979fc449b750de1e8a81bebe0e82e210fa9e11fc2d0a2376fab1362a8ee9a",import.meta.url).href;
+export const url=new URL("../icons/martini-duotone.svg?v=d983eed8bdc5d95abfbfd2ff56ff6e3ae18c9d5b6a26b11a3045e1ce34972957",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="memory_alt";
-export const id="dl_c74a2282650d40f4901f";
-export const url=new URL("../icons/memory_alt.svg?v=04aabff5bec56dcecb6e6057fc2014ef51c8cf83ef0b22f618ec834ff69375a3",import.meta.url).href;
+export const id="dl_d911d48c66f4aaef0f36";
+export const url=new URL("../icons/memory_alt.svg?v=81b272877e729afea77746d010f70d6231b2389dcc2b651963d80eb398dab39e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

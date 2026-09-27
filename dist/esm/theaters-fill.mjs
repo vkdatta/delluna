@@ -1,6 +1,6 @@
 export const name="theaters-fill";
-export const id="dl_460455a4bf964f129784";
-export const url=new URL("../icons/theaters-fill.svg?v=4c1f323cc28ea8b85c6afc1fdd7006811baa5f394feedd8500f9d47f73b4a85e",import.meta.url).href;
+export const id="dl_98e34fa3bf71b9da0f69";
+export const url=new URL("../icons/theaters-fill.svg?v=0999c6188eb0f75c785a18322dfcf02bbd87ccae49014a51b5063da6d253f0de",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

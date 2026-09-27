@@ -1,6 +1,6 @@
 export const name="touch_double_2-fill";
-export const id="dl_36445033047649c18ae4";
-export const url=new URL("../icons/touch_double_2-fill.svg?v=b1dafe47dfaadafd92bd4cf56932fe62e4ef6f9ec6cc0c9ef2a49951c76976ac",import.meta.url).href;
+export const id="dl_fb9e50dc55995cfb7249";
+export const url=new URL("../icons/touch_double_2-fill.svg?v=2fb2836cda0d506f92bfe6d10c3c77cfb88a65cb05d42a680fb696b744628a8c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="egg-duotone";
 export const id="dl_11af2c1e214242aab1f3";
-export const url=new URL("../icons/egg-duotone.svg?v=9711d0ee8d2e5d90f8ea179e8e70395a79b69699b5ea0546fcb4b1b169ed38a5",import.meta.url).href;
+export const url=new URL("../icons/egg-duotone.svg?v=b3d5dae9303ce26d525fdc2c5824b3bc9c6bd24b1a7c01987239edd1cde62c8b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

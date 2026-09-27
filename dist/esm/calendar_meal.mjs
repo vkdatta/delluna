@@ -1,6 +1,6 @@
 export const name="calendar_meal";
-export const id="dl_b03c85a11bd14a2ab45a";
-export const url=new URL("../icons/calendar_meal.svg?v=c8240e70a1f33158e669500b415ee60f3c2cf57d231f5d7507e9addc5b9056e1",import.meta.url).href;
+export const id="dl_7c0fbc2a3fcd5ecd9357";
+export const url=new URL("../icons/calendar_meal.svg?v=dd3e166bc3b8a2c62fab9b771afd68329617ca5f6a9d9e9ab9faf3195ca2268c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

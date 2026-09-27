@@ -1,6 +1,6 @@
 export const name="highlight_mouse_cursor-fill";
-export const id="dl_8d1d51dc8d564893a805";
-export const url=new URL("../icons/highlight_mouse_cursor-fill.svg?v=e532c561258a5bcabae8c6650f009d35e3ebac3725c30e5e33678ce022e01829",import.meta.url).href;
+export const id="dl_69a8814356a87c61ca6e";
+export const url=new URL("../icons/highlight_mouse_cursor-fill.svg?v=452313616c7f11a283360617bc8a0f458a5c76a2c35b365b43876237764817dc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

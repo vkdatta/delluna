@@ -1,6 +1,6 @@
 export const name="scroll-light";
-export const id="dl_e764084c4f7e4f339de3";
-export const url=new URL("../icons/scroll-light.svg?v=9338871a966e4e665e0df4c256648b8be4df3ef6ed221df3a1f85a768e41fd9e",import.meta.url).href;
+export const id="dl_ee4fd8aca798b1f3d753";
+export const url=new URL("../icons/scroll-light.svg?v=7f7d4b018a3850dbe6d126711048fa689a8e555b1153b0aa4dcf32be3c72fafc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

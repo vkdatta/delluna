@@ -1,6 +1,6 @@
 export const name="assist_walker-fill";
-export const id="dl_4bdb6423a18d4a2da52b";
-export const url=new URL("../icons/assist_walker-fill.svg?v=6ef157cf4a4e5cef870213cb8f42f994ea91a5f8874f5f7f5968e3e952dfb3f9",import.meta.url).href;
+export const id="dl_c03cf4308ce3ae2ae997";
+export const url=new URL("../icons/assist_walker-fill.svg?v=5dc0cbfa90a10e2387fddc64dc629ff23090343667dcaa63c73d4f6ad5d9588b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

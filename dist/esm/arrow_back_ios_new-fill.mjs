@@ -1,6 +1,6 @@
 export const name="arrow_back_ios_new-fill";
-export const id="dl_e183a28d3a164beda31f";
-export const url=new URL("../icons/arrow_back_ios_new-fill.svg?v=6ad7c7bbd2d1fa7384e4ac79d482e45e71cbdc620c23fa229e3aa8b9ab494cd2",import.meta.url).href;
+export const id="dl_61498f30f8c21925eeaf";
+export const url=new URL("../icons/arrow_back_ios_new-fill.svg?v=5ed7af4bc8a5ecb1a9988ce1f9a964385ea55bb4e55f7e65138ece6d939e5187",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

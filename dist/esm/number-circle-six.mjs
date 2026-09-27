@@ -1,6 +1,6 @@
 export const name="number-circle-six";
 export const id="dl_d4dc7715914b4a25b192";
-export const url=new URL("../icons/number-circle-six.svg?v=d6673e6054ccdc0cd94a7189275ffeb52444e928584c6ca5b63a1ae062232e62",import.meta.url).href;
+export const url=new URL("../icons/number-circle-six.svg?v=494f473b8e0d546e34a5b9d2028be616ce91716893dc7e7a275cd40dd42cff09",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

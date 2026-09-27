@@ -1,6 +1,6 @@
 export const name="superset-of-duotone";
-export const id="dl_6879dae15af94012ad15";
-export const url=new URL("../icons/superset-of-duotone.svg?v=02c85c67400defc94d35813f66f23839728fe5decacccc777280afae021760e5",import.meta.url).href;
+export const id="dl_7c856e05fc9b7e4bd853";
+export const url=new URL("../icons/superset-of-duotone.svg?v=17cea05a253625fc23ff7bf57aae9f5123d51bc1ca1498cdb801588b39e53c94",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

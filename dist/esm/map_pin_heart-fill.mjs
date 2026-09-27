@@ -1,6 +1,6 @@
 export const name="map_pin_heart-fill";
-export const id="dl_1d72bd54a95b42f89b5d";
-export const url=new URL("../icons/map_pin_heart-fill.svg?v=65cbb8609fd99bcc8ba616cefcd2204d271c1a1c202352bea4c5bcd212d85989",import.meta.url).href;
+export const id="dl_afde0aa4b8486fcef551";
+export const url=new URL("../icons/map_pin_heart-fill.svg?v=eeccc48389fe5b56e3d4c6c2a0eed4c909894e6d0f4119fba14b34790c0a9f29",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

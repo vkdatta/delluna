@@ -1,6 +1,6 @@
 export const name="person_heart-fill";
-export const id="dl_bfcecb60a15746e1ac5a";
-export const url=new URL("../icons/person_heart-fill.svg?v=987081f9b4b736e71d903887d14eef361ecc26215238cf320d29dc26e78d578b",import.meta.url).href;
+export const id="dl_756a9a7740d795e026b6";
+export const url=new URL("../icons/person_heart-fill.svg?v=c201de8f7c7e792d35a71b0ed3877a65ed43cde168b43e6d23e1ed16121474dc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="alarm_add";
-export const id="dl_c01be27fc0d44bdb9f70";
-export const url=new URL("../icons/alarm_add.svg?v=c3c6ef12688b87e52fdd10dc712d07d2c90e88a49a802e1fab5d17db5b941ea8",import.meta.url).href;
+export const id="dl_b5b14fd0c871c508d8cd";
+export const url=new URL("../icons/alarm_add.svg?v=5f858a2a87e487be400e4052d8e1a9129b94efe749c9e91bd90f11cc3f5db5f0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

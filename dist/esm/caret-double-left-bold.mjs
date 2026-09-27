@@ -1,6 +1,6 @@
 export const name="caret-double-left-bold";
 export const id="dl_940db14b3d3e437bba43";
-export const url=new URL("../icons/caret-double-left-bold.svg?v=a791ee9ba592a8b6bb6ba39a6c0cc5e2080ad8b25b5460e1a8c4b9e79b14a056",import.meta.url).href;
+export const url=new URL("../icons/caret-double-left-bold.svg?v=f8900f5dcc86678500f0f738f8a4b2b3bf32f2dd68d1b50bd28d17ff5b4e3fa2",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

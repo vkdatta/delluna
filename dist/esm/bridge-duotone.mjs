@@ -1,6 +1,6 @@
 export const name="bridge-duotone";
 export const id="dl_7be1493979064962a124";
-export const url=new URL("../icons/bridge-duotone.svg?v=b945902a5f0db7a77de7d08109a060ae81111fe9f9ef87687327d04316484c7c",import.meta.url).href;
+export const url=new URL("../icons/bridge-duotone.svg?v=ab20f72d9e281217c2fb532df93fa380889e43352b0c9c6f3bbc8ef314cc9984",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

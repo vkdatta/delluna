@@ -1,6 +1,6 @@
 export const name="umbrella-bold";
-export const id="dl_dd333b2e38634fdc8bce";
-export const url=new URL("../icons/umbrella-bold.svg?v=cd6803ee61303fe2d161d6fbc2fb1723b065a1cfb06c568983d2b6187e778278",import.meta.url).href;
+export const id="dl_9225c9f271a5cdc3b77e";
+export const url=new URL("../icons/umbrella-bold.svg?v=e82aca117fc4c168de81c56ef5e8b0da10cc2b1fe6de457fb73c237a658c52f5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

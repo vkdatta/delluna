@@ -1,6 +1,6 @@
 export const name="houseboat";
-export const id="dl_68770b3ac2bf45e7b828";
-export const url=new URL("../icons/houseboat.svg?v=4b758d7bf02f19280f16b16ea5fb067d12df891fe1e46b201bcd68512c5bf192",import.meta.url).href;
+export const id="dl_4a9f9c9f55ba60853959";
+export const url=new URL("../icons/houseboat.svg?v=5b665fef71889573b0e7ab48d3981d11dd4be7fd5d8d99ed53adacb9e8a5e239",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

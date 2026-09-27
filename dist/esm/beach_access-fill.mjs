@@ -1,6 +1,6 @@
 export const name="beach_access-fill";
-export const id="dl_d2cdd84b6aa94fc3affa";
-export const url=new URL("../icons/beach_access-fill.svg?v=a9ad07e21ccbdf24eb36969267fffb64eaf129c32c08b044fac122f2d1326250",import.meta.url).href;
+export const id="dl_c523f67d221c17300773";
+export const url=new URL("../icons/beach_access-fill.svg?v=80d9e3d14c1905448ec35c6ddabc3ee3a4f3bc898c2d63d53cd49c184d9b7031",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="mimo-fill";
-export const id="dl_2e6a19386a1a472b96e8";
-export const url=new URL("../icons/mimo-fill.svg?v=8ef2e10db08d9a5ad1e3da97ee18d8c2ac229ea53869425c706c743419d3181c",import.meta.url).href;
+export const id="dl_9b28a389108c95cf1e39";
+export const url=new URL("../icons/mimo-fill.svg?v=a585be634c70f03cc2f9ffc85f4e21d4acf5418a610e4b0ff95bf290922c662f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

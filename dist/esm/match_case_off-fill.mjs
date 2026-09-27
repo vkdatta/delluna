@@ -1,6 +1,6 @@
 export const name="match_case_off-fill";
-export const id="dl_085e1f7ef0af474a828d";
-export const url=new URL("../icons/match_case_off-fill.svg?v=c55f6d2fb4792d98920a83ee7a5be75adc88ecd3d003fb446ea69e8a67b47a7a",import.meta.url).href;
+export const id="dl_cecaa98a18c3d3cc5c3f";
+export const url=new URL("../icons/match_case_off-fill.svg?v=11f823b7cec6990f63d9f483bf4fbda102eb9e41b5e044658f5a4b9195b3e167",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="waveform-slash-duotone";
-export const id="dl_2d0f1e20875b428198e7";
-export const url=new URL("../icons/waveform-slash-duotone.svg?v=1fa1a5654151d3cf4fb833d542e422df8e93ecb74ba5d920e92c3e459de4ad28",import.meta.url).href;
+export const id="dl_bb52d771e2e6963e3071";
+export const url=new URL("../icons/waveform-slash-duotone.svg?v=68b7a00be2b2c8abf9098dad116b802d6ea36270cb5e69c41e30a063712371df",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

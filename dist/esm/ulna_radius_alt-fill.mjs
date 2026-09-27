@@ -1,6 +1,6 @@
 export const name="ulna_radius_alt-fill";
-export const id="dl_65325cd110f3450198ee";
-export const url=new URL("../icons/ulna_radius_alt-fill.svg?v=0eaaba4b6fe1ebee63e08b1c109e3e704bca853f3aaacfd95553e5d794005232",import.meta.url).href;
+export const id="dl_64c2305b469d58be049e";
+export const url=new URL("../icons/ulna_radius_alt-fill.svg?v=85b0b1f9a10c16132604b62cceb400d28ebcc75364f4d43e3b64c275d1af17d4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="text-a-underline-light";
-export const id="dl_55af89a108ac45fab83a";
-export const url=new URL("../icons/text-a-underline-light.svg?v=c6208e0f2ced9f0b8549abe0987d994301ce397dbc630937f40376e7fa040c4b",import.meta.url).href;
+export const id="dl_701f913868389e35f9a2";
+export const url=new URL("../icons/text-a-underline-light.svg?v=c4cf6df92a1254a69a1b1cb1242910aa5f553d79ac73dd700a81a17c7ca812d5",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

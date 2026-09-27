@@ -1,6 +1,6 @@
 export const name="sensor_occupied-fill";
-export const id="dl_6e8fb399428348bd979d";
-export const url=new URL("../icons/sensor_occupied-fill.svg?v=dd1fe2bcf033d884c1abf06b37306b257240111ca90c799e3a2502f717bfdc6a",import.meta.url).href;
+export const id="dl_fd54e55a1bea18285426";
+export const url=new URL("../icons/sensor_occupied-fill.svg?v=82b7c20827214d0c0614852369b40042e6b5c8281328d14f597a7fe61b7266ae",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

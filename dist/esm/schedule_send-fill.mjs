@@ -1,6 +1,6 @@
 export const name="schedule_send-fill";
-export const id="dl_a5a18672b41a49e5a724";
-export const url=new URL("../icons/schedule_send-fill.svg?v=b828d90306c6611d1824725c7c8f10868e7a8e3c9baf5fe25286826f8f61ebe6",import.meta.url).href;
+export const id="dl_5838929c502ee1a44e27";
+export const url=new URL("../icons/schedule_send-fill.svg?v=e99c3b3781a4dfbd3ea7aad08b24119c5a7f2a9ea8c5118bc2781f60f092425c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

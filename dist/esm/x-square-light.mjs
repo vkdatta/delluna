@@ -1,6 +1,6 @@
 export const name="x-square-light";
-export const id="dl_9bdef0f3eb794f54afee";
-export const url=new URL("../icons/x-square-light.svg?v=6cad7a80b4ef69b6edbae2c2b211a0899e3d3fdb70bd7ea397a8a823b865136e",import.meta.url).href;
+export const id="dl_e243a6648a8c9ca33050";
+export const url=new URL("../icons/x-square-light.svg?v=100c55e557268bf4086003e4a98fe87cca1a79305f41587d711390d7afecfff4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

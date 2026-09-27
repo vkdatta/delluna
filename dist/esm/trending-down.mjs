@@ -1,6 +1,6 @@
 export const name="trending-down";
 export const id="dl_05a3fe073cd847e19cf9";
-export const url=new URL("../icons/trending-down.svg?v=f70edc6fb8c74f2b26fb8d9463c21bf88c0842b1f00cd780288514354747d70e",import.meta.url).href;
+export const url=new URL("../icons/trending-down.svg?v=8e2ae67aa8f5c10b38d600df848824aae626bd6a0bd13a1c2d069d6eb157b331",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="sliders-horizontal-fill";
-export const id="dl_23da0dfaed934e7b84e6";
-export const url=new URL("../icons/sliders-horizontal-fill.svg?v=59fdf39771e7939dd315912702f3c8241a9dfeb1f5b6512a074525884765a76c",import.meta.url).href;
+export const id="dl_121bd1eb956f933466f4";
+export const url=new URL("../icons/sliders-horizontal-fill.svg?v=b9de21dca9bb9e49a4978b122c983fbc3d3a1e8f3f7e4e79780226c8a8706862",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

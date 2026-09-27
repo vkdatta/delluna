@@ -1,6 +1,6 @@
 export const name="wechat-logo-light";
-export const id="dl_1d437a41191c4123af33";
-export const url=new URL("../icons/wechat-logo-light.svg?v=2c6d159834a19cac04a06ea4cd64628b59074404c69e6942660dc376d14216a8",import.meta.url).href;
+export const id="dl_e967e6cc986ec10161d4";
+export const url=new URL("../icons/wechat-logo-light.svg?v=733514c4ffa7162fa840e2ced9d569fd4acf02562356f2728dd184a0edb4bad0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

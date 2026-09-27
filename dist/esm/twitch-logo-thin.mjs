@@ -1,6 +1,6 @@
 export const name="twitch-logo-thin";
-export const id="dl_18e3349808344854b454";
-export const url=new URL("../icons/twitch-logo-thin.svg?v=2bfdc70a49fcce680a91a7ee8b72f4cc5c83f7ca16e124d8ac9c894a94f7f93c",import.meta.url).href;
+export const id="dl_157bbc4e1f928d812349";
+export const url=new URL("../icons/twitch-logo-thin.svg?v=4b416eececac2412e9cf1b727f1f7745669b9b4aa9b00f6d9310a62f7f527e56",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

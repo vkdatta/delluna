@@ -1,6 +1,6 @@
 export const name="how_to_reg-fill";
-export const id="dl_8d3167f04af346b481b2";
-export const url=new URL("../icons/how_to_reg-fill.svg?v=f3f5328b5466d4dadc38d0b140c19b096dd4f23f405327b50ee9140f66a4e98d",import.meta.url).href;
+export const id="dl_fb4c1d84971fba27c374";
+export const url=new URL("../icons/how_to_reg-fill.svg?v=ca93bc0f15136add45fc6365edee7961eccf508a68a9c1ade7ccb83ab805411a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

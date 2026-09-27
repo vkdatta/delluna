@@ -1,6 +1,6 @@
 export const name="phone_disabled";
-export const id="dl_5a13393476554242b26a";
-export const url=new URL("../icons/phone_disabled.svg?v=9eb281b0cc703b2c33e2f8cbf0b1408cc2277e3b288fc1b7a6f43e8b71f49141",import.meta.url).href;
+export const id="dl_69aeae43cee7b00860db";
+export const url=new URL("../icons/phone_disabled.svg?v=176646b85e55042410b4814bfdf226a95796b11b17a44ed8a68f9d7e79f45be1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

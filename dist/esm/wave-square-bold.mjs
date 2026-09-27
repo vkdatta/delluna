@@ -1,6 +1,6 @@
 export const name="wave-square-bold";
-export const id="dl_20709ded6845414b8345";
-export const url=new URL("../icons/wave-square-bold.svg?v=fb745a2b656a43251a3e78e1d51500cc3893862ef4ed99bf11044254294740a1",import.meta.url).href;
+export const id="dl_3418f6a2a8716e6d5ec3";
+export const url=new URL("../icons/wave-square-bold.svg?v=d8fa36659da16a3ce7d284dd8fd13511f324d4526a343a03497ebea5b1dd3610",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

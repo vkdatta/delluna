@@ -1,6 +1,6 @@
 export const name="user-gear-light";
-export const id="dl_ca41460f8ac04ff4b925";
-export const url=new URL("../icons/user-gear-light.svg?v=1d3d7ba4e334f15f0acd38d02d63c2e2b6de1e2180a073c4ff789907fa19e6eb",import.meta.url).href;
+export const id="dl_d1b1335f52034a5814a3";
+export const url=new URL("../icons/user-gear-light.svg?v=ee5d92a938d84acea6cafc92a4850f397ef5d6c051b1b4e3992820e1d1f8c394",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

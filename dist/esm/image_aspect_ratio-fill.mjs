@@ -1,6 +1,6 @@
 export const name="image_aspect_ratio-fill";
-export const id="dl_20fa30c03f7d4fc0a502";
-export const url=new URL("../icons/image_aspect_ratio-fill.svg?v=754889b42b52720ec8c99ec0746f8d3a94a658d29e6a58e741ab5ce633e04f78",import.meta.url).href;
+export const id="dl_81c5bb39f552e3bbc0e3";
+export const url=new URL("../icons/image_aspect_ratio-fill.svg?v=3e791ca8fef71eb8095669a4bcccb9d39939f0791e8c5ea6508ebdb9c6b7b0a2",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

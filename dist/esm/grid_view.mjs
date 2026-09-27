@@ -1,6 +1,6 @@
 export const name="grid_view";
-export const id="dl_dfe555bb4bc040f888ae";
-export const url=new URL("../icons/grid_view.svg?v=3c1f77dc444610b16aa83140a3a7f82ebc6b2128692e08a596dab25fcafee17f",import.meta.url).href;
+export const id="dl_af5f9aef27201283df03";
+export const url=new URL("../icons/grid_view.svg?v=beddcf21e4ef0d459b19d3210c637be9892cf5ebf54996f9bdf57a47bf2f5a05",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

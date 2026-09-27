@@ -1,6 +1,6 @@
 export const name="arrow-u-left-up-thin";
 export const id="dl_0c06c0ce8fb646a6a68b";
-export const url=new URL("../icons/arrow-u-left-up-thin.svg?v=da8250529548028759fc838a6d64e87e9c0caafd776ee902431760735cea27c5",import.meta.url).href;
+export const url=new URL("../icons/arrow-u-left-up-thin.svg?v=4e5450bd98d413ed217a4f9dbfade3a2e73400d3286ed4778d11cc9fd78ecda0",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

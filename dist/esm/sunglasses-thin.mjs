@@ -1,6 +1,6 @@
 export const name="sunglasses-thin";
-export const id="dl_d36e11a5907c4fe88f0d";
-export const url=new URL("../icons/sunglasses-thin.svg?v=fdabc0130e536f9a81813317680fe3c1bea16f895724ad19f1e68b4974b4f19c",import.meta.url).href;
+export const id="dl_4fb279c338d233ede54e";
+export const url=new URL("../icons/sunglasses-thin.svg?v=557190640585731e4925b235a74907721a356c6cf4fa309b9c6830464973653b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
 export const name="wifi-none-thin";
-export const id="dl_4b42c313e44b4a00892e";
-export const url=new URL("../icons/wifi-none-thin.svg?v=4ae17d21caf95c7073b5d307a6abde6b6cf1bad6db3cb59a6de1cf8b973c2e84",import.meta.url).href;
+export const id="dl_2a776c6665d0c7ab0672";
+export const url=new URL("../icons/wifi-none-thin.svg?v=7c931b0fb0d32ae2bd310f97ca90b73bebb6fd5641ca28dd85c7d910e683209a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
