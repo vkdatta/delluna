@@ -14,6 +14,10 @@ delluna-icon svg {
 }
   
 delluna-icon svg:has([stroke-width])[fill="none"],
-delluna-icon svg[stroke-width][fill="none"] {
+delluna-icon svg[stroke-width][fill="none"],
+delluna-icon svg:has([stroke-width])[fill="none"] *,
+delluna-icon svg[stroke-width][fill="none"] *,
+delluna-icon svg [stroke-width][fill="none"],
+delluna-icon svg [stroke-width][fill="none"] * {
   fill: none !important;
 }
