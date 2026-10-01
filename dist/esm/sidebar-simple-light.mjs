@@ -1,5 +1,5 @@
 export const name="sidebar-simple-light";
-export const id="dl_9adf9cff063f401ea185";
+export const id="dl_9b360d4a235923c94180";
 export const url=new URL("../icons/sidebar-simple-light.svg?v=eb4694ef6ab380723715d77e54958003efd10974ad765989b8ffdf899d03fbcd",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
