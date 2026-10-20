@@ -1,6 +1,6 @@
 export const name="cpu";
-export const id="dl_e3199077f5f54636b138";
-export const url=new URL("../icons/cpu.svg?v=fd4084e582bc555e794d82934ee90330542a837d56a9f3fb365aa0b9f2e0d599",import.meta.url).href;
+export const id="dl_07aa3b21f382499db359";
+export const url=new URL("../icons/cpu.svg?v=4447d3dde0858da1a440241a37060fe34776113218f802517b4b054c36c2ab6f",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
