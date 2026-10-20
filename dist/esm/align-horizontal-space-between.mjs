@@ -1,6 +1,6 @@
-export const name="lign-horizontal-space-between";
+export const name="align-horizontal-space-between";
 export const id="dl_ba9cd33d30c240ad9443";
-export const url=new URL("../icons/lign-horizontal-space-between.svg?v=ceb8308f766a77bc34516f02e1432d6b5c0b5075d71b2b1c883c0dfdae36a205",import.meta.url).href;
+export const url=new URL("../icons/align-horizontal-space-between.svg?v=ceb8308f766a77bc34516f02e1432d6b5c0b5075d71b2b1c883c0dfdae36a205",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

@@ -1,6 +1,6 @@
-export const name="larm-clock-minus";
+export const name="alarm-clock-minus";
 export const id="dl_b4b1ee85ae5a47e9b203";
-export const url=new URL("../icons/larm-clock-minus.svg?v=e602339003533b4fd8f803db0aedf06d354001a969c967247b20d48d2fae18a4",import.meta.url).href;
+export const url=new URL("../icons/alarm-clock-minus.svg?v=e602339003533b4fd8f803db0aedf06d354001a969c967247b20d48d2fae18a4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
