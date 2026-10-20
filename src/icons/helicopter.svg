@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 -960 960 960"><path d="M370-430v-270h-10q-109 0-184.5 75.83Q100-548.33 100-440v10h270Zm170 170v-440H430v330H100v110h440Zm60-126 260-28v-86H600v114ZM520-80H120v-60h400v60Zm80-120H100q-24.75 0-42.37-17.63Q40-235.25 40-260v-180q0-134 93-227t227-93h240v200h200l40-80h80v280l-320 34v126Zm160-620H120v-60h640v60ZM600-386v-114 114Zm-60 126Z"/></svg>
+<svg data-delluna-id="dl_e11d1a95a2804f34aca1"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11 17v4" />
+  <path d="M14 3v8a2 2 0 0 0 2 2h5.865" />
+  <path d="M17 17v4" />
+  <path d="M18 17a4 4 0 0 0 4-4 8 6 0 0 0-8-6 6 5 0 0 0-6 5v3a2 2 0 0 0 2 2z" />
+  <path d="M2 10v5" />
+  <path d="M6 3h16" />
+  <path d="M7 21h14" />
+  <path d="M8 13H2" />
+</svg>
