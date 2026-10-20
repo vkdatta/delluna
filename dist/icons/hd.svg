@@ -1,1 +1,17 @@
-<svg data-delluna-id="dl_c311d2f71db76b2076e8" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 -960 960 960"><path d="M240-357h50v-89h100v89h50v-246h-50v107H290v-107h-50v246Zm280 0h150q20 0 35-15t15-35v-146q0-20-15-35t-35-15H520v246Zm50-50v-146h100v146H570ZM140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm0-60h680v-520H140v520Zm0 0v-520 520Z"/></svg>
+<svg data-delluna-id="dl_f74cfa96aad2427691de"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 12H6" />
+  <path d="M10 15V9" />
+  <path d="M14 14.5a.5.5 0 0 0 .5.5h1a2.5 2.5 0 0 0 2.5-2.5v-1A2.5 2.5 0 0 0 15.5 9h-1a.5.5 0 0 0-.5.5z" />
+  <path d="M6 15V9" />
+  <rect x="2" y="5" width="20" height="14" rx="2" />
+</svg>

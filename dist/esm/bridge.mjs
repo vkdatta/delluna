@@ -1,6 +1,6 @@
 export const name="bridge";
-export const id="dl_7c165ba24cc045aaa4e9";
-export const url=new URL("../icons/bridge.svg?v=fc2edcf68afb931b4974ec05018ebfef187a0f487e0b16c1a980c6398655862b",import.meta.url).href;
+export const id="dl_0b9a86ee9ffe46788e89";
+export const url=new URL("../icons/bridge.svg?v=200267a90e07f8008b5e8fe28faa0bcae723240350bdd6c1080999dc1ef3f24c",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

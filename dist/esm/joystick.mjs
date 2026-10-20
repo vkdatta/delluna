@@ -1,6 +1,6 @@
 export const name="joystick";
-export const id="dl_2c66e8e0762f0b560ce4";
-export const url=new URL("../icons/joystick.svg?v=7f495aeebf5f97894e52473c016fc29acfda1b5b1ad1a09861084b652a90bd32",import.meta.url).href;
+export const id="dl_2e3a043c44bd4ae6b503";
+export const url=new URL("../icons/joystick.svg?v=9f6ece9c397a2de3795814de180b37153b34cfd5a3a805f4f03f731dd36f4361",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

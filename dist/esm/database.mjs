@@ -1,6 +1,6 @@
 export const name="database";
-export const id="dl_ad12aa41115042d09e63";
-export const url=new URL("../icons/database.svg?v=da7d3598430cbe3b334c308c03ca41e8c4c7bbbfa7891e914d7aa8e87d847423",import.meta.url).href;
+export const id="dl_046f4e5d82884571818a";
+export const url=new URL("../icons/database.svg?v=907c8a24a3bebe8a0c17874d94a8ce0d3de90c564dce7d7c4bd2d856b9a1b26e",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
