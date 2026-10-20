@@ -1,6 +1,6 @@
 export const name="blender";
-export const id="dl_7107b000d16057baba42";
-export const url=new URL("../icons/blender.svg?v=0b39dfbab2eddb44466564af20bb894bc7bc7d5d83ff91f4d60498afbdbe90e3",import.meta.url).href;
+export const id="dl_9cd825c52e9a4633bff3";
+export const url=new URL("../icons/blender.svg?v=3ee9fe2667512157c8f752a7a5e5987cd59f825a3d905899179ecd18419901ff",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

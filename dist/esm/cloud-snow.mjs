@@ -1,6 +1,6 @@
 export const name="cloud-snow";
-export const id="dl_ce6ce756b8b24696a394";
-export const url=new URL("../icons/cloud-snow.svg?v=9facddf58abc9473da02eee1f7ae3fb56073789c75007bf3349d0e68b9ba48d0",import.meta.url).href;
+export const id="dl_b481140de0f943ba9e5b";
+export const url=new URL("../icons/cloud-snow.svg?v=f53b0a2d43339254b697471b7c1c5dc4fa23476a5ccf373634792fc7f02fd2d4",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
