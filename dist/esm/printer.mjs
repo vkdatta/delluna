@@ -1,6 +1,6 @@
 export const name="printer";
-export const id="dl_5511a9dead514b528e2d";
-export const url=new URL("../icons/printer.svg?v=398705192743d7ced5da5ca18f2b9e69759284276596f3dd3787720093d3f57e",import.meta.url).href;
+export const id="dl_28997569ec174f92be79";
+export const url=new URL("../icons/printer.svg?v=5b3ff6f30b567f0055c477fec82b3678258881bdb88ef2062503f7263a518b1a",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

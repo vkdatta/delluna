@@ -1,6 +1,6 @@
 export const name="shopping-cart";
-export const id="dl_bea977499c310a489c3f";
-export const url=new URL("../icons/shopping-cart.svg?v=c972c761af11dcf0308abedac84543d235062d073d11b2119d0da870465ad474",import.meta.url).href;
+export const id="dl_56899e4c8e13428ab511";
+export const url=new URL("../icons/shopping-cart.svg?v=b56d7d258096608ee5135f02afbc707ac60e02255039948f222354efa9041cd1",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

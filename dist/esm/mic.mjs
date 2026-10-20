@@ -1,6 +1,6 @@
 export const name="mic";
-export const id="dl_425914ab1f81f4a0d16d";
-export const url=new URL("../icons/mic.svg?v=d07397a2fd8bf321cb1eff2a58d5b985e81bb7d53209127b7a6ebe552022a346",import.meta.url).href;
+export const id="dl_aebfb823f9234c09bf8e";
+export const url=new URL("../icons/mic.svg?v=3f0634b5850da4a0adf5809620c58c55e72e0977df2b65574fa4beb6f40621cc",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;

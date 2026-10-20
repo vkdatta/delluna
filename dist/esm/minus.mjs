@@ -1,6 +1,6 @@
 export const name="minus";
-export const id="dl_ad8b49287b72486ab025";
-export const url=new URL("../icons/minus.svg?v=5a068d1cfd707fde5ddb0ce0623958123b6a5afba98401318983aeb0fdad6382",import.meta.url).href;
+export const id="dl_b489c283c5ee4ca58496";
+export const url=new URL("../icons/minus.svg?v=1cedf9aa7158262f1c93b1bedef3da842fcbd3cdc2dd97a8e8341b3d8625924b",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
