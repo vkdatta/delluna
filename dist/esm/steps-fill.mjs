@@ -1,6 +1,6 @@
 export const name="steps-fill";
-export const id="dl_d97950b73e3cf74f9e9a";
-export const url=new URL("../icons/steps-fill.svg?v=520c21903d51cee34ca9aebcfa034c9a5eb4e91290c148e921f6f19fec05b799",import.meta.url).href;
+export const id="dl_ad990b20b52347c681fa";
+export const url=new URL("../icons/assets/steps-fill.svg?v=9f983584e883278d21caa4ce9f9dc625540b06d382f994438bf93881015561bf",import.meta.url).href;
 export async function svg(){return fetch(url).then(r=>{if(!r.ok)throw new Error(`Delluna icon fetch failed: HTTP ${r.status}`);return r.text()})}
 const icon={name,id,url,svg};
 export default icon;
